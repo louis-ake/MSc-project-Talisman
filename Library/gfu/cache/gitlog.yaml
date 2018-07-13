@@ -12,9 +12,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2018-07-13T20:09:16.309+01:00
+  lastUpdatedAtString: 2018-07-13T20:19:31.714+01:00
   initializedAtString: 2018-07-13T19:53:04.928+01:00
   log:
+  - commitID: fc2aab21d3c294d7e7388fc8ecef2a24e005e4a3
+    mergeA: e9ed67ea5744e7f412342b7410ff10a3a03168d3
+    mergeB: 6c62bb0a931826718e5661b6e64cb13868c9d81c
+    authorName: louis-ake
+    authorEmail: lakerm01@dcs.bbk.ac.uk
+    commitEmail: lakerm01@dcs.bbk.ac.uk
+    commitName: louis-ake
+    summary: first commit
+    description: 'first commit
+
+
+      added files'
+    timeString: 2018-07-13T20:10:14.000+01:00
+    commitTimeString: 2018-07-13T20:10:14.000+01:00
+    changes: []
   - commitID: e9ed67ea5744e7f412342b7410ff10a3a03168d3
     mergeA: 
     mergeB: 
@@ -732,6 +747,24 @@ MonoBehaviour:
     - path: Temp/UnityTempFile-f942791830fd844b7ac1cf5e544a6210
       fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Temp/UnityTempFile-f942791830fd844b7ac1cf5e544a6210
       projectPath: Temp/UnityTempFile-f942791830fd844b7ac1cf5e544a6210
+      originalPath: 
+      status: 4
+      staged: 0
+  - commitID: 6c62bb0a931826718e5661b6e64cb13868c9d81c
+    mergeA: 
+    mergeB: 
+    authorName: louis-ake
+    authorEmail: 32519832+louis-ake@users.noreply.github.com
+    commitEmail: noreply@github.com
+    commitName: GitHub
+    summary: Initial commit
+    description: Initial commit
+    timeString: 2018-07-13T19:57:21.000+01:00
+    commitTimeString: 2018-07-13T19:57:21.000+01:00
+    changes:
+    - path: .gitignore
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/.gitignore
+      projectPath: .gitignore
       originalPath: 
       status: 4
       staged: 0

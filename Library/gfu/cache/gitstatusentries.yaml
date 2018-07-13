@@ -12,15 +12,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2018-07-13T20:09:15.246+01:00
+  lastUpdatedAtString: 2018-07-13T20:22:54.726+01:00
   initializedAtString: 2018-07-13T19:51:04.723+01:00
   entries:
-  - path: .gitignore
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/.gitignore
-    projectPath: .gitignore
-    originalPath: 
-    status: 4
-    staged: 1
   - path: Library/gfu/cache/branches.yaml
     fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/gfu/cache/branches.yaml
     projectPath: Library/gfu/cache/branches.yaml
@@ -42,6 +36,12 @@ MonoBehaviour:
   - path: Library/gfu/cache/gittrackingstatus.yaml
     fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/gfu/cache/gittrackingstatus.yaml
     projectPath: Library/gfu/cache/gittrackingstatus.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/gfu/cache/gituser.yaml
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/gfu/cache/gituser.yaml
+    projectPath: Library/gfu/cache/gituser.yaml
     originalPath: 
     status: 3
     staged: 0

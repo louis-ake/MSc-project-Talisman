@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2018-07-13T20:05:57.366+01:00
+  lastUpdatedAtString: 2018-07-13T20:10:38.164+01:00
   initializedAtString: 2018-07-13T19:53:38.384+01:00
   localBranches:
   - name: master
-    tracking: 
+    tracking: origin/master
   remoteBranches:
   - name: origin/master
     tracking: '[None]'
@@ -34,9 +34,9 @@ MonoBehaviour:
     values:
     - name: master
       remote:
-        name: 
-        url: 
-      trackingBranch: 
+        name: origin
+        url: https://github.com/louis-ake/MSc-project-Talisman.git
+      trackingBranch: master
   remoteConfigBranches:
     keys:
     - origin
