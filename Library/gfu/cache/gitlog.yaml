@@ -12,9 +12,279 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2018-07-13T20:19:31.714+01:00
-  initializedAtString: 2018-07-13T19:53:04.928+01:00
+  lastUpdatedAtString: 2018-07-15T13:38:57.744+01:00
+  initializedAtString: 2018-07-14T16:51:54.482+01:00
   log:
+  - commitID: e779d2031d9ad592e0ff4f8c25d0f11fcd162675
+    mergeA: 
+    mergeB: 
+    authorName: louis-ake
+    authorEmail: lakerm01@dcs.bbk.ac.uk
+    commitEmail: lakerm01@dcs.bbk.ac.uk
+    commitName: louis-ake
+    summary: box colliders and basic TileClick scrpit
+    description: box colliders and basic TileClick scrpit
+    timeString: 2018-07-15T13:38:43.000+01:00
+    commitTimeString: 2018-07-15T13:38:43.000+01:00
+    changes:
+    - path: Assets/Scenes/SampleScene.unity
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scenes/SampleScene.unity
+      projectPath: Assets/Scenes/SampleScene.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/Scripts/DiceRoll.cs
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/DiceRoll.cs
+      projectPath: Assets/Scripts/DiceRoll.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/Scripts/OuterTileClick.cs
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/OuterTileClick.cs
+      projectPath: Assets/Scripts/OuterTileClick.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Scripts/OuterTileClick.cs.meta
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/OuterTileClick.cs.meta
+      projectPath: Assets/Scripts/OuterTileClick.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+  - commitID: 81b6ce5a3b3ea4a0e6ec82cac1f1b16edc592205
+    mergeA: 
+    mergeB: 
+    authorName: louis-ake
+    authorEmail: lakerm01@dcs.bbk.ac.uk
+    commitEmail: lakerm01@dcs.bbk.ac.uk
+    commitName: louis-ake
+    summary: single die result shown as image
+    description: single die result shown as image
+    timeString: 2018-07-14T17:41:25.000+01:00
+    commitTimeString: 2018-07-14T17:41:25.000+01:00
+    changes:
+    - path: Assets/.DS_Store
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/.DS_Store
+      projectPath: Assets/.DS_Store
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/Scenes/SampleScene.unity
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scenes/SampleScene.unity
+      projectPath: Assets/Scenes/SampleScene.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/Scripts/DiceRoll.cs
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/DiceRoll.cs
+      projectPath: Assets/Scripts/DiceRoll.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/graphics/.DS_Store
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/graphics/.DS_Store
+      projectPath: Assets/graphics/.DS_Store
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/graphics/other/.DS_Store
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/graphics/other/.DS_Store
+      projectPath: Assets/graphics/other/.DS_Store
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/graphics/other/die faces.meta
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/graphics/other/die
+        faces.meta
+      projectPath: Assets/graphics/other/die faces.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/graphics/other/die faces/five.png
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/graphics/other/die
+        faces/five.png
+      projectPath: Assets/graphics/other/die faces/five.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/graphics/other/die faces/five.png.meta
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/graphics/other/die
+        faces/five.png.meta
+      projectPath: Assets/graphics/other/die faces/five.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/graphics/other/die faces/four.png
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/graphics/other/die
+        faces/four.png
+      projectPath: Assets/graphics/other/die faces/four.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/graphics/other/die faces/four.png.meta
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/graphics/other/die
+        faces/four.png.meta
+      projectPath: Assets/graphics/other/die faces/four.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/graphics/other/die faces/one.png
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/graphics/other/die
+        faces/one.png
+      projectPath: Assets/graphics/other/die faces/one.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/graphics/other/die faces/one.png.meta
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/graphics/other/die
+        faces/one.png.meta
+      projectPath: Assets/graphics/other/die faces/one.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/graphics/other/die faces/placeholder.png
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/graphics/other/die
+        faces/placeholder.png
+      projectPath: Assets/graphics/other/die faces/placeholder.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/graphics/other/die faces/placeholder.png.meta
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/graphics/other/die
+        faces/placeholder.png.meta
+      projectPath: Assets/graphics/other/die faces/placeholder.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/graphics/other/die faces/six.png
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/graphics/other/die
+        faces/six.png
+      projectPath: Assets/graphics/other/die faces/six.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/graphics/other/die faces/six.png.meta
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/graphics/other/die
+        faces/six.png.meta
+      projectPath: Assets/graphics/other/die faces/six.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/graphics/other/die faces/three.png
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/graphics/other/die
+        faces/three.png
+      projectPath: Assets/graphics/other/die faces/three.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/graphics/other/die faces/three.png.meta
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/graphics/other/die
+        faces/three.png.meta
+      projectPath: Assets/graphics/other/die faces/three.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/graphics/other/die faces/two.png
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/graphics/other/die
+        faces/two.png
+      projectPath: Assets/graphics/other/die faces/two.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/graphics/other/die faces/two.png.meta
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/graphics/other/die
+        faces/two.png.meta
+      projectPath: Assets/graphics/other/die faces/two.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+  - commitID: 1a860979275e5d89ba35d11beb98478bc578c6a9
+    mergeA: 
+    mergeB: 
+    authorName: louis-ake
+    authorEmail: lakerm01@dcs.bbk.ac.uk
+    commitEmail: lakerm01@dcs.bbk.ac.uk
+    commitName: louis-ake
+    summary: added basic dice roll script
+    description: added basic dice roll script
+    timeString: 2018-07-14T13:08:42.000+01:00
+    commitTimeString: 2018-07-14T13:08:42.000+01:00
+    changes:
+    - path: Assets/Scenes/SampleScene.unity
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scenes/SampleScene.unity
+      projectPath: Assets/Scenes/SampleScene.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/Scripts.meta
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts.meta
+      projectPath: Assets/Scripts.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Scripts/DiceRoll.cs
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/DiceRoll.cs
+      projectPath: Assets/Scripts/DiceRoll.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Scripts/DiceRoll.cs.meta
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/DiceRoll.cs.meta
+      projectPath: Assets/Scripts/DiceRoll.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+  - commitID: 85c41deedc40b4bbadbd5c3fb4434cce7f0130a0
+    mergeA: 
+    mergeB: 
+    authorName: louis-ake
+    authorEmail: lakerm01@dcs.bbk.ac.uk
+    commitEmail: lakerm01@dcs.bbk.ac.uk
+    commitName: louis-ake
+    summary: first commit using unity github pluggin
+    description: 'first commit using unity github pluggin
+
+
+      first commit using unity-github pluggin'
+    timeString: 2018-07-13T20:23:47.000+01:00
+    commitTimeString: 2018-07-13T20:23:47.000+01:00
+    changes:
+    - path: Library/gfu/cache/branches.yaml
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/gfu/cache/branches.yaml
+      projectPath: Library/gfu/cache/branches.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gitlog.yaml
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/gfu/cache/gitlog.yaml
+      projectPath: Library/gfu/cache/gitlog.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gitstatusentries.yaml
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/gfu/cache/gitstatusentries.yaml
+      projectPath: Library/gfu/cache/gitstatusentries.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gittrackingstatus.yaml
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/gfu/cache/gittrackingstatus.yaml
+      projectPath: Library/gfu/cache/gittrackingstatus.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gituser.yaml
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/gfu/cache/gituser.yaml
+      projectPath: Library/gfu/cache/gituser.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/repoinfo.yaml
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/gfu/cache/repoinfo.yaml
+      projectPath: Library/gfu/cache/repoinfo.yaml
+      originalPath: 
+      status: 3
+      staged: 0
   - commitID: fc2aab21d3c294d7e7388fc8ecef2a24e005e4a3
     mergeA: e9ed67ea5744e7f412342b7410ff10a3a03168d3
     mergeB: 6c62bb0a931826718e5661b6e64cb13868c9d81c

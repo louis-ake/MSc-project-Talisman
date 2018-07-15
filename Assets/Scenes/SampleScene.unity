@@ -123,6 +123,7 @@ GameObject:
   - component: {fileID: 2234223}
   - component: {fileID: 2234224}
   - component: {fileID: 2234225}
+  - component: {fileID: 2234226}
   m_Layer: 0
   m_Name: woods
   m_TagString: Untagged
@@ -213,6 +214,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 4, y: 4}
   m_EdgeRadius: 0
+--- !u!114 &2234226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2234222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6748abaa81f114849843518af7dfc6cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Clicks: 0
 --- !u!1 &22088601
 GameObject:
   m_ObjectHideFlags: 0
@@ -291,6 +304,7 @@ GameObject:
   - component: {fileID: 56535590}
   - component: {fileID: 56535591}
   - component: {fileID: 56535592}
+  - component: {fileID: 56535593}
   m_Layer: 0
   m_Name: runes mr
   m_TagString: Untagged
@@ -381,6 +395,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 4, y: 4}
   m_EdgeRadius: 0
+--- !u!114 &56535593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 56535589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6748abaa81f114849843518af7dfc6cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Clicks: 0
 --- !u!1 &101990477
 GameObject:
   m_ObjectHideFlags: 0
@@ -643,6 +669,7 @@ GameObject:
   - component: {fileID: 170163502}
   - component: {fileID: 170163503}
   - component: {fileID: 170163504}
+  - component: {fileID: 170163505}
   m_Layer: 0
   m_Name: plain of peril
   m_TagString: Untagged
@@ -733,6 +760,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 4, y: 4}
   m_EdgeRadius: 0
+--- !u!114 &170163505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 170163501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abb68b6c7cb46489d98f207dd490610b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Clicks: 0
 --- !u!1 &213575362
 GameObject:
   m_ObjectHideFlags: 0
@@ -869,6 +908,7 @@ GameObject:
   - component: {fileID: 232677403}
   - component: {fileID: 232677404}
   - component: {fileID: 232677405}
+  - component: {fileID: 232677406}
   m_Layer: 0
   m_Name: desert tr
   m_TagString: Untagged
@@ -959,6 +999,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 4, y: 4}
   m_EdgeRadius: 0
+--- !u!114 &232677406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 232677402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6748abaa81f114849843518af7dfc6cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Clicks: 0
 --- !u!1 &259537017
 GameObject:
   m_ObjectHideFlags: 0
@@ -969,6 +1021,7 @@ GameObject:
   - component: {fileID: 259537018}
   - component: {fileID: 259537019}
   - component: {fileID: 259537020}
+  - component: {fileID: 259537021}
   m_Layer: 0
   m_Name: temple
   m_TagString: Untagged
@@ -1059,6 +1112,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 4, y: 4}
   m_EdgeRadius: 0
+--- !u!114 &259537021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 259537017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6748abaa81f114849843518af7dfc6cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Clicks: 0
 --- !u!1 &297099524
 GameObject:
   m_ObjectHideFlags: 0
@@ -1447,6 +1512,7 @@ GameObject:
   - component: {fileID: 332874824}
   - component: {fileID: 332874825}
   - component: {fileID: 332874826}
+  - component: {fileID: 332874827}
   m_Layer: 0
   m_Name: runes tl
   m_TagString: Untagged
@@ -1537,6 +1603,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 4, y: 4}
   m_EdgeRadius: 0
+--- !u!114 &332874827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 332874823}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6748abaa81f114849843518af7dfc6cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Clicks: 0
 --- !u!1 &395293124
 GameObject:
   m_ObjectHideFlags: 0
@@ -1673,6 +1751,7 @@ GameObject:
   - component: {fileID: 451992073}
   - component: {fileID: 451992074}
   - component: {fileID: 451992075}
+  - component: {fileID: 451992076}
   m_Layer: 0
   m_Name: valley of fire
   m_TagString: Untagged
@@ -1763,6 +1842,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 4, y: 4}
   m_EdgeRadius: 0
+--- !u!114 &451992076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 451992072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abb68b6c7cb46489d98f207dd490610b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Clicks: 0
 --- !u!1 &479080571
 GameObject:
   m_ObjectHideFlags: 0
@@ -1773,6 +1864,7 @@ GameObject:
   - component: {fileID: 479080572}
   - component: {fileID: 479080573}
   - component: {fileID: 479080574}
+  - component: {fileID: 479080575}
   m_Layer: 0
   m_Name: hills
   m_TagString: Untagged
@@ -1863,6 +1955,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 4, y: 4}
   m_EdgeRadius: 0
+--- !u!114 &479080575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 479080571}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6748abaa81f114849843518af7dfc6cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Clicks: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1946,6 +2050,7 @@ GameObject:
   - component: {fileID: 534935835}
   - component: {fileID: 534935836}
   - component: {fileID: 534935837}
+  - component: {fileID: 534935838}
   m_Layer: 0
   m_Name: runes bl
   m_TagString: Untagged
@@ -2036,6 +2141,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 4, y: 4}
   m_EdgeRadius: 0
+--- !u!114 &534935838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 534935834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6748abaa81f114849843518af7dfc6cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Clicks: 0
 --- !u!1 &558497874
 GameObject:
   m_ObjectHideFlags: 0
@@ -2298,6 +2415,7 @@ GameObject:
   - component: {fileID: 628620650}
   - component: {fileID: 628620651}
   - component: {fileID: 628620652}
+  - component: {fileID: 628620653}
   m_Layer: 0
   m_Name: castle
   m_TagString: Untagged
@@ -2388,6 +2506,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 4, y: 4}
   m_EdgeRadius: 0
+--- !u!114 &628620653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 628620649}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6748abaa81f114849843518af7dfc6cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Clicks: 0
 --- !u!1 &681106435
 GameObject:
   m_ObjectHideFlags: 0
@@ -2553,6 +2683,7 @@ GameObject:
   - component: {fileID: 724415469}
   - component: {fileID: 724415470}
   - component: {fileID: 724415471}
+  - component: {fileID: 724415472}
   m_Layer: 0
   m_Name: pits
   m_TagString: Untagged
@@ -2643,6 +2774,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 4, y: 4}
   m_EdgeRadius: 0
+--- !u!114 &724415472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 724415468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abb68b6c7cb46489d98f207dd490610b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Clicks: 0
 --- !u!1 &733828345
 GameObject:
   m_ObjectHideFlags: 0
@@ -2653,6 +2796,7 @@ GameObject:
   - component: {fileID: 733828346}
   - component: {fileID: 733828347}
   - component: {fileID: 733828348}
+  - component: {fileID: 733828349}
   m_Layer: 0
   m_Name: black knight
   m_TagString: Untagged
@@ -2743,6 +2887,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 4, y: 4}
   m_EdgeRadius: 0
+--- !u!114 &733828349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 733828345}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6748abaa81f114849843518af7dfc6cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Clicks: 0
 --- !u!1 &745768899
 GameObject:
   m_ObjectHideFlags: 0
@@ -3067,6 +3223,7 @@ GameObject:
   - component: {fileID: 830744588}
   - component: {fileID: 830744589}
   - component: {fileID: 830744590}
+  - component: {fileID: 830744591}
   m_Layer: 0
   m_Name: crpyt
   m_TagString: Untagged
@@ -3157,6 +3314,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 4, y: 4}
   m_EdgeRadius: 0
+--- !u!114 &830744591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 830744587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abb68b6c7cb46489d98f207dd490610b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Clicks: 0
 --- !u!1 &835145254
 GameObject:
   m_ObjectHideFlags: 0
@@ -3367,6 +3536,7 @@ GameObject:
   - component: {fileID: 894611435}
   - component: {fileID: 894611436}
   - component: {fileID: 894611437}
+  - component: {fileID: 894611438}
   m_Layer: 0
   m_Name: oasis
   m_TagString: Untagged
@@ -3457,6 +3627,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 4, y: 4}
   m_EdgeRadius: 0
+--- !u!114 &894611438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 894611434}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6748abaa81f114849843518af7dfc6cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Clicks: 0
 --- !u!1 &899932880
 GameObject:
   m_ObjectHideFlags: 0
@@ -3467,6 +3649,7 @@ GameObject:
   - component: {fileID: 899932881}
   - component: {fileID: 899932882}
   - component: {fileID: 899932883}
+  - component: {fileID: 899932884}
   m_Layer: 0
   m_Name: chasm
   m_TagString: Untagged
@@ -3557,6 +3740,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 4, y: 4}
   m_EdgeRadius: 0
+--- !u!114 &899932884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 899932880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6748abaa81f114849843518af7dfc6cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Clicks: 0
 --- !u!1 &934622240
 GameObject:
   m_ObjectHideFlags: 0
@@ -3914,6 +4109,7 @@ GameObject:
   - component: {fileID: 974350195}
   - component: {fileID: 974350196}
   - component: {fileID: 974350197}
+  - component: {fileID: 974350198}
   m_Layer: 0
   m_Name: werewolf's den
   m_TagString: Untagged
@@ -4004,6 +4200,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 4, y: 4}
   m_EdgeRadius: 0
+--- !u!114 &974350198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 974350194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abb68b6c7cb46489d98f207dd490610b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Clicks: 0
 --- !u!1 &1003885950
 GameObject:
   m_ObjectHideFlags: 0
@@ -4140,6 +4348,7 @@ GameObject:
   - component: {fileID: 1126906409}
   - component: {fileID: 1126906410}
   - component: {fileID: 1126906411}
+  - component: {fileID: 1126906412}
   m_Layer: 0
   m_Name: portal of power
   m_TagString: Untagged
@@ -4230,6 +4439,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 4, y: 4}
   m_EdgeRadius: 0
+--- !u!114 &1126906412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1126906408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6748abaa81f114849843518af7dfc6cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Clicks: 0
 --- !u!1 &1185806816
 GameObject:
   m_ObjectHideFlags: 0
@@ -4754,6 +4975,7 @@ GameObject:
   - component: {fileID: 1480789068}
   - component: {fileID: 1480789069}
   - component: {fileID: 1480789070}
+  - component: {fileID: 1480789071}
   m_Layer: 0
   m_Name: cursed glade
   m_TagString: Untagged
@@ -4844,6 +5066,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 4, y: 4}
   m_EdgeRadius: 0
+--- !u!114 &1480789071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1480789067}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6748abaa81f114849843518af7dfc6cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Clicks: 0
 --- !u!1 &1503003415
 GameObject:
   m_ObjectHideFlags: 0
@@ -5142,6 +5376,7 @@ GameObject:
   - component: {fileID: 1647201601}
   - component: {fileID: 1647201602}
   - component: {fileID: 1647201603}
+  - component: {fileID: 1647201604}
   m_Layer: 0
   m_Name: hidden valley
   m_TagString: Untagged
@@ -5232,6 +5467,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 4, y: 4}
   m_EdgeRadius: 0
+--- !u!114 &1647201604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1647201600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6748abaa81f114849843518af7dfc6cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Clicks: 0
 --- !u!1 &1660437834
 GameObject:
   m_ObjectHideFlags: 0
@@ -5368,6 +5615,7 @@ GameObject:
   - component: {fileID: 1721700615}
   - component: {fileID: 1721700616}
   - component: {fileID: 1721700617}
+  - component: {fileID: 1721700618}
   m_Layer: 0
   m_Name: warlocks cave
   m_TagString: Untagged
@@ -5458,6 +5706,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 4, y: 4}
   m_EdgeRadius: 0
+--- !u!114 &1721700618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1721700614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6748abaa81f114849843518af7dfc6cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Clicks: 0
 --- !u!1 &1723229648
 GameObject:
   m_ObjectHideFlags: 0
@@ -5594,6 +5854,7 @@ GameObject:
   - component: {fileID: 1730491345}
   - component: {fileID: 1730491346}
   - component: {fileID: 1730491347}
+  - component: {fileID: 1730491348}
   m_Layer: 0
   m_Name: crown
   m_TagString: Untagged
@@ -5684,6 +5945,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 4, y: 4}
   m_EdgeRadius: 0
+--- !u!114 &1730491348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1730491344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 394639760839844a49065f9eea5e9582, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Clicks: 0
 --- !u!1 &1742757890
 GameObject:
   m_ObjectHideFlags: 0
@@ -5916,6 +6189,7 @@ GameObject:
   - component: {fileID: 1825464891}
   - component: {fileID: 1825464892}
   - component: {fileID: 1825464893}
+  - component: {fileID: 1825464894}
   m_Layer: 0
   m_Name: mines
   m_TagString: Untagged
@@ -6006,6 +6280,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 4, y: 4}
   m_EdgeRadius: 0
+--- !u!114 &1825464894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1825464890}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abb68b6c7cb46489d98f207dd490610b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Clicks: 0
 --- !u!1 &1894962481
 GameObject:
   m_ObjectHideFlags: 0
@@ -6016,6 +6302,7 @@ GameObject:
   - component: {fileID: 1894962482}
   - component: {fileID: 1894962483}
   - component: {fileID: 1894962484}
+  - component: {fileID: 1894962485}
   m_Layer: 0
   m_Name: death
   m_TagString: Untagged
@@ -6106,6 +6393,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 4, y: 4}
   m_EdgeRadius: 0
+--- !u!114 &1894962485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1894962481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abb68b6c7cb46489d98f207dd490610b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Clicks: 0
 --- !u!1 &1898408533
 GameObject:
   m_ObjectHideFlags: 0
@@ -6402,6 +6701,7 @@ GameObject:
   - component: {fileID: 1961261140}
   - component: {fileID: 1961261141}
   - component: {fileID: 1961261142}
+  - component: {fileID: 1961261143}
   m_Layer: 0
   m_Name: vampire's tower
   m_TagString: Untagged
@@ -6492,6 +6792,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 4, y: 4}
   m_EdgeRadius: 0
+--- !u!114 &1961261143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1961261139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abb68b6c7cb46489d98f207dd490610b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Clicks: 0
 --- !u!1 &2018431319
 GameObject:
   m_ObjectHideFlags: 0
@@ -6502,6 +6814,7 @@ GameObject:
   - component: {fileID: 2018431320}
   - component: {fileID: 2018431321}
   - component: {fileID: 2018431322}
+  - component: {fileID: 2018431323}
   m_Layer: 0
   m_Name: desert tl
   m_TagString: Untagged
@@ -6592,6 +6905,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 4, y: 4}
   m_EdgeRadius: 0
+--- !u!114 &2018431323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2018431319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6748abaa81f114849843518af7dfc6cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Clicks: 0
 --- !u!1 &2060570122
 GameObject:
   m_ObjectHideFlags: 0
