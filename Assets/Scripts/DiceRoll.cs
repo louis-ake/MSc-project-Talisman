@@ -23,12 +23,13 @@ public class DiceRoll : MonoBehaviour {
     public Sprite[] dieFaces;
 
     public void Roll() {
-        // Will need to be able variable numbers of dice
+        // Will need to be able to roll variable numbers of dice
         DiceTotal = 0;
         for (int i = 0; i < DiceValues.Length; i++) {
             int dieResult = Random.Range(1, 7);
             DiceTotal += dieResult;
             DiceValues[i] = dieResult;
+            // Sets the image to the one corresponding to the die roll
             this.transform.GetChild(i).GetComponent<Image>().sprite = 
                 dieFaces[dieResult - 1];
         }
