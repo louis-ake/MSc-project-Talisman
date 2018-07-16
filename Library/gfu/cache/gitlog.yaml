@@ -12,9 +12,342 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2018-07-15T13:38:57.744+01:00
-  initializedAtString: 2018-07-14T16:51:54.482+01:00
+  lastUpdatedAtString: 2018-07-16T18:56:51.070+01:00
+  initializedAtString: 2018-07-16T18:10:57.328+01:00
   log:
+  - commitID: c2571e25333e4c9452c99452a7841f3481f49ce7
+    mergeA: 
+    mergeB: 
+    authorName: louis-ake
+    authorEmail: lakerm01@dcs.bbk.ac.uk
+    commitEmail: lakerm01@dcs.bbk.ac.uk
+    commitName: louis-ake
+    summary: added basic abstract class player script
+    description: added basic abstract class player script
+    timeString: 2018-07-16T18:56:16.000+01:00
+    commitTimeString: 2018-07-16T18:56:16.000+01:00
+    changes:
+    - path: Assets/Scenes/SampleScene.unity
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scenes/SampleScene.unity
+      projectPath: Assets/Scenes/SampleScene.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/Scripts/Tiles.meta
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/Tiles.meta
+      projectPath: Assets/Scripts/Tiles.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Scripts/Tiles/Tile.cs
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/Tiles/Tile.cs
+      projectPath: Assets/Scripts/Tiles/Tile.cs
+      originalPath: Assets/Scripts/Tile.cs
+      status: 6
+      staged: 0
+    - path: Assets/Scripts/Tiles/Tile.cs.meta
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/Tiles/Tile.cs.meta
+      projectPath: Assets/Scripts/Tiles/Tile.cs.meta
+      originalPath: Assets/Scripts/Tile.cs.meta
+      status: 6
+      staged: 0
+    - path: Assets/Scripts/Tiles/outer region.meta
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/Tiles/outer
+        region.meta
+      projectPath: Assets/Scripts/Tiles/outer region.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Scripts/Tiles/outer region/TileO1.cs
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/Tiles/outer
+        region/TileO1.cs
+      projectPath: Assets/Scripts/Tiles/outer region/TileO1.cs
+      originalPath: Assets/Scripts/TileO1.cs
+      status: 6
+      staged: 0
+    - path: Assets/Scripts/Tiles/outer region/TileO1.cs.meta
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/Tiles/outer
+        region/TileO1.cs.meta
+      projectPath: Assets/Scripts/Tiles/outer region/TileO1.cs.meta
+      originalPath: Assets/Scripts/TileO1.cs.meta
+      status: 6
+      staged: 0
+    - path: Assets/Scripts/player.meta
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/player.meta
+      projectPath: Assets/Scripts/player.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Scripts/player/Player.cs
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/player/Player.cs
+      projectPath: Assets/Scripts/player/Player.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Scripts/player/Player.cs.meta
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/player/Player.cs.meta
+      projectPath: Assets/Scripts/player/Player.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+  - commitID: 76e81e7d47ca68d86f2554d86699b40654658347
+    mergeA: 
+    mergeB: 
+    authorName: louis-ake
+    authorEmail: lakerm01@dcs.bbk.ac.uk
+    commitEmail: lakerm01@dcs.bbk.ac.uk
+    commitName: louis-ake
+    summary: empty tile scipts added
+    description: empty tile scipts added
+    timeString: 2018-07-16T18:10:55.000+01:00
+    commitTimeString: 2018-07-16T18:10:55.000+01:00
+    changes:
+    - path: Assets/Plugins/Editor.meta
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Plugins/Editor.meta
+      projectPath: Assets/Plugins/Editor.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/Editor/JetBrains.meta
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Plugins/Editor/JetBrains.meta
+      projectPath: Assets/Plugins/Editor/JetBrains.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll
+      projectPath: Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll.meta
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll.meta
+      projectPath: Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Scripts/Tile.cs
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/Tile.cs
+      projectPath: Assets/Scripts/Tile.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Scripts/Tile.cs.meta
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/Tile.cs.meta
+      projectPath: Assets/Scripts/Tile.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Scripts/TileO1.cs
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileO1.cs
+      projectPath: Assets/Scripts/TileO1.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Scripts/TileO1.cs.meta
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileO1.cs.meta
+      projectPath: Assets/Scripts/TileO1.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+  - commitID: 59eb0b3f9f6dc8138e132f4b0f9ffc943178a6dd
+    mergeA: 
+    mergeB: 
+    authorName: louis-ake
+    authorEmail: lakerm01@dcs.bbk.ac.uk
+    commitEmail: lakerm01@dcs.bbk.ac.uk
+    commitName: louis-ake
+    summary: basic TileClick scripts for each region
+    description: basic TileClick scripts for each region
+    timeString: 2018-07-15T15:26:50.000+01:00
+    commitTimeString: 2018-07-15T15:26:50.000+01:00
+    changes:
+    - path: Assets/Scenes/SampleScene.unity
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scenes/SampleScene.unity
+      projectPath: Assets/Scenes/SampleScene.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/Scripts/TileClicks.meta
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks.meta
+      projectPath: Assets/Scripts/TileClicks.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Scripts/TileClicks/CentreTileClick.cs
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks/CentreTileClick.cs
+      projectPath: Assets/Scripts/TileClicks/CentreTileClick.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Scripts/TileClicks/CentreTileClick.cs.meta
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks/CentreTileClick.cs.meta
+      projectPath: Assets/Scripts/TileClicks/CentreTileClick.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Scripts/TileClicks/InnerTileClick.cs
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks/InnerTileClick.cs
+      projectPath: Assets/Scripts/TileClicks/InnerTileClick.cs
+      originalPath: Assets/Scripts/OuterTileClick.cs
+      status: 6
+      staged: 0
+    - path: Assets/Scripts/TileClicks/InnerTileClick.cs.meta
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks/InnerTileClick.cs.meta
+      projectPath: Assets/Scripts/TileClicks/InnerTileClick.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Scripts/TileClicks/MiddleTileClick.cs
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks/MiddleTileClick.cs
+      projectPath: Assets/Scripts/TileClicks/MiddleTileClick.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Scripts/TileClicks/MiddleTileClick.cs.meta
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks/MiddleTileClick.cs.meta
+      projectPath: Assets/Scripts/TileClicks/MiddleTileClick.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Scripts/TileClicks/OuterTileClick.cs
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks/OuterTileClick.cs
+      projectPath: Assets/Scripts/TileClicks/OuterTileClick.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Scripts/TileClicks/OuterTileClick.cs.meta
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks/OuterTileClick.cs.meta
+      projectPath: Assets/Scripts/TileClicks/OuterTileClick.cs.meta
+      originalPath: Assets/Scripts/OuterTileClick.cs.meta
+      status: 6
+      staged: 0
+    - path: Library/CurrentLayout.dwlt
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/CurrentLayout.dwlt
+      projectPath: Library/CurrentLayout.dwlt
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/EditorInstance.json
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/EditorInstance.json
+      projectPath: Library/EditorInstance.json
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/InspectorExpandedItems.asset
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/InspectorExpandedItems.asset
+      projectPath: Library/InspectorExpandedItems.asset
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/assetDatabase3
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/assetDatabase3
+      projectPath: Library/assetDatabase3
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/expandedItems
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/expandedItems
+      projectPath: Library/expandedItems
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/branches.yaml
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/gfu/cache/branches.yaml
+      projectPath: Library/gfu/cache/branches.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gitlocks.yaml
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/gfu/cache/gitlocks.yaml
+      projectPath: Library/gfu/cache/gitlocks.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gitlog.yaml
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/gfu/cache/gitlog.yaml
+      projectPath: Library/gfu/cache/gitlog.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gitstatusentries.yaml
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/gfu/cache/gitstatusentries.yaml
+      projectPath: Library/gfu/cache/gitstatusentries.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gittrackingstatus.yaml
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/gfu/cache/gittrackingstatus.yaml
+      projectPath: Library/gfu/cache/gittrackingstatus.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gituser.yaml
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/gfu/cache/gituser.yaml
+      projectPath: Library/gfu/cache/gituser.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/repoinfo.yaml
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/gfu/cache/repoinfo.yaml
+      projectPath: Library/gfu/cache/repoinfo.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/shadercompiler-UnityShaderCompiler0.log
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/shadercompiler-UnityShaderCompiler0.log
+      projectPath: Library/shadercompiler-UnityShaderCompiler0.log
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Talisman.sln
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Talisman.sln
+      projectPath: Talisman.sln
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Temp/UnityTempFile-12af070bb0f1a421b80adbe3aa38976e
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Temp/UnityTempFile-12af070bb0f1a421b80adbe3aa38976e
+      projectPath: Temp/UnityTempFile-12af070bb0f1a421b80adbe3aa38976e
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Temp/UnityTempFile-2bf749a30d386427c99d83999bcb4306
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Temp/UnityTempFile-2bf749a30d386427c99d83999bcb4306
+      projectPath: Temp/UnityTempFile-2bf749a30d386427c99d83999bcb4306
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Temp/UnityTempFile-306687e6f96e7435395ef3f437dca34d
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Temp/UnityTempFile-306687e6f96e7435395ef3f437dca34d
+      projectPath: Temp/UnityTempFile-306687e6f96e7435395ef3f437dca34d
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Temp/UnityTempFile-5b7c286376c9b4805a7ff6a3ca8ef730
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Temp/UnityTempFile-5b7c286376c9b4805a7ff6a3ca8ef730
+      projectPath: Temp/UnityTempFile-5b7c286376c9b4805a7ff6a3ca8ef730
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Temp/UnityTempFile-bbad3b85258464c848f7bd7ed1346594
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Temp/UnityTempFile-bbad3b85258464c848f7bd7ed1346594
+      projectPath: Temp/UnityTempFile-bbad3b85258464c848f7bd7ed1346594
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Temp/UnityTempFile-f942791830fd844b7ac1cf5e544a6210
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Temp/UnityTempFile-f942791830fd844b7ac1cf5e544a6210
+      projectPath: Temp/UnityTempFile-f942791830fd844b7ac1cf5e544a6210
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Temp/__Backupscenes/0.backup
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Temp/__Backupscenes/0.backup
+      projectPath: Temp/__Backupscenes/0.backup
+      originalPath: 
+      status: 3
+      staged: 0
   - commitID: e779d2031d9ad592e0ff4f8c25d0f11fcd162675
     mergeA: 
     mergeB: 

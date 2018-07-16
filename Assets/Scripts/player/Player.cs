@@ -1,20 +1,24 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using JetBrains.Annotations;
 using UnityEngine;
 
 public abstract class Player : MonoBehaviour {
 
 	// Use this for initialization
-	void Start () {
+	void Start ()
+	{
+		// Initialise each player in the bottom-right Tile
+		Transform startPosition = TileO1.FindObjectOfType<Transform>();
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		
+	
 	}
 
-	public Transform currentPosition;
+	// public static Transform currentPosition = TileO1.FindObjectOfType<Transform>();
 
 	// Each players starting stats - currently the same for all
 	public int lives = 3;
@@ -24,13 +28,13 @@ public abstract class Player : MonoBehaviour {
 	public int lightFate = 2;
 	
 	
+	
 	// For moving Player objects
-	public void move(Tile t)
+	public static void move(Transform current, Transform next)
 	{
-		float step = Time.deltaTime;
-		Transform newPosition = t.transform;
-		Vector2.MoveTowards(currentPosition.transform.position,
-			newPosition.transform.position, step);
+		float step = Time.deltaTime; // standard speed
+		Vector2.MoveTowards(current.transform.position,
+			next.transform.position, step);
 	}
 
 }

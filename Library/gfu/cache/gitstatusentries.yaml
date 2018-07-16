@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2018-07-15T15:15:45.878+01:00
-  initializedAtString: 2018-07-14T16:51:53.853+01:00
+  lastUpdatedAtString: 2018-07-16T19:36:55.494+01:00
+  initializedAtString: 2018-07-16T18:00:15.280+01:00
   entries:
   - path: .DS_Store
     fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/.DS_Store
@@ -21,69 +21,89 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Assets/Scripts/OuterTileClick.cs
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/OuterTileClick.cs
-    projectPath: Assets/Scripts/OuterTileClick.cs
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Assets/Scripts/OuterTileClick.cs.meta
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/OuterTileClick.cs.meta
-    projectPath: Assets/Scripts/OuterTileClick.cs.meta
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Assets/Scripts/TileClicks.meta
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks.meta
-    projectPath: Assets/Scripts/TileClicks.meta
+  - path: .idea/.idea.Talisman/.idea/contentModel.xml
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/.idea/.idea.Talisman/.idea/contentModel.xml
+    projectPath: .idea/.idea.Talisman/.idea/contentModel.xml
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/Scripts/TileClicks/CentreTileClick.cs
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks/CentreTileClick.cs
-    projectPath: Assets/Scripts/TileClicks/CentreTileClick.cs
+  - path: .idea/.idea.Talisman/.idea/indexLayout.xml
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/.idea/.idea.Talisman/.idea/indexLayout.xml
+    projectPath: .idea/.idea.Talisman/.idea/indexLayout.xml
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/Scripts/TileClicks/CentreTileClick.cs.meta
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks/CentreTileClick.cs.meta
-    projectPath: Assets/Scripts/TileClicks/CentreTileClick.cs.meta
+  - path: .idea/.idea.Talisman/.idea/modules.xml
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/.idea/.idea.Talisman/.idea/modules.xml
+    projectPath: .idea/.idea.Talisman/.idea/modules.xml
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/Scripts/TileClicks/InnerTileClick.cs
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks/InnerTileClick.cs
-    projectPath: Assets/Scripts/TileClicks/InnerTileClick.cs
+  - path: .idea/.idea.Talisman/.idea/vcs.xml
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/.idea/.idea.Talisman/.idea/vcs.xml
+    projectPath: .idea/.idea.Talisman/.idea/vcs.xml
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/Scripts/TileClicks/InnerTileClick.cs.meta
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks/InnerTileClick.cs.meta
-    projectPath: Assets/Scripts/TileClicks/InnerTileClick.cs.meta
+  - path: .idea/.idea.Talisman/.idea/workspace.xml
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/.idea/.idea.Talisman/.idea/workspace.xml
+    projectPath: .idea/.idea.Talisman/.idea/workspace.xml
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/Scripts/TileClicks/MiddleTileClick.cs
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks/MiddleTileClick.cs
-    projectPath: Assets/Scripts/TileClicks/MiddleTileClick.cs
+  - path: .idea/.idea.Talisman/riderModule.iml
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/.idea/.idea.Talisman/riderModule.iml
+    projectPath: .idea/.idea.Talisman/riderModule.iml
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/Scripts/TileClicks/MiddleTileClick.cs.meta
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks/MiddleTileClick.cs.meta
-    projectPath: Assets/Scripts/TileClicks/MiddleTileClick.cs.meta
+  - path: Assets/Scripts/GameControl.cs
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/GameControl.cs
+    projectPath: Assets/Scripts/GameControl.cs
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/Scripts/TileClicks/OuterTileClick.cs
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks/OuterTileClick.cs
-    projectPath: Assets/Scripts/TileClicks/OuterTileClick.cs
+  - path: Assets/Scripts/GameControl.cs.meta
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/GameControl.cs.meta
+    projectPath: Assets/Scripts/GameControl.cs.meta
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/Scripts/TileClicks/OuterTileClick.cs.meta
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks/OuterTileClick.cs.meta
-    projectPath: Assets/Scripts/TileClicks/OuterTileClick.cs.meta
+  - path: Assets/Scripts/player/Player.cs
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/player/Player.cs
+    projectPath: Assets/Scripts/player/Player.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/Scripts/player/players.meta
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/player/players.meta
+    projectPath: Assets/Scripts/player/players.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Scripts/player/players/BluePlayer.cs
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/player/players/BluePlayer.cs
+    projectPath: Assets/Scripts/player/players/BluePlayer.cs
+    originalPath: 
+    status: 4
+    staged: 1
+  - path: Assets/Scripts/player/players/BluePlayer.cs.meta
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/player/players/BluePlayer.cs.meta
+    projectPath: Assets/Scripts/player/players/BluePlayer.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Scripts/Tiles/outer region/TileO2.cs
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/Tiles/outer
+      region/TileO2.cs
+    projectPath: Assets/Scripts/Tiles/outer region/TileO2.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Scripts/Tiles/outer region/TileO2.cs.meta
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/Tiles/outer
+      region/TileO2.cs.meta
+    projectPath: Assets/Scripts/Tiles/outer region/TileO2.cs.meta
     originalPath: 
     status: 1
     staged: 0
@@ -153,17 +173,11 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library/InspectorExpandedItems.asset
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/InspectorExpandedItems.asset
-    projectPath: Library/InspectorExpandedItems.asset
+  - path: Library/ScriptAssemblies/BuiltinAssemblies.stamp
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/ScriptAssemblies/BuiltinAssemblies.stamp
+    projectPath: Library/ScriptAssemblies/BuiltinAssemblies.stamp
     originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/shadercompiler-UnityShaderCompiler0.log
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/shadercompiler-UnityShaderCompiler0.log
-    projectPath: Library/shadercompiler-UnityShaderCompiler0.log
-    originalPath: 
-    status: 3
+    status: 5
     staged: 0
   - path: Talisman.sln
     fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Talisman.sln
@@ -176,40 +190,4 @@ MonoBehaviour:
     projectPath: Temp/__Backupscenes/0.backup
     originalPath: 
     status: 3
-    staged: 0
-  - path: Temp/UnityTempFile-12af070bb0f1a421b80adbe3aa38976e
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Temp/UnityTempFile-12af070bb0f1a421b80adbe3aa38976e
-    projectPath: Temp/UnityTempFile-12af070bb0f1a421b80adbe3aa38976e
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Temp/UnityTempFile-2bf749a30d386427c99d83999bcb4306
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Temp/UnityTempFile-2bf749a30d386427c99d83999bcb4306
-    projectPath: Temp/UnityTempFile-2bf749a30d386427c99d83999bcb4306
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Temp/UnityTempFile-306687e6f96e7435395ef3f437dca34d
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Temp/UnityTempFile-306687e6f96e7435395ef3f437dca34d
-    projectPath: Temp/UnityTempFile-306687e6f96e7435395ef3f437dca34d
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Temp/UnityTempFile-5b7c286376c9b4805a7ff6a3ca8ef730
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Temp/UnityTempFile-5b7c286376c9b4805a7ff6a3ca8ef730
-    projectPath: Temp/UnityTempFile-5b7c286376c9b4805a7ff6a3ca8ef730
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Temp/UnityTempFile-bbad3b85258464c848f7bd7ed1346594
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Temp/UnityTempFile-bbad3b85258464c848f7bd7ed1346594
-    projectPath: Temp/UnityTempFile-bbad3b85258464c848f7bd7ed1346594
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Temp/UnityTempFile-f942791830fd844b7ac1cf5e544a6210
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Temp/UnityTempFile-f942791830fd844b7ac1cf5e544a6210
-    projectPath: Temp/UnityTempFile-f942791830fd844b7ac1cf5e544a6210
-    originalPath: 
-    status: 5
     staged: 0

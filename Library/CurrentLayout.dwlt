@@ -13,9 +13,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 0
+    x: -1
     y: 45
-    width: 950
+    width: 1440
     height: 855
   m_ShowMode: 4
   m_Title: 
@@ -37,14 +37,14 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 669
-    width: 441
-    height: 136
+    y: 656
+    width: 929
+    height: 149
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 15}
+  m_ActualView: {fileID: 16}
   m_Panes:
-  - {fileID: 15}
+  - {fileID: 16}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &3
@@ -65,12 +65,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 441
+    width: 929
     height: 805
   m_MinSize: {x: 102, y: 242}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 123
+  controlID: 171
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -90,7 +90,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 950
+    width: 1440
     height: 855
   m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -110,7 +110,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 950
+    width: 1440
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -131,7 +131,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 835
-    width: 950
+    width: 1440
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -152,12 +152,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
-    width: 950
+    width: 1440
     height: 805
-  m_MinSize: {x: 611, y: 471}
-  m_MaxSize: {x: 18006, y: 14021}
+  m_MinSize: {x: 613, y: 471}
+  m_MaxSize: {x: 18008, y: 14021}
   vertical: 1
-  controlID: 120
+  controlID: 168
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -176,12 +176,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 950
+    width: 1440
     height: 805
-  m_MinSize: {x: 611, y: 471}
-  m_MaxSize: {x: 18006, y: 14021}
+  m_MinSize: {x: 613, y: 471}
+  m_MaxSize: {x: 18008, y: 14021}
   vertical: 0
-  controlID: 121
+  controlID: 169
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -200,12 +200,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 675
+    width: 1163
     height: 805
   m_MinSize: {x: 336, y: 471}
   m_MaxSize: {x: 14006, y: 14021}
   vertical: 0
-  controlID: 122
+  controlID: 170
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -222,16 +222,16 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 441
-    height: 669
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 17}
+    width: 929
+    height: 656
+  m_MinSize: {x: 102, y: 121}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 15}
   m_Panes:
-  - {fileID: 17}
   - {fileID: 18}
-  m_Selected: 0
-  m_LastSelected: 1
+  - {fileID: 15}
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,14 +248,14 @@ MonoBehaviour:
   - {fileID: 13}
   m_Position:
     serializedVersion: 2
-    x: 441
+    x: 929
     y: 0
     width: 234
     height: 805
   m_MinSize: {x: 234, y: 471}
   m_MaxSize: {x: 10004, y: 14021}
   vertical: 1
-  controlID: 61
+  controlID: 71
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -273,7 +273,7 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 234
-    height: 358
+    height: 534
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 19}
@@ -296,9 +296,9 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 358
+    y: 534
     width: 234
-    height: 447
+    height: 271
   m_MinSize: {x: 234, y: 271}
   m_MaxSize: {x: 10004, y: 10021}
   m_ActualView: {fileID: 20}
@@ -320,19 +320,98 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 675
+    x: 1163
     y: 0
-    width: 275
+    width: 277
     height: 805
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 277, y: 71}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 21}
   m_Panes:
   - {fileID: 21}
-  - {fileID: 16}
+  - {fileID: 17}
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &15
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12013, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Scene
+    m_Image: {fileID: 2318424515335265636, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: -1
+    y: 94
+    width: 927
+    height: 635
+  m_PersistentViewDataDictionary: {fileID: 0}
+  m_SceneLighting: 1
+  lastFramingTime: 436.3871330022812
+  m_2DMode: 1
+  m_isRotationLocked: 0
+  m_AudioPlay: 0
+  m_Position:
+    m_Target: {x: 3.7857766, y: -2.4233134, z: -0.9830298}
+    speed: 2
+    m_Value: {x: 3.7857766, y: -2.4233134, z: -0.9830298}
+  m_RenderMode: 0
+  m_CameraMode:
+    drawMode: 0
+    name: Shaded
+    section: Shading Mode
+  m_ValidateTrueMetals: 0
+  m_SceneViewState:
+    showFog: 1
+    showMaterialUpdate: 1
+    showSkybox: 1
+    showFlares: 1
+    showImageEffects: 1
+    showParticleSystems: 1
+  grid:
+    xGrid:
+      m_Target: 0
+      speed: 2
+      m_Value: 0
+    yGrid:
+      m_Target: 0
+      speed: 2
+      m_Value: 0
+    zGrid:
+      m_Target: 1
+      speed: 2
+      m_Value: 1
+  m_Rotation:
+    m_Target: {x: 0, y: 0, z: 0, w: 1}
+    speed: 2
+    m_Value: {x: 0, y: 0, z: 0, w: 1}
+  m_Size:
+    m_Target: 38.224216
+    speed: 2
+    m_Value: 38.224216
+  m_Ortho:
+    m_Target: 1
+    speed: 2
+    m_Value: 1
+  m_ShowGlobalGrid: 1
+  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+  m_LastSceneViewOrtho: 0
+  m_ReplacementShader: {fileID: 0}
+  m_ReplacementString: 
+  m_LastLockedObject: {fileID: 0}
+  m_ViewIsLockedToObject: 0
+--- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
@@ -353,11 +432,11 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 763
-    width: 439
-    height: 115
+    y: 675
+    width: 927
+    height: 128
   m_PersistentViewDataDictionary: {fileID: 0}
---- !u!114 &16
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
@@ -376,16 +455,16 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1132
+    x: 1218
     y: 94
-    width: 308
+    width: 222
     height: 784
   m_PersistentViewDataDictionary: {fileID: 0}
   progressMessageClearTime: -1
   notificationClearTime: -1
   timeSinceLastRotation: -1
   currentBranchAndRemoteHasUpdate: 0
-  currentTrackingStatusHasUpdate: 1
+  currentTrackingStatusHasUpdate: 0
   currentStatusEntriesHasUpdate: 1
   repositoryProgressHasUpdate: 1
   appManagerProgressHasUpdate: 1
@@ -560,7 +639,7 @@ MonoBehaviour:
     - name: origin/master
       tracking: '[None]'
   changesView:
-    currentBranchHasUpdate: 1
+    currentBranchHasUpdate: 0
     currentStatusEntriesHasUpdate: 1
     currentLocksHasUpdate: 1
     commitBody: 
@@ -569,17 +648,111 @@ MonoBehaviour:
     treeScroll: {x: 0, y: 0}
     treeChanges:
       assets:
-        keys: []
-        values: []
+        keys:
+        - 00000000000000001000000000000000
+        - 131a6b21c8605f84396be9f6751fb6e3
+        - 2cda990e2423bbf4892e6590ba056729
+        values:
+        - path: Assets
+          label: Assets
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Assets/Scenes
+          label: Scenes
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Assets/Scenes/SampleScene.unity
+          label: SampleScene.unity
+          level: 2
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets/Scenes/SampleScene.unity
+            fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scenes/SampleScene.unity
+            projectPath: Assets/Scenes/SampleScene.unity
+            originalPath: 
+            status: 3
+            staged: 0
       folders:
         keys:
+        - Assets
+        - Assets/Scenes
         - Library
         - Library/gfu
         - Library/gfu/cache
-        - Library/ScriptAssemblies
         - Temp
         - Temp/__Backupscenes
         values:
+        - path: Assets
+          label: Assets
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Assets/Scenes
+          label: Scenes
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
         - path: Library
           label: Library
           level: 0
@@ -634,24 +807,6 @@ MonoBehaviour:
             originalPath: 
             status: 0
             staged: 0
-        - path: Library/ScriptAssemblies
-          label: ScriptAssemblies
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
         - path: Temp
           label: Temp
           level: 0
@@ -689,8 +844,27 @@ MonoBehaviour:
             status: 0
             staged: 0
       checkedFileNodes:
-        keys: []
-        values: []
+        keys:
+        - Assets/Scenes/SampleScene.unity
+        values:
+        - path: Assets/Scenes/SampleScene.unity
+          label: SampleScene.unity
+          level: 2
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets/Scenes/SampleScene.unity
+            fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scenes/SampleScene.unity
+            projectPath: Assets/Scenes/SampleScene.unity
+            originalPath: 
+            status: 3
+            staged: 0
       title: 
       pathSeparator: /
       displayRootNode: 0
@@ -715,6 +889,78 @@ MonoBehaviour:
           projectPath: 
           originalPath: 
           status: 0
+          staged: 0
+      - path: .DS_Store
+        label: .DS_Store
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: .DS_Store
+          fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/.DS_Store
+          projectPath: .DS_Store
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Assets
+        label: Assets
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Assets/Scenes
+        label: Scenes
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Assets/Scenes/SampleScene.unity
+        label: SampleScene.unity
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Scenes/SampleScene.unity
+          fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scenes/SampleScene.unity
+          projectPath: Assets/Scenes/SampleScene.unity
+          originalPath: 
+          status: 3
           staged: 0
       - path: Library
         label: Library
@@ -788,6 +1034,24 @@ MonoBehaviour:
           originalPath: 
           status: 3
           staged: 0
+      - path: Library/expandedItems
+        label: expandedItems
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/expandedItems
+          fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/expandedItems
+          projectPath: Library/expandedItems
+          originalPath: 
+          status: 3
+          staged: 0
       - path: Library/gfu
         label: gfu
         level: 1
@@ -840,7 +1104,7 @@ MonoBehaviour:
           fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/gfu/cache/branches.yaml
           projectPath: Library/gfu/cache/branches.yaml
           originalPath: 
-          status: 5
+          status: 3
           staged: 0
       - path: Library/gfu/cache/gitlocks.yaml
         label: gitlocks.yaml
@@ -950,60 +1214,6 @@ MonoBehaviour:
           originalPath: 
           status: 3
           staged: 0
-      - path: Library/InspectorExpandedItems.asset
-        label: InspectorExpandedItems.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library/InspectorExpandedItems.asset
-          fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/InspectorExpandedItems.asset
-          projectPath: Library/InspectorExpandedItems.asset
-          originalPath: 
-          status: 3
-          staged: 0
-      - path: Library/ScriptAssemblies
-        label: ScriptAssemblies
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          status: 0
-          staged: 0
-      - path: Library/ScriptAssemblies/BuiltinAssemblies.stamp
-        label: BuiltinAssemblies.stamp
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library/ScriptAssemblies/BuiltinAssemblies.stamp
-          fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/ScriptAssemblies/BuiltinAssemblies.stamp
-          projectPath: Library/ScriptAssemblies/BuiltinAssemblies.stamp
-          originalPath: 
-          status: 5
-          staged: 0
       - path: Library/shadercompiler-UnityShaderCompiler0.log
         label: shadercompiler-UnityShaderCompiler0.log
         level: 1
@@ -1019,24 +1229,6 @@ MonoBehaviour:
           path: Library/shadercompiler-UnityShaderCompiler0.log
           fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/shadercompiler-UnityShaderCompiler0.log
           projectPath: Library/shadercompiler-UnityShaderCompiler0.log
-          originalPath: 
-          status: 3
-          staged: 0
-      - path: Talisman.sln
-        label: Talisman.sln
-        level: 0
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Talisman.sln
-          fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Talisman.sln
-          projectPath: Talisman.sln
           originalPath: 
           status: 3
           staged: 0
@@ -1092,114 +1284,6 @@ MonoBehaviour:
           fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Temp/__Backupscenes/0.backup
           projectPath: Temp/__Backupscenes/0.backup
           originalPath: 
-          status: 3
-          staged: 0
-      - path: Temp/UnityTempFile-12af070bb0f1a421b80adbe3aa38976e
-        label: UnityTempFile-12af070bb0f1a421b80adbe3aa38976e
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Temp/UnityTempFile-12af070bb0f1a421b80adbe3aa38976e
-          fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Temp/UnityTempFile-12af070bb0f1a421b80adbe3aa38976e
-          projectPath: Temp/UnityTempFile-12af070bb0f1a421b80adbe3aa38976e
-          originalPath: 
-          status: 5
-          staged: 0
-      - path: Temp/UnityTempFile-2bf749a30d386427c99d83999bcb4306
-        label: UnityTempFile-2bf749a30d386427c99d83999bcb4306
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Temp/UnityTempFile-2bf749a30d386427c99d83999bcb4306
-          fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Temp/UnityTempFile-2bf749a30d386427c99d83999bcb4306
-          projectPath: Temp/UnityTempFile-2bf749a30d386427c99d83999bcb4306
-          originalPath: 
-          status: 5
-          staged: 0
-      - path: Temp/UnityTempFile-306687e6f96e7435395ef3f437dca34d
-        label: UnityTempFile-306687e6f96e7435395ef3f437dca34d
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Temp/UnityTempFile-306687e6f96e7435395ef3f437dca34d
-          fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Temp/UnityTempFile-306687e6f96e7435395ef3f437dca34d
-          projectPath: Temp/UnityTempFile-306687e6f96e7435395ef3f437dca34d
-          originalPath: 
-          status: 5
-          staged: 0
-      - path: Temp/UnityTempFile-5b7c286376c9b4805a7ff6a3ca8ef730
-        label: UnityTempFile-5b7c286376c9b4805a7ff6a3ca8ef730
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Temp/UnityTempFile-5b7c286376c9b4805a7ff6a3ca8ef730
-          fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Temp/UnityTempFile-5b7c286376c9b4805a7ff6a3ca8ef730
-          projectPath: Temp/UnityTempFile-5b7c286376c9b4805a7ff6a3ca8ef730
-          originalPath: 
-          status: 5
-          staged: 0
-      - path: Temp/UnityTempFile-bbad3b85258464c848f7bd7ed1346594
-        label: UnityTempFile-bbad3b85258464c848f7bd7ed1346594
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Temp/UnityTempFile-bbad3b85258464c848f7bd7ed1346594
-          fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Temp/UnityTempFile-bbad3b85258464c848f7bd7ed1346594
-          projectPath: Temp/UnityTempFile-bbad3b85258464c848f7bd7ed1346594
-          originalPath: 
-          status: 5
-          staged: 0
-      - path: Temp/UnityTempFile-f942791830fd844b7ac1cf5e544a6210
-        label: UnityTempFile-f942791830fd844b7ac1cf5e544a6210
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Temp/UnityTempFile-f942791830fd844b7ac1cf5e544a6210
-          fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Temp/UnityTempFile-f942791830fd844b7ac1cf5e544a6210
-          projectPath: Temp/UnityTempFile-f942791830fd844b7ac1cf5e544a6210
-          originalPath: 
           status: 5
           staged: 0
       selectedNode:
@@ -1222,6 +1306,18 @@ MonoBehaviour:
           status: 0
           staged: 0
     gitStatusEntries:
+    - path: .DS_Store
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/.DS_Store
+      projectPath: .DS_Store
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/Scenes/SampleScene.unity
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scenes/SampleScene.unity
+      projectPath: Assets/Scenes/SampleScene.unity
+      originalPath: 
+      status: 3
+      staged: 0
     - path: Library/assetDatabase3
       fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/assetDatabase3
       projectPath: Library/assetDatabase3
@@ -1240,11 +1336,17 @@ MonoBehaviour:
       originalPath: 
       status: 3
       staged: 0
+    - path: Library/expandedItems
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/expandedItems
+      projectPath: Library/expandedItems
+      originalPath: 
+      status: 3
+      staged: 0
     - path: Library/gfu/cache/branches.yaml
       fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/gfu/cache/branches.yaml
       projectPath: Library/gfu/cache/branches.yaml
       originalPath: 
-      status: 5
+      status: 3
       staged: 0
     - path: Library/gfu/cache/gitlocks.yaml
       fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/gfu/cache/gitlocks.yaml
@@ -1282,27 +1384,9 @@ MonoBehaviour:
       originalPath: 
       status: 3
       staged: 0
-    - path: Library/InspectorExpandedItems.asset
-      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/InspectorExpandedItems.asset
-      projectPath: Library/InspectorExpandedItems.asset
-      originalPath: 
-      status: 3
-      staged: 0
-    - path: Library/ScriptAssemblies/BuiltinAssemblies.stamp
-      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/ScriptAssemblies/BuiltinAssemblies.stamp
-      projectPath: Library/ScriptAssemblies/BuiltinAssemblies.stamp
-      originalPath: 
-      status: 5
-      staged: 0
     - path: Library/shadercompiler-UnityShaderCompiler0.log
       fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/shadercompiler-UnityShaderCompiler0.log
       projectPath: Library/shadercompiler-UnityShaderCompiler0.log
-      originalPath: 
-      status: 3
-      staged: 0
-    - path: Talisman.sln
-      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Talisman.sln
-      projectPath: Talisman.sln
       originalPath: 
       status: 3
       staged: 0
@@ -1310,53 +1394,17 @@ MonoBehaviour:
       fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Temp/__Backupscenes/0.backup
       projectPath: Temp/__Backupscenes/0.backup
       originalPath: 
-      status: 3
-      staged: 0
-    - path: Temp/UnityTempFile-12af070bb0f1a421b80adbe3aa38976e
-      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Temp/UnityTempFile-12af070bb0f1a421b80adbe3aa38976e
-      projectPath: Temp/UnityTempFile-12af070bb0f1a421b80adbe3aa38976e
-      originalPath: 
       status: 5
       staged: 0
-    - path: Temp/UnityTempFile-2bf749a30d386427c99d83999bcb4306
-      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Temp/UnityTempFile-2bf749a30d386427c99d83999bcb4306
-      projectPath: Temp/UnityTempFile-2bf749a30d386427c99d83999bcb4306
-      originalPath: 
-      status: 5
-      staged: 0
-    - path: Temp/UnityTempFile-306687e6f96e7435395ef3f437dca34d
-      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Temp/UnityTempFile-306687e6f96e7435395ef3f437dca34d
-      projectPath: Temp/UnityTempFile-306687e6f96e7435395ef3f437dca34d
-      originalPath: 
-      status: 5
-      staged: 0
-    - path: Temp/UnityTempFile-5b7c286376c9b4805a7ff6a3ca8ef730
-      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Temp/UnityTempFile-5b7c286376c9b4805a7ff6a3ca8ef730
-      projectPath: Temp/UnityTempFile-5b7c286376c9b4805a7ff6a3ca8ef730
-      originalPath: 
-      status: 5
-      staged: 0
-    - path: Temp/UnityTempFile-bbad3b85258464c848f7bd7ed1346594
-      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Temp/UnityTempFile-bbad3b85258464c848f7bd7ed1346594
-      projectPath: Temp/UnityTempFile-bbad3b85258464c848f7bd7ed1346594
-      originalPath: 
-      status: 5
-      staged: 0
-    - path: Temp/UnityTempFile-f942791830fd844b7ac1cf5e544a6210
-      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Temp/UnityTempFile-f942791830fd844b7ac1cf5e544a6210
-      projectPath: Temp/UnityTempFile-f942791830fd844b7ac1cf5e544a6210
-      originalPath: 
-      status: 5
-      staged: 0
-    changedFilesText: 21 changed files
+    changedFilesText: 15 changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2018-07-14T16:19:30.685+01:00
+      updatedTimeString: 2018-07-16T16:30:05.586+01:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2018-07-14T16:51:15.218+01:00
+      updatedTimeString: 2018-07-16T16:55:04.673+01:00
       cacheType: 5
     lastLocksChangedEvent:
-      updatedTimeString: 2018-07-14T16:45:04.715+01:00
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
       cacheType: 6
   historyView:
     currentLogHasUpdate: 0
@@ -16382,118 +16430,208 @@ MonoBehaviour:
         gitFileStatus: 0
         lockedAt: 1 Jan 0001, 00:00
     lastLocksChangedEvent:
-      updatedTimeString: 2018-07-14T11:43:55.885+01:00
+      updatedTimeString: 2018-07-15T15:26:38.297+01:00
       cacheType: 6
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2018-07-14T11:43:55.885+01:00
+      updatedTimeString: 2018-07-15T15:26:38.297+01:00
       cacheType: 6
     lastUserChangedEvent:
-      updatedTimeString: 2018-07-14T11:44:05.668+01:00
+      updatedTimeString: 2018-07-15T15:26:38.923+01:00
       cacheType: 7
     lockedFiles: []
     gitStatusEntries:
+    - path: .DS_Store
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/.DS_Store
+      projectPath: .DS_Store
+      originalPath: 
+      status: 3
+      staged: 0
     - path: Assets/Scenes/SampleScene.unity
       fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scenes/SampleScene.unity
       projectPath: Assets/Scenes/SampleScene.unity
       originalPath: 
       status: 3
       staged: 0
+    - path: Assets/Scripts/TileClicks.meta
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks.meta
+      projectPath: Assets/Scripts/TileClicks.meta
+      originalPath: 
+      status: 4
+      staged: 1
+    - path: Assets/Scripts/TileClicks/CentreTileClick.cs
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks/CentreTileClick.cs
+      projectPath: Assets/Scripts/TileClicks/CentreTileClick.cs
+      originalPath: 
+      status: 4
+      staged: 1
+    - path: Assets/Scripts/TileClicks/CentreTileClick.cs.meta
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks/CentreTileClick.cs.meta
+      projectPath: Assets/Scripts/TileClicks/CentreTileClick.cs.meta
+      originalPath: 
+      status: 4
+      staged: 1
+    - path: Assets/Scripts/TileClicks/InnerTileClick.cs
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks/InnerTileClick.cs
+      projectPath: Assets/Scripts/TileClicks/InnerTileClick.cs
+      originalPath: Assets/Scripts/OuterTileClick.cs
+      status: 6
+      staged: 1
+    - path: Assets/Scripts/TileClicks/InnerTileClick.cs.meta
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks/InnerTileClick.cs.meta
+      projectPath: Assets/Scripts/TileClicks/InnerTileClick.cs.meta
+      originalPath: 
+      status: 4
+      staged: 1
+    - path: Assets/Scripts/TileClicks/MiddleTileClick.cs
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks/MiddleTileClick.cs
+      projectPath: Assets/Scripts/TileClicks/MiddleTileClick.cs
+      originalPath: 
+      status: 4
+      staged: 1
+    - path: Assets/Scripts/TileClicks/MiddleTileClick.cs.meta
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks/MiddleTileClick.cs.meta
+      projectPath: Assets/Scripts/TileClicks/MiddleTileClick.cs.meta
+      originalPath: 
+      status: 4
+      staged: 1
+    - path: Assets/Scripts/TileClicks/OuterTileClick.cs
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks/OuterTileClick.cs
+      projectPath: Assets/Scripts/TileClicks/OuterTileClick.cs
+      originalPath: 
+      status: 4
+      staged: 1
+    - path: Assets/Scripts/TileClicks/OuterTileClick.cs.meta
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks/OuterTileClick.cs.meta
+      projectPath: Assets/Scripts/TileClicks/OuterTileClick.cs.meta
+      originalPath: Assets/Scripts/OuterTileClick.cs.meta
+      status: 6
+      staged: 1
     - path: Library/assetDatabase3
       fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/assetDatabase3
       projectPath: Library/assetDatabase3
       originalPath: 
       status: 3
-      staged: 0
+      staged: 1
     - path: Library/CurrentLayout.dwlt
       fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/CurrentLayout.dwlt
       projectPath: Library/CurrentLayout.dwlt
       originalPath: 
       status: 3
-      staged: 0
+      staged: 1
     - path: Library/EditorInstance.json
       fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/EditorInstance.json
       projectPath: Library/EditorInstance.json
       originalPath: 
       status: 3
-      staged: 0
+      staged: 1
+    - path: Library/expandedItems
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/expandedItems
+      projectPath: Library/expandedItems
+      originalPath: 
+      status: 3
+      staged: 1
     - path: Library/gfu/cache/branches.yaml
       fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/gfu/cache/branches.yaml
       projectPath: Library/gfu/cache/branches.yaml
       originalPath: 
       status: 3
-      staged: 0
+      staged: 1
+    - path: Library/gfu/cache/gitlocks.yaml
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/gfu/cache/gitlocks.yaml
+      projectPath: Library/gfu/cache/gitlocks.yaml
+      originalPath: 
+      status: 3
+      staged: 1
     - path: Library/gfu/cache/gitlog.yaml
       fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/gfu/cache/gitlog.yaml
       projectPath: Library/gfu/cache/gitlog.yaml
       originalPath: 
       status: 3
-      staged: 0
+      staged: 1
     - path: Library/gfu/cache/gitstatusentries.yaml
       fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/gfu/cache/gitstatusentries.yaml
       projectPath: Library/gfu/cache/gitstatusentries.yaml
       originalPath: 
       status: 3
-      staged: 0
+      staged: 1
     - path: Library/gfu/cache/gittrackingstatus.yaml
       fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/gfu/cache/gittrackingstatus.yaml
       projectPath: Library/gfu/cache/gittrackingstatus.yaml
       originalPath: 
       status: 3
-      staged: 0
+      staged: 1
+    - path: Library/gfu/cache/gituser.yaml
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/gfu/cache/gituser.yaml
+      projectPath: Library/gfu/cache/gituser.yaml
+      originalPath: 
+      status: 3
+      staged: 1
     - path: Library/gfu/cache/repoinfo.yaml
       fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/gfu/cache/repoinfo.yaml
       projectPath: Library/gfu/cache/repoinfo.yaml
       originalPath: 
       status: 3
-      staged: 0
+      staged: 1
+    - path: Library/InspectorExpandedItems.asset
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/InspectorExpandedItems.asset
+      projectPath: Library/InspectorExpandedItems.asset
+      originalPath: 
+      status: 3
+      staged: 1
     - path: Library/shadercompiler-UnityShaderCompiler0.log
       fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/shadercompiler-UnityShaderCompiler0.log
       projectPath: Library/shadercompiler-UnityShaderCompiler0.log
       originalPath: 
       status: 3
-      staged: 0
+      staged: 1
+    - path: Talisman.sln
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Talisman.sln
+      projectPath: Talisman.sln
+      originalPath: 
+      status: 3
+      staged: 1
     - path: Temp/__Backupscenes/0.backup
       fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Temp/__Backupscenes/0.backup
       projectPath: Temp/__Backupscenes/0.backup
       originalPath: 
-      status: 5
-      staged: 0
+      status: 3
+      staged: 1
     - path: Temp/UnityTempFile-12af070bb0f1a421b80adbe3aa38976e
       fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Temp/UnityTempFile-12af070bb0f1a421b80adbe3aa38976e
       projectPath: Temp/UnityTempFile-12af070bb0f1a421b80adbe3aa38976e
       originalPath: 
       status: 5
-      staged: 0
+      staged: 1
     - path: Temp/UnityTempFile-2bf749a30d386427c99d83999bcb4306
       fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Temp/UnityTempFile-2bf749a30d386427c99d83999bcb4306
       projectPath: Temp/UnityTempFile-2bf749a30d386427c99d83999bcb4306
       originalPath: 
       status: 5
-      staged: 0
+      staged: 1
     - path: Temp/UnityTempFile-306687e6f96e7435395ef3f437dca34d
       fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Temp/UnityTempFile-306687e6f96e7435395ef3f437dca34d
       projectPath: Temp/UnityTempFile-306687e6f96e7435395ef3f437dca34d
       originalPath: 
       status: 5
-      staged: 0
+      staged: 1
     - path: Temp/UnityTempFile-5b7c286376c9b4805a7ff6a3ca8ef730
       fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Temp/UnityTempFile-5b7c286376c9b4805a7ff6a3ca8ef730
       projectPath: Temp/UnityTempFile-5b7c286376c9b4805a7ff6a3ca8ef730
       originalPath: 
       status: 5
-      staged: 0
+      staged: 1
     - path: Temp/UnityTempFile-bbad3b85258464c848f7bd7ed1346594
       fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Temp/UnityTempFile-bbad3b85258464c848f7bd7ed1346594
       projectPath: Temp/UnityTempFile-bbad3b85258464c848f7bd7ed1346594
       originalPath: 
       status: 5
-      staged: 0
+      staged: 1
     - path: Temp/UnityTempFile-f942791830fd844b7ac1cf5e544a6210
       fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Temp/UnityTempFile-f942791830fd844b7ac1cf5e544a6210
       projectPath: Temp/UnityTempFile-f942791830fd844b7ac1cf5e544a6210
       originalPath: 
       status: 5
-      staged: 0
+      staged: 1
     currentUsername: louis-ake
     unlockFileMenuContent:
       m_Text: Release Lock
@@ -16520,13 +16658,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2018-07-14T13:08:57.149+01:00
+    updatedTimeString: 2018-07-16T16:30:05.586+01:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2018-07-14T13:51:21.841+01:00
+    updatedTimeString: 2018-07-16T16:30:06.422+01:00
     cacheType: 4
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2018-07-14T13:51:21.837+01:00
+    updatedTimeString: 2018-07-16T16:54:20.277+01:00
     cacheType: 5
   pullButtonContent:
     m_Text: Pull
@@ -16546,87 +16684,8 @@ MonoBehaviour:
     m_Tooltip: 
   repositoryProgressValue: 0
   repositoryProgressMessage: 
-  appManagerProgressValue: 1
-  appManagerProgressMessage: Initialization failed
---- !u!114 &17
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12013, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Scene
-    m_Image: {fileID: 2318424515335265636, guid: 0000000000000000d000000000000000,
-      type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 0
-    y: 94
-    width: 439
-    height: 648
-  m_PersistentViewDataDictionary: {fileID: 0}
-  m_SceneLighting: 1
-  lastFramingTime: 1686.622034072876
-  m_2DMode: 1
-  m_isRotationLocked: 0
-  m_AudioPlay: 0
-  m_Position:
-    m_Target: {x: -1.5201683, y: -16.862875, z: 0.662298}
-    speed: 2
-    m_Value: {x: -1.5201683, y: -16.862875, z: 0.662298}
-  m_RenderMode: 0
-  m_CameraMode:
-    drawMode: 0
-    name: Shaded
-    section: Shading Mode
-  m_ValidateTrueMetals: 0
-  m_SceneViewState:
-    showFog: 0
-    showMaterialUpdate: 0
-    showSkybox: 0
-    showFlares: 0
-    showImageEffects: 0
-    showParticleSystems: 1
-  grid:
-    xGrid:
-      m_Target: 0
-      speed: 2
-      m_Value: 0
-    yGrid:
-      m_Target: 0
-      speed: 2
-      m_Value: 0
-    zGrid:
-      m_Target: 1
-      speed: 2
-      m_Value: 1
-  m_Rotation:
-    m_Target: {x: 0, y: 0, z: 0, w: 1}
-    speed: 2
-    m_Value: {x: 0, y: 0, z: 0, w: 1}
-  m_Size:
-    m_Target: 47.574104
-    speed: 2
-    m_Value: 47.574104
-  m_Ortho:
-    m_Target: 1
-    speed: 2
-    m_Value: 1
-  m_ShowGlobalGrid: 1
-  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
-  m_LastSceneViewOrtho: 0
-  m_ReplacementShader: {fileID: 0}
-  m_ReplacementString: 
-  m_LastLockedObject: {fileID: 0}
-  m_ViewIsLockedToObject: 0
+  appManagerProgressValue: 0
+  appManagerProgressMessage: Initializing...
 --- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -16647,10 +16706,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
+    x: -2
     y: 94
-    width: 867
-    height: 648
+    width: 927
+    height: 635
   m_PersistentViewDataDictionary: {fileID: 0}
   m_MaximizeOnPlay: 0
   m_Gizmos: 0
@@ -16660,10 +16719,10 @@ MonoBehaviour:
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
-    m_HBaseRangeMin: -216.75
-    m_HBaseRangeMax: 216.75
-    m_VBaseRangeMin: -157.75
-    m_VBaseRangeMax: 157.75
+    m_HBaseRangeMin: -231.75
+    m_HBaseRangeMax: 231.75
+    m_VBaseRangeMin: -154.5
+    m_VBaseRangeMax: 154.5
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -16680,25 +16739,25 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 17
-      width: 867
-      height: 631
+      width: 927
+      height: 618
     m_Scale: {x: 2, y: 2}
-    m_Translation: {x: 433.5, y: 315.5}
+    m_Translation: {x: 463.5, y: 309}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -216.75
-      y: -157.75
-      width: 433.5
-      height: 315.5
+      x: -231.75
+      y: -154.5
+      width: 463.5
+      height: 309
     m_MinimalGUI: 1
   m_defaultScale: 2
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
-  m_LastWindowPixelSize: {x: 1734, y: 1296}
+  m_LastWindowPixelSize: {x: 1854, y: 1270}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000100000100
@@ -16722,27 +16781,27 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 443
-    y: 94
+    x: 2
+    y: 19
     width: 230
-    height: 337
+    height: 513
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 7c2e0000
-    m_LastClickedID: 11900
-    m_ExpandedIDs: 72fbffff00000000e82d00007c2e0000
+    scrollPos: {x: 0, y: 12.000122}
+    m_SelectedIDs: 8a320000
+    m_LastClickedID: 0
+    m_ExpandedIDs: f0fbffff00000000ac0d0000c80d0000cc0e0000d00e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Image
-      m_OriginalName: Image
+      m_Name: O1
+      m_OriginalName: O1
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: -8656
+      m_UserData: 3430
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 0
@@ -16775,10 +16834,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 443
-    y: 452
+    x: 930
+    y: 628
     width: 230
-    height: 426
+    height: 250
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -16791,8 +16850,7 @@ MonoBehaviour:
     m_ScenePaths: []
     m_ShowAllHits: 0
     m_SearchArea: 0
-    m_Folders:
-    - Assets/graphics/other/die faces
+    m_Folders: []
   m_ViewMode: 0
   m_StartGridSize: 64
   m_LastFolders: []
@@ -16804,7 +16862,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: b6280000
     m_LastClickedID: 10422
-    m_ExpandedIDs: 00000000ac290000b2290000c6290000d8290000fa2900000c2a0000122a0000182a00002a2a0000722a0000762a0000902a0000bc2a0000f62a0000fa2a0000fe2a0000022b0000102b0000302b0000562b0000682b0000742b00007a2b0000802b0000842b0000dc2b0000fe2b0000222c0000282c00002e2c0000342c0000382c00003e2c0000462c00005e2c0000622c0000ae2c0000ba2c0000c62c0000d82c0000ec2c0000082d0000d42e0000d62e0000
+    m_ExpandedIDs: 000000002c0900003209000046090000580900007a0900008c0900009209000098090000aa090000f2090000f6090000fe090000020a0000140a0000400a00007a0a00007e0a0000820a0000860a0000940a0000da0a0000ec0a0000f80a0000fe0a0000040b0000080b00000c0b0000140b0000600b0000820b0000a60b0000ac0b0000ae0b0000b40b0000ba0b0000be0b0000c40b0000cc0b0000de0b0000e40b0000e80b0000180c0000340c0000400c00004c0c0000500c0000580c00005e0c0000620c0000720c00008e0c0000cc2f0000ce2f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -16832,21 +16890,21 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ac290000b2290000c6290000d8290000fa2900000c2a0000122a0000182a00002a2a0000622a0000722a0000762a0000902a0000bc2a0000f62a0000fa2a0000fe2a0000022b0000102b0000302b0000562b0000682b0000742b00007a2b0000802b0000842b0000dc2b0000fe2b0000222c0000282c00002e2c0000342c0000382c00003e2c0000462c00005e2c0000622c0000ae2c0000ba2c0000c62c0000d82c0000ec2c0000082d0000d42e0000d62e0000
+    m_ExpandedIDs: 000000002c0900003209000046090000580900007a0900008c0900009209000098090000aa090000f2090000f6090000fe090000020a0000140a0000400a00007a0a00007e0a0000820a0000860a0000940a0000da0a0000ec0a0000f80a0000fe0a0000040b0000080b0000140b0000600b0000820b0000a60b0000ae0b0000b40b0000ba0b0000be0b0000c40b0000cc0b0000de0b0000e40b0000180c0000340c0000400c00004c0c0000500c0000580c00005e0c0000620c0000720c00008e0c0000cc2f0000ce2f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Tile
+      m_OriginalName: Tile
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 12938
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 13}
     m_SearchString: 
@@ -16907,9 +16965,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 677
-    y: 94
-    width: 273
+    x: 1165
+    y: 19
+    width: 275
     height: 784
   m_PersistentViewDataDictionary: {fileID: 0}
   m_ObjectsLockedBeforeSerialization: []

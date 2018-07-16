@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Scripts" t="Include">
+          <e p="DiceRoll.cs" t="Include" />
+          <e p="GameControl.cs" t="Include" />
+          <e p="player" t="Include">
+            <e p="player.cs" t="Include" />
+            <e p="players" t="Include">
+              <e p="BluePlayer.cs" t="Include" />
+            </e>
+          </e>
+          <e p="TileClicks" t="Include">
+            <e p="CentreTileClick.cs" t="Include" />
+            <e p="InnerTileClick.cs" t="Include" />
+            <e p="MiddleTileClick.cs" t="Include" />
+            <e p="OuterTileClick.cs" t="Include" />
+          </e>
+          <e p="Tiles" t="Include">
+            <e p="outer region" t="Include">
+              <e p="TileO1.cs" t="Include" />
+              <e p="TileO2.cs" t="Include" />
+            </e>
+            <e p="Tile.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Talisman.sln" t="IncludeFlat" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+    </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2018.1/resharper-host/local/Transient/ReSharperHost/v12/SolutionCaches/_Talisman.-911034102.00" t="ExcludeRecursive" />
+  </component>
+</project>
