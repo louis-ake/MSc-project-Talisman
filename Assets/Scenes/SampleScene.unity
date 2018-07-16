@@ -420,7 +420,7 @@ GameObject:
   - component: {fileID: 101990480}
   - component: {fileID: 101990482}
   m_Layer: 0
-  m_Name: forest
+  m_Name: O23
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -437,7 +437,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1742757891}
-  m_RootOrder: 6
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &101990479
 SpriteRenderer:
@@ -546,7 +546,7 @@ GameObject:
   - component: {fileID: 158752454}
   - component: {fileID: 158752456}
   m_Layer: 0
-  m_Name: crags
+  m_Name: O9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -563,7 +563,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1742757891}
-  m_RootOrder: 2
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &158752453
 SpriteRenderer:
@@ -785,7 +785,7 @@ GameObject:
   - component: {fileID: 213575365}
   - component: {fileID: 213575367}
   m_Layer: 0
-  m_Name: hills bl
+  m_Name: O6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -802,7 +802,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1742757891}
-  m_RootOrder: 8
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &213575364
 SpriteRenderer:
@@ -1137,7 +1137,7 @@ GameObject:
   - component: {fileID: 297099527}
   - component: {fileID: 297099529}
   m_Layer: 0
-  m_Name: tavern
+  m_Name: O19
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1154,7 +1154,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1742757891}
-  m_RootOrder: 18
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &297099526
 SpriteRenderer:
@@ -1263,7 +1263,7 @@ GameObject:
   - component: {fileID: 303300814}
   - component: {fileID: 303300816}
   m_Layer: 0
-  m_Name: fields river br
+  m_Name: O24
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1280,7 +1280,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1742757891}
-  m_RootOrder: 5
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &303300813
 SpriteRenderer:
@@ -1389,7 +1389,7 @@ GameObject:
   - component: {fileID: 313574531}
   - component: {fileID: 313574533}
   m_Layer: 0
-  m_Name: plains lm
+  m_Name: O10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1628,7 +1628,7 @@ GameObject:
   - component: {fileID: 395293127}
   - component: {fileID: 395293129}
   m_Layer: 0
-  m_Name: fields tr
+  m_Name: O20
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1645,7 +1645,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1742757891}
-  m_RootOrder: 15
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &395293126
 SpriteRenderer:
@@ -2166,7 +2166,7 @@ GameObject:
   - component: {fileID: 558497877}
   - component: {fileID: 558497879}
   m_Layer: 0
-  m_Name: village
+  m_Name: O1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2183,7 +2183,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1742757891}
-  m_RootOrder: 19
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &558497876
 SpriteRenderer:
@@ -2292,7 +2292,7 @@ GameObject:
   - component: {fileID: 618137471}
   - component: {fileID: 618137473}
   m_Layer: 0
-  m_Name: graveyard
+  m_Name: O3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2309,7 +2309,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1742757891}
-  m_RootOrder: 7
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &618137470
 SpriteRenderer:
@@ -2560,7 +2560,7 @@ GameObject:
   - component: {fileID: 713812143}
   - component: {fileID: 713812145}
   m_Layer: 0
-  m_Name: hills tl
+  m_Name: O15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2577,7 +2577,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1742757891}
-  m_RootOrder: 23
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &713812142
 SpriteRenderer:
@@ -2942,7 +2942,7 @@ GameObject:
   - component: {fileID: 755519347}
   - component: {fileID: 755519349}
   m_Layer: 0
-  m_Name: fields tl
+  m_Name: O14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2959,7 +2959,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1742757891}
-  m_RootOrder: 14
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &755519346
 SpriteRenderer:
@@ -3068,7 +3068,7 @@ GameObject:
   - component: {fileID: 759457041}
   - component: {fileID: 759457043}
   m_Layer: 0
-  m_Name: fields br
+  m_Name: O2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3085,7 +3085,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1742757891}
-  m_RootOrder: 3
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &759457040
 SpriteRenderer:
@@ -3413,7 +3413,7 @@ GameObject:
   - component: {fileID: 851580298}
   - component: {fileID: 851580300}
   m_Layer: 0
-  m_Name: plains tm
+  m_Name: O16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3430,7 +3430,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1742757891}
-  m_RootOrder: 10
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &851580297
 SpriteRenderer:
@@ -3765,7 +3765,7 @@ GameObject:
   - component: {fileID: 934622243}
   - component: {fileID: 934622245}
   m_Layer: 0
-  m_Name: plains rm
+  m_Name: O22
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3782,7 +3782,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1742757891}
-  m_RootOrder: 12
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &934622242
 SpriteRenderer:
@@ -3891,7 +3891,7 @@ GameObject:
   - component: {fileID: 956229678}
   - component: {fileID: 956229680}
   m_Layer: 0
-  m_Name: sentinal
+  m_Name: O5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3908,7 +3908,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1742757891}
-  m_RootOrder: 17
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &956229677
 SpriteRenderer:
@@ -4225,7 +4225,7 @@ GameObject:
   - component: {fileID: 1003885953}
   - component: {fileID: 1003885955}
   m_Layer: 0
-  m_Name: city
+  m_Name: O13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4242,7 +4242,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1742757891}
-  m_RootOrder: 1
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1003885952
 SpriteRenderer:
@@ -4464,7 +4464,7 @@ GameObject:
   - component: {fileID: 1185806819}
   - component: {fileID: 1185806821}
   m_Layer: 0
-  m_Name: woods tm
+  m_Name: O17
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4481,7 +4481,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1742757891}
-  m_RootOrder: 21
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1185806818
 SpriteRenderer:
@@ -4652,7 +4652,7 @@ GameObject:
   - component: {fileID: 1229158592}
   - component: {fileID: 1229158594}
   m_Layer: 0
-  m_Name: fields river tl
+  m_Name: O12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4669,7 +4669,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1742757891}
-  m_RootOrder: 4
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1229158591
 SpriteRenderer:
@@ -4778,7 +4778,7 @@ GameObject:
   - component: {fileID: 1425100011}
   - component: {fileID: 1425100013}
   m_Layer: 0
-  m_Name: woods bm
+  m_Name: O4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4795,7 +4795,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1742757891}
-  m_RootOrder: 20
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1425100010
 SpriteRenderer:
@@ -5127,7 +5127,7 @@ GameObject:
   - component: {fileID: 1549632088}
   - component: {fileID: 1549632090}
   m_Layer: 0
-  m_Name: woods lm
+  m_Name: O11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5144,7 +5144,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1742757891}
-  m_RootOrder: 22
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1549632087
 SpriteRenderer:
@@ -5253,7 +5253,7 @@ GameObject:
   - component: {fileID: 1574875782}
   - component: {fileID: 1574875784}
   m_Layer: 0
-  m_Name: plains tr
+  m_Name: O18
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5270,7 +5270,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1742757891}
-  m_RootOrder: 11
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1574875781
 SpriteRenderer:
@@ -5492,7 +5492,7 @@ GameObject:
   - component: {fileID: 1660437837}
   - component: {fileID: 1660437839}
   m_Layer: 0
-  m_Name: fields bl
+  m_Name: O8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5509,7 +5509,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1742757891}
-  m_RootOrder: 13
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1660437836
 SpriteRenderer:
@@ -5731,7 +5731,7 @@ GameObject:
   - component: {fileID: 1723229651}
   - component: {fileID: 1723229653}
   m_Layer: 0
-  m_Name: ruins
+  m_Name: O21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5748,7 +5748,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1742757891}
-  m_RootOrder: 16
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1723229650
 SpriteRenderer:
@@ -5982,30 +5982,30 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1770132522}
-  - {fileID: 1003885951}
-  - {fileID: 158752452}
+  - {fileID: 558497875}
   - {fileID: 759457039}
-  - {fileID: 1229158590}
-  - {fileID: 303300812}
-  - {fileID: 101990478}
   - {fileID: 618137469}
+  - {fileID: 1425100009}
+  - {fileID: 956229676}
   - {fileID: 213575363}
-  - {fileID: 313574529}
-  - {fileID: 851580296}
-  - {fileID: 1574875780}
-  - {fileID: 934622241}
+  - {fileID: 1770132522}
   - {fileID: 1660437835}
+  - {fileID: 158752452}
+  - {fileID: 313574529}
+  - {fileID: 1549632086}
+  - {fileID: 1229158590}
+  - {fileID: 1003885951}
   - {fileID: 755519345}
+  - {fileID: 713812141}
+  - {fileID: 303300812}
+  - {fileID: 851580296}
+  - {fileID: 1185806817}
+  - {fileID: 1574875780}
+  - {fileID: 297099525}
   - {fileID: 395293125}
   - {fileID: 1723229649}
-  - {fileID: 956229676}
-  - {fileID: 297099525}
-  - {fileID: 558497875}
-  - {fileID: 1425100009}
-  - {fileID: 1185806817}
-  - {fileID: 1549632086}
-  - {fileID: 713812141}
+  - {fileID: 934622241}
+  - {fileID: 101990478}
   m_Father: {fileID: 777487151}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6022,7 +6022,7 @@ GameObject:
   - component: {fileID: 1770132524}
   - component: {fileID: 1770132526}
   m_Layer: 0
-  m_Name: chapel
+  m_Name: O7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6039,7 +6039,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1742757891}
-  m_RootOrder: 0
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1770132523
 SpriteRenderer:
