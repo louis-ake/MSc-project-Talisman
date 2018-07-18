@@ -10,7 +10,7 @@ public abstract class Player : MonoBehaviour {
 	void Start ()
 	{
 		// Initialise each player in the bottom-right Tile
-		Transform startPosition = TileO1.FindObjectOfType<Transform>();
+		//playerTrans = TileO1.FindObjectOfType<Transform>();
 	}
 	
 	// Update is called once per frame
@@ -26,14 +26,14 @@ public abstract class Player : MonoBehaviour {
 	public int craft = 4;
 	public int darkFate = 2;
 	public int lightFate = 2;
-	
-	
+
+	public Transform playerTrans;
 	
 	// For moving Player objects
 	public static void move(Transform current, Transform next)
 	{
 		float step = Time.deltaTime; // standard speed
-		Vector2.MoveTowards(current.transform.position,
+		current.transform.position = Vector2.MoveTowards(current.transform.position,
 			next.transform.position, step);
 	}
 

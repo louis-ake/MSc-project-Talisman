@@ -21,10 +21,10 @@ public class GameControl : MonoBehaviour {
 	{
 		while (!gameFinished)
 		{
-			GameObject secondG = GameObject.Find("TileO2");
+			GameObject secondG = GameObject.Find("O2");
 			Transform second = secondG.transform;
 			Transform current = this.transform;
-			Player.move(current, second);
+			BluePlayer.move(current, second);
 			
 		}
 	}
