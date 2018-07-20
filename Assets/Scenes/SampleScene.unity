@@ -7014,3 +7014,4 @@ MonoBehaviour:
   craft: 4
   darkFate: 2
   lightFate: 2
+  playerTrans: {fileID: 558497875}
