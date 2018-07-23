@@ -5,6 +5,8 @@ using JetBrains.Annotations;
 using UnityEngine;
 
 public class GameControl : MonoBehaviour {
+	
+	// Used to manage and control the game
 
 	// Use this for initialization
 	void Start ()

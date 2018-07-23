@@ -23,6 +23,7 @@ public abstract class Player : MonoBehaviour {
 	public Tile endTile;
 
 	public static Vector2 endPos;
+	// number of seconds to complete move
 	public float speed = 1f;
 
 	public static void SetEndPos(Vector2 pos)

@@ -15,6 +15,7 @@ public class BluePlayer : Player {
 	// Update is called once per frame
 	void Update ()
 	{
+		// this must be updated every frame for algorithm to work
 		currentPos = this.transform.position;
 		if (Vector2.Distance(new Vector2(currentPos.x, currentPos.y), endPos) > 0)
 		{
