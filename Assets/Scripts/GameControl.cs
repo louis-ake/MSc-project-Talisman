@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Security.Cryptography.X509Certificates;
 using JetBrains.Annotations;
 using UnityEngine;
 
@@ -12,20 +13,31 @@ public class GameControl : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		main();
+		if (!gameFinished)
+		{
+			Main();	
+		}
 	}
 
-	public bool gameFinished = false;
+	public Transform target;
 
-	void main() 
+	public bool gameFinished = false;
+	
+
+	void Main() 
 	{
-		while (!gameFinished)
 		{
-			GameObject secondG = GameObject.Find("O2");
-			Transform second = secondG.transform;
-			Transform current = this.transform;
-			BluePlayer.move(current, second);
-			
+			GameObject o2 = GameObject.Find("O2");
+			target = o2.transform;
+			float tx = target.position.x;
+			float ty = target.position.y;
+			Debug.Log("x = " + tx);
+			Debug.Log("y = " + ty);
+			Player.SetEndPos(new Vector2(tx, ty));
+			if (BluePlayer.currentPos == BluePlayer.endPos)
+			{
+				gameFinished = true;
+			}
 		}
 	}
 }

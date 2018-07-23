@@ -7,11 +7,19 @@ public class BluePlayer : Player {
 	// Use this for initialization
 	void Start ()
 	{
+		// Initialise each player in the bottom-right Tile
 		this.transform.position = new Vector2(15, -15);
+		currentPos = this.transform.position;
 	}
 	
 	// Update is called once per frame
-	void Update () {
-		
+	void Update ()
+	{
+		currentPos = this.transform.position;
+		if (Vector2.Distance(new Vector2(currentPos.x, currentPos.y), endPos) > 0)
+		{
+			this.transform.position = Vector2.MoveTowards(currentPos, endPos, speed);
+		}
 	}
+	public static Vector2 currentPos;
 }

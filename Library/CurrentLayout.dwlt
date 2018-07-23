@@ -13,7 +13,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 0
+    x: -1
     y: 45
     width: 1440
     height: 855
@@ -37,9 +37,9 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 656
+    y: 637
     width: 929
-    height: 149
+    height: 168
   m_MinSize: {x: 102, y: 121}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 16}
@@ -70,7 +70,7 @@ MonoBehaviour:
   m_MinSize: {x: 102, y: 242}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 123
+  controlID: 185
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -92,7 +92,7 @@ MonoBehaviour:
     y: 0
     width: 1440
     height: 855
-  m_MinSize: {x: 950, y: 521}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &5
 MonoBehaviour:
@@ -154,10 +154,10 @@ MonoBehaviour:
     y: 30
     width: 1440
     height: 805
-  m_MinSize: {x: 438, y: 471}
-  m_MaxSize: {x: 18008, y: 14021}
+  m_MinSize: {x: 611, y: 471}
+  m_MaxSize: {x: 18006, y: 14021}
   vertical: 1
-  controlID: 120
+  controlID: 182
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -178,10 +178,10 @@ MonoBehaviour:
     y: 0
     width: 1440
     height: 805
-  m_MinSize: {x: 438, y: 471}
-  m_MaxSize: {x: 18008, y: 14021}
+  m_MinSize: {x: 611, y: 471}
+  m_MaxSize: {x: 18006, y: 14021}
   vertical: 0
-  controlID: 121
+  controlID: 183
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -205,7 +205,7 @@ MonoBehaviour:
   m_MinSize: {x: 336, y: 471}
   m_MaxSize: {x: 14006, y: 14021}
   vertical: 0
-  controlID: 122
+  controlID: 184
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -223,9 +223,9 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 929
-    height: 656
-  m_MinSize: {x: 102, y: 121}
-  m_MaxSize: {x: 4002, y: 4021}
+    height: 637
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 18}
@@ -255,7 +255,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 471}
   m_MaxSize: {x: 10004, y: 14021}
   vertical: 1
-  controlID: 61
+  controlID: 123
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -324,14 +324,14 @@ MonoBehaviour:
     y: 0
     width: 277
     height: 805
-  m_MinSize: {x: 102, y: 121}
-  m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 17}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 21}
   m_Panes:
   - {fileID: 21}
   - {fileID: 17}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -352,10 +352,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
+    x: -1
     y: 94
     width: 927
-    height: 635
+    height: 616
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
   lastFramingTime: 436.3871330022812
@@ -431,10 +431,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 750
+    x: -1
+    y: 731
     width: 927
-    height: 128
+    height: 147
   m_PersistentViewDataDictionary: {fileID: 0}
 --- !u!114 &17
 MonoBehaviour:
@@ -466,8 +466,8 @@ MonoBehaviour:
   currentBranchAndRemoteHasUpdate: 0
   currentTrackingStatusHasUpdate: 0
   currentStatusEntriesHasUpdate: 0
-  repositoryProgressHasUpdate: 0
-  appManagerProgressHasUpdate: 0
+  repositoryProgressHasUpdate: 1
+  appManagerProgressHasUpdate: 1
   changeTab: 3
   activeTab: 3
   initProjectView:
@@ -640,22 +640,348 @@ MonoBehaviour:
       tracking: '[None]'
   changesView:
     currentBranchHasUpdate: 0
-    currentStatusEntriesHasUpdate: 0
-    currentLocksHasUpdate: 0
+    currentStatusEntriesHasUpdate: 1
+    currentLocksHasUpdate: 1
     commitBody: 
     commitMessage: 
     currentBranch: '[master]'
     treeScroll: {x: 0, y: 0}
     treeChanges:
       assets:
-        keys: []
-        values: []
+        keys:
+        - 00000000000000001000000000000000
+        - 131a6b21c8605f84396be9f6751fb6e3
+        - 2cda990e2423bbf4892e6590ba056729
+        - fff62414ae14d495c862b155ed56e484
+        - 9a1dae4a2ebd34df8827d50a76e9097b
+        - e1cb681f31bd7430fa86158746621afc
+        - df271d9e94c4145e285253c1cc20ca8b
+        - 71709fd15d2754c2fb2450f2d7a2bdf6
+        - 5719b3c0965924f8eae390ae9488833c
+        values:
+        - path: Assets
+          label: Assets
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Assets/Scenes
+          label: Scenes
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Assets/Scenes/SampleScene.unity
+          label: SampleScene.unity
+          level: 2
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets/Scenes/SampleScene.unity
+            fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scenes/SampleScene.unity
+            projectPath: Assets/Scenes/SampleScene.unity
+            originalPath: 
+            status: 3
+            staged: 0
+        - path: Assets/Scripts
+          label: Scripts
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Assets/Scripts/GameControl.cs
+          label: GameControl.cs
+          level: 2
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets/Scripts/GameControl.cs
+            fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/GameControl.cs
+            projectPath: Assets/Scripts/GameControl.cs
+            originalPath: 
+            status: 3
+            staged: 0
+        - path: Assets/Scripts/player
+          label: player
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Assets/Scripts/player/Player.cs
+          label: Player.cs
+          level: 3
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets/Scripts/player/Player.cs
+            fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/player/Player.cs
+            projectPath: Assets/Scripts/player/Player.cs
+            originalPath: 
+            status: 3
+            staged: 0
+        - path: Assets/Scripts/player/players
+          label: players
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Assets/Scripts/player/players/BluePlayer.cs
+          label: BluePlayer.cs
+          level: 4
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets/Scripts/player/players/BluePlayer.cs
+            fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/player/players/BluePlayer.cs
+            projectPath: Assets/Scripts/player/players/BluePlayer.cs
+            originalPath: 
+            status: 3
+            staged: 0
       folders:
         keys:
+        - .idea
+        - .idea/.idea.Talisman
+        - .idea/.idea.Talisman/.idea
+        - Assets
+        - Assets/Scenes
+        - Assets/Scripts
+        - Assets/Scripts/player
+        - Assets/Scripts/player/players
         - Library
         - Library/gfu
         - Library/gfu/cache
+        - Library/ScriptAssemblies
+        - Temp
+        - Temp/__Backupscenes
         values:
+        - path: .idea
+          label: .idea
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: .idea/.idea.Talisman
+          label: .idea.Talisman
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: .idea/.idea.Talisman/.idea
+          label: .idea
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Assets
+          label: Assets
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Assets/Scenes
+          label: Scenes
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Assets/Scripts
+          label: Scripts
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Assets/Scripts/player
+          label: player
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Assets/Scripts/player/players
+          label: players
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
         - path: Library
           label: Library
           level: 0
@@ -710,6 +1036,60 @@ MonoBehaviour:
             originalPath: 
             status: 0
             staged: 0
+        - path: Library/ScriptAssemblies
+          label: ScriptAssemblies
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Temp
+          label: Temp
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Temp/__Backupscenes
+          label: __Backupscenes
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
       checkedFileNodes:
         keys: []
         values: []
@@ -738,6 +1118,240 @@ MonoBehaviour:
           originalPath: 
           status: 0
           staged: 0
+      - path: .idea
+        label: .idea
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: .idea/.idea.Talisman
+        label: .idea.Talisman
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: .idea/.idea.Talisman/.idea
+        label: .idea
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: .idea/.idea.Talisman/.idea/workspace.xml
+        label: workspace.xml
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: .idea/.idea.Talisman/.idea/workspace.xml
+          fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/.idea/.idea.Talisman/.idea/workspace.xml
+          projectPath: .idea/.idea.Talisman/.idea/workspace.xml
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Assets
+        label: Assets
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Assets/Scenes
+        label: Scenes
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Assets/Scenes/SampleScene.unity
+        label: SampleScene.unity
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Scenes/SampleScene.unity
+          fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scenes/SampleScene.unity
+          projectPath: Assets/Scenes/SampleScene.unity
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Assets/Scripts
+        label: Scripts
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Assets/Scripts/GameControl.cs
+        label: GameControl.cs
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Scripts/GameControl.cs
+          fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/GameControl.cs
+          projectPath: Assets/Scripts/GameControl.cs
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Assets/Scripts/player
+        label: player
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Assets/Scripts/player/Player.cs
+        label: Player.cs
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Scripts/player/Player.cs
+          fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/player/Player.cs
+          projectPath: Assets/Scripts/player/Player.cs
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Assets/Scripts/player/players
+        label: players
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Assets/Scripts/player/players/BluePlayer.cs
+        label: BluePlayer.cs
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Scripts/player/players/BluePlayer.cs
+          fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/player/players/BluePlayer.cs
+          projectPath: Assets/Scripts/player/players/BluePlayer.cs
+          originalPath: 
+          status: 3
+          staged: 0
       - path: Library
         label: Library
         level: 0
@@ -755,6 +1369,42 @@ MonoBehaviour:
           projectPath: 
           originalPath: 
           status: 0
+          staged: 0
+      - path: Library/assetDatabase3
+        label: assetDatabase3
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/assetDatabase3
+          fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/assetDatabase3
+          projectPath: Library/assetDatabase3
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library/EditorInstance.json
+        label: EditorInstance.json
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/EditorInstance.json
+          fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/EditorInstance.json
+          projectPath: Library/EditorInstance.json
+          originalPath: 
+          status: 3
           staged: 0
       - path: Library/gfu
         label: gfu
@@ -808,7 +1458,25 @@ MonoBehaviour:
           fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/gfu/cache/branches.yaml
           projectPath: Library/gfu/cache/branches.yaml
           originalPath: 
-          status: 5
+          status: 3
+          staged: 0
+      - path: Library/gfu/cache/gitlocks.yaml
+        label: gitlocks.yaml
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/gfu/cache/gitlocks.yaml
+          fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/gfu/cache/gitlocks.yaml
+          projectPath: Library/gfu/cache/gitlocks.yaml
+          originalPath: 
+          status: 3
           staged: 0
       - path: Library/gfu/cache/gitlog.yaml
         label: gitlog.yaml
@@ -864,16 +1532,33 @@ MonoBehaviour:
           originalPath: 
           status: 3
           staged: 0
-      selectedNode:
-        path: 
-        label: 
-        level: 0
+      - path: Library/gfu/cache/repoinfo.yaml
+        label: repoinfo.yaml
+        level: 3
         isFolder: 0
         isContainer: 0
         isCollapsed: 0
         isHidden: 0
         isActive: 0
-        treeIsCheckable: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/gfu/cache/repoinfo.yaml
+          fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/gfu/cache/repoinfo.yaml
+          projectPath: Library/gfu/cache/repoinfo.yaml
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library/ScriptAssemblies
+        label: ScriptAssemblies
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
         checkState: 0
         isLocked: 0
         gitStatusEntry:
@@ -883,12 +1568,169 @@ MonoBehaviour:
           originalPath: 
           status: 0
           staged: 0
+      - path: Library/ScriptAssemblies/BuiltinAssemblies.stamp
+        label: BuiltinAssemblies.stamp
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/ScriptAssemblies/BuiltinAssemblies.stamp
+          fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/ScriptAssemblies/BuiltinAssemblies.stamp
+          projectPath: Library/ScriptAssemblies/BuiltinAssemblies.stamp
+          originalPath: 
+          status: 5
+          staged: 0
+      - path: Library/shadercompiler-UnityShaderCompiler0.log
+        label: shadercompiler-UnityShaderCompiler0.log
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/shadercompiler-UnityShaderCompiler0.log
+          fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/shadercompiler-UnityShaderCompiler0.log
+          projectPath: Library/shadercompiler-UnityShaderCompiler0.log
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Temp
+        label: Temp
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Temp/__Backupscenes
+        label: __Backupscenes
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Temp/__Backupscenes/0.backup
+        label: 0.backup
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp/__Backupscenes/0.backup
+          fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Temp/__Backupscenes/0.backup
+          projectPath: Temp/__Backupscenes/0.backup
+          originalPath: 
+          status: 5
+          staged: 0
+      selectedNode:
+        path: Assets/Scripts/GameControl.cs
+        label: GameControl.cs
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Scripts/GameControl.cs
+          fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/GameControl.cs
+          projectPath: Assets/Scripts/GameControl.cs
+          originalPath: 
+          status: 3
+          staged: 0
     gitStatusEntries:
+    - path: .idea/.idea.Talisman/.idea/workspace.xml
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/.idea/.idea.Talisman/.idea/workspace.xml
+      projectPath: .idea/.idea.Talisman/.idea/workspace.xml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/Scenes/SampleScene.unity
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scenes/SampleScene.unity
+      projectPath: Assets/Scenes/SampleScene.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/Scripts/GameControl.cs
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/GameControl.cs
+      projectPath: Assets/Scripts/GameControl.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/Scripts/player/Player.cs
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/player/Player.cs
+      projectPath: Assets/Scripts/player/Player.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/Scripts/player/players/BluePlayer.cs
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/player/players/BluePlayer.cs
+      projectPath: Assets/Scripts/player/players/BluePlayer.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/assetDatabase3
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/assetDatabase3
+      projectPath: Library/assetDatabase3
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/EditorInstance.json
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/EditorInstance.json
+      projectPath: Library/EditorInstance.json
+      originalPath: 
+      status: 3
+      staged: 0
     - path: Library/gfu/cache/branches.yaml
       fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/gfu/cache/branches.yaml
       projectPath: Library/gfu/cache/branches.yaml
       originalPath: 
-      status: 5
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gitlocks.yaml
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/gfu/cache/gitlocks.yaml
+      projectPath: Library/gfu/cache/gitlocks.yaml
+      originalPath: 
+      status: 3
       staged: 0
     - path: Library/gfu/cache/gitlog.yaml
       fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/gfu/cache/gitlog.yaml
@@ -908,12 +1750,36 @@ MonoBehaviour:
       originalPath: 
       status: 3
       staged: 0
-    changedFilesText: 4 changed files
+    - path: Library/gfu/cache/repoinfo.yaml
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/gfu/cache/repoinfo.yaml
+      projectPath: Library/gfu/cache/repoinfo.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/ScriptAssemblies/BuiltinAssemblies.stamp
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/ScriptAssemblies/BuiltinAssemblies.stamp
+      projectPath: Library/ScriptAssemblies/BuiltinAssemblies.stamp
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Library/shadercompiler-UnityShaderCompiler0.log
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/shadercompiler-UnityShaderCompiler0.log
+      projectPath: Library/shadercompiler-UnityShaderCompiler0.log
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Temp/__Backupscenes/0.backup
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Temp/__Backupscenes/0.backup
+      projectPath: Temp/__Backupscenes/0.backup
+      originalPath: 
+      status: 5
+      staged: 0
+    changedFilesText: 16 changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2018-07-18T19:50:54.733+01:00
+      updatedTimeString: 2018-07-22T17:31:27.437+01:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2018-07-18T19:50:24.591+01:00
+      updatedTimeString: 2018-07-22T17:45:06.913+01:00
       cacheType: 5
     lastLocksChangedEvent:
       updatedTimeString: 0001-01-01T00:00:00.000+00:00
@@ -17650,13 +18516,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2018-07-18T19:50:54.733+01:00
+    updatedTimeString: 2018-07-22T17:31:27.437+01:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2018-07-18T19:50:54.544+01:00
+    updatedTimeString: 2018-07-22T17:31:27.123+01:00
     cacheType: 4
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2018-07-18T19:50:24.591+01:00
+    updatedTimeString: 2018-07-22T17:31:27.559+01:00
     cacheType: 5
   pullButtonContent:
     m_Text: Pull
@@ -17676,8 +18542,8 @@ MonoBehaviour:
     m_Tooltip: 
   repositoryProgressValue: 0
   repositoryProgressMessage: 
-  appManagerProgressValue: 1
-  appManagerProgressMessage: Initialization failed
+  appManagerProgressValue: 0
+  appManagerProgressMessage: Initializing...
 --- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -17701,7 +18567,7 @@ MonoBehaviour:
     x: 0
     y: 94
     width: 927
-    height: 635
+    height: 616
   m_PersistentViewDataDictionary: {fileID: 0}
   m_MaximizeOnPlay: 0
   m_Gizmos: 0
@@ -17713,8 +18579,8 @@ MonoBehaviour:
     m_VRangeLocked: 0
     m_HBaseRangeMin: -231.75
     m_HBaseRangeMax: 231.75
-    m_VBaseRangeMin: -154.5
-    m_VBaseRangeMax: 154.5
+    m_VBaseRangeMin: -149.75
+    m_VBaseRangeMax: 149.75
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -17732,9 +18598,9 @@ MonoBehaviour:
       x: 0
       y: 17
       width: 927
-      height: 618
+      height: 599
     m_Scale: {x: 2, y: 2}
-    m_Translation: {x: 463.5, y: 309}
+    m_Translation: {x: 463.5, y: 299.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -17742,14 +18608,14 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
       x: -231.75
-      y: -154.5
+      y: -149.75
       width: 463.5
-      height: 309
+      height: 299.5
     m_MinimalGUI: 1
   m_defaultScale: 2
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
-  m_LastWindowPixelSize: {x: 1854, y: 1270}
+  m_LastWindowPixelSize: {x: 1854, y: 1232}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000100000100
@@ -17773,16 +18639,16 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 931
+    x: 930
     y: 94
     width: 230
     height: 513
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 36090000
+    m_SelectedIDs: 40080000
     m_LastClickedID: 0
-    m_ExpandedIDs: eefbffff00000000d40d0000f00d0000f40e00004c0f0000
+    m_ExpandedIDs: eefbffff000000004c0f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -17826,7 +18692,7 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 931
+    x: 930
     y: 628
     width: 230
     height: 250
@@ -17843,7 +18709,7 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Scripts/player
+    - Assets/Scripts
   m_ViewMode: 0
   m_StartGridSize: 64
   m_LastFolders: []
@@ -17886,18 +18752,18 @@ MonoBehaviour:
     m_ExpandedIDs: 0000000040090000460900005a0900006c09000090090000a2090000a8090000ac090000b0090000c20900000a0a00000e0a0000160a00001a0a00002c0a0000580a0000940a0000980a00009c0a0000a00a0000ae0a0000f40a0000060b0000120b0000180b00001e0b0000220b00002e0b00007c0b00009e0b0000c20b0000ca0b0000d00b0000d60b0000da0b0000e20b0000ea0b0000fc0b0000020c0000360c0000520c00005e0c00006a0c00006e0c0000760c00007a0c00007e0c0000820c0000920c0000ae0c0000f62f0000f82f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: GameControl
-      m_OriginalName: GameControl
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 2112
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 13}
     m_SearchString: 
@@ -17959,7 +18825,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 1165
-    y: 94
+    y: 19
     width: 275
     height: 784
   m_PersistentViewDataDictionary: {fileID: 0}
