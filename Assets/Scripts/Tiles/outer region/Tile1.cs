@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TileO2 : Tile {
+public class Tile1 : Tile {
 
 	// Use this for initialization
 	void Start () {
@@ -12,5 +12,10 @@ public class TileO2 : Tile {
 	// Update is called once per frame
 	void Update () {
 		
+	}
+
+	public void VisitBlacksmithHealerOrMystic()
+	{
+		//TODO
 	}
 }

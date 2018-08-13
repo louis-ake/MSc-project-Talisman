@@ -13,7 +13,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 0
+    x: -1
     y: 45
     width: 1440
     height: 855
@@ -67,10 +67,10 @@ MonoBehaviour:
     y: 0
     width: 929
     height: 805
-  m_MinSize: {x: 102, y: 221}
-  m_MaxSize: {x: 4002, y: 8021}
+  m_MinSize: {x: 102, y: 242}
+  m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 126
+  controlID: 139
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -92,7 +92,7 @@ MonoBehaviour:
     y: 0
     width: 1440
     height: 855
-  m_MinSize: {x: 950, y: 542}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &5
 MonoBehaviour:
@@ -154,10 +154,10 @@ MonoBehaviour:
     y: 30
     width: 1440
     height: 805
-  m_MinSize: {x: 438, y: 492}
+  m_MinSize: {x: 613, y: 492}
   m_MaxSize: {x: 18008, y: 14042}
   vertical: 1
-  controlID: 123
+  controlID: 136
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -178,10 +178,10 @@ MonoBehaviour:
     y: 0
     width: 1440
     height: 805
-  m_MinSize: {x: 438, y: 492}
+  m_MinSize: {x: 613, y: 492}
   m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
-  controlID: 124
+  controlID: 137
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -205,7 +205,7 @@ MonoBehaviour:
   m_MinSize: {x: 336, y: 492}
   m_MaxSize: {x: 14006, y: 14042}
   vertical: 0
-  controlID: 125
+  controlID: 138
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -224,8 +224,8 @@ MonoBehaviour:
     y: 0
     width: 929
     height: 637
-  m_MinSize: {x: 102, y: 121}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 18}
@@ -255,7 +255,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 492}
   m_MaxSize: {x: 10004, y: 14042}
   vertical: 1
-  controlID: 64
+  controlID: 39
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -274,8 +274,8 @@ MonoBehaviour:
     y: 0
     width: 234
     height: 366
-  m_MinSize: {x: 204, y: 221}
-  m_MaxSize: {x: 4004, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -324,14 +324,14 @@ MonoBehaviour:
     y: 0
     width: 277
     height: 805
-  m_MinSize: {x: 102, y: 121}
-  m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 17}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 21}
   m_Panes:
   - {fileID: 21}
   - {fileID: 17}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -352,7 +352,7 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
+    x: -1
     y: 94
     width: 927
     height: 616
@@ -363,9 +363,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.4920938, y: -1.3512665, z: 2.9987009}
+    m_Target: {x: -0.95069814, y: -1.1097974, z: 2.9790394}
     speed: 2
-    m_Value: {x: -0.4920938, y: -1.3512665, z: 2.9987009}
+    m_Value: {x: -0.95069814, y: -1.1097974, z: 2.9790394}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -397,9 +397,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 40.749992
+    m_Target: 42.7226
     speed: 2
-    m_Value: 40.749992
+    m_Value: 42.7226
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -431,7 +431,7 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
+    x: -1
     y: 731
     width: 927
     height: 147
@@ -455,7 +455,7 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1165
+    x: 1164
     y: 94
     width: 275
     height: 784
@@ -466,8 +466,8 @@ MonoBehaviour:
   currentBranchAndRemoteHasUpdate: 0
   currentTrackingStatusHasUpdate: 0
   currentStatusEntriesHasUpdate: 0
-  repositoryProgressHasUpdate: 0
-  appManagerProgressHasUpdate: 0
+  repositoryProgressHasUpdate: 1
+  appManagerProgressHasUpdate: 1
   changeTab: 3
   activeTab: 3
   initProjectView:
@@ -616,10 +616,10 @@ MonoBehaviour:
     disableDelete: 1
     disableCreate: 1
     lastLocalAndRemoteBranchListChangedEvent:
-      updatedTimeString: 2018-08-11T20:38:42.568+01:00
+      updatedTimeString: 2018-08-12T15:38:39.484+01:00
       cacheType: 2
     lastCurrentBranchAndRemoteChange:
-      updatedTimeString: 2018-08-11T20:59:59.746+01:00
+      updatedTimeString: 2018-08-12T15:40:00.916+01:00
       cacheType: 1
     currentBranch:
       name: master
@@ -640,8 +640,8 @@ MonoBehaviour:
       tracking: '[None]'
   changesView:
     currentBranchHasUpdate: 0
-    currentStatusEntriesHasUpdate: 0
-    currentLocksHasUpdate: 0
+    currentStatusEntriesHasUpdate: 1
+    currentLocksHasUpdate: 1
     commitBody: 
     commitMessage: 
     currentBranch: '[master]'
@@ -703,13 +703,13 @@ MonoBehaviour:
     gitStatusEntries: []
     changedFilesText: No changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2018-08-11T20:59:59.746+01:00
+      updatedTimeString: 2018-08-12T15:43:42.102+01:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2018-08-11T21:01:29.418+01:00
+      updatedTimeString: 2018-08-12T20:06:58.692+01:00
       cacheType: 5
     lastLocksChangedEvent:
-      updatedTimeString: 2018-08-11T21:01:03.703+01:00
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
       cacheType: 6
   historyView:
     currentLogHasUpdate: 0
@@ -17974,10 +17974,10 @@ MonoBehaviour:
           status: 0
           staged: 0
     lastLogChangedEvent:
-      updatedTimeString: 2018-08-11T21:01:02.630+01:00
+      updatedTimeString: 2018-08-12T15:40:17.345+01:00
       cacheType: 3
     lastTrackingStatusChangedEvent:
-      updatedTimeString: 2018-08-11T21:01:02.327+01:00
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
       cacheType: 4
   settingsView:
     gitPathView:
@@ -17989,7 +17989,7 @@ MonoBehaviour:
       changingManually: 0
     hasRemote: 1
     lastCurrentRemoteChangedEvent:
-      updatedTimeString: 2018-08-11T20:59:59.746+01:00
+      updatedTimeString: 2018-08-12T15:40:00.916+01:00
       cacheType: 1
     metricsEnabled: 1
     newRepositoryRemoteUrl: https://github.com/louis-ake/MSc-project-Talisman.git
@@ -18003,7 +18003,7 @@ MonoBehaviour:
       newGitEmail: lakerm01@dcs.bbk.ac.uk
       needsSaving: 0
       lastCheckUserChangedEvent:
-        updatedTimeString: 2018-08-11T21:00:00.073+01:00
+        updatedTimeString: 2018-08-12T15:40:12.458+01:00
         cacheType: 7
     webTimeout: 3000
     gitTimeout: 5000
@@ -18031,17 +18031,17 @@ MonoBehaviour:
         gitFileStatus: 0
         lockedAt: 1 Jan 0001, 00:00
     lastLocksChangedEvent:
-      updatedTimeString: 2018-08-11T21:01:03.703+01:00
+      updatedTimeString: 2018-08-12T15:40:01.460+01:00
       cacheType: 6
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2018-08-11T21:01:03.703+01:00
+      updatedTimeString: 2018-08-12T15:40:01.460+01:00
       cacheType: 6
     lastUserChangedEvent:
-      updatedTimeString: 2018-08-11T21:00:00.073+01:00
+      updatedTimeString: 2018-08-12T15:40:12.458+01:00
       cacheType: 7
     lockedFiles: []
     gitStatusEntries: []
-    currentUsername: 
+    currentUsername: louis-ake
     unlockFileMenuContent:
       m_Text: Release Lock
       m_Image: {fileID: 0}
@@ -18067,13 +18067,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2018-08-11T20:59:59.746+01:00
+    updatedTimeString: 2018-08-12T15:43:42.102+01:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2018-08-11T21:01:02.327+01:00
+    updatedTimeString: 2018-08-12T15:43:40.611+01:00
     cacheType: 4
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2018-08-11T21:01:29.418+01:00
+    updatedTimeString: 2018-08-12T15:43:17.846+01:00
     cacheType: 5
   pullButtonContent:
     m_Text: Pull
@@ -18194,16 +18194,16 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 931
+    x: 930
     y: 94
     width: 230
     height: 345
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 8c0e0000
-    m_LastClickedID: 3724
-    m_ExpandedIDs: d6fbffff000000008c0e0000760f0000
+    scrollPos: {x: 0, y: 207.99951}
+    m_SelectedIDs: 28080000
+    m_LastClickedID: 0
+    m_ExpandedIDs: e4fbffff00000000300e00004e0e00009a0e0000520f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -18247,7 +18247,7 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 931
+    x: 930
     y: 460
     width: 230
     height: 418
@@ -18276,7 +18276,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: b6280000
     m_LastClickedID: 10422
-    m_ExpandedIDs: 000000007a0900008009000090090000a2090000aa090000c8090000da090000de090000e4090000e8090000f60900003a0a00003e0a0000420a00004e0a00005e0a0000880a0000a60a0000c60a0000ca0a0000ce0a0000d20a0000e00a0000340b00004e0b00005c0b0000600b0000640b0000680b0000720b0000bc0b0000de0b0000080c00000c0c00000e0c0000140c00001a0c00001e0c0000260c0000300c0000420c00004a0c0000820c00009a0c0000a40c0000b00c0000b80c0000be0c0000c40c0000c60c0000ca0c0000d60c0000f20c00007030000072300000
+    m_ExpandedIDs: 00000000760900007c0900008c0900009e090000a6090000c4090000d6090000da090000e0090000e4090000f2090000360a00003a0a00003e0a00004a0a00005a0a0000840a0000a20a0000c20a0000c60a0000ca0a0000ce0a0000dc0a0000300b00004a0b0000580b00005c0b0000600b0000640b00006e0b0000b80b0000da0b0000040c0000080c00000a0c0000100c0000160c00001a0c0000220c00002c0c00003e0c0000460c00007e0c0000960c0000a00c0000ac0c0000b40c0000ba0c0000c00c0000c20c0000c60c0000d20c0000ee0c00007e30000080300000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -18304,21 +18304,21 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff000000007a0900008009000090090000a2090000aa090000c8090000da090000de090000e4090000e8090000f60900003a0a00003e0a0000420a00004e0a00005e0a0000880a0000a60a0000c60a0000ca0a0000ce0a0000d20a0000e00a0000340b00004e0b00005c0b0000600b0000640b0000680b0000720b0000bc0b0000de0b0000080c00000c0c00000e0c0000140c00001a0c00001e0c0000260c0000300c0000420c00004a0c0000820c00009a0c0000a40c0000b00c0000b80c0000be0c0000c40c0000c60c0000ca0c0000d60c0000f20c00007030000072300000
+    m_ExpandedIDs: ffffffff00000000760900007c0900008c0900009e090000a6090000c4090000d6090000da090000e0090000e4090000f2090000360a00003a0a00003e0a00004a0a00005a0a0000840a0000a20a0000c20a0000c60a0000ca0a0000ce0a0000dc0a0000300b00004a0b0000580b00005c0b0000600b0000640b00006e0b0000b80b0000da0b0000040c0000080c00000a0c0000100c0000160c00001a0c0000220c00002c0c00003e0c0000460c00007e0c0000960c0000a00c0000ac0c0000b40c0000ba0c0000c00c0000c20c0000c60c0000d20c0000ee0c00007e30000080300000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: DiceRoll
-      m_OriginalName: DiceRoll
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 2194
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 13}
     m_SearchString: 
@@ -18379,7 +18379,7 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1165
+    x: 1164
     y: 94
     width: 275
     height: 784

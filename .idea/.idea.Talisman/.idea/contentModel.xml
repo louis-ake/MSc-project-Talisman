@@ -21,8 +21,8 @@
           </e>
           <e p="Tiles" t="Include">
             <e p="outer region" t="Include">
-              <e p="TileO1.cs" t="Include" />
-              <e p="TileO2.cs" t="Include" />
+              <e p="Tile1.cs" t="Include" />
+              <e p="Tile2.cs" t="Include" />
             </e>
             <e p="Tile.cs" t="Include" />
           </e>

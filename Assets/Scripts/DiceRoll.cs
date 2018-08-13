@@ -20,7 +20,7 @@ public class DiceRoll : MonoBehaviour {
 
     // Results will be stored in public values so they can be accessed from elsewhere
     public int[] DiceValues;
-    public int DiceTotal;
+    public static int DiceTotal;
 	public Text ResultText;
 
     // Array of sprites for die face sprites
@@ -41,6 +41,7 @@ public class DiceRoll : MonoBehaviour {
     }
 
 	public void SetResultText()
+	// To keep the text variable updated with the most recent dice roll
 	{
 		String s = "";
 		for (int i = 0; i < DiceValues.Length; i++)

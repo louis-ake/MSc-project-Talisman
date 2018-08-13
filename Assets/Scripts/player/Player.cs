@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Net;
 using System.Runtime.CompilerServices;
 using JetBrains.Annotations;
 using UnityEngine;
@@ -19,8 +20,11 @@ public abstract class Player : MonoBehaviour {
 	public int darkFate = 2;
 	public int lightFate = 2;
 
-	public Tile startTile;
-	public Tile endTile;
+
+	public static string StartTileName = "O1";
+	public string EndTileName;
+	// public Tile startTile;
+	// public Tile endTile;
 
 	public static Vector2 endPos;
 	// number of seconds to complete move
@@ -29,7 +33,11 @@ public abstract class Player : MonoBehaviour {
 	public static void SetEndPos(Vector2 pos)
 	{
 		endPos = pos;
-		Debug.Log(endPos);
+	}
+
+	public static void SetStartTileName(string name)
+	{
+		StartTileName = name;
 	}
 
 }
