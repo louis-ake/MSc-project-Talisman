@@ -9,18 +9,22 @@ public class BluePlayer : Player {
 	{
 		// Initialise each player in the bottom-right Tile
 		this.transform.position = new Vector2(15, -15);
-		currentPos = this.transform.position;
+		CurrentPos = this.transform.position;
 	}
 	
 	// Update is called once per frame
 	void Update ()
 	{
 		// this must be updated every frame for algorithm to work
-		currentPos = this.transform.position;
-		if (Vector2.Distance(new Vector2(currentPos.x, currentPos.y), endPos) > 0)
+		if (!Active) return;
+		CurrentPos = this.transform.position;
+		if (Vector2.Distance(new Vector2(CurrentPos.x, CurrentPos.y), EndPos) > 0)
 		{
-			this.transform.position = Vector2.MoveTowards(currentPos, endPos, speed);
+			this.transform.position = Vector2.MoveTowards(CurrentPos, EndPos, Speed);
 		}
 	}
-	public static Vector2 currentPos;
+
+	public static bool Active = false;
+
+	public static bool BluePlayerMoveCalculated = false;
 }

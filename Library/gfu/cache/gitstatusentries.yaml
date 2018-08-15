@@ -12,15 +12,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2018-08-13T18:17:55.689+01:00
-  initializedAtString: 2018-08-13T12:15:30.142+01:00
+  lastUpdatedAtString: 2018-08-15T14:24:11.296+01:00
+  initializedAtString: 2018-08-15T12:47:30.086+01:00
   entries:
-  - path: .idea/.idea.Talisman/.idea/contentModel.xml
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/.idea/.idea.Talisman/.idea/contentModel.xml
-    projectPath: .idea/.idea.Talisman/.idea/contentModel.xml
-    originalPath: 
-    status: 3
-    staged: 0
   - path: .idea/.idea.Talisman/.idea/workspace.xml
     fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/.idea/.idea.Talisman/.idea/workspace.xml
     projectPath: .idea/.idea.Talisman/.idea/workspace.xml
@@ -45,61 +39,11 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Assets/Scripts/Tiles/outer region/Tile1.cs
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/Tiles/outer
-      region/Tile1.cs
-    projectPath: Assets/Scripts/Tiles/outer region/Tile1.cs
+  - path: Assets/Scripts/player/players/BluePlayer.cs
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/player/players/BluePlayer.cs
+    projectPath: Assets/Scripts/player/players/BluePlayer.cs
     originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Scripts/Tiles/outer region/Tile1.cs.meta
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/Tiles/outer
-      region/Tile1.cs.meta
-    projectPath: Assets/Scripts/Tiles/outer region/Tile1.cs.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Scripts/Tiles/outer region/Tile2.cs
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/Tiles/outer
-      region/Tile2.cs
-    projectPath: Assets/Scripts/Tiles/outer region/Tile2.cs
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Scripts/Tiles/outer region/Tile2.cs.meta
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/Tiles/outer
-      region/Tile2.cs.meta
-    projectPath: Assets/Scripts/Tiles/outer region/Tile2.cs.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Scripts/Tiles/outer region/TileO1.cs
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/Tiles/outer
-      region/TileO1.cs
-    projectPath: Assets/Scripts/Tiles/outer region/TileO1.cs
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Assets/Scripts/Tiles/outer region/TileO1.cs.meta
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/Tiles/outer
-      region/TileO1.cs.meta
-    projectPath: Assets/Scripts/Tiles/outer region/TileO1.cs.meta
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Assets/Scripts/Tiles/outer region/TileO2.cs
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/Tiles/outer
-      region/TileO2.cs
-    projectPath: Assets/Scripts/Tiles/outer region/TileO2.cs
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Assets/Scripts/Tiles/outer region/TileO2.cs.meta
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/Tiles/outer
-      region/TileO2.cs.meta
-    projectPath: Assets/Scripts/Tiles/outer region/TileO2.cs.meta
-    originalPath: 
-    status: 5
+    status: 3
     staged: 0
   - path: Library/assetDatabase3
     fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/assetDatabase3

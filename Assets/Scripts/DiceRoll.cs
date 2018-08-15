@@ -23,6 +23,8 @@ public class DiceRoll : MonoBehaviour {
     public static int DiceTotal;
 	public Text ResultText;
 
+	public static int RollCount = 0;
+
     // Array of sprites for die face sprites
     public Sprite[] dieFaces;
 
@@ -37,7 +39,7 @@ public class DiceRoll : MonoBehaviour {
             this.transform.GetChild(i).GetComponent<Image>().sprite = 
                 dieFaces[dieResult - 1];
         }
-        Debug.Log("Rolled: " + DiceTotal);
+		RollCount += 1;
     }
 
 	public void SetResultText()

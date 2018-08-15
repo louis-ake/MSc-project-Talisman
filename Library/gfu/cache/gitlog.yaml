@@ -12,9 +12,139 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2018-08-12T15:43:42.399+01:00
-  initializedAtString: 2018-08-12T15:38:39.929+01:00
+  lastUpdatedAtString: 2018-08-15T12:47:30.728+01:00
+  initializedAtString: 2018-08-15T12:47:30.728+01:00
   log:
+  - commitID: a8d861d7aed552da5d005ce1ea9aae57d1dba7e1
+    mergeA: 
+    mergeB: 
+    authorName: louis-ake
+    authorEmail: lakerm01@dcs.bbk.ac.uk
+    commitEmail: lakerm01@dcs.bbk.ac.uk
+    commitName: louis-ake
+    summary: working on movement
+    description: working on movement
+    timeString: 2018-08-13T18:18:37.000+01:00
+    commitTimeString: 2018-08-13T18:18:37.000+01:00
+    changes:
+    - path: .idea/.idea.Talisman/.idea/contentModel.xml
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/.idea/.idea.Talisman/.idea/contentModel.xml
+      projectPath: .idea/.idea.Talisman/.idea/contentModel.xml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: .idea/.idea.Talisman/.idea/workspace.xml
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/.idea/.idea.Talisman/.idea/workspace.xml
+      projectPath: .idea/.idea.Talisman/.idea/workspace.xml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/Scripts/DiceRoll.cs
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/DiceRoll.cs
+      projectPath: Assets/Scripts/DiceRoll.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/Scripts/GameControl.cs
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/GameControl.cs
+      projectPath: Assets/Scripts/GameControl.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: "region/TileO1.cs\tAssets/Scripts/Tiles/outer region/Tile1.cs"
+      fullPath: "/Users/louisakerman/Dropbox/CS Masters/Project/Talisman/region/TileO1.cs\tAssets/Scripts/Tiles/outer
+        region/Tile1.cs"
+      projectPath: "region/TileO1.cs\tAssets/Scripts/Tiles/outer region/Tile1.cs"
+      originalPath: Assets/Scripts/Tiles/outer
+      status: 6
+      staged: 0
+    - path: "region/TileO1.cs.meta\tAssets/Scripts/Tiles/outer region/Tile1.cs.meta"
+      fullPath: "/Users/louisakerman/Dropbox/CS Masters/Project/Talisman/region/TileO1.cs.meta\tAssets/Scripts/Tiles/outer
+        region/Tile1.cs.meta"
+      projectPath: "region/TileO1.cs.meta\tAssets/Scripts/Tiles/outer region/Tile1.cs.meta"
+      originalPath: Assets/Scripts/Tiles/outer
+      status: 6
+      staged: 0
+    - path: "region/TileO2.cs\tAssets/Scripts/Tiles/outer region/Tile2.cs"
+      fullPath: "/Users/louisakerman/Dropbox/CS Masters/Project/Talisman/region/TileO2.cs\tAssets/Scripts/Tiles/outer
+        region/Tile2.cs"
+      projectPath: "region/TileO2.cs\tAssets/Scripts/Tiles/outer region/Tile2.cs"
+      originalPath: Assets/Scripts/Tiles/outer
+      status: 6
+      staged: 0
+    - path: "region/TileO2.cs.meta\tAssets/Scripts/Tiles/outer region/Tile2.cs.meta"
+      fullPath: "/Users/louisakerman/Dropbox/CS Masters/Project/Talisman/region/TileO2.cs.meta\tAssets/Scripts/Tiles/outer
+        region/Tile2.cs.meta"
+      projectPath: "region/TileO2.cs.meta\tAssets/Scripts/Tiles/outer region/Tile2.cs.meta"
+      originalPath: Assets/Scripts/Tiles/outer
+      status: 6
+      staged: 0
+    - path: Assets/Scripts/player/Player.cs
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/player/Player.cs
+      projectPath: Assets/Scripts/player/Player.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/CurrentLayout.dwlt
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/CurrentLayout.dwlt
+      projectPath: Library/CurrentLayout.dwlt
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/EditorInstance.json
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/EditorInstance.json
+      projectPath: Library/EditorInstance.json
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/assetDatabase3
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/assetDatabase3
+      projectPath: Library/assetDatabase3
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/branches.yaml
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/gfu/cache/branches.yaml
+      projectPath: Library/gfu/cache/branches.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gitlocks.yaml
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/gfu/cache/gitlocks.yaml
+      projectPath: Library/gfu/cache/gitlocks.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gitlog.yaml
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/gfu/cache/gitlog.yaml
+      projectPath: Library/gfu/cache/gitlog.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gitstatusentries.yaml
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/gfu/cache/gitstatusentries.yaml
+      projectPath: Library/gfu/cache/gitstatusentries.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gittrackingstatus.yaml
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/gfu/cache/gittrackingstatus.yaml
+      projectPath: Library/gfu/cache/gittrackingstatus.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/repoinfo.yaml
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/gfu/cache/repoinfo.yaml
+      projectPath: Library/gfu/cache/repoinfo.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/shadercompiler-UnityShaderCompiler0.log
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/shadercompiler-UnityShaderCompiler0.log
+      projectPath: Library/shadercompiler-UnityShaderCompiler0.log
+      originalPath: 
+      status: 3
+      staged: 0
   - commitID: 3dbb67cea693d88d07d2ac68ea26ff46b9b09bd4
     mergeA: 
     mergeB: 
