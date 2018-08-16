@@ -12,24 +12,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2018-08-15T19:31:39.716+01:00
+  lastUpdatedAtString: 2018-08-16T14:28:10.434+01:00
   initializedAtString: 2018-08-15T18:22:53.137+01:00
   entries:
+  - path: .idea/.idea.Talisman/.idea/contentModel.xml
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/.idea/.idea.Talisman/.idea/contentModel.xml
+    projectPath: .idea/.idea.Talisman/.idea/contentModel.xml
+    originalPath: 
+    status: 3
+    staged: 0
   - path: .idea/.idea.Talisman/.idea/workspace.xml
     fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/.idea/.idea.Talisman/.idea/workspace.xml
     projectPath: .idea/.idea.Talisman/.idea/workspace.xml
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets/Scenes/SampleScene.unity
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scenes/SampleScene.unity
-    projectPath: Assets/Scenes/SampleScene.unity
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets/Scripts/DiceRoll.cs
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/DiceRoll.cs
-    projectPath: Assets/Scripts/DiceRoll.cs
     originalPath: 
     status: 3
     staged: 0
@@ -39,15 +33,33 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library/assetDatabase3
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/assetDatabase3
-    projectPath: Library/assetDatabase3
+  - path: Assets/Scripts/player/Player.cs
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/player/Player.cs
+    projectPath: Assets/Scripts/player/Player.cs
     originalPath: 
     status: 3
     staged: 0
-  - path: Library/EditorInstance.json
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/EditorInstance.json
-    projectPath: Library/EditorInstance.json
+  - path: Assets/Scripts/player/players/BluePlayer.cs
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/player/players/BluePlayer.cs
+    projectPath: Assets/Scripts/player/players/BluePlayer.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/Scripts/player/players/YellowPlayer.cs
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/player/players/YellowPlayer.cs
+    projectPath: Assets/Scripts/player/players/YellowPlayer.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Scripts/player/players/YellowPlayer.cs.meta
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/player/players/YellowPlayer.cs.meta
+    projectPath: Assets/Scripts/player/players/YellowPlayer.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/assetDatabase3
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/assetDatabase3
+    projectPath: Library/assetDatabase3
     originalPath: 
     status: 3
     staged: 0
@@ -78,24 +90,6 @@ MonoBehaviour:
   - path: Library/gfu/cache/gittrackingstatus.yaml
     fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/gfu/cache/gittrackingstatus.yaml
     projectPath: Library/gfu/cache/gittrackingstatus.yaml
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/gfu/cache/gituser.yaml
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/gfu/cache/gituser.yaml
-    projectPath: Library/gfu/cache/gituser.yaml
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/gfu/cache/repoinfo.yaml
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/gfu/cache/repoinfo.yaml
-    projectPath: Library/gfu/cache/repoinfo.yaml
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/InspectorExpandedItems.asset
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/InspectorExpandedItems.asset
-    projectPath: Library/InspectorExpandedItems.asset
     originalPath: 
     status: 3
     staged: 0

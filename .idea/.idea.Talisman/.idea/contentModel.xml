@@ -11,6 +11,7 @@
             <e p="player.cs" t="Include" />
             <e p="players" t="Include">
               <e p="BluePlayer.cs" t="Include" />
+              <e p="YellowPlayer.cs" t="Include" />
             </e>
           </e>
           <e p="TileClicks" t="Include">
