@@ -22,6 +22,7 @@ public class GameControl : MonoBehaviour {
 			Main();	
 		}
 	}
+	
 
 	static bool Finished = false;
 
@@ -30,6 +31,14 @@ public class GameControl : MonoBehaviour {
 	
 	void Main()
 	{
-		BluePlayer.Move();
+		if (BluePlayer.Turns == YellowPlayer.Turns)
+		{
+			BluePlayer.Move();	
+		}
+		else
+		{
+			YellowPlayer.Move();
+		}
+		
 	}
 }

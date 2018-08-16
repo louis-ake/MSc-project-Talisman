@@ -11,20 +11,11 @@ public abstract class Player : MonoBehaviour {
 	// Use this for initialization
 	void Start()
 	{
-		/*// Initialise each player in the bottom-right Tile
-		this.transform.position = new Vector2(15, -15);
-		CurrentPos = this.transform.position;*/
 	}
 	
 	// Update is called once per frame
 	void Update()
 	{
-		/*if (!Active) return;
-		CurrentPos = this.transform.position;
-		if (Vector2.Distance(new Vector2(CurrentPos.x, CurrentPos.y), EndPos) > 0)
-		{
-			this.transform.position = Vector2.MoveTowards(CurrentPos, EndPos, Speed);
-		}*/
 	}
 
 	// Each players starting stats - currently the same for all
@@ -33,31 +24,33 @@ public abstract class Player : MonoBehaviour {
 	public int craft = 4;
 	public int darkFate = 2;
 	public int lightFate = 2;
+	
+	// number of seconds to complete move
+	public float Speed = 1f;
 
 
-	public static string StartTileName = "O1";
-	public string EndTileName;
-	// public Tile startTile;
-	// public Tile endTile;
+	/*public static string StartTileName = "O1";
 
 	public static Vector2 EndPos;
 	public static Vector2 CurrentPos;
-	// number of seconds to complete move
-	public float Speed = 1f;
+	
+	public static bool Active = false;
+
+	public static int NoOfMoves;
+	
+	public static Transform Target;
 
 	public static void SetEndPos(Vector2 pos)
 	{
 		EndPos = pos;
 	}
+	
 
 	public static void SetStartTileName(string name)
 	{
 		StartTileName = name;
 	}
-	
-	public static bool Active = false;
-	
-	public static Transform Target;
+
 
 	public static void Move()
 	{
@@ -94,6 +87,6 @@ public abstract class Player : MonoBehaviour {
 		SetEndPos(new Vector2(tx, ty));
 		SetStartTileName(nextTileName);
 		Active = true;
-	}
+	}*/
 
 }

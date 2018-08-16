@@ -26,9 +26,30 @@ public class BluePlayer : Player {
 		}
 	}
 
-	/*public static bool Active = false;
+	public static string StartTileName = "O1";
+	
+	public static int Turns = 0;
+
+	public static Vector2 EndPos;
+	public static Vector2 CurrentPos;
+	
+	public static bool Active = false;
+
+	public static int NoOfMoves;
 	
 	public static Transform Target;
+
+	public static void SetEndPos(Vector2 pos)
+	{
+		EndPos = pos;
+	}
+	
+
+	public static void SetStartTileName(string name)
+	{
+		StartTileName = name;
+	}
+
 
 	public static void Move()
 	{
@@ -64,7 +85,9 @@ public class BluePlayer : Player {
 		Debug.Log("y = " + ty);
 		SetEndPos(new Vector2(tx, ty));
 		SetStartTileName(nextTileName);
+		Turns += 1;
+		// So that a move is not attempted before game is set up
 		Active = true;
-	}*/
+	}
 
 }
