@@ -125,7 +125,7 @@ GameObject:
   - component: {fileID: 2234225}
   - component: {fileID: 2234226}
   m_Layer: 0
-  m_Name: woods
+  m_Name: M14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -142,7 +142,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1809589394}
-  m_RootOrder: 14
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &2234224
 SpriteRenderer:
@@ -308,7 +308,7 @@ GameObject:
   - component: {fileID: 56535592}
   - component: {fileID: 56535593}
   m_Layer: 0
-  m_Name: runes mr
+  m_Name: M15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -325,7 +325,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1809589394}
-  m_RootOrder: 11
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &56535591
 SpriteRenderer:
@@ -674,7 +674,7 @@ GameObject:
   - component: {fileID: 170163504}
   - component: {fileID: 170163505}
   m_Layer: 0
-  m_Name: plain of peril
+  m_Name: I1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -691,7 +691,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1503003416}
-  m_RootOrder: 3
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &170163503
 SpriteRenderer:
@@ -914,7 +914,7 @@ GameObject:
   - component: {fileID: 232677405}
   - component: {fileID: 232677406}
   m_Layer: 0
-  m_Name: desert tr
+  m_Name: M12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -931,7 +931,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1809589394}
-  m_RootOrder: 9
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &232677404
 SpriteRenderer:
@@ -1028,7 +1028,7 @@ GameObject:
   - component: {fileID: 259537020}
   - component: {fileID: 259537021}
   m_Layer: 0
-  m_Name: temple
+  m_Name: M13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1520,7 +1520,7 @@ GameObject:
   - component: {fileID: 332874826}
   - component: {fileID: 332874827}
   m_Layer: 0
-  m_Name: runes tl
+  m_Name: M8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1537,7 +1537,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1809589394}
-  m_RootOrder: 10
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &332874825
 SpriteRenderer:
@@ -1835,7 +1835,7 @@ GameObject:
   - component: {fileID: 451992075}
   - component: {fileID: 451992076}
   m_Layer: 0
-  m_Name: valley of fire
+  m_Name: I5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1949,7 +1949,7 @@ GameObject:
   - component: {fileID: 479080574}
   - component: {fileID: 479080575}
   m_Layer: 0
-  m_Name: hills
+  m_Name: M4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1966,7 +1966,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1809589394}
-  m_RootOrder: 6
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &479080573
 SpriteRenderer:
@@ -2140,7 +2140,7 @@ GameObject:
   - component: {fileID: 534935837}
   - component: {fileID: 534935838}
   m_Layer: 0
-  m_Name: runes bl
+  m_Name: M6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2157,7 +2157,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1809589394}
-  m_RootOrder: 15
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &534935836
 SpriteRenderer:
@@ -2506,7 +2506,7 @@ GameObject:
   - component: {fileID: 628620652}
   - component: {fileID: 628620653}
   m_Layer: 0
-  m_Name: castle
+  m_Name: M16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2523,7 +2523,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1809589394}
-  m_RootOrder: 1
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &628620651
 SpriteRenderer:
@@ -2775,7 +2775,7 @@ GameObject:
   - component: {fileID: 724415471}
   - component: {fileID: 724415472}
   m_Layer: 0
-  m_Name: pits
+  m_Name: I4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2792,7 +2792,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1503003416}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &724415470
 SpriteRenderer:
@@ -2889,7 +2889,7 @@ GameObject:
   - component: {fileID: 733828348}
   - component: {fileID: 733828349}
   m_Layer: 0
-  m_Name: black knight
+  m_Name: M2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2906,7 +2906,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1809589394}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &733828347
 SpriteRenderer:
@@ -3329,7 +3329,7 @@ GameObject:
   - component: {fileID: 830744590}
   - component: {fileID: 830744591}
   m_Layer: 0
-  m_Name: crpyt
+  m_Name: I8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3662,7 +3662,7 @@ GameObject:
   - component: {fileID: 894611437}
   - component: {fileID: 894611438}
   m_Layer: 0
-  m_Name: oasis
+  m_Name: M11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3679,7 +3679,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1809589394}
-  m_RootOrder: 7
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &894611436
 SpriteRenderer:
@@ -3776,7 +3776,7 @@ GameObject:
   - component: {fileID: 899932883}
   - component: {fileID: 899932884}
   m_Layer: 0
-  m_Name: chasm
+  m_Name: M7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3793,7 +3793,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1809589394}
-  m_RootOrder: 2
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &899932882
 SpriteRenderer:
@@ -4238,7 +4238,7 @@ GameObject:
   - component: {fileID: 974350197}
   - component: {fileID: 974350198}
   m_Layer: 0
-  m_Name: werewolf's den
+  m_Name: I6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4255,7 +4255,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1503003416}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &974350196
 SpriteRenderer:
@@ -4478,7 +4478,7 @@ GameObject:
   - component: {fileID: 1126906411}
   - component: {fileID: 1126906412}
   m_Layer: 0
-  m_Name: portal of power
+  m_Name: M1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4495,7 +4495,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1809589394}
-  m_RootOrder: 8
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1126906410
 SpriteRenderer:
@@ -5107,7 +5107,7 @@ GameObject:
   - component: {fileID: 1480789070}
   - component: {fileID: 1480789071}
   m_Layer: 0
-  m_Name: cursed glade
+  m_Name: M5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5124,7 +5124,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1809589394}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1480789069
 SpriteRenderer:
@@ -5234,13 +5234,13 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1894962482}
-  - {fileID: 1825464891}
-  - {fileID: 724415469}
   - {fileID: 170163502}
-  - {fileID: 451992073}
+  - {fileID: 1825464891}
   - {fileID: 1961261140}
+  - {fileID: 724415469}
+  - {fileID: 451992073}
   - {fileID: 974350195}
+  - {fileID: 1894962482}
   - {fileID: 830744588}
   m_Father: {fileID: 777487151}
   m_RootOrder: 2
@@ -5509,7 +5509,7 @@ GameObject:
   - component: {fileID: 1647201603}
   - component: {fileID: 1647201604}
   m_Layer: 0
-  m_Name: hidden valley
+  m_Name: M3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5526,7 +5526,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1809589394}
-  m_RootOrder: 5
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1647201602
 SpriteRenderer:
@@ -5749,7 +5749,7 @@ GameObject:
   - component: {fileID: 1721700617}
   - component: {fileID: 1721700618}
   m_Layer: 0
-  m_Name: warlocks cave
+  m_Name: M9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5766,7 +5766,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1809589394}
-  m_RootOrder: 13
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1721700616
 SpriteRenderer:
@@ -5989,7 +5989,7 @@ GameObject:
   - component: {fileID: 1730491347}
   - component: {fileID: 1730491348}
   m_Layer: 0
-  m_Name: crown
+  m_Name: C1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6294,22 +6294,22 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 1126906409}
   - {fileID: 733828346}
-  - {fileID: 628620650}
-  - {fileID: 899932881}
-  - {fileID: 1480789068}
-  - {fileID: 2018431320}
   - {fileID: 1647201601}
   - {fileID: 479080572}
-  - {fileID: 894611435}
-  - {fileID: 1126906409}
-  - {fileID: 232677403}
-  - {fileID: 332874824}
-  - {fileID: 56535590}
-  - {fileID: 259537018}
-  - {fileID: 1721700615}
-  - {fileID: 2234223}
+  - {fileID: 1480789068}
   - {fileID: 534935835}
+  - {fileID: 899932881}
+  - {fileID: 332874824}
+  - {fileID: 1721700615}
+  - {fileID: 2018431320}
+  - {fileID: 894611435}
+  - {fileID: 232677403}
+  - {fileID: 259537018}
+  - {fileID: 2234223}
+  - {fileID: 56535590}
+  - {fileID: 628620650}
   m_Father: {fileID: 777487151}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6325,7 +6325,7 @@ GameObject:
   - component: {fileID: 1825464893}
   - component: {fileID: 1825464894}
   m_Layer: 0
-  m_Name: mines
+  m_Name: I2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6439,7 +6439,7 @@ GameObject:
   - component: {fileID: 1894962484}
   - component: {fileID: 1894962485}
   m_Layer: 0
-  m_Name: death
+  m_Name: I7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6456,7 +6456,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1503003416}
-  m_RootOrder: 0
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1894962483
 SpriteRenderer:
@@ -6842,7 +6842,7 @@ GameObject:
   - component: {fileID: 1961261142}
   - component: {fileID: 1961261143}
   m_Layer: 0
-  m_Name: vampire's tower
+  m_Name: I3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6859,7 +6859,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1503003416}
-  m_RootOrder: 5
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1961261141
 SpriteRenderer:
@@ -6956,7 +6956,7 @@ GameObject:
   - component: {fileID: 2018431322}
   - component: {fileID: 2018431323}
   m_Layer: 0
-  m_Name: desert tl
+  m_Name: M10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6973,7 +6973,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1809589394}
-  m_RootOrder: 4
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &2018431321
 SpriteRenderer:

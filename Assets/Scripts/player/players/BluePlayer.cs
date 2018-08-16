@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
+using JetBrains.Annotations;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -32,6 +34,10 @@ public class BluePlayer : Player {
 	}
 
 	private static string _startTileName = "O1";
+	
+	// So that movement works correctly in different regions
+	public static string Region = "O"; // O/M/I/C
+	public static int RegionUpperBound = 24; // 24/16/8/1
 	
 	public static int Turns = 0;
 
@@ -77,10 +83,10 @@ public class BluePlayer : Player {
 		// check ratio of rolls and move calucluations 
 		if (GameControl.TurnCount != DiceRoll.RollCount) return;
 		// Manual implementation of modulo as did not work when integrated into above loops
-		if (nextTileNo < 1) { nextTileNo += 23; }
-		if (nextTileNo > 24) { nextTileNo -= 23; }
+		if (nextTileNo < 1) { nextTileNo += RegionUpperBound; }
+		if (nextTileNo > RegionUpperBound) { nextTileNo -= RegionUpperBound; }
 		Debug.Log("next tile's number is: " + nextTileNo);
-		var nextTileName = "O" + nextTileNo.ToString();
+		var nextTileName = Region + nextTileNo.ToString();
 		Debug.Log("next tile's name is: " + nextTileName);
 		var nextTile = GameObject.Find(nextTileName);
 		_target = nextTile.transform;
