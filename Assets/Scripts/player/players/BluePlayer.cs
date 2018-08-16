@@ -5,49 +5,54 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class BluePlayer : Player {
+	
+	/**
+	 * BluePlayer and YellowPlayer mirror each other appart from starting transform
+	 * and StartTileName string.
+	 */
 
 	// Use this for initialization
 	void Start ()
 	{
 		// Initialise each player in the bottom-right Tile
 		this.transform.position = new Vector2(15, -15);
-		CurrentPos = this.transform.position;
+		_currentPos = this.transform.position;
 	}
 	
 	// Update is called once per frame
 	void Update ()
 	{
 		// this must be updated every frame for algorithm to work
-		if (!Active) return;
-		CurrentPos = this.transform.position;
-		if (Vector2.Distance(new Vector2(CurrentPos.x, CurrentPos.y), EndPos) > 0)
+		if (!_active) return;
+		_currentPos = this.transform.position;
+		if (Vector2.Distance(new Vector2(_currentPos.x, _currentPos.y), _endPos) > 0)
 		{
-			this.transform.position = Vector2.MoveTowards(CurrentPos, EndPos, Speed);
+			this.transform.position = Vector2.MoveTowards(_currentPos, _endPos, Speed);
 		}
 	}
 
-	public static string StartTileName = "O1";
+	private static string _startTileName = "O1";
 	
 	public static int Turns = 0;
 
-	public static Vector2 EndPos;
-	public static Vector2 CurrentPos;
-	
-	public static bool Active = false;
+	private static Vector2 _endPos;
+	private static Vector2 _currentPos;
+
+	private static bool _active = false;
 
 	public static int NoOfMoves;
-	
-	public static Transform Target;
 
-	public static void SetEndPos(Vector2 pos)
+	private static Transform _target;
+
+	private static void SetEndPos(Vector2 pos)
 	{
-		EndPos = pos;
+		_endPos = pos;
 	}
-	
 
-	public static void SetStartTileName(string name)
+
+	private static void SetStartTileName(string name)
 	{
-		StartTileName = name;
+		_startTileName = name;
 	}
 
 
@@ -55,39 +60,39 @@ public class BluePlayer : Player {
 	{
 		// check there has been the correct number of rolls to caluclate move
 		if (GameControl.TurnCount != DiceRoll.RollCount - 1) {return;}
-		string CurrentTile = StartTileName;
-		int CurrentTileNo = Convert.ToInt32(CurrentTile.Substring(1));
-		int NextTileNo = 0;
+		var currentTile = _startTileName;
+		var currentTileNo = Convert.ToInt32(currentTile.Substring(1));
+		var nextTileNo = 0;
 		// GameControl.DirectionDecision.text = "Press c to move clockwise or v to move anticlockwise";
 		if (Input.GetKey(KeyCode.C)) // For clockwise
 		{
-			NextTileNo = (CurrentTileNo + DiceRoll.DiceTotal);
+			nextTileNo = (currentTileNo + DiceRoll.DiceTotal);
 			GameControl.TurnCount += 1;
 		}
 		else if (Input.GetKey(KeyCode.V)) // For anticlockwise
 		{
-			NextTileNo = (CurrentTileNo - DiceRoll.DiceTotal);
+			nextTileNo = (currentTileNo - DiceRoll.DiceTotal);
 			GameControl.TurnCount += 1;
 		}
 		// check ratio of rolls and move calucluations 
 		if (GameControl.TurnCount != DiceRoll.RollCount) return;
 		// Manual implementation of modulo as did not work when integrated into above loops
-		if (NextTileNo < 1) { NextTileNo += 23; }
-		if (NextTileNo > 24) { NextTileNo -= 23; }
-		Debug.Log("next tile's number is: " + NextTileNo);
-		string nextTileName = "O" + NextTileNo.ToString();
+		if (nextTileNo < 1) { nextTileNo += 23; }
+		if (nextTileNo > 24) { nextTileNo -= 23; }
+		Debug.Log("next tile's number is: " + nextTileNo);
+		var nextTileName = "O" + nextTileNo.ToString();
 		Debug.Log("next tile's name is: " + nextTileName);
-		GameObject NextTile = GameObject.Find(nextTileName);
-		Target = NextTile.transform;
-		float tx = Target.position.x;
-		float ty = Target.position.y;
+		var nextTile = GameObject.Find(nextTileName);
+		_target = nextTile.transform;
+		var tx = _target.position.x;
+		var ty = _target.position.y;
 		Debug.Log("x = " + tx);
 		Debug.Log("y = " + ty);
 		SetEndPos(new Vector2(tx, ty));
 		SetStartTileName(nextTileName);
 		Turns += 1;
 		// So that a move is not attempted before game is set up
-		Active = true;
+		_active = true;
 	}
 
 }
