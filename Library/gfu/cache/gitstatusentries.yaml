@@ -12,30 +12,56 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2018-08-17T15:18:27.685+01:00
-  initializedAtString: 2018-08-17T14:34:10.293+01:00
+  lastUpdatedAtString: 2018-08-17T18:05:04.198+01:00
+  initializedAtString: 2018-08-17T17:48:47.680+01:00
   entries:
+  - path: .DS_Store
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/.DS_Store
+    projectPath: .DS_Store
+    originalPath: 
+    status: 3
+    staged: 0
   - path: .idea/.idea.Talisman/.idea/workspace.xml
     fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/.idea/.idea.Talisman/.idea/workspace.xml
     projectPath: .idea/.idea.Talisman/.idea/workspace.xml
     originalPath: 
     status: 3
     staged: 0
+  - path: Assets/.DS_Store
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/.DS_Store
+    projectPath: Assets/.DS_Store
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/graphics/.DS_Store
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/graphics/.DS_Store
+    projectPath: Assets/graphics/.DS_Store
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/graphics/other/.DS_Store
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/graphics/other/.DS_Store
+    projectPath: Assets/graphics/other/.DS_Store
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/graphics/other/adventure deckcxcf.png
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/graphics/other/adventure
+      deckcxcf.png
+    projectPath: Assets/graphics/other/adventure deckcxcf.png
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/graphics/other/adventure deckcxcf.png.meta
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/graphics/other/adventure
+      deckcxcf.png.meta
+    projectPath: Assets/graphics/other/adventure deckcxcf.png.meta
+    originalPath: 
+    status: 1
+    staged: 0
   - path: Assets/Scenes/SampleScene.unity
     fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scenes/SampleScene.unity
     projectPath: Assets/Scenes/SampleScene.unity
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets/Scripts/player/players/BluePlayer.cs
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/player/players/BluePlayer.cs
-    projectPath: Assets/Scripts/player/players/BluePlayer.cs
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets/Scripts/player/players/YellowPlayer.cs
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/player/players/YellowPlayer.cs
-    projectPath: Assets/Scripts/player/players/YellowPlayer.cs
     originalPath: 
     status: 3
     staged: 0
