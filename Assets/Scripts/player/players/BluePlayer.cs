@@ -85,6 +85,14 @@ public class BluePlayer : Player {
 		_startTileName = name;
 	}
 
+	public static void TakeTurn()
+	{
+		Move();
+		if (GameControl.TurnTracker == 0)
+		{
+			AdventureDeck.FightBandit(strength);
+		}
+	}
 
 	public static void Move()
 	{
@@ -124,8 +132,6 @@ public class BluePlayer : Player {
 		Turns += 1;
 		// So that a move is not attempted before game is set up
 		_active = true;
-		AdventureDeck.FightBandit(strength);
-
 	}
 
 }

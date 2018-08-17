@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2018-08-17T21:12:57.468+01:00
-  initializedAtString: 2018-08-17T18:57:30.130+01:00
+  lastUpdatedAtString: 2018-08-17T21:45:37.669+01:00
+  initializedAtString: 2018-08-17T21:35:44.755+01:00
   entries:
   - path: .idea/.idea.Talisman/.idea/workspace.xml
     fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/.idea/.idea.Talisman/.idea/workspace.xml
@@ -39,12 +39,6 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Assets/Scripts/player/Player.cs
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/player/Player.cs
-    projectPath: Assets/Scripts/player/Player.cs
-    originalPath: 
-    status: 3
-    staged: 0
   - path: Assets/Scripts/player/players/BluePlayer.cs
     fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/player/players/BluePlayer.cs
     projectPath: Assets/Scripts/player/players/BluePlayer.cs
@@ -60,6 +54,12 @@ MonoBehaviour:
   - path: Library/assetDatabase3
     fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/assetDatabase3
     projectPath: Library/assetDatabase3
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/EditorInstance.json
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/EditorInstance.json
+    projectPath: Library/EditorInstance.json
     originalPath: 
     status: 3
     staged: 0
@@ -96,12 +96,6 @@ MonoBehaviour:
   - path: Library/gfu/cache/repoinfo.yaml
     fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/gfu/cache/repoinfo.yaml
     projectPath: Library/gfu/cache/repoinfo.yaml
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/InspectorExpandedItems.asset
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/InspectorExpandedItems.asset
-    projectPath: Library/InspectorExpandedItems.asset
     originalPath: 
     status: 3
     staged: 0

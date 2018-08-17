@@ -12,9 +12,117 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2018-08-17T19:26:47.855+01:00
+  lastUpdatedAtString: 2018-08-17T21:14:23.830+01:00
   initializedAtString: 2018-08-17T18:57:30.845+01:00
   log:
+  - commitID: 1218425046df7c4fc747a5277c3fdbaefb3d6804
+    mergeA: 
+    mergeB: 
+    authorName: louis-ake
+    authorEmail: lakerm01@dcs.bbk.ac.uk
+    commitEmail: lakerm01@dcs.bbk.ac.uk
+    commitName: louis-ake
+    summary: can now fight bandit from deck
+    description: can now fight bandit from deck
+    timeString: 2018-08-17T21:14:21.000+01:00
+    commitTimeString: 2018-08-17T21:14:21.000+01:00
+    changes:
+    - path: .idea/.idea.Talisman/.idea/workspace.xml
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/.idea/.idea.Talisman/.idea/workspace.xml
+      projectPath: .idea/.idea.Talisman/.idea/workspace.xml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/Scenes/SampleScene.unity
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scenes/SampleScene.unity
+      projectPath: Assets/Scenes/SampleScene.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/Scripts/AdventureDeck.cs
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/AdventureDeck.cs
+      projectPath: Assets/Scripts/AdventureDeck.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/Scripts/GameControl.cs
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/GameControl.cs
+      projectPath: Assets/Scripts/GameControl.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/Scripts/player/Player.cs
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/player/Player.cs
+      projectPath: Assets/Scripts/player/Player.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/Scripts/player/players/BluePlayer.cs
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/player/players/BluePlayer.cs
+      projectPath: Assets/Scripts/player/players/BluePlayer.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/Scripts/player/players/YellowPlayer.cs
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/player/players/YellowPlayer.cs
+      projectPath: Assets/Scripts/player/players/YellowPlayer.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/InspectorExpandedItems.asset
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/InspectorExpandedItems.asset
+      projectPath: Library/InspectorExpandedItems.asset
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/assetDatabase3
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/assetDatabase3
+      projectPath: Library/assetDatabase3
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/branches.yaml
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/gfu/cache/branches.yaml
+      projectPath: Library/gfu/cache/branches.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gitlocks.yaml
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/gfu/cache/gitlocks.yaml
+      projectPath: Library/gfu/cache/gitlocks.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gitlog.yaml
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/gfu/cache/gitlog.yaml
+      projectPath: Library/gfu/cache/gitlog.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gitstatusentries.yaml
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/gfu/cache/gitstatusentries.yaml
+      projectPath: Library/gfu/cache/gitstatusentries.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gittrackingstatus.yaml
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/gfu/cache/gittrackingstatus.yaml
+      projectPath: Library/gfu/cache/gittrackingstatus.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/repoinfo.yaml
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/gfu/cache/repoinfo.yaml
+      projectPath: Library/gfu/cache/repoinfo.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/shadercompiler-UnityShaderCompiler0.log
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/shadercompiler-UnityShaderCompiler0.log
+      projectPath: Library/shadercompiler-UnityShaderCompiler0.log
+      originalPath: 
+      status: 3
+      staged: 0
   - commitID: 9a1aaaea3a5508ba64653b22a0e9212cde657908
     mergeA: 
     mergeB: 

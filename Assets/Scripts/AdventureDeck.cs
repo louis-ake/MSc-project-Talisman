@@ -18,17 +18,10 @@ public class AdventureDeck : MonoBehaviour {
 		DeckText.text = _deckText;
 	}
 
+	// Workaround to get text to show on screen (must be a 'public Text' to show in inspector)
 	public Text DeckText;
-
 	private static string _deckText = "";
 
-	//private static Text _deckText;
-
-	/*private static void Set_deckText(string s)
-	{
-		_deckText.text = s;
-	}*/
-	
 	public static void FightBandit(int PlayerStrength)
 	{
 		var enemyStrength = 4;
@@ -36,7 +29,7 @@ public class AdventureDeck : MonoBehaviour {
 		var playerResult = PlayerStrength + Random.Range(1, 7);
 		if (playerResult > banditResult)
 		{
-			_deckText = "You fought a bandit of strength 4 and won";
+			_deckText = "You fought a bandit of strength 4 and won (" + playerResult + " vs " + banditResult + ")";
 			if (GameControl.TurnTracker == 0)
 			{
 				BluePlayer.strengthTrophy += enemyStrength;
@@ -47,7 +40,7 @@ public class AdventureDeck : MonoBehaviour {
 			}
 		} else if (banditResult > playerResult)
 		{
-			_deckText = "You fought a bandit of strength 4 and lost";
+			_deckText = "You fought a bandit of strength 4 and lost (" + playerResult + " vs " + banditResult + ")";
 			if (GameControl.TurnTracker == 0)
 			{
 				BluePlayer.lives -= 1;
@@ -59,7 +52,7 @@ public class AdventureDeck : MonoBehaviour {
 		}
 		else
 		{
-			_deckText = "You fought a bandit of strength 4 and tied";
+			_deckText = "You fought a bandit of strength 4 and tied (" + playerResult + " vs " + banditResult + ")";
 		}
 	}
 }

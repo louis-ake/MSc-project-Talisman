@@ -81,7 +81,15 @@ public class YellowPlayer : Player {
 	{
 		_startTileName = name;
 	}
-
+	
+	public static void TakeTurn()
+	{
+		Move();
+		if (GameControl.TurnTracker == 1)
+		{
+			AdventureDeck.FightBandit(strength);
+		}
+	}
 
 	public static void Move()
 	{
