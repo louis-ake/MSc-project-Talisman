@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class YellowPlayer : Player {
 	
@@ -15,6 +16,7 @@ public class YellowPlayer : Player {
 		// Initialise each player in the bottom-right Tile
 		this.transform.position = new Vector2(-15, 15);
 		_currentPos = this.transform.position;
+		SetStats();
 	}
 	
 	// Update is called once per frame
@@ -26,6 +28,7 @@ public class YellowPlayer : Player {
 		{
 			this.transform.position = Vector2.MoveTowards(_currentPos, _endPos, Speed);
 		}
+		SetStats();
 		
 	}
 
@@ -46,6 +49,14 @@ public class YellowPlayer : Player {
 	public static int NoOfMoves;
 
 	private static Transform _target;
+	
+	public Text Stats;
+
+	private void SetStats()
+	{
+		Stats.text = "Yellow Player's Stats" + "\n"+ "\n" + "lives: " + lives + "\n" + "stregnth: " + strength + "\n" + "craft: " + craft + "\n" +
+		             "light fate: " + lightFate + "\n" + "dark fate: " + darkFate + "\n" + "\n" + "turns: " + Turns;
+	}
 
 	private static void SetEndPos(Vector2 pos)
 	{
