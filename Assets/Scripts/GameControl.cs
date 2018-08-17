@@ -29,15 +29,21 @@ public class GameControl : MonoBehaviour {
 	public static int TurnCount = 0;
 	
 	
+	// 0 for blue player; 1 for yellow
+	public static int TurnTracker = 0;
+	
+	
 	void Main()
 	{
 		if (BluePlayer.Turns == YellowPlayer.Turns)
 		{
 			BluePlayer.Move();	
+			// AdventureDeck.FightBandit(BluePlayer.strength);
 		}
 		else
 		{
 			YellowPlayer.Move();
+			// AdventureDeck.FightBandit(YellowPlayer.strength);
 		}
 		
 	}

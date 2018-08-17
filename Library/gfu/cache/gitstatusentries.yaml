@@ -12,18 +12,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2018-08-17T19:26:14.609+01:00
+  lastUpdatedAtString: 2018-08-17T21:12:57.468+01:00
   initializedAtString: 2018-08-17T18:57:30.130+01:00
   entries:
-  - path: .idea/.idea.Talisman/.idea/contentModel.xml
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/.idea/.idea.Talisman/.idea/contentModel.xml
-    projectPath: .idea/.idea.Talisman/.idea/contentModel.xml
-    originalPath: 
-    status: 3
-    staged: 0
   - path: .idea/.idea.Talisman/.idea/workspace.xml
     fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/.idea/.idea.Talisman/.idea/workspace.xml
     projectPath: .idea/.idea.Talisman/.idea/workspace.xml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/Scenes/SampleScene.unity
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scenes/SampleScene.unity
+    projectPath: Assets/Scenes/SampleScene.unity
     originalPath: 
     status: 3
     staged: 0
@@ -31,13 +31,13 @@ MonoBehaviour:
     fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/AdventureDeck.cs
     projectPath: Assets/Scripts/AdventureDeck.cs
     originalPath: 
-    status: 1
+    status: 3
     staged: 0
-  - path: Assets/Scripts/AdventureDeck.cs.meta
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/AdventureDeck.cs.meta
-    projectPath: Assets/Scripts/AdventureDeck.cs.meta
+  - path: Assets/Scripts/GameControl.cs
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/GameControl.cs
+    projectPath: Assets/Scripts/GameControl.cs
     originalPath: 
-    status: 1
+    status: 3
     staged: 0
   - path: Assets/Scripts/player/Player.cs
     fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/player/Player.cs
@@ -60,24 +60,6 @@ MonoBehaviour:
   - path: Library/assetDatabase3
     fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/assetDatabase3
     projectPath: Library/assetDatabase3
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/CurrentLayout.dwlt
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/CurrentLayout.dwlt
-    projectPath: Library/CurrentLayout.dwlt
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/EditorInstance.json
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/EditorInstance.json
-    projectPath: Library/EditorInstance.json
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/expandedItems
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/expandedItems
-    projectPath: Library/expandedItems
     originalPath: 
     status: 3
     staged: 0
@@ -111,15 +93,15 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library/gfu/cache/gituser.yaml
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/gfu/cache/gituser.yaml
-    projectPath: Library/gfu/cache/gituser.yaml
-    originalPath: 
-    status: 3
-    staged: 0
   - path: Library/gfu/cache/repoinfo.yaml
     fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/gfu/cache/repoinfo.yaml
     projectPath: Library/gfu/cache/repoinfo.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/InspectorExpandedItems.asset
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/InspectorExpandedItems.asset
+    projectPath: Library/InspectorExpandedItems.asset
     originalPath: 
     status: 3
     staged: 0

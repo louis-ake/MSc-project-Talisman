@@ -7,8 +7,8 @@ using UnityEngine.UI;
 public class YellowPlayer : Player {
 	
 	/**
-	 * BluePlayer and YellowPlayer mirror each other appart from starting transform
-	 * and StartTileName string.
+	 * BluePlayer and YellowPlayer mirror each other appart from starting transform,
+	 * StartTileName string and turnTracker value.
 	 */
 
 	// Use this for initialization
@@ -32,6 +32,14 @@ public class YellowPlayer : Player {
 		
 	}
 
+	// Each players starting stats - currently the same for all
+	public static int lives = 3;
+	public static int strength = 4;
+	public static int strengthTrophy = 0;
+	public static int craft = 4;
+	public static int craftTrophy = 0;
+	public static int darkFate = 2;
+	public static int lightFate = 2;
 
 	private static string _startTileName = "O13";
 	
@@ -95,6 +103,7 @@ public class YellowPlayer : Player {
 		}
 		// check ratio of rolls and move calucluations 
 		if (GameControl.TurnCount != DiceRoll.RollCount) return;
+		GameControl.TurnTracker = 1;
 		// Manual implementation of modulo as did not work when integrated into above loops
 		if (nextTileNo < 1) { nextTileNo += RegionUpperBound; }
 		if (nextTileNo > RegionUpperBound) { nextTileNo -= RegionUpperBound; }
