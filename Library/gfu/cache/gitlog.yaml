@@ -12,9 +12,131 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2018-08-17T17:48:49.601+01:00
-  initializedAtString: 2018-08-17T17:48:49.601+01:00
+  lastUpdatedAtString: 2018-08-17T18:57:30.845+01:00
+  initializedAtString: 2018-08-17T18:57:30.845+01:00
   log:
+  - commitID: af52692ec9ed317dba771f0af57ffaef5f3d04e6
+    mergeA: 
+    mergeB: 
+    authorName: louis-ake
+    authorEmail: lakerm01@dcs.bbk.ac.uk
+    commitEmail: lakerm01@dcs.bbk.ac.uk
+    commitName: louis-ake
+    summary: adventure deck sprite added
+    description: adventure deck sprite added
+    timeString: 2018-08-17T18:05:37.000+01:00
+    commitTimeString: 2018-08-17T18:05:37.000+01:00
+    changes:
+    - path: .DS_Store
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/.DS_Store
+      projectPath: .DS_Store
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: .idea/.idea.Talisman/.idea/workspace.xml
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/.idea/.idea.Talisman/.idea/workspace.xml
+      projectPath: .idea/.idea.Talisman/.idea/workspace.xml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/.DS_Store
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/.DS_Store
+      projectPath: Assets/.DS_Store
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/Scenes/SampleScene.unity
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scenes/SampleScene.unity
+      projectPath: Assets/Scenes/SampleScene.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/graphics/.DS_Store
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/graphics/.DS_Store
+      projectPath: Assets/graphics/.DS_Store
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/graphics/other/.DS_Store
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/graphics/other/.DS_Store
+      projectPath: Assets/graphics/other/.DS_Store
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/graphics/other/adventure deckcxcf.png
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/graphics/other/adventure
+        deckcxcf.png
+      projectPath: Assets/graphics/other/adventure deckcxcf.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/graphics/other/adventure deckcxcf.png.meta
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/graphics/other/adventure
+        deckcxcf.png.meta
+      projectPath: Assets/graphics/other/adventure deckcxcf.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/CurrentLayout.dwlt
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/CurrentLayout.dwlt
+      projectPath: Library/CurrentLayout.dwlt
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/EditorInstance.json
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/EditorInstance.json
+      projectPath: Library/EditorInstance.json
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/assetDatabase3
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/assetDatabase3
+      projectPath: Library/assetDatabase3
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/branches.yaml
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/gfu/cache/branches.yaml
+      projectPath: Library/gfu/cache/branches.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gitlocks.yaml
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/gfu/cache/gitlocks.yaml
+      projectPath: Library/gfu/cache/gitlocks.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gitlog.yaml
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/gfu/cache/gitlog.yaml
+      projectPath: Library/gfu/cache/gitlog.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gitstatusentries.yaml
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/gfu/cache/gitstatusentries.yaml
+      projectPath: Library/gfu/cache/gitstatusentries.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gittrackingstatus.yaml
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/gfu/cache/gittrackingstatus.yaml
+      projectPath: Library/gfu/cache/gittrackingstatus.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/repoinfo.yaml
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/gfu/cache/repoinfo.yaml
+      projectPath: Library/gfu/cache/repoinfo.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/shadercompiler-UnityShaderCompiler0.log
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/shadercompiler-UnityShaderCompiler0.log
+      projectPath: Library/shadercompiler-UnityShaderCompiler0.log
+      originalPath: 
+      status: 3
+      staged: 0
   - commitID: eb8249949cd7b869d2a6490bb2979e12de73611f
     mergeA: 
     mergeB: 

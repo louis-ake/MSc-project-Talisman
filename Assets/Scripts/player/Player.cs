@@ -21,7 +21,9 @@ public abstract class Player : MonoBehaviour {
 	// Each players starting stats - currently the same for all
 	public int lives = 3;
 	public int strength = 4;
+	public int strengthTrophy = 0;
 	public int craft = 4;
+	public int craftTrophy = 0;
 	public int darkFate = 2;
 	public int lightFate = 2;
 	

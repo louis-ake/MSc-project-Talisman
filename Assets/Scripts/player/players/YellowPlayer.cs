@@ -54,8 +54,13 @@ public class YellowPlayer : Player {
 
 	private void SetStats()
 	{
-		Stats.text = "Yellow Player's Stats" + "\n"+ "\n" + "lives: " + lives + "\n" + "stregnth: " + strength + "\n" + "craft: " + craft + "\n" +
-		             "light fate: " + lightFate + "\n" + "dark fate: " + darkFate + "\n" + "\n" + "turns: " + Turns;
+		Stats.text = "Yellow Player's Stats" + "\n"+ "\n" + 
+		             "lives: " + lives + "\n" + 
+		             "strength: " + strength + " (" + strengthTrophy + ")" + "\n" + 
+		             "craft: " + craft + " (" + craftTrophy + ")" + "\n" +
+		             "light fate: " + lightFate + "\n" + 
+		             "dark fate: " + darkFate + "\n" + "\n" + 
+		             "turns: " + Turns;
 	}
 
 	private static void SetEndPos(Vector2 pos)

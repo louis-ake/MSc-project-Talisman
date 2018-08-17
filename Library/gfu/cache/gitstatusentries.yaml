@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2018-08-17T18:05:04.198+01:00
-  initializedAtString: 2018-08-17T17:48:47.680+01:00
+  lastUpdatedAtString: 2018-08-17T19:26:14.609+01:00
+  initializedAtString: 2018-08-17T18:57:30.130+01:00
   entries:
-  - path: .DS_Store
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/.DS_Store
-    projectPath: .DS_Store
+  - path: .idea/.idea.Talisman/.idea/contentModel.xml
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/.idea/.idea.Talisman/.idea/contentModel.xml
+    projectPath: .idea/.idea.Talisman/.idea/contentModel.xml
     originalPath: 
     status: 3
     staged: 0
@@ -27,41 +27,33 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Assets/.DS_Store
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/.DS_Store
-    projectPath: Assets/.DS_Store
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets/graphics/.DS_Store
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/graphics/.DS_Store
-    projectPath: Assets/graphics/.DS_Store
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets/graphics/other/.DS_Store
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/graphics/other/.DS_Store
-    projectPath: Assets/graphics/other/.DS_Store
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets/graphics/other/adventure deckcxcf.png
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/graphics/other/adventure
-      deckcxcf.png
-    projectPath: Assets/graphics/other/adventure deckcxcf.png
+  - path: Assets/Scripts/AdventureDeck.cs
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/AdventureDeck.cs
+    projectPath: Assets/Scripts/AdventureDeck.cs
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/graphics/other/adventure deckcxcf.png.meta
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/graphics/other/adventure
-      deckcxcf.png.meta
-    projectPath: Assets/graphics/other/adventure deckcxcf.png.meta
+  - path: Assets/Scripts/AdventureDeck.cs.meta
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/AdventureDeck.cs.meta
+    projectPath: Assets/Scripts/AdventureDeck.cs.meta
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/Scenes/SampleScene.unity
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scenes/SampleScene.unity
-    projectPath: Assets/Scenes/SampleScene.unity
+  - path: Assets/Scripts/player/Player.cs
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/player/Player.cs
+    projectPath: Assets/Scripts/player/Player.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/Scripts/player/players/BluePlayer.cs
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/player/players/BluePlayer.cs
+    projectPath: Assets/Scripts/player/players/BluePlayer.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/Scripts/player/players/YellowPlayer.cs
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/player/players/YellowPlayer.cs
+    projectPath: Assets/Scripts/player/players/YellowPlayer.cs
     originalPath: 
     status: 3
     staged: 0
@@ -80,6 +72,12 @@ MonoBehaviour:
   - path: Library/EditorInstance.json
     fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/EditorInstance.json
     projectPath: Library/EditorInstance.json
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/expandedItems
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/expandedItems
+    projectPath: Library/expandedItems
     originalPath: 
     status: 3
     staged: 0
@@ -110,6 +108,12 @@ MonoBehaviour:
   - path: Library/gfu/cache/gittrackingstatus.yaml
     fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/gfu/cache/gittrackingstatus.yaml
     projectPath: Library/gfu/cache/gittrackingstatus.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/gfu/cache/gituser.yaml
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/gfu/cache/gituser.yaml
+    projectPath: Library/gfu/cache/gituser.yaml
     originalPath: 
     status: 3
     staged: 0
