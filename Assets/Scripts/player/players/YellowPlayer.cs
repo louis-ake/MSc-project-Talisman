@@ -38,8 +38,8 @@ public class YellowPlayer : Player {
 	public static int strengthTrophy = 0;
 	public static int craft = 4;
 	public static int craftTrophy = 0;
-	public static int darkFate = 2;
-	public static int lightFate = 2;
+	public static int fateTokens = 2;
+	public static int gold = 4;
 
 	private static string _startTileName = "O13";
 	
@@ -66,8 +66,8 @@ public class YellowPlayer : Player {
 		             "lives: " + lives + "\n" + 
 		             "strength: " + strength + " (" + strengthTrophy + ")" + "\n" + 
 		             "craft: " + craft + " (" + craftTrophy + ")" + "\n" +
-		             "light fate: " + lightFate + "\n" + 
-		             "dark fate: " + darkFate + "\n" + "\n" + 
+		             "fate tokens: " + fateTokens + "\n" + 
+		             "gold: " + gold + "\n" + "\n" + 
 		             "turns: " + Turns;
 	}
 
