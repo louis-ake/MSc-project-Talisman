@@ -21,10 +21,8 @@ public class Player : MonoBehaviour {
 		DecisionText.text = Decision;
 	}
 	
+	// For player turn control flow
 	public static bool won = true;
-	
-	public static bool finished = true;
-
 	public static bool done = false;
 
 	// For displaying player decisions
@@ -33,5 +31,7 @@ public class Player : MonoBehaviour {
 	
 	// number of seconds to complete move
 	public float Speed = 1f;
+
+	public static int FightDiff;
 
 }

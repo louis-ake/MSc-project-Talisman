@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Security.Cryptography;
 using JetBrains.Annotations;
@@ -61,9 +62,11 @@ public class BluePlayer : Player {
 
 	private static bool _active = false;
 
-	public static int NoOfMoves;
-
 	private static Transform _target;
+	
+	// flags for a turns's control flow
+	private static bool moved;
+	private static bool actionNeeded = true; 
 
 	public Text Stats;
 
@@ -77,6 +80,7 @@ public class BluePlayer : Player {
 		             "gold: " + gold + "\n" + "\n" + 
 		             "turns: " + Turns;
 	}
+	
 
 	private static void SetEndPos(Vector2 pos)
 	{
@@ -89,52 +93,68 @@ public class BluePlayer : Player {
 		_startTileName = name;
 	}
 
-	private static bool moved;
-	private static bool done = false;
-	private static bool actionNeeded = true; 
 
 	public static void TakeTurn()
 	{
-		Move();	
-		var diff = 0;
+		if (won == true)
+		{
+			Move();
+		}
+		if (AdventureDeck.CardTiles.Contains(_startTileName))
+		{
+			DrawFromDeck();
+		}else if (moved && actionNeeded)
+		{
+			actionNeeded = false;
+			GameControl.AlternateTurnTracker();
+		}
+		
+	}
+
+	private static void DrawFromDeck() {	
 		if (GameControl.TurnTracker == 0 && moved == true && done == false && actionNeeded == true)
 		{
-			diff = AdventureDeck.FightBandit(strength);
+			FightDiff = AdventureDeck.FightBandit(strength);
 			actionNeeded = false;
 		}
 		if (won == false && done == false && moved == true)
 		{
-			UseFate(diff);
+			UseFate(FightDiff);
 		} else if (won == true && moved == true && done == true)
 		{
 			GameControl.TurnTracker = 1;
 			done = false;
 		}
-		
 	}
-
+	
+	/**
+	 * takes the difference between the player and enemy result as an integer
+	 * and rolls one 6-sided dice to try and make up the difference. If
+	 * successful, gain back a life.
+	 */
 	private static void UseFate(int diff)
 	{
 		Decision = "Would you like to use a fate token? (y/n)";
 		if (Input.GetKey(KeyCode.Y))
 		{
 			var challenge = UnityEngine.Random.Range(1, 7);
-			if (challenge >= diff)
+			var result = challenge - diff;
+			if (result >= 0)
 			{
 				lives += 1;
-				Decision = "Successful! (diff = " + diff + ")";
+				Decision = "Successful! (rolled = " + challenge + ")";
 			}
 			else
 			{
-				Decision = "Unsuccessful (diff = " + diff + ")";
+				Decision = "Unsuccessful (rolled = " + challenge + ")";
 			}
 			won = true;
 			fateTokens -= 1;
-			GameControl.TurnTracker = 1;
+			GameControl.AlternateTurnTracker();
 		} else if (Input.GetKey(KeyCode.N))
 		{
 			won = true;
-			GameControl.TurnTracker = 1;
+			GameControl.AlternateTurnTracker();
 		}
 	}
 
@@ -178,7 +198,6 @@ public class BluePlayer : Player {
 		_active = true;
 		moved = true;
 		actionNeeded = true;
-		// GameControl.TurnTracker = 1;
 	}
 
 }

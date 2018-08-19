@@ -31,6 +31,18 @@ public class GameControl : MonoBehaviour {
 	
 	// 0 for blue player; 1 for yellow
 	public static int TurnTracker = 0;
+
+	public static void AlternateTurnTracker()
+	{
+		if (TurnTracker == 0)
+		{
+			TurnTracker = 1;
+		}
+		else
+		{
+			TurnTracker = 0;
+		}
+	}
 	
 	
 	void Main()
