@@ -15,7 +15,26 @@ public class UniqueTiles : MonoBehaviour {
 		
 	}
 
-	public static int FightSentinal(int PlayerStrength)
+	// Tiles which entail a fight
+	public static readonly string[] FightTiles = {"O5"};
+
+	
+	/**
+	 * If it's a fight tile, this method will choose the correct method and call it
+	 */
+	public static int ChooseFightTile(string tileName, int strength, int gold)
+	{
+		if (tileName == "O5")
+		{
+			return FightSentinal(strength);
+		}
+		else
+		{
+			return 0;
+		}	
+	}
+
+	private static int FightSentinal(int PlayerStrength)
 	{
 		var sentinalStrength = 4; // to be changed
 		var SentinalResult = sentinalStrength + Random.Range(1, 7);
@@ -38,8 +57,8 @@ public class UniqueTiles : MonoBehaviour {
 		} else if (diff < 0)
 		{
 			AdventureDeck._deckText = "You fought the sentinal and lost (" + playerResult + " vs " + SentinalResult + ")";
-
 			Player.won = false;
+			GameControl.ReduceLives();
 		}
 		else
 		{

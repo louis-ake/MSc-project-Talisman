@@ -12,30 +12,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2018-08-19T19:24:11.537+01:00
+  lastUpdatedAtString: 2018-08-19T20:20:08.522+01:00
   initializedAtString: 2018-08-19T16:50:39.934+01:00
   entries:
-  - path: .idea/.idea.Talisman/.idea/contentModel.xml
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/.idea/.idea.Talisman/.idea/contentModel.xml
-    projectPath: .idea/.idea.Talisman/.idea/contentModel.xml
-    originalPath: 
-    status: 3
-    staged: 0
   - path: .idea/.idea.Talisman/.idea/workspace.xml
     fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/.idea/.idea.Talisman/.idea/workspace.xml
     projectPath: .idea/.idea.Talisman/.idea/workspace.xml
     originalPath: 
     status: 3
     staged: 0
-  - path: Assets/Scenes/SampleScene.unity
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scenes/SampleScene.unity
-    projectPath: Assets/Scenes/SampleScene.unity
-    originalPath: 
-    status: 3
-    staged: 0
   - path: Assets/Scripts/AdventureDeck.cs
     fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/AdventureDeck.cs
     projectPath: Assets/Scripts/AdventureDeck.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/Scripts/GameControl.cs
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/GameControl.cs
+    projectPath: Assets/Scripts/GameControl.cs
     originalPath: 
     status: 3
     staged: 0
@@ -49,13 +43,7 @@ MonoBehaviour:
     fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/UniqueTiles.cs
     projectPath: Assets/Scripts/UniqueTiles.cs
     originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Scripts/UniqueTiles.cs.meta
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/UniqueTiles.cs.meta
-    projectPath: Assets/Scripts/UniqueTiles.cs.meta
-    originalPath: 
-    status: 1
+    status: 3
     staged: 0
   - path: Library/assetDatabase3
     fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/assetDatabase3

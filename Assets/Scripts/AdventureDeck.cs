@@ -52,14 +52,7 @@ public class AdventureDeck : MonoBehaviour {
 		} else if (diff < 0)
 		{
 			_deckText = "You fought a bandit of strength 4 and lost (" + playerResult + " vs " + banditResult + ")";
-			if (GameControl.TurnTracker == 0)
-			{
-				BluePlayer.lives -= 1;
-			}
-			else
-			{
-				YellowPlayer.lives -= 1;
-			}
+			GameControl.ReduceLives();
 			Player.won = false;
 		}
 		else

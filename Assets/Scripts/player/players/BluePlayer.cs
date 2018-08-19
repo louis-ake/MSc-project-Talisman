@@ -103,9 +103,9 @@ public class BluePlayer : Player {
 		if (AdventureDeck.CardTiles.Contains(_startTileName))
 		{
 			DrawFromDeck();
-		} else if (_startTileName == "O5")
+		} else if (UniqueTiles.FightTiles.Contains(_startTileName))
 		{
-			EncounterUniqueSpace();
+			EncounterUniqueFightTile();
 		} else if (moved && actionNeeded)
 		{
 			actionNeeded = false;
@@ -114,11 +114,11 @@ public class BluePlayer : Player {
 		
 	}
 
-	private static void EncounterUniqueSpace()
+	private static void EncounterUniqueFightTile()
 	{
 		if (moved == true && done == false && actionNeeded == true)
 		{
-			FightDiff = UniqueTiles.FightSentinal(strength);
+			FightDiff = UniqueTiles.ChooseFightTile(_startTileName, strength, gold);
 			actionNeeded = false;
 		}
 		if (won == false && done == false && moved == true)
@@ -190,7 +190,7 @@ public class BluePlayer : Player {
 		}
 	}
 
-	public static void Move()
+	private static void Move()
 	{
 		// check there has been the correct number of rolls to caluclate move
 		if (GameControl.TurnCount != DiceRoll.RollCount - 1) {return;}

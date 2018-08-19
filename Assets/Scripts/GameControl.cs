@@ -43,6 +43,18 @@ public class GameControl : MonoBehaviour {
 			TurnTracker = 0;
 		}
 	}
+
+	public static void ReduceLives()
+	{
+		if (TurnTracker == 0)
+		{
+			BluePlayer.lives -= 1;
+		}
+		else
+		{
+			YellowPlayer.lives -= 1;
+		}
+	}
 	
 	
 	void Main()
