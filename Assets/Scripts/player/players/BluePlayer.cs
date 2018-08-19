@@ -2,9 +2,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
+using System.Security.Cryptography;
 using JetBrains.Annotations;
 using UnityEngine;
+using UnityEngine.AI;
+using UnityEngine.Scripting.APIUpdating;
 using UnityEngine.UI;
+using Random = System.Random;
 
 public class BluePlayer : Player {
 	
@@ -85,12 +89,52 @@ public class BluePlayer : Player {
 		_startTileName = name;
 	}
 
+	private static bool moved;
+	private static bool done = false;
+	private static bool actionNeeded = true; 
+
 	public static void TakeTurn()
 	{
-		Move();
-		if (GameControl.TurnTracker == 0)
+		Move();	
+		var diff = 0;
+		if (GameControl.TurnTracker == 0 && moved == true && done == false && actionNeeded == true)
 		{
-			AdventureDeck.FightBandit(strength);
+			diff = AdventureDeck.FightBandit(strength);
+			actionNeeded = false;
+		}
+		if (won == false && done == false && moved == true)
+		{
+			UseFate(diff);
+		} else if (won == true && moved == true && done == true)
+		{
+			GameControl.TurnTracker = 1;
+			done = false;
+		}
+		
+	}
+
+	private static void UseFate(int diff)
+	{
+		Decision = "Would you like to use a fate token? (y/n)";
+		if (Input.GetKey(KeyCode.Y))
+		{
+			var challenge = UnityEngine.Random.Range(1, 7);
+			if (challenge >= diff)
+			{
+				lives += 1;
+				Decision = "Successful! (diff = " + diff + ")";
+			}
+			else
+			{
+				Decision = "Unsuccessful (diff = " + diff + ")";
+			}
+			won = true;
+			fateTokens -= 1;
+			GameControl.TurnTracker = 1;
+		} else if (Input.GetKey(KeyCode.N))
+		{
+			won = true;
+			GameControl.TurnTracker = 1;
 		}
 	}
 
@@ -98,6 +142,7 @@ public class BluePlayer : Player {
 	{
 		// check there has been the correct number of rolls to caluclate move
 		if (GameControl.TurnCount != DiceRoll.RollCount - 1) {return;}
+		moved = false; 
 		var currentTile = _startTileName;
 		var currentTileNo = Convert.ToInt32(currentTile.Substring(1));
 		var nextTileNo = 0;
@@ -114,7 +159,6 @@ public class BluePlayer : Player {
 		}
 		// check ratio of rolls and move calucluations 
 		if (GameControl.TurnCount != DiceRoll.RollCount) return;
-		GameControl.TurnTracker = 0;
 		// Manual implementation of modulo as did not work when integrated into above loops
 		if (nextTileNo < 1) { nextTileNo += RegionUpperBound; }
 		if (nextTileNo > RegionUpperBound) { nextTileNo -= RegionUpperBound; }
@@ -132,6 +176,9 @@ public class BluePlayer : Player {
 		Turns += 1;
 		// So that a move is not attempted before game is set up
 		_active = true;
+		moved = true;
+		actionNeeded = true;
+		// GameControl.TurnTracker = 1;
 	}
 
 }

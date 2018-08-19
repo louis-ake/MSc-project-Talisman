@@ -30,20 +30,18 @@ public class GameControl : MonoBehaviour {
 	
 	
 	// 0 for blue player; 1 for yellow
-	public static int TurnTracker = -1;
+	public static int TurnTracker = 0;
 	
 	
 	void Main()
 	{
-		if (BluePlayer.Turns == YellowPlayer.Turns)
+		if (TurnTracker == 0)
 		{
 			BluePlayer.TakeTurn();	
-			// AdventureDeck.FightBandit(BluePlayer.strength);
 		}
-		else
+		else if (TurnTracker == 1)
 		{
 			YellowPlayer.TakeTurn();
-			// AdventureDeck.FightBandit(YellowPlayer.strength);
 		}
 		
 	}

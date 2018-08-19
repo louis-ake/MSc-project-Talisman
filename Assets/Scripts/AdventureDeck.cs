@@ -22,23 +22,29 @@ public class AdventureDeck : MonoBehaviour {
 	public Text DeckText;
 	private static string _deckText = "";
 
-	public static void FightBandit(int PlayerStrength)
+	public static int FightBandit(int PlayerStrength)
 	{
 		var enemyStrength = 4;
 		var banditResult = enemyStrength + Random.Range(1, 7);
 		var playerResult = PlayerStrength + Random.Range(1, 7);
-		if (playerResult > banditResult)
+		var diff = playerResult - banditResult;
+		if (diff > 0)
 		{
 			_deckText = "You fought a bandit of strength 4 and won (" + playerResult + " vs " + banditResult + ")";
 			if (GameControl.TurnTracker == 0)
 			{
 				BluePlayer.strengthTrophy += enemyStrength;
+				GameControl.TurnTracker = 1;
 			}
 			else
 			{
 				YellowPlayer.strengthTrophy += enemyStrength;
+				GameControl.TurnTracker = 0;
 			}
-		} else if (banditResult > playerResult)
+
+			Player.done = true;
+			Player.won = true;
+		} else if (diff < 0)
 		{
 			_deckText = "You fought a bandit of strength 4 and lost (" + playerResult + " vs " + banditResult + ")";
 			if (GameControl.TurnTracker == 0)
@@ -49,10 +55,23 @@ public class AdventureDeck : MonoBehaviour {
 			{
 				YellowPlayer.lives -= 1;
 			}
+			Player.won = false;
 		}
 		else
 		{
 			_deckText = "You fought a bandit of strength 4 and tied (" + playerResult + " vs " + banditResult + ")";
+			Player.done = true;
+			Player.won = true;
+			if (GameControl.TurnTracker == 0)
+			{
+				GameControl.TurnTracker = 1;
+			}
+			else
+			{
+				GameControl.TurnTracker = 0;
+			}
 		}
+
+		return diff;
 	}
 }

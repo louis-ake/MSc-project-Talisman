@@ -5,18 +5,31 @@ using System.Net;
 using System.Runtime.CompilerServices;
 using JetBrains.Annotations;
 using UnityEngine;
+using UnityEngine.UI;
 
-public abstract class Player : MonoBehaviour {
+public class Player : MonoBehaviour {
 
 	// Use this for initialization
 	void Start()
 	{
+		DecisionText.text = Decision;
 	}
 	
 	// Update is called once per frame
 	void Update()
 	{
+		DecisionText.text = Decision;
 	}
+	
+	public static bool won = true;
+	
+	public static bool finished = true;
+
+	public static bool done = false;
+
+	// For displaying player decisions
+	public Text DecisionText;
+	public static string Decision = "";
 	
 	// number of seconds to complete move
 	public float Speed = 1f;

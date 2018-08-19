@@ -85,10 +85,10 @@ public class YellowPlayer : Player {
 	public static void TakeTurn()
 	{
 		Move();
-		if (GameControl.TurnTracker == 1)
+		/*if (GameControl.TurnTracker == 1)
 		{
 			AdventureDeck.FightBandit(strength);
-		}
+		}*/
 	}
 
 	public static void Move()
@@ -111,7 +111,6 @@ public class YellowPlayer : Player {
 		}
 		// check ratio of rolls and move calucluations 
 		if (GameControl.TurnCount != DiceRoll.RollCount) return;
-		GameControl.TurnTracker = 1;
 		// Manual implementation of modulo as did not work when integrated into above loops
 		if (nextTileNo < 1) { nextTileNo += RegionUpperBound; }
 		if (nextTileNo > RegionUpperBound) { nextTileNo -= RegionUpperBound; }
@@ -129,5 +128,6 @@ public class YellowPlayer : Player {
 		Turns += 1;
 		// So that a move is not attempted before game is set up
 		_active = true;
+		GameControl.TurnTracker = 0;
 	}
 }
