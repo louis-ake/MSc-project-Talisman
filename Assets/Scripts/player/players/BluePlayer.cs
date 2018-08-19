@@ -103,7 +103,10 @@ public class BluePlayer : Player {
 		if (AdventureDeck.CardTiles.Contains(_startTileName))
 		{
 			DrawFromDeck();
-		}else if (moved && actionNeeded)
+		} else if (_startTileName == "O5")
+		{
+			EncounterUniqueSpace();
+		} else if (moved && actionNeeded)
 		{
 			actionNeeded = false;
 			GameControl.AlternateTurnTracker();
@@ -111,8 +114,37 @@ public class BluePlayer : Player {
 		
 	}
 
+	private static void EncounterUniqueSpace()
+	{
+		if (moved == true && done == false && actionNeeded == true)
+		{
+			FightDiff = UniqueTiles.FightSentinal(strength);
+			actionNeeded = false;
+		}
+		if (won == false && done == false && moved == true)
+		{
+			UseFate(FightDiff);
+		} else if (won == true && moved == true && done == true)
+		{
+			GameControl.TurnTracker = 1;
+			done = false;
+		}
+	}
+
+	public static void MoveRegion(string region, int regionTiles, string tileName)
+	{
+		Region = region;
+		RegionUpperBound = regionTiles;
+		var nextTile = GameObject.Find(tileName);
+		_target = nextTile.transform;
+		var tx = _target.position.x;
+		var ty = _target.position.y;
+		SetEndPos(new Vector2(tx, ty));
+		SetStartTileName(tileName);
+	}
+
 	private static void DrawFromDeck() {	
-		if (GameControl.TurnTracker == 0 && moved == true && done == false && actionNeeded == true)
+		if (moved == true && done == false && actionNeeded == true)
 		{
 			FightDiff = AdventureDeck.FightBandit(strength);
 			actionNeeded = false;

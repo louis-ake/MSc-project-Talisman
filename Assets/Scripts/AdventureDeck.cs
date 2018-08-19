@@ -21,10 +21,10 @@ public class AdventureDeck : MonoBehaviour {
 
 	// Workaround to get text to show on screen (must be a 'public Text' to show in inspector)
 	public Text DeckText;
-	private static string _deckText = "";
+	public static string _deckText = "";
 
 	// Tiles on which to draw from the deck
-	public static string[] CardTiles =
+	public static readonly string[] CardTiles =
 		{"O2", "O4", "O6", "O8", "O10", "O11", "O12", "O14", "O15", "O16", "O17", "O18", "O20", "O22", "O24"};
 	
 

@@ -12,12 +12,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2018-08-19T17:26:02.764+01:00
+  lastUpdatedAtString: 2018-08-19T19:24:11.537+01:00
   initializedAtString: 2018-08-19T16:50:39.934+01:00
   entries:
+  - path: .idea/.idea.Talisman/.idea/contentModel.xml
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/.idea/.idea.Talisman/.idea/contentModel.xml
+    projectPath: .idea/.idea.Talisman/.idea/contentModel.xml
+    originalPath: 
+    status: 3
+    staged: 0
   - path: .idea/.idea.Talisman/.idea/workspace.xml
     fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/.idea/.idea.Talisman/.idea/workspace.xml
     projectPath: .idea/.idea.Talisman/.idea/workspace.xml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/Scenes/SampleScene.unity
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scenes/SampleScene.unity
+    projectPath: Assets/Scenes/SampleScene.unity
     originalPath: 
     status: 3
     staged: 0
@@ -27,33 +39,27 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Assets/Scripts/GameControl.cs
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/GameControl.cs
-    projectPath: Assets/Scripts/GameControl.cs
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets/Scripts/player/Player.cs
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/player/Player.cs
-    projectPath: Assets/Scripts/player/Player.cs
-    originalPath: 
-    status: 3
-    staged: 0
   - path: Assets/Scripts/player/players/BluePlayer.cs
     fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/player/players/BluePlayer.cs
     projectPath: Assets/Scripts/player/players/BluePlayer.cs
     originalPath: 
     status: 3
     staged: 0
+  - path: Assets/Scripts/UniqueTiles.cs
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/UniqueTiles.cs
+    projectPath: Assets/Scripts/UniqueTiles.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Scripts/UniqueTiles.cs.meta
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/UniqueTiles.cs.meta
+    projectPath: Assets/Scripts/UniqueTiles.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
   - path: Library/assetDatabase3
     fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/assetDatabase3
     projectPath: Library/assetDatabase3
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/EditorInstance.json
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/EditorInstance.json
-    projectPath: Library/EditorInstance.json
     originalPath: 
     status: 3
     staged: 0
