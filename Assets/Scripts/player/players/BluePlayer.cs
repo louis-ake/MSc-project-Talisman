@@ -106,6 +106,11 @@ public class BluePlayer : Player {
 		} else if (UniqueTiles.FightTiles.Contains(_startTileName))
 		{
 			EncounterUniqueFightTile();
+		} else if (UniqueTiles.NonFightTiles.Contains(_startTileName) && moved && actionNeeded)
+		{
+			UniqueTiles.ChooseNonFightTile(_startTileName);
+			actionNeeded = false;
+			GameControl.AlternateTurnTracker();
 		} else if (moved && actionNeeded)
 		{
 			actionNeeded = false;

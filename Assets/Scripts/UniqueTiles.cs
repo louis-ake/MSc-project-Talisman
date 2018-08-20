@@ -34,6 +34,9 @@ public class UniqueTiles : MonoBehaviour {
 		}	
 	}
 
+	/**
+	 * Fight the sentinal and if won, cross into the middle region
+	 */
 	private static int FightSentinal(int PlayerStrength)
 	{
 		var sentinalStrength = 4; // to be changed
@@ -68,5 +71,65 @@ public class UniqueTiles : MonoBehaviour {
 			GameControl.AlternateTurnTracker();
 		}
 		return diff;
+	}
+
+
+	public static readonly string[] NonFightTiles = {"O1"};
+	
+
+	public static void ChooseNonFightTile(string tileName)
+	{
+		if (tileName == "O1")
+		{
+			Village();
+		}
+	}
+	
+	/**
+	 * Roll a 6-sided die and incur effect accordingly
+	 */
+	private static void Village()
+	{
+		var result = Random.Range(1, 7);
+		if (GameControl.TurnTracker == 0)
+		{
+			if (result == 1)
+			{
+				BluePlayer.lives -= 1;
+				AdventureDeck._deckText = "Rolled 1 and lost 1 life";
+			} else if (result >= 2 && result <= 3)
+			{
+				BluePlayer.strength -= 1;
+				AdventureDeck._deckText = "Rolled 2-3 and lost 1 strength";
+			} else if (result >= 4 && result <= 5)
+			{
+				BluePlayer.strength += 1;
+				AdventureDeck._deckText = "Rolled 4-5 and gained 1 life";
+			} else
+			{
+				BluePlayer.lives += 1;
+				AdventureDeck._deckText = "Rolled 6 and gained a life";
+			}
+		}
+		else
+		{
+			if (result == 1)
+			{
+				YellowPlayer.lives -= 1;
+				AdventureDeck._deckText = "Rolled 1 and lost 1 life";
+			} else if (result >= 2 && result <= 3)
+			{
+				YellowPlayer.strength -= 1;
+				AdventureDeck._deckText = "Rolled 2-3 and lost 1 strength";
+			} else if (result >= 4 && result <= 5)
+			{
+				YellowPlayer.strength += 1;
+				AdventureDeck._deckText = "Rolled 4-5 and gained 1 life";
+			} else
+			{
+				YellowPlayer.lives += 1;
+				AdventureDeck._deckText = "Rolled 6 and gained a life";
+			}
+		}  
 	}
 }
