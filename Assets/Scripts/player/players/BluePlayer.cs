@@ -44,10 +44,9 @@ public class BluePlayer : Player {
 	public static int lives = 3;
 	public static int strength = 4;
 	public static int strengthTrophy = 0;
-	public static int craft = 4;
-	public static int craftTrophy = 0;
 	public static int fateTokens = 2;
 	public static int gold = 4;
+	public static string alignment = "";
 
 	private static string _startTileName = "O1";
 	
@@ -71,9 +70,9 @@ public class BluePlayer : Player {
 		Stats.text = "Blue Player's Stats" + "\n"+ "\n" + 
 		             "lives: " + lives + "\n" + 
 		             "strength: " + strength + " (" + strengthTrophy + ")" + "\n" + 
-		             "craft: " + craft + " (" + craftTrophy + ")" + "\n" +
 		             "fate tokens: " + fateTokens + "\n" + 
-		             "gold: " + gold + "\n" + "\n" + 
+		             "gold: " + gold + "\n" +  
+		             "alignment: " + alignment + "\n" + "\n" +
 		             "turns: " + Turns;
 	}
 	

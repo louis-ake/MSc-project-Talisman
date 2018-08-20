@@ -5,6 +5,7 @@ using System.Security.Cryptography.X509Certificates;
 using JetBrains.Annotations;
 using UnityEngine;
 using UnityEngine.UI;
+using Random = UnityEngine.Random;
 
 public class GameControl : MonoBehaviour {
 	
@@ -13,6 +14,7 @@ public class GameControl : MonoBehaviour {
 	// Use this for initialization
 	void Start ()
 	{
+		SetAlignments();
 	}
 	
 	// Update is called once per frame
@@ -53,6 +55,21 @@ public class GameControl : MonoBehaviour {
 		else
 		{
 			YellowPlayer.lives -= 1;
+		}
+	}
+
+	private void SetAlignments()
+	{
+		var result = Random.Range(1, 3);
+		if (result == 1)
+		{
+			BluePlayer.alignment = "good";
+			YellowPlayer.alignment = "evil";
+		}
+		else
+		{
+			BluePlayer.alignment = "evil";
+			YellowPlayer.alignment = "good";
 		}
 	}
 	
