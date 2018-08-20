@@ -24,6 +24,10 @@ public class Player : MonoBehaviour {
 	// For player turn control flow
 	public static bool won = true;
 	public static bool done = false;
+	
+	// flags for a turns's control flow
+	public static bool moved;
+	public static bool actionNeeded; 
 
 	// For displaying player decisions
 	public Text DecisionText;

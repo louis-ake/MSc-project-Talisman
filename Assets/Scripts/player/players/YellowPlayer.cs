@@ -54,8 +54,6 @@ public class YellowPlayer : Player {
 
 	private static bool _active = false;
 
-	public static int NoOfMoves;
-
 	private static Transform _target;
 	
 	public Text Stats;

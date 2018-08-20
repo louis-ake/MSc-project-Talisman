@@ -63,10 +63,6 @@ public class BluePlayer : Player {
 	private static bool _active = false;
 
 	private static Transform _target;
-	
-	// flags for a turns's control flow
-	private static bool moved;
-	private static bool actionNeeded = true; 
 
 	public Text Stats;
 
@@ -96,7 +92,7 @@ public class BluePlayer : Player {
 
 	public static void TakeTurn()
 	{
-		if (won == true)
+		if (won)
 		{
 			Move();
 		}
@@ -119,17 +115,21 @@ public class BluePlayer : Player {
 		
 	}
 
+	/**
+	 * Must be handled separately as need return values and particular control
+	 * flow to allow use of fate
+	 */
 	private static void EncounterUniqueFightTile()
 	{
-		if (moved == true && done == false && actionNeeded == true)
+		if (moved && !done && actionNeeded)
 		{
 			FightDiff = UniqueTiles.ChooseFightTile(_startTileName, strength, gold);
 			actionNeeded = false;
 		}
-		if (won == false && done == false && moved == true)
+		if (!won && !done && moved)
 		{
 			UseFate(FightDiff);
-		} else if (won == true && moved == true && done == true)
+		} else if (won && moved && done)
 		{
 			GameControl.TurnTracker = 1;
 			done = false;
@@ -149,15 +149,15 @@ public class BluePlayer : Player {
 	}
 
 	private static void DrawFromDeck() {	
-		if (moved == true && done == false && actionNeeded == true)
+		if (moved && !done && actionNeeded)
 		{
 			FightDiff = AdventureDeck.FightBandit(strength);
 			actionNeeded = false;
 		}
-		if (won == false && done == false && moved == true)
+		if (!won && !done && moved)
 		{
 			UseFate(FightDiff);
-		} else if (won == true && moved == true && done == true)
+		} else if (won && moved && done)
 		{
 			GameControl.TurnTracker = 1;
 			done = false;
