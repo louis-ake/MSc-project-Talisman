@@ -177,7 +177,7 @@ public class BluePlayer : Player {
 			var result = challenge - diff;
 			if (result >= 0)
 			{
-				lives += 1;
+				GameControl.ChangeLives(1);
 				Decision = "Successful! (rolled = " + challenge + ")";
 			}
 			else
@@ -185,7 +185,7 @@ public class BluePlayer : Player {
 				Decision = "Unsuccessful (rolled = " + challenge + ")";
 			}
 			won = true;
-			fateTokens -= 1;
+			GameControl.ChangeFate(-1);
 			GameControl.AlternateTurnTracker();
 		} else if (Input.GetKey(KeyCode.N))
 		{

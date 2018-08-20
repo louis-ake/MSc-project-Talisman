@@ -61,7 +61,7 @@ public class UniqueTiles : MonoBehaviour {
 		{
 			AdventureDeck._deckText = "You fought the sentinal and lost (" + playerResult + " vs " + SentinalResult + ")";
 			Player.won = false;
-			GameControl.ReduceLives();
+			GameControl.ChangeLives(-1);
 		}
 		else
 		{
@@ -74,7 +74,7 @@ public class UniqueTiles : MonoBehaviour {
 	}
 
 
-	public static readonly string[] NonFightTiles = {"O1"};
+	public static readonly string[] NonFightTiles = {"O1", "O3", "O7"};
 	
 
 	public static void ChooseNonFightTile(string tileName)
@@ -82,6 +82,12 @@ public class UniqueTiles : MonoBehaviour {
 		if (tileName == "O1")
 		{
 			Village();
+		} else if (tileName == "O3")
+		{
+			Graveyard();
+		} else if (tileName == "O7")
+		{
+			Chapel();
 		}
 	}
 	
@@ -91,45 +97,76 @@ public class UniqueTiles : MonoBehaviour {
 	private static void Village()
 	{
 		var result = Random.Range(1, 7);
+		if (result == 1)
+		{
+			GameControl.ChangeLives(-1);
+			AdventureDeck._deckText = "Rolled 1 and lost 1 life";
+		} else if (result >= 2 && result <= 3)
+		{
+			GameControl.ChangeStrength(-1);
+			AdventureDeck._deckText = "Rolled 2-3 and lost 1 strength";
+		} else if (result >= 4 && result <= 5)
+		{
+			GameControl.ChangeStrength(1);
+			AdventureDeck._deckText = "Rolled 4-5 and gained 1 life";
+		} else
+		{
+			GameControl.ChangeStrength(1);
+			AdventureDeck._deckText = "Rolled 6 and gained a life";
+		}
+	}
+
+
+	private static void Graveyard()
+	{
 		if (GameControl.TurnTracker == 0)
 		{
-			if (result == 1)
+			if (BluePlayer.alignment == "good")
 			{
-				BluePlayer.lives -= 1;
-				AdventureDeck._deckText = "Rolled 1 and lost 1 life";
-			} else if (result >= 2 && result <= 3)
+				GameControl.ChangeLives(-1);
+			}
+			else
 			{
-				BluePlayer.strength -= 1;
-				AdventureDeck._deckText = "Rolled 2-3 and lost 1 strength";
-			} else if (result >= 4 && result <= 5)
-			{
-				BluePlayer.strength += 1;
-				AdventureDeck._deckText = "Rolled 4-5 and gained 1 life";
-			} else
-			{
-				BluePlayer.lives += 1;
-				AdventureDeck._deckText = "Rolled 6 and gained a life";
+				GameControl.ReplenishFate();
 			}
 		}
 		else
 		{
-			if (result == 1)
+			if (YellowPlayer.alignment == "good")
 			{
-				YellowPlayer.lives -= 1;
-				AdventureDeck._deckText = "Rolled 1 and lost 1 life";
-			} else if (result >= 2 && result <= 3)
-			{
-				YellowPlayer.strength -= 1;
-				AdventureDeck._deckText = "Rolled 2-3 and lost 1 strength";
-			} else if (result >= 4 && result <= 5)
-			{
-				YellowPlayer.strength += 1;
-				AdventureDeck._deckText = "Rolled 4-5 and gained 1 life";
-			} else
-			{
-				YellowPlayer.lives += 1;
-				AdventureDeck._deckText = "Rolled 6 and gained a life";
+				GameControl.ChangeLives(-1);
 			}
-		}  
+			else
+			{
+				GameControl.ReplenishFate();
+			}
+		}
+	}
+
+
+	private static void Chapel()
+	{
+		if (GameControl.TurnTracker == 0)
+		{
+			if (BluePlayer.alignment == "evil")
+			{
+				GameControl.ChangeLives(-1);
+			}
+			else
+			{
+				GameControl.ReplenishFate();
+			}
+		}
+		else
+		{
+			if (YellowPlayer.alignment == "evil")
+			{
+				GameControl.ChangeLives(-1);
+			}
+			else
+			{
+				GameControl.ReplenishFate();
+			}
+		}
 	}
 }

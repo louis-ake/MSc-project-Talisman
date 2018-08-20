@@ -29,6 +29,10 @@ public class GameControl : MonoBehaviour {
 	static bool Finished = false;
 
 	public static int TurnCount = 0;
+
+	private const int StrengthUpgrade = 4;
+
+	private const int StartingFate = 2;
 	
 	
 	// 0 for blue player; 1 for yellow
@@ -46,18 +50,90 @@ public class GameControl : MonoBehaviour {
 		}
 	}
 
-	public static void ReduceLives()
+	public static void ChangeLives(int change)
 	{
 		if (TurnTracker == 0)
 		{
-			BluePlayer.lives -= 1;
+			BluePlayer.lives += change;
 		}
 		else
 		{
-			YellowPlayer.lives -= 1;
+			YellowPlayer.lives += change;
 		}
 	}
 
+	public static void ChangeStrength(int change)
+	{
+		if (TurnTracker == 0)
+		{
+			BluePlayer.strength += change;
+		}
+		else
+		{
+			YellowPlayer.strength += change;
+		}
+	}
+
+	public static void ChangeStrengthTrophy(int change)
+	{
+		if (TurnTracker == 0)
+		{
+			BluePlayer.strengthTrophy += change;
+			if (BluePlayer.strengthTrophy < StrengthUpgrade) return;
+			BluePlayer.strength += 1;
+			BluePlayer.strengthTrophy -= BluePlayer.strengthTrophy;
+		}
+		else
+		{
+			YellowPlayer.strengthTrophy += change;
+			if (YellowPlayer.strengthTrophy < StrengthUpgrade) return;
+			YellowPlayer.strength += 1;
+			YellowPlayer.strengthTrophy -= BluePlayer.strengthTrophy;
+		}
+	}
+
+
+	public static void ChangeGold(int change)
+	{
+		if (TurnTracker == 0)
+		{
+			BluePlayer.gold += change;
+		}
+		else
+		{
+			YellowPlayer.gold += change;
+		}
+	}
+	
+
+	public static void ChangeFate(int change)
+	{
+		if (TurnTracker == 0)
+		{
+			BluePlayer.fateTokens += change;
+		}
+		else
+		{
+			YellowPlayer.fateTokens += change;
+		}
+	}
+
+
+	public static void ReplenishFate()
+	{
+		if (TurnTracker == 0)
+		{
+			BluePlayer.fateTokens = StartingFate;
+		}
+		else
+		{
+			YellowPlayer.fateTokens = StartingFate;
+		}
+	}
+
+	/**
+	 * Randomly allocate each player good or evil, exclusively 
+	 */
 	private void SetAlignments()
 	{
 		var result = Random.Range(1, 3);

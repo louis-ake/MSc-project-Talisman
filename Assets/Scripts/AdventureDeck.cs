@@ -37,22 +37,14 @@ public class AdventureDeck : MonoBehaviour {
 		if (diff > 0)
 		{
 			_deckText = "You fought a bandit of strength 4 and won (" + playerResult + " vs " + banditResult + ")";
-			if (GameControl.TurnTracker == 0)
-			{
-				BluePlayer.strengthTrophy += enemyStrength;
-			}
-			else
-			{
-				YellowPlayer.strengthTrophy += enemyStrength;
-			}
-
+			GameControl.ChangeStrength(enemyStrength);
 			Player.done = true;
 			Player.won = true;
 			GameControl.AlternateTurnTracker();
 		} else if (diff < 0)
 		{
 			_deckText = "You fought a bandit of strength 4 and lost (" + playerResult + " vs " + banditResult + ")";
-			GameControl.ReduceLives();
+			GameControl.ChangeLives(-1);
 			Player.won = false;
 		}
 		else
