@@ -14,9 +14,31 @@ public class UniqueTiles : MonoBehaviour {
 	void Update () {
 		
 	}
+	
+	private static readonly int GenericEnemy = 3;
 
 	// Tiles which entail a fight
 	public static readonly string[] FightTiles = {"O5"};
+
+
+	public static void FightGenericEnemy()
+	{
+		var enemyResult = GenericEnemy + Random.Range(1, 7);
+		var playerResult = GameControl.GetStrength() + Random.Range(1, 7);
+		if (enemyResult > playerResult)
+		{
+			GameControl.ChangeLives(-1);
+			AdventureDeck._deckText = "fought strength " + GenericEnemy + " enemy and lost";
+		} else if (playerResult > enemyResult)
+		{
+			GameControl.ChangeStrengthTrophy(GenericEnemy);
+			AdventureDeck._deckText = "fought strength " + GenericEnemy + " enemy and lost";
+		}
+		else
+		{
+			AdventureDeck._deckText = "fought strength " + GenericEnemy + " enemy and tied";
+		}
+	}
 
 	
 	/**
@@ -73,21 +95,31 @@ public class UniqueTiles : MonoBehaviour {
 		return diff;
 	}
 
+	public static readonly string[] ArmouryTiles = {"O13"};
 
-	public static readonly string[] NonFightTiles = {"O1", "O3", "O7"};
+	public static readonly int ArmouryPrice = 2;
+
+
+	public static readonly string[] Tiles = {"O1", "O3", "O7", "O9", "O23"};
 	
 
-	public static void ChooseNonFightTile(string tileName)
+	public static void ChooseTile(string tileName)
 	{
-		if (tileName == "O1")
+		switch (tileName)
 		{
-			Village();
-		} else if (tileName == "O3")
-		{
-			Graveyard();
-		} else if (tileName == "O7")
-		{
-			Chapel();
+			case "O1":
+				Village();
+				break;
+			case "O3":
+				Graveyard();
+				break;
+			case "O7":
+				Chapel();
+				break;
+			case "O9":
+			case "O23":
+				CragsForest();
+				break;
 		}
 	}
 	
@@ -169,4 +201,23 @@ public class UniqueTiles : MonoBehaviour {
 			}
 		}
 	}
+
+
+	public static void CragsForest()
+	{
+		var result = Random.Range(1, 7);
+		if (result <= 3)
+		{
+			FightGenericEnemy();
+		} else if (result >= 4 && result <= 5)
+		{
+			AdventureDeck._deckText = "Rolled 4-5 and nothing happened";
+		}
+		else
+		{
+			GameControl.ChangeStrength(1);
+			AdventureDeck._deckText = "Rolled a 6 and gained 1 strength";
+		}
+	}
+
 }

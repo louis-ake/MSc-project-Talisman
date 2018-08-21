@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Security.Cryptography;
+using System.Xml.Xsl;
 using JetBrains.Annotations;
 using UnityEngine;
 using UnityEngine.AI;
@@ -101,9 +102,14 @@ public class BluePlayer : Player {
 		} else if (UniqueTiles.FightTiles.Contains(_startTileName))
 		{
 			EncounterUniqueFightTile();
-		} else if (UniqueTiles.NonFightTiles.Contains(_startTileName) && moved && actionNeeded)
+		} else if (UniqueTiles.ArmouryTiles.Contains(_startTileName) &&
+		           GameControl.GetGold() >= UniqueTiles.ArmouryPrice)
 		{
-			UniqueTiles.ChooseNonFightTile(_startTileName);
+			EncounterArmouryTile();
+			actionNeeded = false;
+		} else if (UniqueTiles.Tiles.Contains(_startTileName) && moved && actionNeeded)
+		{
+			UniqueTiles.ChooseTile(_startTileName);
 			actionNeeded = false;
 			GameControl.AlternateTurnTracker();
 		} else if (moved && actionNeeded)
@@ -130,7 +136,7 @@ public class BluePlayer : Player {
 			UseFate(FightDiff);
 		} else if (won && moved && done)
 		{
-			GameControl.TurnTracker = 1;
+			//GameControl.AlternateTurnTracker();
 			done = false;
 		}
 	}
@@ -158,8 +164,23 @@ public class BluePlayer : Player {
 			UseFate(FightDiff);
 		} else if (won && moved && done)
 		{
-			GameControl.TurnTracker = 1;
+			//GameControl.AlternateTurnTracker();
 			done = false;
+		}
+	}
+	
+	
+	private static void EncounterArmouryTile()
+	{
+		AdventureDeck._deckText = "Would you like to improve your armaments for 2 gold?";
+		if (Input.GetKey(KeyCode.Y))
+		{
+			GameControl.ChangeStrength(1);
+			GameControl.ChangeGold(-2);
+			GameControl.AlternateTurnTracker();
+		} else if (Input.GetKey(KeyCode.N))
+		{
+			GameControl.AlternateTurnTracker();
 		}
 	}
 	

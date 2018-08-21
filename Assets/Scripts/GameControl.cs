@@ -40,14 +40,7 @@ public class GameControl : MonoBehaviour {
 
 	public static void AlternateTurnTracker()
 	{
-		if (TurnTracker == 0)
-		{
-			TurnTracker = 1;
-		}
-		else
-		{
-			TurnTracker = 0;
-		}
+		TurnTracker = TurnTracker == 0 ? 1 : 0;
 	}
 
 	public static void ChangeLives(int change)
@@ -131,6 +124,17 @@ public class GameControl : MonoBehaviour {
 		}
 	}
 
+	public static int GetStrength()
+	{
+		return TurnTracker == 0 ? BluePlayer.strength : YellowPlayer.strength;
+	}
+
+
+	public static int GetGold()
+	{
+		return TurnTracker == 0 ? BluePlayer.gold : YellowPlayer.gold;
+	}
+
 	/**
 	 * Randomly allocate each player good or evil, exclusively 
 	 */
@@ -152,14 +156,14 @@ public class GameControl : MonoBehaviour {
 	
 	void Main()
 	{
-		if (TurnTracker == 0)
+		switch (TurnTracker)
 		{
-			BluePlayer.TakeTurn();	
+			case 0:
+				BluePlayer.TakeTurn();
+				break;
+			case 1:
+				YellowPlayer.TakeTurn();
+				break;
 		}
-		else if (TurnTracker == 1)
-		{
-			YellowPlayer.TakeTurn();
-		}
-		
 	}
 }
