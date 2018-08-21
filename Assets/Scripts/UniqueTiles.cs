@@ -15,6 +15,10 @@ public class UniqueTiles : MonoBehaviour {
 		
 	}
 	
+	public static readonly int ArmouryPrice = 2;
+	
+	public static readonly string[] ArmouryTiles = {"O13"};
+	
 	private static readonly int GenericEnemy = 3;
 
 	// Tiles which entail a fight
@@ -67,7 +71,8 @@ public class UniqueTiles : MonoBehaviour {
 		var diff = playerResult - SentinalResult;
 		if (diff > 0)
 		{
-			AdventureDeck._deckText = "You fought the sentinal and won (" + playerResult + " vs " + SentinalResult + ")";
+			AdventureDeck._deckText =
+				"You fought the sentinal and won (" + playerResult + " vs " + SentinalResult + ")";
 			Player.done = true;
 			Player.won = true;
 			if (GameControl.TurnTracker == 0)
@@ -78,26 +83,27 @@ public class UniqueTiles : MonoBehaviour {
 			{
 				// same for yellowplayer
 			}
+
 			GameControl.AlternateTurnTracker();
-		} else if (diff < 0)
+		}
+		else if (diff < 0)
 		{
-			AdventureDeck._deckText = "You fought the sentinal and lost (" + playerResult + " vs " + SentinalResult + ")";
+			AdventureDeck._deckText =
+				"You fought the sentinal and lost (" + playerResult + " vs " + SentinalResult + ")";
 			Player.won = false;
 			GameControl.ChangeLives(-1);
 		}
 		else
 		{
-			AdventureDeck._deckText = "You fought the sentinel and tied (" + playerResult + " vs " + SentinalResult + ")";
+			AdventureDeck._deckText =
+				"You fought the sentinel and tied (" + playerResult + " vs " + SentinalResult + ")";
 			Player.done = true;
 			Player.won = true;
 			GameControl.AlternateTurnTracker();
 		}
+
 		return diff;
 	}
-
-	public static readonly string[] ArmouryTiles = {"O13"};
-
-	public static readonly int ArmouryPrice = 2;
 
 
 	public static readonly string[] Tiles = {"O1", "O3", "O7", "O9", "O23"};
@@ -119,6 +125,9 @@ public class UniqueTiles : MonoBehaviour {
 			case "O9":
 			case "O23":
 				CragsForest();
+				break;
+			case "O19":
+				Tavern();
 				break;
 		}
 	}
@@ -203,7 +212,7 @@ public class UniqueTiles : MonoBehaviour {
 	}
 
 
-	public static void CragsForest()
+	private static void CragsForest()
 	{
 		var result = Random.Range(1, 7);
 		if (result <= 3)
@@ -217,6 +226,36 @@ public class UniqueTiles : MonoBehaviour {
 		{
 			GameControl.ChangeStrength(1);
 			AdventureDeck._deckText = "Rolled a 6 and gained 1 strength";
+		}
+	}
+
+
+	private static void Tavern()
+	{
+		var result = Random.Range(1, 7);
+		if (result <= 2)
+		{
+			FightGenericEnemy();
+		} else if (result == 3)
+		{
+			GameControl.ChangeGold(-1);
+			AdventureDeck._deckText = "You gambled and lost 1 gold";
+		} else if (result >= 4 && result <= 5)
+		{
+			GameControl.ChangeGold(1);
+			AdventureDeck._deckText = "You gambled and gained 1 gold";
+		}
+		else
+		{
+			if (GameControl.TurnTracker == 0)
+			{
+				AdventureDeck._deckText = "You rolled a 6 and were transported to the temple";
+				BluePlayer.MoveRegion("M", 16, "M13");
+			}
+			else
+			{
+				// same for yellowplayer
+			}	
 		}
 	}
 
