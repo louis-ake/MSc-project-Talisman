@@ -39,6 +39,7 @@ public class YellowPlayer : Player {
 	public static int fateTokens = 2;
 	public static int gold = 4;
 	public static string alignment = "";
+	public static string talisman = "no";
 
 	private static string _startTileName = "O13";
 	

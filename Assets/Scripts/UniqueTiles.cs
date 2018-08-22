@@ -107,7 +107,7 @@ public class UniqueTiles : MonoBehaviour {
 	}
 
 
-	public static readonly string[] Tiles = {"O1", "O3", "O7", "O9", "O23", "M1", "M2"};
+	public static readonly string[] Tiles = {"O1", "O3", "O7", "O9", "O23", "M1", "M2", "M13"};
 	
 
 	public static void ChooseTile(string tileName)
@@ -135,6 +135,9 @@ public class UniqueTiles : MonoBehaviour {
 				break;
 			case "M2":
 				BlackKnight();
+				break;
+			case "M13":
+				Temple();
 				break;
 		}
 	}
@@ -301,4 +304,35 @@ public class UniqueTiles : MonoBehaviour {
 		AdventureDeck._deckText = "penalty paid";
 	}
 
+
+	private static void Temple()
+	{
+		var result = Random.Range(1, 7) + Random.Range(1, 7);
+		if (result == 2)
+		{
+			GameControl.ChangeLives(-2);
+			AdventureDeck._deckText = "rolled 2 and lost 2 lives";
+		} else if (result >= 3 && result <= 5)
+		{
+			GameControl.ChangeLives(-1);
+			AdventureDeck._deckText = "rolled 3-5 and lost a life";
+		} else if (result >= 6 && result <= 8)
+		{
+			GameControl.ChangeStrength(1);
+			AdventureDeck._deckText = "rolled 6-8 and gained 1 strength";
+		} else if (result >= 9 && result <= 10)
+		{
+			GameControl.GiveTalisman();
+			AdventureDeck._deckText = "rolled 9-10 and gained a talisman";
+		} else if (result == 11)
+		{
+			GameControl.ReplenishFate();
+			AdventureDeck._deckText = "rolled an 11 and fate was replenished";
+		}
+		else
+		{
+			GameControl.ChangeLives(2);
+			AdventureDeck._deckText = "rolled a 12 and gained 2 lives";
+		}
+	}
 }

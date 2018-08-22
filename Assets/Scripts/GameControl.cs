@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Security.Cryptography.X509Certificates;
+using System.Security.Policy;
 using JetBrains.Annotations;
 using UnityEngine;
 using UnityEngine.UI;
@@ -138,6 +139,18 @@ public class GameControl : MonoBehaviour {
 	public static int GetLives()
 	{
 		return TurnTracker == 0 ? BluePlayer.lives : YellowPlayer.lives;
+	}
+
+	public static void GiveTalisman()
+	{
+		if (TurnTracker == 1)
+		{
+			BluePlayer.talisman = "yes";
+		}
+		else
+		{
+			YellowPlayer.talisman = "no";
+		}
 	}
 
 	/**

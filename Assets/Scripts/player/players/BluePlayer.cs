@@ -48,6 +48,7 @@ public class BluePlayer : Player {
 	public static int fateTokens = 2;
 	public static int gold = 4;
 	public static string alignment = "";
+	public static string talisman = "no";
 
 	private static string _startTileName = "O1";
 	
@@ -73,7 +74,8 @@ public class BluePlayer : Player {
 		             "strength: " + strength + " (" + strengthTrophy + ")" + "\n" + 
 		             "fate tokens: " + fateTokens + "\n" + 
 		             "gold: " + gold + "\n" +  
-		             "alignment: " + alignment + "\n" + "\n" +
+		             "alignment: " + alignment + "\n" + 
+		             "talisman: " + talisman + "\n" + "\n" +
 		             "turns: " + Turns;
 	}
 	

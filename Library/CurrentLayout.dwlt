@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 4}
-  m_MinSize: {x: 950, y: 542}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -40,8 +40,8 @@ MonoBehaviour:
     y: 637
     width: 929
     height: 168
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 102, y: 121}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -67,10 +67,10 @@ MonoBehaviour:
     y: 0
     width: 929
     height: 805
-  m_MinSize: {x: 102, y: 221}
-  m_MaxSize: {x: 4002, y: 8021}
+  m_MinSize: {x: 102, y: 242}
+  m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 158
+  controlID: 176
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -154,10 +154,10 @@ MonoBehaviour:
     y: 30
     width: 1440
     height: 805
-  m_MinSize: {x: 436, y: 492}
-  m_MaxSize: {x: 18006, y: 14042}
+  m_MinSize: {x: 438, y: 492}
+  m_MaxSize: {x: 18008, y: 14042}
   vertical: 1
-  controlID: 155
+  controlID: 173
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -178,10 +178,10 @@ MonoBehaviour:
     y: 0
     width: 1440
     height: 805
-  m_MinSize: {x: 436, y: 492}
-  m_MaxSize: {x: 18006, y: 14042}
+  m_MinSize: {x: 438, y: 492}
+  m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
-  controlID: 156
+  controlID: 174
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -205,7 +205,7 @@ MonoBehaviour:
   m_MinSize: {x: 336, y: 492}
   m_MaxSize: {x: 14006, y: 14042}
   vertical: 0
-  controlID: 157
+  controlID: 175
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -224,8 +224,8 @@ MonoBehaviour:
     y: 0
     width: 929
     height: 637
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 102, y: 121}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 18}
@@ -255,7 +255,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 492}
   m_MaxSize: {x: 10004, y: 14042}
   vertical: 1
-  controlID: 96
+  controlID: 72
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -324,8 +324,8 @@ MonoBehaviour:
     y: 0
     width: 277
     height: 805
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 102, y: 121}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 21}
@@ -363,9 +363,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -3.1857157, y: -0.6333084, z: -5.8506184}
+    m_Target: {x: -1.8563849, y: 1.9612713, z: -5.4891024}
     speed: 2
-    m_Value: {x: -3.1857157, y: -0.6333084, z: -5.8506184}
+    m_Value: {x: -1.8563849, y: 1.9612713, z: -5.4891024}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -397,9 +397,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 45.542656
+    m_Target: 21.595325
     speed: 2
-    m_Value: 45.542656
+    m_Value: 21.595325
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -648,14 +648,336 @@ MonoBehaviour:
     treeScroll: {x: 0, y: 0}
     treeChanges:
       assets:
-        keys: []
-        values: []
+        keys:
+        - 00000000000000001000000000000000
+        - fff62414ae14d495c862b155ed56e484
+        - 9a1dae4a2ebd34df8827d50a76e9097b
+        - e1cb681f31bd7430fa86158746621afc
+        - 71709fd15d2754c2fb2450f2d7a2bdf6
+        - 5719b3c0965924f8eae390ae9488833c
+        - 1516937ca198449a9b7aa02bab92771d
+        - 05093aeff2cd54b06b50ccc3e1b83259
+        values:
+        - path: Assets
+          label: Assets
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Assets/Scripts
+          label: Scripts
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Assets/Scripts/GameControl.cs
+          label: GameControl.cs
+          level: 2
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets/Scripts/GameControl.cs
+            fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/GameControl.cs
+            projectPath: Assets/Scripts/GameControl.cs
+            originalPath: 
+            status: 3
+            staged: 0
+        - path: Assets/Scripts/player
+          label: player
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Assets/Scripts/player/players
+          label: players
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Assets/Scripts/player/players/BluePlayer.cs
+          label: BluePlayer.cs
+          level: 4
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets/Scripts/player/players/BluePlayer.cs
+            fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/player/players/BluePlayer.cs
+            projectPath: Assets/Scripts/player/players/BluePlayer.cs
+            originalPath: 
+            status: 3
+            staged: 0
+        - path: Assets/Scripts/player/players/YellowPlayer.cs
+          label: YellowPlayer.cs
+          level: 4
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets/Scripts/player/players/YellowPlayer.cs
+            fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/player/players/YellowPlayer.cs
+            projectPath: Assets/Scripts/player/players/YellowPlayer.cs
+            originalPath: 
+            status: 3
+            staged: 0
+        - path: Assets/Scripts/UniqueTiles.cs
+          label: UniqueTiles.cs
+          level: 2
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets/Scripts/UniqueTiles.cs
+            fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/UniqueTiles.cs
+            projectPath: Assets/Scripts/UniqueTiles.cs
+            originalPath: 
+            status: 3
+            staged: 0
       folders:
         keys:
+        - .idea
+        - .idea/.idea.Talisman
+        - .idea/.idea.Talisman/.idea
+        - Assets
+        - Assets/Scripts
+        - Assets/Scripts/player
+        - Assets/Scripts/player/players
         - Library
         - Library/gfu
         - Library/gfu/cache
+        - Library/metadata
+        - Library/metadata/12
+        - Library/metadata/1b
+        - Library/metadata/1c
+        - Library/metadata/21
+        - Library/metadata/32
+        - Library/metadata/38
+        - Library/metadata/3a
+        - Library/metadata/3e
+        - Library/metadata/40
+        - Library/metadata/41
+        - Library/metadata/46
+        - Library/metadata/4a
+        - Library/metadata/4b
+        - Library/metadata/51
+        - Library/metadata/53
+        - Library/metadata/57
+        - Library/metadata/5f
+        - Library/metadata/6a
+        - Library/metadata/6e
+        - Library/metadata/6f
+        - Library/metadata/76
+        - Library/metadata/80
+        - Library/metadata/84
+        - Library/metadata/87
+        - Library/metadata/ad
+        - Library/metadata/b2
+        - Library/metadata/b5
+        - Library/metadata/b9
+        - Library/metadata/dc
+        - Library/metadata/e1
+        - Library/metadata/e4
+        - Library/metadata/ea
+        - Library/metadata/ed
+        - Library/metadata/f5
+        - Library/metadata/f7
+        - Library/ScriptAssemblies
         values:
+        - path: .idea
+          label: .idea
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: .idea/.idea.Talisman
+          label: .idea.Talisman
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: .idea/.idea.Talisman/.idea
+          label: .idea
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Assets
+          label: Assets
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Assets/Scripts
+          label: Scripts
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Assets/Scripts/player
+          label: player
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Assets/Scripts/player/players
+          label: players
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
         - path: Library
           label: Library
           level: 0
@@ -665,7 +987,7 @@ MonoBehaviour:
           isHidden: 0
           isActive: 0
           treeIsCheckable: 1
-          checkState: 1
+          checkState: 0
           isLocked: 0
           gitStatusEntry:
             path: 
@@ -683,7 +1005,7 @@ MonoBehaviour:
           isHidden: 0
           isActive: 0
           treeIsCheckable: 1
-          checkState: 1
+          checkState: 0
           isLocked: 0
           gitStatusEntry:
             path: 
@@ -701,7 +1023,673 @@ MonoBehaviour:
           isHidden: 0
           isActive: 0
           treeIsCheckable: 1
-          checkState: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library/metadata
+          label: metadata
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library/metadata/12
+          label: 12
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library/metadata/1b
+          label: 1b
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library/metadata/1c
+          label: 1c
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library/metadata/21
+          label: 21
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library/metadata/32
+          label: 32
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library/metadata/38
+          label: 38
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library/metadata/3a
+          label: 3a
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library/metadata/3e
+          label: 3e
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library/metadata/40
+          label: 40
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library/metadata/41
+          label: 41
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library/metadata/46
+          label: 46
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library/metadata/4a
+          label: 4a
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library/metadata/4b
+          label: 4b
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library/metadata/51
+          label: 51
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library/metadata/53
+          label: 53
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library/metadata/57
+          label: 57
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library/metadata/5f
+          label: 5f
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library/metadata/6a
+          label: 6a
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library/metadata/6e
+          label: 6e
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library/metadata/6f
+          label: 6f
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library/metadata/76
+          label: 76
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library/metadata/80
+          label: 80
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library/metadata/84
+          label: 84
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library/metadata/87
+          label: 87
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library/metadata/ad
+          label: ad
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library/metadata/b2
+          label: b2
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library/metadata/b5
+          label: b5
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library/metadata/b9
+          label: b9
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library/metadata/dc
+          label: dc
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library/metadata/e1
+          label: e1
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library/metadata/e4
+          label: e4
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library/metadata/ea
+          label: ea
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library/metadata/ed
+          label: ed
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library/metadata/f5
+          label: f5
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library/metadata/f7
+          label: f7
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library/ScriptAssemblies
+          label: ScriptAssemblies
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
           isLocked: 0
           gitStatusEntry:
             path: 
@@ -738,6 +1726,222 @@ MonoBehaviour:
           originalPath: 
           status: 0
           staged: 0
+      - path: .idea
+        label: .idea
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: .idea/.idea.Talisman
+        label: .idea.Talisman
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: .idea/.idea.Talisman/.idea
+        label: .idea
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: .idea/.idea.Talisman/.idea/workspace.xml
+        label: workspace.xml
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: .idea/.idea.Talisman/.idea/workspace.xml
+          fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/.idea/.idea.Talisman/.idea/workspace.xml
+          projectPath: .idea/.idea.Talisman/.idea/workspace.xml
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Assets
+        label: Assets
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Assets/Scripts
+        label: Scripts
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Assets/Scripts/GameControl.cs
+        label: GameControl.cs
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Scripts/GameControl.cs
+          fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/GameControl.cs
+          projectPath: Assets/Scripts/GameControl.cs
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Assets/Scripts/player
+        label: player
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Assets/Scripts/player/players
+        label: players
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Assets/Scripts/player/players/BluePlayer.cs
+        label: BluePlayer.cs
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Scripts/player/players/BluePlayer.cs
+          fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/player/players/BluePlayer.cs
+          projectPath: Assets/Scripts/player/players/BluePlayer.cs
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Assets/Scripts/player/players/YellowPlayer.cs
+        label: YellowPlayer.cs
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Scripts/player/players/YellowPlayer.cs
+          fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/player/players/YellowPlayer.cs
+          projectPath: Assets/Scripts/player/players/YellowPlayer.cs
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Assets/Scripts/UniqueTiles.cs
+        label: UniqueTiles.cs
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Scripts/UniqueTiles.cs
+          fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/UniqueTiles.cs
+          projectPath: Assets/Scripts/UniqueTiles.cs
+          originalPath: 
+          status: 3
+          staged: 0
       - path: Library
         label: Library
         level: 0
@@ -747,7 +1951,7 @@ MonoBehaviour:
         isHidden: 0
         isActive: 0
         treeIsCheckable: 1
-        checkState: 1
+        checkState: 0
         isLocked: 0
         gitStatusEntry:
           path: 
@@ -755,6 +1959,60 @@ MonoBehaviour:
           projectPath: 
           originalPath: 
           status: 0
+          staged: 0
+      - path: Library/assetDatabase3
+        label: assetDatabase3
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/assetDatabase3
+          fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/assetDatabase3
+          projectPath: Library/assetDatabase3
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library/CurrentLayout.dwlt
+        label: CurrentLayout.dwlt
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/CurrentLayout.dwlt
+          fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/CurrentLayout.dwlt
+          projectPath: Library/CurrentLayout.dwlt
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library/EditorInstance.json
+        label: EditorInstance.json
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/EditorInstance.json
+          fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/EditorInstance.json
+          projectPath: Library/EditorInstance.json
+          originalPath: 
+          status: 3
           staged: 0
       - path: Library/gfu
         label: gfu
@@ -765,7 +2023,7 @@ MonoBehaviour:
         isHidden: 0
         isActive: 0
         treeIsCheckable: 1
-        checkState: 1
+        checkState: 0
         isLocked: 0
         gitStatusEntry:
           path: 
@@ -783,7 +2041,7 @@ MonoBehaviour:
         isHidden: 0
         isActive: 0
         treeIsCheckable: 1
-        checkState: 1
+        checkState: 0
         isLocked: 0
         gitStatusEntry:
           path: 
@@ -801,12 +2059,1488 @@ MonoBehaviour:
         isHidden: 0
         isActive: 0
         treeIsCheckable: 1
-        checkState: 1
+        checkState: 0
         isLocked: 0
         gitStatusEntry:
           path: Library/gfu/cache/branches.yaml
           fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/gfu/cache/branches.yaml
           projectPath: Library/gfu/cache/branches.yaml
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library/gfu/cache/gitlocks.yaml
+        label: gitlocks.yaml
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/gfu/cache/gitlocks.yaml
+          fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/gfu/cache/gitlocks.yaml
+          projectPath: Library/gfu/cache/gitlocks.yaml
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library/gfu/cache/gitlog.yaml
+        label: gitlog.yaml
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/gfu/cache/gitlog.yaml
+          fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/gfu/cache/gitlog.yaml
+          projectPath: Library/gfu/cache/gitlog.yaml
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library/gfu/cache/gitstatusentries.yaml
+        label: gitstatusentries.yaml
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/gfu/cache/gitstatusentries.yaml
+          fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/gfu/cache/gitstatusentries.yaml
+          projectPath: Library/gfu/cache/gitstatusentries.yaml
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library/gfu/cache/gittrackingstatus.yaml
+        label: gittrackingstatus.yaml
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/gfu/cache/gittrackingstatus.yaml
+          fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/gfu/cache/gittrackingstatus.yaml
+          projectPath: Library/gfu/cache/gittrackingstatus.yaml
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library/gfu/cache/repoinfo.yaml
+        label: repoinfo.yaml
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/gfu/cache/repoinfo.yaml
+          fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/gfu/cache/repoinfo.yaml
+          projectPath: Library/gfu/cache/repoinfo.yaml
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library/metadata
+        label: metadata
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library/metadata/12
+        label: 12
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library/metadata/12/12fd8a0055b84bb59e84c9835a37e333
+        label: 12fd8a0055b84bb59e84c9835a37e333
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/metadata/12/12fd8a0055b84bb59e84c9835a37e333
+          fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/metadata/12/12fd8a0055b84bb59e84c9835a37e333
+          projectPath: Library/metadata/12/12fd8a0055b84bb59e84c9835a37e333
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library/metadata/1b
+        label: 1b
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library/metadata/1b/1b355da31ea043feba0c03e35dd4bc62
+        label: 1b355da31ea043feba0c03e35dd4bc62
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/metadata/1b/1b355da31ea043feba0c03e35dd4bc62
+          fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/metadata/1b/1b355da31ea043feba0c03e35dd4bc62
+          projectPath: Library/metadata/1b/1b355da31ea043feba0c03e35dd4bc62
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library/metadata/1c
+        label: 1c
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library/metadata/1c/1c6d1fbb51834b64847b1b73a75bfc77
+        label: 1c6d1fbb51834b64847b1b73a75bfc77
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/metadata/1c/1c6d1fbb51834b64847b1b73a75bfc77
+          fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/metadata/1c/1c6d1fbb51834b64847b1b73a75bfc77
+          projectPath: Library/metadata/1c/1c6d1fbb51834b64847b1b73a75bfc77
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library/metadata/21
+        label: 21
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library/metadata/21/21eff446d50eaf44a85985cd4c0b6fa1
+        label: 21eff446d50eaf44a85985cd4c0b6fa1
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/metadata/21/21eff446d50eaf44a85985cd4c0b6fa1
+          fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/metadata/21/21eff446d50eaf44a85985cd4c0b6fa1
+          projectPath: Library/metadata/21/21eff446d50eaf44a85985cd4c0b6fa1
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library/metadata/32
+        label: 32
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library/metadata/32/32188fd89022c154c81befa2f0e00be0
+        label: 32188fd89022c154c81befa2f0e00be0
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/metadata/32/32188fd89022c154c81befa2f0e00be0
+          fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/metadata/32/32188fd89022c154c81befa2f0e00be0
+          projectPath: Library/metadata/32/32188fd89022c154c81befa2f0e00be0
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library/metadata/38
+        label: 38
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library/metadata/38/38c8faf1788024c02930a0c68a6e0edc
+        label: 38c8faf1788024c02930a0c68a6e0edc
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/metadata/38/38c8faf1788024c02930a0c68a6e0edc
+          fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/metadata/38/38c8faf1788024c02930a0c68a6e0edc
+          projectPath: Library/metadata/38/38c8faf1788024c02930a0c68a6e0edc
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library/metadata/3a
+        label: 3a
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library/metadata/3a/3a84de5cd0624681b6b6dcd8921d912a
+        label: 3a84de5cd0624681b6b6dcd8921d912a
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/metadata/3a/3a84de5cd0624681b6b6dcd8921d912a
+          fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/metadata/3a/3a84de5cd0624681b6b6dcd8921d912a
+          projectPath: Library/metadata/3a/3a84de5cd0624681b6b6dcd8921d912a
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library/metadata/3e
+        label: 3e
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library/metadata/3e/3e9a2175e0404f7ea30b2b694850bae0
+        label: 3e9a2175e0404f7ea30b2b694850bae0
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/metadata/3e/3e9a2175e0404f7ea30b2b694850bae0
+          fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/metadata/3e/3e9a2175e0404f7ea30b2b694850bae0
+          projectPath: Library/metadata/3e/3e9a2175e0404f7ea30b2b694850bae0
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library/metadata/40
+        label: 40
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library/metadata/40/405b9b51bb344a128608d968297df79c
+        label: 405b9b51bb344a128608d968297df79c
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/metadata/40/405b9b51bb344a128608d968297df79c
+          fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/metadata/40/405b9b51bb344a128608d968297df79c
+          projectPath: Library/metadata/40/405b9b51bb344a128608d968297df79c
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library/metadata/41
+        label: 41
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library/metadata/41/4113173d5e95493ab8765d7b08371de4
+        label: 4113173d5e95493ab8765d7b08371de4
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/metadata/41/4113173d5e95493ab8765d7b08371de4
+          fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/metadata/41/4113173d5e95493ab8765d7b08371de4
+          projectPath: Library/metadata/41/4113173d5e95493ab8765d7b08371de4
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library/metadata/46
+        label: 46
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library/metadata/46/46098a81a64a45c5b756320e10a22f13
+        label: 46098a81a64a45c5b756320e10a22f13
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/metadata/46/46098a81a64a45c5b756320e10a22f13
+          fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/metadata/46/46098a81a64a45c5b756320e10a22f13
+          projectPath: Library/metadata/46/46098a81a64a45c5b756320e10a22f13
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library/metadata/4a
+        label: 4a
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library/metadata/4a/4a3ecb1425d14502837abea459cf2b70
+        label: 4a3ecb1425d14502837abea459cf2b70
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/metadata/4a/4a3ecb1425d14502837abea459cf2b70
+          fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/metadata/4a/4a3ecb1425d14502837abea459cf2b70
+          projectPath: Library/metadata/4a/4a3ecb1425d14502837abea459cf2b70
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library/metadata/4b
+        label: 4b
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library/metadata/4b/4b3fa4bde7f1451a8218c03ee6a8ded8
+        label: 4b3fa4bde7f1451a8218c03ee6a8ded8
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/metadata/4b/4b3fa4bde7f1451a8218c03ee6a8ded8
+          fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/metadata/4b/4b3fa4bde7f1451a8218c03ee6a8ded8
+          projectPath: Library/metadata/4b/4b3fa4bde7f1451a8218c03ee6a8ded8
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library/metadata/4b/4ba2329b63d54f0187bcaa12486b1b0f
+        label: 4ba2329b63d54f0187bcaa12486b1b0f
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/metadata/4b/4ba2329b63d54f0187bcaa12486b1b0f
+          fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/metadata/4b/4ba2329b63d54f0187bcaa12486b1b0f
+          projectPath: Library/metadata/4b/4ba2329b63d54f0187bcaa12486b1b0f
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library/metadata/51
+        label: 51
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library/metadata/51/517af1b5b81b93b43b9745d58f017562
+        label: 517af1b5b81b93b43b9745d58f017562
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/metadata/51/517af1b5b81b93b43b9745d58f017562
+          fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/metadata/51/517af1b5b81b93b43b9745d58f017562
+          projectPath: Library/metadata/51/517af1b5b81b93b43b9745d58f017562
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library/metadata/53
+        label: 53
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library/metadata/53/53ebcfaa2e1e4e2dbc85882cd5a73fa1
+        label: 53ebcfaa2e1e4e2dbc85882cd5a73fa1
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/metadata/53/53ebcfaa2e1e4e2dbc85882cd5a73fa1
+          fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/metadata/53/53ebcfaa2e1e4e2dbc85882cd5a73fa1
+          projectPath: Library/metadata/53/53ebcfaa2e1e4e2dbc85882cd5a73fa1
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library/metadata/57
+        label: 57
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library/metadata/57/5782f9e9e6e0bb94bac99aeea24814fc
+        label: 5782f9e9e6e0bb94bac99aeea24814fc
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/metadata/57/5782f9e9e6e0bb94bac99aeea24814fc
+          fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/metadata/57/5782f9e9e6e0bb94bac99aeea24814fc
+          projectPath: Library/metadata/57/5782f9e9e6e0bb94bac99aeea24814fc
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library/metadata/5f
+        label: 5f
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library/metadata/5f/5f32cd94baa94578a686d4b9d6b660f7
+        label: 5f32cd94baa94578a686d4b9d6b660f7
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/metadata/5f/5f32cd94baa94578a686d4b9d6b660f7
+          fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/metadata/5f/5f32cd94baa94578a686d4b9d6b660f7
+          projectPath: Library/metadata/5f/5f32cd94baa94578a686d4b9d6b660f7
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library/metadata/6a
+        label: 6a
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library/metadata/6a/6a10b2909283487f913b00d94cd3faf5
+        label: 6a10b2909283487f913b00d94cd3faf5
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/metadata/6a/6a10b2909283487f913b00d94cd3faf5
+          fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/metadata/6a/6a10b2909283487f913b00d94cd3faf5
+          projectPath: Library/metadata/6a/6a10b2909283487f913b00d94cd3faf5
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library/metadata/6e
+        label: 6e
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library/metadata/6e/6e2d432c5ea14e75aa3a79f90f704442
+        label: 6e2d432c5ea14e75aa3a79f90f704442
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/metadata/6e/6e2d432c5ea14e75aa3a79f90f704442
+          fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/metadata/6e/6e2d432c5ea14e75aa3a79f90f704442
+          projectPath: Library/metadata/6e/6e2d432c5ea14e75aa3a79f90f704442
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library/metadata/6f
+        label: 6f
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library/metadata/6f/6fe576b47d8b47688ec5d02bccd15cf9
+        label: 6fe576b47d8b47688ec5d02bccd15cf9
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/metadata/6f/6fe576b47d8b47688ec5d02bccd15cf9
+          fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/metadata/6f/6fe576b47d8b47688ec5d02bccd15cf9
+          projectPath: Library/metadata/6f/6fe576b47d8b47688ec5d02bccd15cf9
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library/metadata/76
+        label: 76
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library/metadata/76/7668179ede524d6396c8b7d84461ea29
+        label: 7668179ede524d6396c8b7d84461ea29
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/metadata/76/7668179ede524d6396c8b7d84461ea29
+          fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/metadata/76/7668179ede524d6396c8b7d84461ea29
+          projectPath: Library/metadata/76/7668179ede524d6396c8b7d84461ea29
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library/metadata/80
+        label: 80
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library/metadata/80/80a3616ca19596e4da0f10f14d241e9f
+        label: 80a3616ca19596e4da0f10f14d241e9f
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/metadata/80/80a3616ca19596e4da0f10f14d241e9f
+          fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/metadata/80/80a3616ca19596e4da0f10f14d241e9f
+          projectPath: Library/metadata/80/80a3616ca19596e4da0f10f14d241e9f
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library/metadata/84
+        label: 84
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library/metadata/84/844f815391db42d49455cbf1a7bfc434
+        label: 844f815391db42d49455cbf1a7bfc434
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/metadata/84/844f815391db42d49455cbf1a7bfc434
+          fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/metadata/84/844f815391db42d49455cbf1a7bfc434
+          projectPath: Library/metadata/84/844f815391db42d49455cbf1a7bfc434
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library/metadata/87
+        label: 87
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library/metadata/87/870353891bb340e2b2a9c8707e7419ba
+        label: 870353891bb340e2b2a9c8707e7419ba
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/metadata/87/870353891bb340e2b2a9c8707e7419ba
+          fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/metadata/87/870353891bb340e2b2a9c8707e7419ba
+          projectPath: Library/metadata/87/870353891bb340e2b2a9c8707e7419ba
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library/metadata/ad
+        label: ad
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library/metadata/ad/adebbd281f1a4ef3a30be7f21937e02f
+        label: adebbd281f1a4ef3a30be7f21937e02f
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/metadata/ad/adebbd281f1a4ef3a30be7f21937e02f
+          fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/metadata/ad/adebbd281f1a4ef3a30be7f21937e02f
+          projectPath: Library/metadata/ad/adebbd281f1a4ef3a30be7f21937e02f
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library/metadata/b2
+        label: b2
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library/metadata/b2/b2bead50dbf86924f8e51f03ddbebf70
+        label: b2bead50dbf86924f8e51f03ddbebf70
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/metadata/b2/b2bead50dbf86924f8e51f03ddbebf70
+          fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/metadata/b2/b2bead50dbf86924f8e51f03ddbebf70
+          projectPath: Library/metadata/b2/b2bead50dbf86924f8e51f03ddbebf70
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library/metadata/b5
+        label: b5
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library/metadata/b5/b5da970776034f77a070d99423d68791
+        label: b5da970776034f77a070d99423d68791
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/metadata/b5/b5da970776034f77a070d99423d68791
+          fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/metadata/b5/b5da970776034f77a070d99423d68791
+          projectPath: Library/metadata/b5/b5da970776034f77a070d99423d68791
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library/metadata/b9
+        label: b9
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library/metadata/b9/b95ab00277ee47c687d710a3bb623d0a
+        label: b95ab00277ee47c687d710a3bb623d0a
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/metadata/b9/b95ab00277ee47c687d710a3bb623d0a
+          fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/metadata/b9/b95ab00277ee47c687d710a3bb623d0a
+          projectPath: Library/metadata/b9/b95ab00277ee47c687d710a3bb623d0a
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library/metadata/dc
+        label: dc
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library/metadata/dc/dc443db3e92b4983b9738c1131f555cb
+        label: dc443db3e92b4983b9738c1131f555cb
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/metadata/dc/dc443db3e92b4983b9738c1131f555cb
+          fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/metadata/dc/dc443db3e92b4983b9738c1131f555cb
+          projectPath: Library/metadata/dc/dc443db3e92b4983b9738c1131f555cb
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library/metadata/e1
+        label: e1
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library/metadata/e1/e1007cd261c84053beb0c3537782908d
+        label: e1007cd261c84053beb0c3537782908d
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/metadata/e1/e1007cd261c84053beb0c3537782908d
+          fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/metadata/e1/e1007cd261c84053beb0c3537782908d
+          projectPath: Library/metadata/e1/e1007cd261c84053beb0c3537782908d
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library/metadata/e4
+        label: e4
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library/metadata/e4/e4f4cf1b9b434137a499903a7a1d651a
+        label: e4f4cf1b9b434137a499903a7a1d651a
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/metadata/e4/e4f4cf1b9b434137a499903a7a1d651a
+          fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/metadata/e4/e4f4cf1b9b434137a499903a7a1d651a
+          projectPath: Library/metadata/e4/e4f4cf1b9b434137a499903a7a1d651a
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library/metadata/ea
+        label: ea
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library/metadata/ea/ead147da21254ff9a0a936bdd75e1680
+        label: ead147da21254ff9a0a936bdd75e1680
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/metadata/ea/ead147da21254ff9a0a936bdd75e1680
+          fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/metadata/ea/ead147da21254ff9a0a936bdd75e1680
+          projectPath: Library/metadata/ea/ead147da21254ff9a0a936bdd75e1680
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library/metadata/ed
+        label: ed
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library/metadata/ed/ed7343f30e3843b3afda8f8b02669cea
+        label: ed7343f30e3843b3afda8f8b02669cea
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/metadata/ed/ed7343f30e3843b3afda8f8b02669cea
+          fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/metadata/ed/ed7343f30e3843b3afda8f8b02669cea
+          projectPath: Library/metadata/ed/ed7343f30e3843b3afda8f8b02669cea
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library/metadata/f5
+        label: f5
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library/metadata/f5/f5f67c52d1564df4a8936ccd202a3bd8
+        label: f5f67c52d1564df4a8936ccd202a3bd8
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/metadata/f5/f5f67c52d1564df4a8936ccd202a3bd8
+          fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/metadata/f5/f5f67c52d1564df4a8936ccd202a3bd8
+          projectPath: Library/metadata/f5/f5f67c52d1564df4a8936ccd202a3bd8
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library/metadata/f7
+        label: f7
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library/metadata/f7/f70555f144d8491a825f0804e09c671c
+        label: f70555f144d8491a825f0804e09c671c
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/metadata/f7/f70555f144d8491a825f0804e09c671c
+          fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/metadata/f7/f70555f144d8491a825f0804e09c671c
+          projectPath: Library/metadata/f7/f70555f144d8491a825f0804e09c671c
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library/metadata/f7/f7b54ff4a43d4fcf81b4538b678e0bcc
+        label: f7b54ff4a43d4fcf81b4538b678e0bcc
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/metadata/f7/f7b54ff4a43d4fcf81b4538b678e0bcc
+          fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/metadata/f7/f7b54ff4a43d4fcf81b4538b678e0bcc
+          projectPath: Library/metadata/f7/f7b54ff4a43d4fcf81b4538b678e0bcc
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library/ScriptAssemblies
+        label: ScriptAssemblies
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library/ScriptAssemblies/BuiltinAssemblies.stamp
+        label: BuiltinAssemblies.stamp
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/ScriptAssemblies/BuiltinAssemblies.stamp
+          fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/ScriptAssemblies/BuiltinAssemblies.stamp
+          projectPath: Library/ScriptAssemblies/BuiltinAssemblies.stamp
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library/ScriptMapper
+        label: ScriptMapper
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/ScriptMapper
+          fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/ScriptMapper
+          projectPath: Library/ScriptMapper
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library/shadercompiler-UnityShaderCompiler0.log
+        label: shadercompiler-UnityShaderCompiler0.log
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library/shadercompiler-UnityShaderCompiler0.log
+          fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/shadercompiler-UnityShaderCompiler0.log
+          projectPath: Library/shadercompiler-UnityShaderCompiler0.log
           originalPath: 
           status: 3
           staged: 0
@@ -830,21 +3564,339 @@ MonoBehaviour:
           status: 0
           staged: 0
     gitStatusEntries:
+    - path: .idea/.idea.Talisman/.idea/workspace.xml
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/.idea/.idea.Talisman/.idea/workspace.xml
+      projectPath: .idea/.idea.Talisman/.idea/workspace.xml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/Scripts/GameControl.cs
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/GameControl.cs
+      projectPath: Assets/Scripts/GameControl.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/Scripts/player/players/BluePlayer.cs
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/player/players/BluePlayer.cs
+      projectPath: Assets/Scripts/player/players/BluePlayer.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/Scripts/player/players/YellowPlayer.cs
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/player/players/YellowPlayer.cs
+      projectPath: Assets/Scripts/player/players/YellowPlayer.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/Scripts/UniqueTiles.cs
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/UniqueTiles.cs
+      projectPath: Assets/Scripts/UniqueTiles.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/assetDatabase3
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/assetDatabase3
+      projectPath: Library/assetDatabase3
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/CurrentLayout.dwlt
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/CurrentLayout.dwlt
+      projectPath: Library/CurrentLayout.dwlt
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/EditorInstance.json
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/EditorInstance.json
+      projectPath: Library/EditorInstance.json
+      originalPath: 
+      status: 3
+      staged: 0
     - path: Library/gfu/cache/branches.yaml
       fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/gfu/cache/branches.yaml
       projectPath: Library/gfu/cache/branches.yaml
       originalPath: 
       status: 3
       staged: 0
-    changedFilesText: 1 changed file
+    - path: Library/gfu/cache/gitlocks.yaml
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/gfu/cache/gitlocks.yaml
+      projectPath: Library/gfu/cache/gitlocks.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gitlog.yaml
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/gfu/cache/gitlog.yaml
+      projectPath: Library/gfu/cache/gitlog.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gitstatusentries.yaml
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/gfu/cache/gitstatusentries.yaml
+      projectPath: Library/gfu/cache/gitstatusentries.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gittrackingstatus.yaml
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/gfu/cache/gittrackingstatus.yaml
+      projectPath: Library/gfu/cache/gittrackingstatus.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/repoinfo.yaml
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/gfu/cache/repoinfo.yaml
+      projectPath: Library/gfu/cache/repoinfo.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/12/12fd8a0055b84bb59e84c9835a37e333
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/metadata/12/12fd8a0055b84bb59e84c9835a37e333
+      projectPath: Library/metadata/12/12fd8a0055b84bb59e84c9835a37e333
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/1b/1b355da31ea043feba0c03e35dd4bc62
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/metadata/1b/1b355da31ea043feba0c03e35dd4bc62
+      projectPath: Library/metadata/1b/1b355da31ea043feba0c03e35dd4bc62
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/1c/1c6d1fbb51834b64847b1b73a75bfc77
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/metadata/1c/1c6d1fbb51834b64847b1b73a75bfc77
+      projectPath: Library/metadata/1c/1c6d1fbb51834b64847b1b73a75bfc77
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/21/21eff446d50eaf44a85985cd4c0b6fa1
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/metadata/21/21eff446d50eaf44a85985cd4c0b6fa1
+      projectPath: Library/metadata/21/21eff446d50eaf44a85985cd4c0b6fa1
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/32/32188fd89022c154c81befa2f0e00be0
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/metadata/32/32188fd89022c154c81befa2f0e00be0
+      projectPath: Library/metadata/32/32188fd89022c154c81befa2f0e00be0
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/38/38c8faf1788024c02930a0c68a6e0edc
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/metadata/38/38c8faf1788024c02930a0c68a6e0edc
+      projectPath: Library/metadata/38/38c8faf1788024c02930a0c68a6e0edc
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/3a/3a84de5cd0624681b6b6dcd8921d912a
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/metadata/3a/3a84de5cd0624681b6b6dcd8921d912a
+      projectPath: Library/metadata/3a/3a84de5cd0624681b6b6dcd8921d912a
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/3e/3e9a2175e0404f7ea30b2b694850bae0
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/metadata/3e/3e9a2175e0404f7ea30b2b694850bae0
+      projectPath: Library/metadata/3e/3e9a2175e0404f7ea30b2b694850bae0
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/40/405b9b51bb344a128608d968297df79c
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/metadata/40/405b9b51bb344a128608d968297df79c
+      projectPath: Library/metadata/40/405b9b51bb344a128608d968297df79c
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/41/4113173d5e95493ab8765d7b08371de4
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/metadata/41/4113173d5e95493ab8765d7b08371de4
+      projectPath: Library/metadata/41/4113173d5e95493ab8765d7b08371de4
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/46/46098a81a64a45c5b756320e10a22f13
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/metadata/46/46098a81a64a45c5b756320e10a22f13
+      projectPath: Library/metadata/46/46098a81a64a45c5b756320e10a22f13
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/4a/4a3ecb1425d14502837abea459cf2b70
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/metadata/4a/4a3ecb1425d14502837abea459cf2b70
+      projectPath: Library/metadata/4a/4a3ecb1425d14502837abea459cf2b70
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/4b/4b3fa4bde7f1451a8218c03ee6a8ded8
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/metadata/4b/4b3fa4bde7f1451a8218c03ee6a8ded8
+      projectPath: Library/metadata/4b/4b3fa4bde7f1451a8218c03ee6a8ded8
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/4b/4ba2329b63d54f0187bcaa12486b1b0f
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/metadata/4b/4ba2329b63d54f0187bcaa12486b1b0f
+      projectPath: Library/metadata/4b/4ba2329b63d54f0187bcaa12486b1b0f
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/51/517af1b5b81b93b43b9745d58f017562
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/metadata/51/517af1b5b81b93b43b9745d58f017562
+      projectPath: Library/metadata/51/517af1b5b81b93b43b9745d58f017562
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/53/53ebcfaa2e1e4e2dbc85882cd5a73fa1
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/metadata/53/53ebcfaa2e1e4e2dbc85882cd5a73fa1
+      projectPath: Library/metadata/53/53ebcfaa2e1e4e2dbc85882cd5a73fa1
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/57/5782f9e9e6e0bb94bac99aeea24814fc
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/metadata/57/5782f9e9e6e0bb94bac99aeea24814fc
+      projectPath: Library/metadata/57/5782f9e9e6e0bb94bac99aeea24814fc
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/5f/5f32cd94baa94578a686d4b9d6b660f7
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/metadata/5f/5f32cd94baa94578a686d4b9d6b660f7
+      projectPath: Library/metadata/5f/5f32cd94baa94578a686d4b9d6b660f7
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/6a/6a10b2909283487f913b00d94cd3faf5
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/metadata/6a/6a10b2909283487f913b00d94cd3faf5
+      projectPath: Library/metadata/6a/6a10b2909283487f913b00d94cd3faf5
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/6e/6e2d432c5ea14e75aa3a79f90f704442
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/metadata/6e/6e2d432c5ea14e75aa3a79f90f704442
+      projectPath: Library/metadata/6e/6e2d432c5ea14e75aa3a79f90f704442
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/6f/6fe576b47d8b47688ec5d02bccd15cf9
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/metadata/6f/6fe576b47d8b47688ec5d02bccd15cf9
+      projectPath: Library/metadata/6f/6fe576b47d8b47688ec5d02bccd15cf9
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/76/7668179ede524d6396c8b7d84461ea29
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/metadata/76/7668179ede524d6396c8b7d84461ea29
+      projectPath: Library/metadata/76/7668179ede524d6396c8b7d84461ea29
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/80/80a3616ca19596e4da0f10f14d241e9f
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/metadata/80/80a3616ca19596e4da0f10f14d241e9f
+      projectPath: Library/metadata/80/80a3616ca19596e4da0f10f14d241e9f
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/84/844f815391db42d49455cbf1a7bfc434
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/metadata/84/844f815391db42d49455cbf1a7bfc434
+      projectPath: Library/metadata/84/844f815391db42d49455cbf1a7bfc434
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/87/870353891bb340e2b2a9c8707e7419ba
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/metadata/87/870353891bb340e2b2a9c8707e7419ba
+      projectPath: Library/metadata/87/870353891bb340e2b2a9c8707e7419ba
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/ad/adebbd281f1a4ef3a30be7f21937e02f
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/metadata/ad/adebbd281f1a4ef3a30be7f21937e02f
+      projectPath: Library/metadata/ad/adebbd281f1a4ef3a30be7f21937e02f
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/b2/b2bead50dbf86924f8e51f03ddbebf70
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/metadata/b2/b2bead50dbf86924f8e51f03ddbebf70
+      projectPath: Library/metadata/b2/b2bead50dbf86924f8e51f03ddbebf70
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/b5/b5da970776034f77a070d99423d68791
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/metadata/b5/b5da970776034f77a070d99423d68791
+      projectPath: Library/metadata/b5/b5da970776034f77a070d99423d68791
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/b9/b95ab00277ee47c687d710a3bb623d0a
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/metadata/b9/b95ab00277ee47c687d710a3bb623d0a
+      projectPath: Library/metadata/b9/b95ab00277ee47c687d710a3bb623d0a
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/dc/dc443db3e92b4983b9738c1131f555cb
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/metadata/dc/dc443db3e92b4983b9738c1131f555cb
+      projectPath: Library/metadata/dc/dc443db3e92b4983b9738c1131f555cb
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/e1/e1007cd261c84053beb0c3537782908d
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/metadata/e1/e1007cd261c84053beb0c3537782908d
+      projectPath: Library/metadata/e1/e1007cd261c84053beb0c3537782908d
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/e4/e4f4cf1b9b434137a499903a7a1d651a
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/metadata/e4/e4f4cf1b9b434137a499903a7a1d651a
+      projectPath: Library/metadata/e4/e4f4cf1b9b434137a499903a7a1d651a
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/ea/ead147da21254ff9a0a936bdd75e1680
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/metadata/ea/ead147da21254ff9a0a936bdd75e1680
+      projectPath: Library/metadata/ea/ead147da21254ff9a0a936bdd75e1680
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/ed/ed7343f30e3843b3afda8f8b02669cea
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/metadata/ed/ed7343f30e3843b3afda8f8b02669cea
+      projectPath: Library/metadata/ed/ed7343f30e3843b3afda8f8b02669cea
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/f5/f5f67c52d1564df4a8936ccd202a3bd8
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/metadata/f5/f5f67c52d1564df4a8936ccd202a3bd8
+      projectPath: Library/metadata/f5/f5f67c52d1564df4a8936ccd202a3bd8
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/f7/f70555f144d8491a825f0804e09c671c
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/metadata/f7/f70555f144d8491a825f0804e09c671c
+      projectPath: Library/metadata/f7/f70555f144d8491a825f0804e09c671c
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/f7/f7b54ff4a43d4fcf81b4538b678e0bcc
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/metadata/f7/f7b54ff4a43d4fcf81b4538b678e0bcc
+      projectPath: Library/metadata/f7/f7b54ff4a43d4fcf81b4538b678e0bcc
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/ScriptAssemblies/BuiltinAssemblies.stamp
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/ScriptAssemblies/BuiltinAssemblies.stamp
+      projectPath: Library/ScriptAssemblies/BuiltinAssemblies.stamp
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/ScriptMapper
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/ScriptMapper
+      projectPath: Library/ScriptMapper
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/shadercompiler-UnityShaderCompiler0.log
+      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/shadercompiler-UnityShaderCompiler0.log
+      projectPath: Library/shadercompiler-UnityShaderCompiler0.log
+      originalPath: 
+      status: 3
+      staged: 0
+    changedFilesText: 54 changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2018-08-21T19:18:59.055+01:00
+      updatedTimeString: 2018-08-22T17:35:13.683+01:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2018-08-21T19:18:38.382+01:00
+      updatedTimeString: 2018-08-22T18:21:44.091+01:00
       cacheType: 5
     lastLocksChangedEvent:
-      updatedTimeString: 2018-08-21T19:17:51.803+01:00
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
       cacheType: 6
   historyView:
     currentLogHasUpdate: 0
@@ -28459,13 +31511,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2018-08-21T19:18:59.055+01:00
+    updatedTimeString: 2018-08-22T17:35:13.683+01:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2018-08-21T19:18:58.729+01:00
+    updatedTimeString: 2018-08-22T17:35:13.222+01:00
     cacheType: 4
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2018-08-21T19:18:38.382+01:00
+    updatedTimeString: 2018-08-22T18:21:44.091+01:00
     cacheType: 5
   pullButtonContent:
     m_Text: Pull
@@ -28485,8 +31537,8 @@ MonoBehaviour:
     m_Tooltip: 
   repositoryProgressValue: 0
   repositoryProgressMessage: 
-  appManagerProgressValue: 1
-  appManagerProgressMessage: Initialized
+  appManagerProgressValue: 0.5
+  appManagerProgressMessage: Setting up git...
 --- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -28592,10 +31644,10 @@ MonoBehaviour:
     height: 345
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
-    scrollPos: {x: 0, y: 120}
+    scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: e4fbffff000000004a0e00006a0e0000800f0000900f0000
+    m_ExpandedIDs: 82f9ffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -28668,7 +31720,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: b6280000
     m_LastClickedID: 10422
-    m_ExpandedIDs: 000000007c0900008209000092090000a4090000ca090000dc090000e0090000e6090000ea090000f80900003c0a0000400a0000440a0000500a0000600a00008a0a0000a80a0000c80a0000cc0a0000d00a0000d40a0000e20a0000060b0000360b0000500b00005e0b0000620b0000660b00006a0b0000740b0000be0b0000e00b00000e0c0000140c00001a0c0000200c0000240c00002c0c0000360c0000480c0000500c0000540c0000880c0000a00c0000aa0c0000b60c0000be0c0000c40c0000ca0c0000cc0c0000d00c0000dc0c0000f80c0000be300000c0300000
+    m_ExpandedIDs: 00000000982a00009e2a0000ae2a0000c02a0000e62a0000f82a0000fc2a0000022b0000062b0000142b0000582b00005c2b0000602b00006c2b00007c2b0000a62b0000c42b0000e42b0000e82b0000ec2b0000f02b0000fe2b0000222c0000522c00006c2c00007a2c00007e2c0000822c0000862c0000902c0000da2c0000fc2c00002a2d0000302d0000362d00003c2d0000402d0000482d0000522d0000642d00006c2d0000702d0000a42d0000bc2d0000c62d0000d22d0000da2d0000e02d0000e62d0000e82d0000ec2d0000f82d0000142e00004431000046310000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -28696,7 +31748,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff000000007c0900008209000092090000a4090000ca090000dc090000e0090000e6090000ea090000f80900003c0a0000400a0000440a0000500a0000600a00008a0a0000a80a0000c80a0000cc0a0000d00a0000d40a0000e20a0000060b0000360b0000500b00005e0b0000620b0000660b00006a0b0000740b0000be0b0000e00b00000e0c0000140c00001a0c0000200c0000240c00002c0c0000360c0000480c0000500c0000540c0000880c0000a00c0000aa0c0000b60c0000be0c0000c40c0000ca0c0000cc0c0000d00c0000dc0c0000f80c0000be300000c0300000
+    m_ExpandedIDs: ffffffff00000000982a00009e2a0000ae2a0000c02a0000e62a0000f82a0000fc2a0000022b0000062b0000142b0000582b00005c2b0000602b00006c2b00007c2b0000a62b0000c42b0000e42b0000e82b0000ec2b0000f02b0000fe2b0000222c0000522c00006c2c00007a2c00007e2c0000822c0000862c0000902c0000da2c0000fc2c00002a2d0000302d0000362d00003c2d0000402d0000482d0000522d0000642d00006c2d0000702d0000a42d0000bc2d0000c62d0000d22d0000da2d0000e02d0000e62d0000e82d0000ec2d0000f82d0000142e00004431000046310000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
