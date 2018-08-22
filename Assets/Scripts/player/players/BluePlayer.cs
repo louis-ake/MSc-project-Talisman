@@ -96,7 +96,7 @@ public class BluePlayer : Player {
 		{
 			Move();
 		}
-		if (AdventureDeck.CardTiles.Contains(_startTileName))
+		if (AdventureDeck.AllCardTiles.Contains(_startTileName))
 		{
 			DrawFromDeck();
 		} else if (UniqueTiles.FightTiles.Contains(_startTileName))
@@ -128,7 +128,7 @@ public class BluePlayer : Player {
 	{
 		if (moved && !done && actionNeeded)
 		{
-			FightDiff = UniqueTiles.ChooseFightTile(_startTileName, strength, gold);
+			FightDiff = UniqueTiles.ChooseFightTile(_startTileName);
 			actionNeeded = false;
 		}
 		if (!won && !done && moved)
@@ -156,7 +156,7 @@ public class BluePlayer : Player {
 	private static void DrawFromDeck() {	
 		if (moved && !done && actionNeeded)
 		{
-			FightDiff = AdventureDeck.FightBandit(strength);
+			FightDiff = AdventureDeck.ProduceCard(_startTileName);
 			actionNeeded = false;
 		}
 		if (!won && !done && moved)

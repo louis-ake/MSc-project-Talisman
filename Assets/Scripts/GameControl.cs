@@ -135,6 +135,11 @@ public class GameControl : MonoBehaviour {
 		return TurnTracker == 0 ? BluePlayer.gold : YellowPlayer.gold;
 	}
 
+	public static int GetLives()
+	{
+		return TurnTracker == 0 ? BluePlayer.lives : YellowPlayer.lives;
+	}
+
 	/**
 	 * Randomly allocate each player good or evil, exclusively 
 	 */

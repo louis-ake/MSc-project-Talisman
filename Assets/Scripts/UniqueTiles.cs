@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.SocialPlatforms;
 
 public class UniqueTiles : MonoBehaviour {
 
@@ -48,11 +49,11 @@ public class UniqueTiles : MonoBehaviour {
 	/**
 	 * If it's a fight tile, this method will choose the correct method and call it
 	 */
-	public static int ChooseFightTile(string tileName, int strength, int gold)
+	public static int ChooseFightTile(string tileName)
 	{
 		if (tileName == "O5")
 		{
-			return FightSentinal(strength);
+			return FightSentinal(GameControl.GetStrength());
 		}
 		else
 		{
@@ -106,7 +107,7 @@ public class UniqueTiles : MonoBehaviour {
 	}
 
 
-	public static readonly string[] Tiles = {"O1", "O3", "O7", "O9", "O23"};
+	public static readonly string[] Tiles = {"O1", "O3", "O7", "O9", "O23", "M1", "M2"};
 	
 
 	public static void ChooseTile(string tileName)
@@ -128,6 +129,12 @@ public class UniqueTiles : MonoBehaviour {
 				break;
 			case "O19":
 				Tavern();
+				break;
+			case "M1":
+				PortalOfPower();
+				break;
+			case "M2":
+				BlackKnight();
 				break;
 		}
 	}
@@ -257,6 +264,41 @@ public class UniqueTiles : MonoBehaviour {
 				// same for yellowplayer
 			}	
 		}
+	}
+
+
+	private static void PortalOfPower()
+	{
+		if (Random.Range(1, 7) + Random.Range(1, 7) <= GameControl.GetStrength())
+		{
+			AdventureDeck._deckText = "successful roll - transported to Plain of Peril";
+			if (GameControl.TurnTracker == 0)
+			{
+				BluePlayer.MoveRegion("I", 8, "I1");
+			}
+			else
+			{
+				// same for yellowplayer
+			}
+		}
+		else
+		{
+			AdventureDeck._deckText = "Unsuccessful roll";
+		}
+	}
+
+
+	private static void BlackKnight()
+	{
+		if (GameControl.GetGold() >= GameControl.GetLives())
+		{
+			GameControl.ChangeGold(-1);
+		}
+		else
+		{
+			GameControl.ChangeLives(-1);
+		}
+		AdventureDeck._deckText = "penalty paid";
 	}
 
 }
