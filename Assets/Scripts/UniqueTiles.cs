@@ -107,7 +107,7 @@ public class UniqueTiles : MonoBehaviour {
 	}
 
 
-	public static readonly string[] Tiles = {"O1", "O3", "O7", "O9", "O23", "M1", "M2", "M13"};
+	public static readonly string[] Tiles = {"O1", "O3", "O7", "O9", "O23", "M1", "M2", "M9", "M13"};
 	
 
 	public static void ChooseTile(string tileName)
@@ -135,6 +135,9 @@ public class UniqueTiles : MonoBehaviour {
 				break;
 			case "M2":
 				BlackKnight();
+				break;
+			case "M9":
+				WarlockCave();
 				break;
 			case "M13":
 				Temple();
@@ -334,5 +337,35 @@ public class UniqueTiles : MonoBehaviour {
 			GameControl.ChangeLives(2);
 			AdventureDeck._deckText = "rolled a 12 and gained 2 lives";
 		}
+	}
+	
+
+	private static void WarlockCave()
+	{
+		var result = Random.Range(1, 7);
+		if (result <= 2)
+		{
+			GameControl.ChangeLives(-1);
+			AdventureDeck._deckText = "rolled 1-2 and lost a life to complete quest";
+		} else if (result >= 3 && result <= 4)
+		{
+			if (GameControl.GetStrength() < 1)
+			{
+				return;
+			}
+			GameControl.ChangeLives(-1);
+			AdventureDeck._deckText = "rolled 3-4 and lost 1 strength to complete quest";
+
+		}
+		else
+		{
+			if (GameControl.GetGold() < 1)
+			{
+				return;
+			}
+			GameControl.ChangeGold(-1);
+			AdventureDeck._deckText = "rolled 5-6 and lost 1 gold to complete quest";
+		}
+		GameControl.GiveTalisman();
 	}
 }
