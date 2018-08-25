@@ -19,6 +19,10 @@ public class UniqueTiles : MonoBehaviour {
 	public static readonly int ArmouryPrice = 2;
 	
 	public static readonly string[] ArmouryTiles = {"O13"};
+
+	public static readonly int HealPrice = 1;
+
+	public static readonly string[] HealTiles = {"M16"};
 	
 	private static readonly int GenericEnemy = 3;
 

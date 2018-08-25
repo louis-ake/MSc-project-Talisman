@@ -109,6 +109,11 @@ public class BluePlayer : Player {
 		{
 			EncounterArmouryTile();
 			actionNeeded = false;
+		} else if (UniqueTiles.HealTiles.Contains(_startTileName) &&
+		           GameControl.GetGold() >= UniqueTiles.HealPrice)
+		{
+			EncounterHealTile();
+			actionNeeded = false;
 		} else if (UniqueTiles.Tiles.Contains(_startTileName) && moved && actionNeeded)
 		{
 			UniqueTiles.ChooseTile(_startTileName);
@@ -184,6 +189,22 @@ public class BluePlayer : Player {
 		{
 			GameControl.AlternateTurnTracker();
 		}
+	}
+
+
+	private static void EncounterHealTile()
+	{
+		AdventureDeck._deckText = "Would you like to heal 1 life for 1 gold?";		
+		if (Input.GetKey(KeyCode.Y))
+		{
+			GameControl.ChangeLives(1);
+			GameControl.ChangeGold(-1);
+			GameControl.AlternateTurnTracker();
+		} else if (Input.GetKey(KeyCode.N))
+		{
+			GameControl.AlternateTurnTracker();
+		}
+		
 	}
 	
 	/**
