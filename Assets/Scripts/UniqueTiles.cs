@@ -111,7 +111,7 @@ public class UniqueTiles : MonoBehaviour {
 	}
 
 
-	public static readonly string[] Tiles = {"O1", "O3", "O7", "O9", "O23", "M1", "M2", "M9", "M13", "I2", "I8"};
+	public static readonly string[] Tiles = {"O1", "O3", "O7", "O9", "O23", "M1", "M2", "M9", "M13", "I2", "I3", "I8"};
 	
 
 	public static void ChooseTile(string tileName)
@@ -149,6 +149,9 @@ public class UniqueTiles : MonoBehaviour {
 			case "I2":
 			case "I8":
 				MinesCrypt();
+				break;
+			case "I3":
+				VampiresTower();
 				break;
 		}
 	}
@@ -419,6 +422,25 @@ public class UniqueTiles : MonoBehaviour {
 				YellowPlayer.MoveRegion("O", 24, "O19");
 				AdventureDeck._deckText = "result of 6+: transported to the tavern";
 			}
+		}
+	}
+
+
+	private static void VampiresTower()
+	{
+		var result = Random.Range(1, 7);
+		if (result <= 2)
+		{
+			AdventureDeck._deckText = "rolled 1-2 so no effect";
+		} else if (result >= 3 && result <= 4)
+		{
+			GameControl.ChangeLives(-1);
+			AdventureDeck._deckText = "rolled 3-4 and lost a life";
+		} 
+		else
+		{
+			GameControl.ChangeLives(-2);
+			AdventureDeck._deckText = "rolled 5-6 and lost 2 lives";
 		}
 	}
 }
