@@ -111,7 +111,7 @@ public class UniqueTiles : MonoBehaviour {
 	}
 
 
-	public static readonly string[] Tiles = {"O1", "O3", "O7", "O9", "O23", "M1", "M2", "M9", "M13", "I2", "I3", "I8"};
+	public static readonly string[] Tiles = {"O1", "O3", "O7", "O9", "O23", "M1", "M2", "M9", "M13", "I2", "I3", "I4", "I8"};
 	
 
 	public static void ChooseTile(string tileName)
@@ -152,6 +152,9 @@ public class UniqueTiles : MonoBehaviour {
 				break;
 			case "I3":
 				VampiresTower();
+				break;
+			case "I4":
+				PitFiends();
 				break;
 		}
 	}
@@ -442,5 +445,21 @@ public class UniqueTiles : MonoBehaviour {
 			GameControl.ChangeLives(-2);
 			AdventureDeck._deckText = "rolled 5-6 and lost 2 lives";
 		}
+	}
+
+	private static void PitFiends()
+	{
+		const int fiendStrength = 4;
+		var fiends = Random.Range(1, 7);
+		var lost = 0;
+		for (var i = 0; i < fiends; i++)
+		{
+			var fiendResult = fiendStrength + Random.Range(1, 7);
+			var playerResult = GameControl.GetStrength() + Random.Range(1, 7);
+			if (fiendResult <= playerResult) continue;
+			GameControl.ChangeLives(-1);
+			lost += 1;
+		}
+		AdventureDeck._deckText = "You fought " + fiends + " fiends and defeated " + (fiends - lost);
 	}
 }
