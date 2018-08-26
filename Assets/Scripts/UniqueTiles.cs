@@ -27,10 +27,10 @@ public class UniqueTiles : MonoBehaviour {
 	private static readonly int GenericEnemy = 3;
 
 	// Tiles which entail a fight
-	public static readonly string[] FightTiles = {"O5"};
+	public static readonly string[] FightTiles = {"O5", "I6"};
 
 
-	public static void FightGenericEnemy()
+	private static void FightGenericEnemy()
 	{
 		var enemyResult = GenericEnemy + Random.Range(1, 7);
 		var playerResult = GameControl.GetStrength() + Random.Range(1, 7);
@@ -55,24 +55,55 @@ public class UniqueTiles : MonoBehaviour {
 	 */
 	public static int ChooseFightTile(string tileName)
 	{
-		if (tileName == "O5")
+		switch (tileName)
 		{
-			return FightSentinal(GameControl.GetStrength());
+			case "O5":
+				return FightSentinal();
+			case "I6":
+				return FightWarlock();
+			default:
+				return 0;
+		}
+	}
+
+
+	private static int FightWarlock()
+	{
+		// Two to determine its strength, one to determine its fight roll
+		var warlockResult = Random.Range(1, 7) + Random.Range(1, 7) +Random.Range(1, 7);
+		var playerResult = GameControl.GetStrength() + Random.Range(1, 7);
+		var diff = playerResult - warlockResult;
+		if (diff > 0)
+		{
+			AdventureDeck._deckText = "You fought the warlock and won (" + playerResult + " vs " + warlockResult + ")";
+			Player.done = true;
+			Player.won = true;
+			GameControl.AlternateTurnTracker();
+		} else if (diff < 0)
+		{
+			AdventureDeck._deckText = "You fought the warlock and lost (" + playerResult + " vs " + warlockResult + ")";
+			Player.won = false;
+			GameControl.ChangeLives(-1);
 		}
 		else
 		{
-			return 0;
-		}	
+			AdventureDeck._deckText = "You fought the warlock and tied (" + playerResult + " vs " + warlockResult + ")";
+			Player.won = true;
+			Player.done = true;
+			GameControl.AlternateTurnTracker();
+		}
+
+		return diff;
 	}
 
 	/**
 	 * Fight the sentinal and if won, cross into the middle region
 	 */
-	private static int FightSentinal(int PlayerStrength)
+	private static int FightSentinal()
 	{
 		var sentinalStrength = 4; // to be changed
 		var SentinalResult = sentinalStrength + Random.Range(1, 7);
-		var playerResult = PlayerStrength + Random.Range(1, 7);
+		var playerResult = GameControl.GetStrength() + Random.Range(1, 7);
 		var diff = playerResult - SentinalResult;
 		if (diff > 0)
 		{
@@ -86,7 +117,7 @@ public class UniqueTiles : MonoBehaviour {
 			}
 			else
 			{
-				// same for yellowplayer
+				YellowPlayer.MoveRegion("M", 16, "M4");
 			}
 
 			GameControl.AlternateTurnTracker();
@@ -279,13 +310,13 @@ public class UniqueTiles : MonoBehaviour {
 		{
 			if (GameControl.TurnTracker == 0)
 			{
-				AdventureDeck._deckText = "You rolled a 6 and were transported to the temple";
 				BluePlayer.MoveRegion("M", 16, "M13");
 			}
 			else
 			{
-				// same for yellowplayer
+				YellowPlayer.MoveRegion("M", 16, "M13");
 			}	
+			AdventureDeck._deckText = "You rolled a 6 and were transported to the temple";
 		}
 	}
 
@@ -301,7 +332,7 @@ public class UniqueTiles : MonoBehaviour {
 			}
 			else
 			{
-				// same for yellowplayer
+				YellowPlayer.MoveRegion("I", 8, "I1");
 			}
 		}
 		else
@@ -480,4 +511,5 @@ public class UniqueTiles : MonoBehaviour {
 			YellowPlayer.MoveRegion("C", 1, "C1");
 		}
 	}
+	
 }
