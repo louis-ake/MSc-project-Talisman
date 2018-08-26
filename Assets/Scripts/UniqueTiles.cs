@@ -142,7 +142,7 @@ public class UniqueTiles : MonoBehaviour {
 	}
 
 
-	public static readonly string[] Tiles = {"O1", "O3", "O7", "O9", "O23", "M1", "M2", "M9", "M13", "I2", "I3", "I4", "I5", "I8"};
+	public static readonly string[] Tiles = {"O1", "O3", "O7", "O9", "O23", "M1", "M2", "M9", "M13", "I2", "I3", "I4", "I5", "I7", "I8"};
 	
 
 	public static void ChooseTile(string tileName)
@@ -189,6 +189,9 @@ public class UniqueTiles : MonoBehaviour {
 				break;
 			case "I5":
 				ValleyOfFire();
+				break;
+			case "I7":
+				Death();
 				break;
 		}
 	}
@@ -509,6 +512,22 @@ public class UniqueTiles : MonoBehaviour {
 		else
 		{
 			YellowPlayer.MoveRegion("C", 1, "C1");
+		}
+	}
+
+
+	private static void Death()
+	{
+		var deathresult = Random.Range(1, 7) + Random.Range(1, 7);
+		var playerResult = Random.Range(1, 7) + Random.Range(1, 7);
+		if (deathresult > playerResult)
+		{
+			GameControl.ChangeLives(-1);
+			AdventureDeck._deckText = "you diced with death and lost (" + deathresult + " vs " + playerResult + ")";
+		}
+		else
+		{
+			AdventureDeck._deckText = "you diced with death and survived (" + deathresult + " vs " + playerResult + ")";
 		}
 	}
 	
