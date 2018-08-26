@@ -88,6 +88,18 @@ public class YellowPlayer : Player {
 			AdventureDeck.FightBandit(strength);
 		}*/
 	}
+	
+	public static void MoveRegion(string region, int regionTiles, string tileName)
+	{
+		Region = region;
+		RegionUpperBound = regionTiles;
+		var nextTile = GameObject.Find(tileName);
+		_target = nextTile.transform;
+		var tx = _target.position.x;
+		var ty = _target.position.y;
+		SetEndPos(new Vector2(tx, ty));
+		SetStartTileName(tileName);
+	}
 
 	public static void Move()
 	{

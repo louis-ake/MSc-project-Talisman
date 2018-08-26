@@ -111,7 +111,7 @@ public class UniqueTiles : MonoBehaviour {
 	}
 
 
-	public static readonly string[] Tiles = {"O1", "O3", "O7", "O9", "O23", "M1", "M2", "M9", "M13"};
+	public static readonly string[] Tiles = {"O1", "O3", "O7", "O9", "O23", "M1", "M2", "M9", "M13", "I2", "I8"};
 	
 
 	public static void ChooseTile(string tileName)
@@ -145,6 +145,10 @@ public class UniqueTiles : MonoBehaviour {
 				break;
 			case "M13":
 				Temple();
+				break;
+			case "I2":
+			case "I8":
+				MinesCrypt();
 				break;
 		}
 	}
@@ -371,5 +375,50 @@ public class UniqueTiles : MonoBehaviour {
 			AdventureDeck._deckText = "rolled 5-6 and lost 1 gold to complete quest";
 		}
 		GameControl.GiveTalisman();
+	}
+
+	private static void MinesCrypt()
+	{
+		var result = Random.Range(1, 7) + Random.Range(1, 7) + Random.Range(1, 7) - GameControl.GetStrength();
+		if (GameControl.TurnTracker == 0)
+		{
+			if (result == 1)
+			{
+				BluePlayer.MoveRegion("I", 8, "I1");
+				AdventureDeck._deckText = "result of 1: transported to plain of peril";
+			} else if (result >= 2 && result <= 3)
+			{
+				BluePlayer.MoveRegion("M", 16, "M1");
+				AdventureDeck._deckText = "result of 2-3: transported to the portal of power";
+			} else if (result >= 4 && result <= 5)
+			{
+				BluePlayer.MoveRegion("M", 16, "M9");
+				AdventureDeck._deckText = "result of 4-5: transported to the warlock's cave";
+			} else if (result >= 6)
+			{
+				BluePlayer.MoveRegion("O", 24, "O19");
+				AdventureDeck._deckText = "result of 6+: transported to the tavern";
+			}
+		}
+		else
+		{
+			if (result == 1)
+			{
+				YellowPlayer.MoveRegion("I", 8, "I1");
+				AdventureDeck._deckText = "result of 1: transported to plain of peril";
+			} else if (result >= 2 && result <= 3)
+			{
+				YellowPlayer.MoveRegion("M", 16, "M1");
+				AdventureDeck._deckText = "result of 2-3: transported to the portal of power";
+			} else if (result >= 4 && result <= 5)
+			{
+				YellowPlayer.MoveRegion("M", 16, "M9");
+				AdventureDeck._deckText = "result of 4-5: transported to the warlock's cave";
+			} else if (result >= 6)
+			{
+				YellowPlayer.MoveRegion("O", 24, "O19");
+				AdventureDeck._deckText = "result of 6+: transported to the tavern";
+			}
+		}
 	}
 }
