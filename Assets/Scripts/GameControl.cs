@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Security.Cryptography.X509Certificates;
 using System.Security.Policy;
 using JetBrains.Annotations;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
 using Random = UnityEngine.Random;
@@ -150,6 +151,19 @@ public class GameControl : MonoBehaviour {
 		else
 		{
 			YellowPlayer.talisman = "no";
+		}
+	}
+
+
+	public static bool CheckTalisman()
+	{
+		if (TurnTracker == 0)
+		{
+			return BluePlayer.talisman == "yes";
+		}
+		else
+		{
+			return YellowPlayer.talisman == "yes";
 		}
 	}
 

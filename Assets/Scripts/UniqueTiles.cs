@@ -111,7 +111,7 @@ public class UniqueTiles : MonoBehaviour {
 	}
 
 
-	public static readonly string[] Tiles = {"O1", "O3", "O7", "O9", "O23", "M1", "M2", "M9", "M13", "I2", "I3", "I4", "I8"};
+	public static readonly string[] Tiles = {"O1", "O3", "O7", "O9", "O23", "M1", "M2", "M9", "M13", "I2", "I3", "I4", "I5", "I8"};
 	
 
 	public static void ChooseTile(string tileName)
@@ -155,6 +155,9 @@ public class UniqueTiles : MonoBehaviour {
 				break;
 			case "I4":
 				PitFiends();
+				break;
+			case "I5":
+				ValleyOfFire();
 				break;
 		}
 	}
@@ -446,6 +449,7 @@ public class UniqueTiles : MonoBehaviour {
 			AdventureDeck._deckText = "rolled 5-6 and lost 2 lives";
 		}
 	}
+	
 
 	private static void PitFiends()
 	{
@@ -461,5 +465,19 @@ public class UniqueTiles : MonoBehaviour {
 			lost += 1;
 		}
 		AdventureDeck._deckText = "You fought " + fiends + " fiends and defeated " + (fiends - lost);
+	}
+
+
+	private static void ValleyOfFire()
+	{
+		if (!GameControl.CheckTalisman()) return;
+		if (GameControl.TurnTracker == 0)
+		{
+			BluePlayer.MoveRegion("C", 1, "C1");
+		}
+		else
+		{
+			YellowPlayer.MoveRegion("C", 1, "C1");
+		}
 	}
 }
