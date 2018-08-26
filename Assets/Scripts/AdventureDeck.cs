@@ -26,14 +26,14 @@ public class AdventureDeck : MonoBehaviour {
 	public static string _deckText = "";
 
 	public static readonly string[] AllCardTiles = {"O2", "O4", "O6", "O8", "O10", "O11", "O12", "O14", "O15", "O16", 
-		"O17", "O18", "O20", "O22", "O24", "M5", "M6", "M7", "M8", "M15"} ;
+		"O17", "O18", "O20", "O21", "O22", "O24", "M3", "M4", "M5", "M6", "M7", "M8", "M11", "M15"} ;
 
 	public static readonly string[] BonusTiles = {"M5", "M6", "M7", "M8", "M15"};
 	
 
 	// Tiles on which to draw from the deck
 	public static readonly string[] CardTiles =
-		{"O2", "O4", "O6", "O8", "O10", "O11", "O12", "O14", "O15", "O16", "O17", "O18", "O20", "O22", "O24"};
+		{"O2", "O4", "O6", "O8", "O10", "O11", "O12", "O14", "O15", "O16", "O17", "O18", "O20", "O21", "O22", "O24", "M3", "M4", "M11"};
 
 
 	public static int ProduceCard(string tileName)

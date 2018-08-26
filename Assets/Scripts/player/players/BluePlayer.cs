@@ -114,6 +114,10 @@ public class BluePlayer : Player {
 		{
 			EncounterHealTile();
 			actionNeeded = false;
+		} else if (UniqueTiles.LifeLossDraw.Contains(_startTileName))
+		{
+			DrawFromDeck();
+			GameControl.ChangeLives(-1);
 		} else if (UniqueTiles.Tiles.Contains(_startTileName) && moved && actionNeeded)
 		{
 			UniqueTiles.ChooseTile(_startTileName);

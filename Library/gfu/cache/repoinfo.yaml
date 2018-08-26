@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2018-08-26T18:01:26.025+01:00
+  lastUpdatedAtString: 2018-08-26T19:59:10.540+01:00
   initializedAtString: 2018-08-26T17:21:18.395+01:00
   currentGitRemote:
     name: origin
@@ -34,4 +34,4 @@ MonoBehaviour:
   currentConfigRemote:
     name: origin
     url: https://github.com/louis-ake/MSc-project-Talisman.git
-  currentHead: 01cf32c
+  currentHead: c34b87c

@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using JetBrains.Annotations;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.SocialPlatforms;
@@ -25,6 +26,8 @@ public class UniqueTiles : MonoBehaviour {
 	public static readonly string[] HealTiles = {"M16"};
 	
 	private static readonly int GenericEnemy = 3;
+
+	public static readonly string[] LifeLossDraw = {"M10"};
 
 	// Tiles which entail a fight
 	public static readonly string[] FightTiles = {"O5", "I6"};
@@ -142,7 +145,7 @@ public class UniqueTiles : MonoBehaviour {
 	}
 
 
-	public static readonly string[] Tiles = {"O1", "O3", "O7", "O9", "O23", "M1", "M2", "M9", "M13", 
+	public static readonly string[] Tiles = {"O1", "O3", "O7", "O9", "O19", "O23", "M1", "M2", "M9", "M13", 
 		"I2", "I3", "I4", "I5", "I7", "I8", "C1"};
 	
 
