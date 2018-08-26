@@ -42,7 +42,7 @@ public class BluePlayer : Player {
 	}
 	
 	// Each players starting stats - currently the same for all
-	public static int lives = 3;
+	public static int lives = 1;
 	public static int strength = 4;
 	public static int strengthTrophy = 0;
 	public static int fateTokens = 2;
@@ -78,9 +78,9 @@ public class BluePlayer : Player {
 		             "talisman: " + talisman + "\n" + "\n" +
 		             "turns: " + Turns;
 	}
-	
 
-	private static void SetEndPos(Vector2 pos)
+
+	public static void SetEndPos(Vector2 pos)
 	{
 		_endPos = pos;
 	}

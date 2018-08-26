@@ -142,7 +142,8 @@ public class UniqueTiles : MonoBehaviour {
 	}
 
 
-	public static readonly string[] Tiles = {"O1", "O3", "O7", "O9", "O23", "M1", "M2", "M9", "M13", "I2", "I3", "I4", "I5", "I7", "I8"};
+	public static readonly string[] Tiles = {"O1", "O3", "O7", "O9", "O23", "M1", "M2", "M9", "M13", 
+		"I2", "I3", "I4", "I5", "I7", "I8", "C1"};
 	
 
 	public static void ChooseTile(string tileName)
@@ -192,6 +193,9 @@ public class UniqueTiles : MonoBehaviour {
 				break;
 			case "I7":
 				Death();
+				break;
+			case "C1":
+				Crown();
 				break;
 		}
 	}
@@ -529,6 +533,12 @@ public class UniqueTiles : MonoBehaviour {
 		{
 			AdventureDeck._deckText = "you diced with death and survived (" + deathresult + " vs " + playerResult + ")";
 		}
+	}
+
+
+	private static void Crown()
+	{
+		GameControl.EndGame();
 	}
 	
 }

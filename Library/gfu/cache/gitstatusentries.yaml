@@ -12,12 +12,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2018-08-26T18:18:25.474+01:00
+  lastUpdatedAtString: 2018-08-26T19:58:38.363+01:00
   initializedAtString: 2018-08-26T17:21:18.585+01:00
   entries:
   - path: .idea/.idea.Talisman/.idea/workspace.xml
     fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/.idea/.idea.Talisman/.idea/workspace.xml
     projectPath: .idea/.idea.Talisman/.idea/workspace.xml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/Scripts/GameControl.cs
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/GameControl.cs
+    projectPath: Assets/Scripts/GameControl.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/Scripts/player/players/BluePlayer.cs
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/player/players/BluePlayer.cs
+    projectPath: Assets/Scripts/player/players/BluePlayer.cs
     originalPath: 
     status: 3
     staged: 0
@@ -63,15 +75,21 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library/gfu/cache/repoinfo.yaml
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/gfu/cache/repoinfo.yaml
-    projectPath: Library/gfu/cache/repoinfo.yaml
-    originalPath: 
-    status: 3
-    staged: 0
   - path: Library/ScriptAssemblies/BuiltinAssemblies.stamp
     fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/ScriptAssemblies/BuiltinAssemblies.stamp
     projectPath: Library/ScriptAssemblies/BuiltinAssemblies.stamp
     originalPath: 
     status: 5
+    staged: 0
+  - path: Library/shadercompiler-UnityShaderCompiler0.log
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/shadercompiler-UnityShaderCompiler0.log
+    projectPath: Library/shadercompiler-UnityShaderCompiler0.log
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/SpriteAtlasDatabase.asset
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/SpriteAtlasDatabase.asset
+    projectPath: Library/SpriteAtlasDatabase.asset
+    originalPath: 
+    status: 3
     staged: 0

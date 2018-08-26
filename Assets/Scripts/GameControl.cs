@@ -43,6 +43,10 @@ public class GameControl : MonoBehaviour {
 	public static void AlternateTurnTracker()
 	{
 		TurnTracker = TurnTracker == 0 ? 1 : 0;
+		if (BluePlayer.lives < 1 || YellowPlayer.lives < 1)
+		{
+			EndGame();
+		}
 	}
 
 	public static void ChangeLives(int change)
@@ -183,6 +187,32 @@ public class GameControl : MonoBehaviour {
 			BluePlayer.alignment = "evil";
 			YellowPlayer.alignment = "good";
 		}
+	}
+
+
+	public static void EndGame()
+	{
+		AdventureDeck._deckText = "Game ended and reset";
+		// if (!Input.GetKey(KeyCode.Y)) return;
+		BluePlayer.MoveRegion("O", 24, "O1");
+		BluePlayer.lives = 3;
+		BluePlayer.strength = 4;
+		BluePlayer.strengthTrophy = 0;
+		BluePlayer.fateTokens = 2;
+		BluePlayer.gold = 4;
+		BluePlayer.alignment = "";
+		BluePlayer.Turns = 0;
+		YellowPlayer.MoveRegion("O", 24, "O1");
+		YellowPlayer.lives = 3;
+		YellowPlayer.strength = 4;
+		YellowPlayer.strengthTrophy = 0;
+		YellowPlayer.fateTokens = 2;
+		YellowPlayer.gold = 4;
+		YellowPlayer.alignment = "";
+		YellowPlayer.Turns = 0;
+		TurnCount = 0;
+		DiceRoll.RollCount = 0;
+		TurnTracker = 0;
 	}
 	
 	
