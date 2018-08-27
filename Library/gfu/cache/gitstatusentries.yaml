@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2018-08-27T19:34:28.199+01:00
-  initializedAtString: 2018-08-27T17:49:56.108+01:00
+  lastUpdatedAtString: 2018-08-27T19:57:18.412+01:00
+  initializedAtString: 2018-08-27T19:39:53.697+01:00
   entries:
   - path: .idea/.idea.Talisman/.idea/workspace.xml
     fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/.idea/.idea.Talisman/.idea/workspace.xml
@@ -21,15 +21,15 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Assets/Scripts/AdventureDeck.cs
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/AdventureDeck.cs
-    projectPath: Assets/Scripts/AdventureDeck.cs
+  - path: Assets/Scripts/DiceRoll.cs
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/DiceRoll.cs
+    projectPath: Assets/Scripts/DiceRoll.cs
     originalPath: 
     status: 3
     staged: 0
-  - path: Assets/Scripts/GameControl.cs
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/GameControl.cs
-    projectPath: Assets/Scripts/GameControl.cs
+  - path: Assets/Scripts/player/Player.cs
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/player/Player.cs
+    projectPath: Assets/Scripts/player/Player.cs
     originalPath: 
     status: 3
     staged: 0
@@ -39,15 +39,15 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library/assetDatabase3
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/assetDatabase3
-    projectPath: Library/assetDatabase3
+  - path: Assets/Scripts/player/players/YellowPlayer.cs
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/player/players/YellowPlayer.cs
+    projectPath: Assets/Scripts/player/players/YellowPlayer.cs
     originalPath: 
     status: 3
     staged: 0
-  - path: Library/CurrentLayout.dwlt
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/CurrentLayout.dwlt
-    projectPath: Library/CurrentLayout.dwlt
+  - path: Library/assetDatabase3
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/assetDatabase3
+    projectPath: Library/assetDatabase3
     originalPath: 
     status: 3
     staged: 0

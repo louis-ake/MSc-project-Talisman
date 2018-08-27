@@ -41,6 +41,9 @@ public class BluePlayer : Player {
 		SetStats();
 	}
 	
+	/*public static bool moved;
+	public static bool actionNeeded; */
+	
 	// Each players starting stats - currently the same for all
 	public static int lives = 3;
 	public static int strength = 4;
@@ -98,6 +101,7 @@ public class BluePlayer : Player {
 		{
 			Move();
 		}
+		if (!_active) return;
 		if (AdventureDeck.AllCardTiles.Contains(_startTileName))
 		{
 			DrawFromDeck();
