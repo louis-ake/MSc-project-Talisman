@@ -30,10 +30,10 @@ public class AdventureDeck : MonoBehaviour {
 
 	public static readonly string[] BonusTiles = {"M5", "M6", "M7", "M8", "M15"};
 
-	public static readonly int bonus = 2;
+	private const int Bonus = 2;
 
 	// Tiles on which to draw from the deck
-	public static readonly string[] CardTiles =
+	private static readonly string[] CardTiles =
 		{"O2", "O4", "O6", "O8", "O10", "O11", "O12", "O14", "O15", "O16", "O17", "O18", "O20", "O21", "O22", "O24", "M3", "M4", "M11"};
 
 
@@ -42,38 +42,22 @@ public class AdventureDeck : MonoBehaviour {
 		var decideCard = Random.Range(1, 9);
 		if (decideCard <= 3)
 		{
-			if (CardTiles.Contains(tileName))
-			{
-				return FightBandit(0);
-			} 
-			else
-			{
-				return FightBandit(bonus);
-			}
-		}
-
-		if (decideCard >= 4 && decideCard <= 5)
+			return FightBandit(CardTiles.Contains(tileName) ? 0 : Bonus);
+		} else if (decideCard >= 4 && decideCard <= 5)
 		{
-			if (CardTiles.Contains(tileName))
-			{
-				return FightOgre(0);
-			}
-			else
-			{
-				return FightOgre(bonus);
-			}
-		}
-
-		if (decideCard == 6)
+			return FightOgre(CardTiles.Contains(tileName) ? 0 : Bonus);
+		} else if (decideCard == 6)
 		{
-			if (CardTiles.Contains(tileName))
-			{
-				return FightDragon(0);
-			}
-			else
-			{
-				FightDragon(bonus);
-			}
+			return FightDragon(CardTiles.Contains(tileName) ? 0 : Bonus);
+		} else if (decideCard == 7)
+		{
+			BagOfGold();
+			return 0;
+		}
+		else
+		{
+			Talisman();
+			return 0;
 		}
 		
 	}
@@ -173,6 +157,9 @@ public class AdventureDeck : MonoBehaviour {
 	{
 		GameControl.ChangeGold(1);
 		_deckText = "You found a bag of gold!";
+		Player.done = true;
+		Player.won = true;
+		GameControl.AlternateTurnTracker();
 	}
 
 
@@ -180,5 +167,8 @@ public class AdventureDeck : MonoBehaviour {
 	{
 		GameControl.GiveTalisman();
 		_deckText = "You found a talisman!";
+		Player.done = true;
+		Player.won = true;
+		GameControl.AlternateTurnTracker();
 	}
 }

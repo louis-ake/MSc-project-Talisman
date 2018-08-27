@@ -70,7 +70,7 @@ MonoBehaviour:
   m_MinSize: {x: 102, y: 242}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 170
+  controlID: 169
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -157,7 +157,7 @@ MonoBehaviour:
   m_MinSize: {x: 438, y: 492}
   m_MaxSize: {x: 18008, y: 14042}
   vertical: 1
-  controlID: 167
+  controlID: 166
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -181,7 +181,7 @@ MonoBehaviour:
   m_MinSize: {x: 438, y: 492}
   m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
-  controlID: 168
+  controlID: 167
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -205,7 +205,7 @@ MonoBehaviour:
   m_MinSize: {x: 336, y: 492}
   m_MaxSize: {x: 14006, y: 14042}
   vertical: 0
-  controlID: 169
+  controlID: 168
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -224,8 +224,8 @@ MonoBehaviour:
     y: 0
     width: 929
     height: 637
-  m_MinSize: {x: 102, y: 121}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 18}
@@ -255,7 +255,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 492}
   m_MaxSize: {x: 10004, y: 14042}
   vertical: 1
-  controlID: 66
+  controlID: 65
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -324,8 +324,8 @@ MonoBehaviour:
     y: 0
     width: 277
     height: 805
-  m_MinSize: {x: 102, y: 121}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 21}
@@ -652,67 +652,10 @@ MonoBehaviour:
         values: []
       folders:
         keys:
-        - .idea
-        - .idea/.idea.Talisman
-        - .idea/.idea.Talisman/.idea
         - Library
         - Library/gfu
         - Library/gfu/cache
         values:
-        - path: .idea
-          label: .idea
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
-        - path: .idea/.idea.Talisman
-          label: .idea.Talisman
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
-        - path: .idea/.idea.Talisman/.idea
-          label: .idea
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
         - path: Library
           label: Library
           level: 0
@@ -794,78 +737,6 @@ MonoBehaviour:
           projectPath: 
           originalPath: 
           status: 0
-          staged: 0
-      - path: .idea
-        label: .idea
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          status: 0
-          staged: 0
-      - path: .idea/.idea.Talisman
-        label: .idea.Talisman
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          status: 0
-          staged: 0
-      - path: .idea/.idea.Talisman/.idea
-        label: .idea
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          status: 0
-          staged: 0
-      - path: .idea/.idea.Talisman/.idea/workspace.xml
-        label: workspace.xml
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: .idea/.idea.Talisman/.idea/workspace.xml
-          fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/.idea/.idea.Talisman/.idea/workspace.xml
-          projectPath: .idea/.idea.Talisman/.idea/workspace.xml
-          originalPath: 
-          status: 3
           staged: 0
       - path: Library
         label: Library
@@ -993,24 +864,6 @@ MonoBehaviour:
           originalPath: 
           status: 3
           staged: 0
-      - path: Library/gfu/cache/repoinfo.yaml
-        label: repoinfo.yaml
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library/gfu/cache/repoinfo.yaml
-          fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/gfu/cache/repoinfo.yaml
-          projectPath: Library/gfu/cache/repoinfo.yaml
-          originalPath: 
-          status: 3
-          staged: 0
       selectedNode:
         path: 
         label: 
@@ -1031,12 +884,6 @@ MonoBehaviour:
           status: 0
           staged: 0
     gitStatusEntries:
-    - path: .idea/.idea.Talisman/.idea/workspace.xml
-      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/.idea/.idea.Talisman/.idea/workspace.xml
-      projectPath: .idea/.idea.Talisman/.idea/workspace.xml
-      originalPath: 
-      status: 3
-      staged: 0
     - path: Library/gfu/cache/branches.yaml
       fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/gfu/cache/branches.yaml
       projectPath: Library/gfu/cache/branches.yaml
@@ -1061,18 +908,12 @@ MonoBehaviour:
       originalPath: 
       status: 3
       staged: 0
-    - path: Library/gfu/cache/repoinfo.yaml
-      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/gfu/cache/repoinfo.yaml
-      projectPath: Library/gfu/cache/repoinfo.yaml
-      originalPath: 
-      status: 3
-      staged: 0
-    changedFilesText: 6 changed files
+    changedFilesText: 4 changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2018-08-26T20:32:52.290+01:00
+      updatedTimeString: 2018-08-27T11:49:41.420+01:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2018-08-26T21:09:48.532+01:00
+      updatedTimeString: 2018-08-27T11:49:34.249+01:00
       cacheType: 5
     lastLocksChangedEvent:
       updatedTimeString: 0001-01-01T00:00:00.000+00:00
@@ -28690,13 +28531,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2018-08-26T20:32:52.290+01:00
+    updatedTimeString: 2018-08-27T11:49:41.420+01:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2018-08-26T21:09:48.537+01:00
+    updatedTimeString: 2018-08-27T11:49:41.092+01:00
     cacheType: 4
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2018-08-26T21:09:48.532+01:00
+    updatedTimeString: 2018-08-27T11:49:34.249+01:00
     cacheType: 5
   pullButtonContent:
     m_Text: Pull
@@ -28823,10 +28664,10 @@ MonoBehaviour:
     height: 345
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
-    scrollPos: {x: 0, y: 456}
+    scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: e4fbffff000000004a0e00006a0e0000800f0000900f0000
+    m_ExpandedIDs: e4fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

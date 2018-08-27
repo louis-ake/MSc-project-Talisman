@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2018-08-27T11:48:57.406+01:00
-  initializedAtString: 2018-08-27T11:26:43.948+01:00
+  lastUpdatedAtString: 2018-08-27T19:34:28.199+01:00
+  initializedAtString: 2018-08-27T17:49:56.108+01:00
   entries:
   - path: .idea/.idea.Talisman/.idea/workspace.xml
     fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/.idea/.idea.Talisman/.idea/workspace.xml
@@ -24,6 +24,18 @@ MonoBehaviour:
   - path: Assets/Scripts/AdventureDeck.cs
     fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/AdventureDeck.cs
     projectPath: Assets/Scripts/AdventureDeck.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/Scripts/GameControl.cs
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/GameControl.cs
+    projectPath: Assets/Scripts/GameControl.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/Scripts/player/players/BluePlayer.cs
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/player/players/BluePlayer.cs
+    projectPath: Assets/Scripts/player/players/BluePlayer.cs
     originalPath: 
     status: 3
     staged: 0
@@ -80,12 +92,6 @@ MonoBehaviour:
     projectPath: Library/gfu/cache/repoinfo.yaml
     originalPath: 
     status: 3
-    staged: 0
-  - path: Library/ScriptAssemblies/BuiltinAssemblies.stamp
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/ScriptAssemblies/BuiltinAssemblies.stamp
-    projectPath: Library/ScriptAssemblies/BuiltinAssemblies.stamp
-    originalPath: 
-    status: 5
     staged: 0
   - path: Library/shadercompiler-UnityShaderCompiler0.log
     fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/shadercompiler-UnityShaderCompiler0.log

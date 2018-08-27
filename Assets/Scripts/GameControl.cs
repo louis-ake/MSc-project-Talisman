@@ -148,13 +148,13 @@ public class GameControl : MonoBehaviour {
 
 	public static void GiveTalisman()
 	{
-		if (TurnTracker == 1)
+		if (TurnTracker == 0)
 		{
 			BluePlayer.talisman = "yes";
 		}
 		else
 		{
-			YellowPlayer.talisman = "no";
+			YellowPlayer.talisman = "yes";
 		}
 	}
 
@@ -202,7 +202,7 @@ public class GameControl : MonoBehaviour {
 		BluePlayer.gold = 4;
 		BluePlayer.alignment = "";
 		BluePlayer.Turns = 0;
-		YellowPlayer.MoveRegion("O", 24, "O1");
+		YellowPlayer.MoveRegion("O", 24, "13");
 		YellowPlayer.lives = 3;
 		YellowPlayer.strength = 4;
 		YellowPlayer.strengthTrophy = 0;
