@@ -12,24 +12,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2018-08-27T19:57:18.412+01:00
+  lastUpdatedAtString: 2018-08-27T20:36:54.064+01:00
   initializedAtString: 2018-08-27T19:39:53.697+01:00
   entries:
   - path: .idea/.idea.Talisman/.idea/workspace.xml
     fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/.idea/.idea.Talisman/.idea/workspace.xml
     projectPath: .idea/.idea.Talisman/.idea/workspace.xml
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets/Scripts/DiceRoll.cs
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/DiceRoll.cs
-    projectPath: Assets/Scripts/DiceRoll.cs
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets/Scripts/player/Player.cs
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/player/Player.cs
-    projectPath: Assets/Scripts/player/Player.cs
     originalPath: 
     status: 3
     staged: 0
@@ -48,12 +36,6 @@ MonoBehaviour:
   - path: Library/assetDatabase3
     fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/assetDatabase3
     projectPath: Library/assetDatabase3
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/EditorInstance.json
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/EditorInstance.json
-    projectPath: Library/EditorInstance.json
     originalPath: 
     status: 3
     staged: 0

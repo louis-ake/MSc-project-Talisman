@@ -287,5 +287,4 @@ public class BluePlayer : Player {
 		moved = true;
 		actionNeeded = true;
 	}
-
 }
