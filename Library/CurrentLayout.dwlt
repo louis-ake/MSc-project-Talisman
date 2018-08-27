@@ -70,7 +70,7 @@ MonoBehaviour:
   m_MinSize: {x: 102, y: 242}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 161
+  controlID: 170
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -157,7 +157,7 @@ MonoBehaviour:
   m_MinSize: {x: 438, y: 492}
   m_MaxSize: {x: 18008, y: 14042}
   vertical: 1
-  controlID: 158
+  controlID: 167
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -181,7 +181,7 @@ MonoBehaviour:
   m_MinSize: {x: 438, y: 492}
   m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
-  controlID: 159
+  controlID: 168
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -205,7 +205,7 @@ MonoBehaviour:
   m_MinSize: {x: 336, y: 492}
   m_MaxSize: {x: 14006, y: 14042}
   vertical: 0
-  controlID: 160
+  controlID: 169
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -255,7 +255,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 492}
   m_MaxSize: {x: 10004, y: 14042}
   vertical: 1
-  controlID: 57
+  controlID: 66
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -363,9 +363,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -2.0504076, y: -2.242219, z: -6.3387117}
+    m_Target: {x: -2.8219843, y: -1.2781196, z: -9.00598}
     speed: 2
-    m_Value: {x: -2.0504076, y: -2.242219, z: -6.3387117}
+    m_Value: {x: -2.8219843, y: -1.2781196, z: -9.00598}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -397,9 +397,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 13.497457
+    m_Target: 44.62861
     speed: 2
-    m_Value: 13.497457
+    m_Value: 44.62861
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -939,24 +939,6 @@ MonoBehaviour:
           originalPath: 
           status: 3
           staged: 0
-      - path: Library/gfu/cache/gitlocks.yaml
-        label: gitlocks.yaml
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library/gfu/cache/gitlocks.yaml
-          fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/gfu/cache/gitlocks.yaml
-          projectPath: Library/gfu/cache/gitlocks.yaml
-          originalPath: 
-          status: 3
-          staged: 0
       - path: Library/gfu/cache/gitlog.yaml
         label: gitlog.yaml
         level: 3
@@ -1061,12 +1043,6 @@ MonoBehaviour:
       originalPath: 
       status: 3
       staged: 0
-    - path: Library/gfu/cache/gitlocks.yaml
-      fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/gfu/cache/gitlocks.yaml
-      projectPath: Library/gfu/cache/gitlocks.yaml
-      originalPath: 
-      status: 3
-      staged: 0
     - path: Library/gfu/cache/gitlog.yaml
       fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/gfu/cache/gitlog.yaml
       projectPath: Library/gfu/cache/gitlog.yaml
@@ -1091,12 +1067,12 @@ MonoBehaviour:
       originalPath: 
       status: 3
       staged: 0
-    changedFilesText: 7 changed files
+    changedFilesText: 6 changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2018-08-26T13:36:01.808+01:00
+      updatedTimeString: 2018-08-26T20:32:52.290+01:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2018-08-26T15:01:27.723+01:00
+      updatedTimeString: 2018-08-26T21:09:48.532+01:00
       cacheType: 5
     lastLocksChangedEvent:
       updatedTimeString: 0001-01-01T00:00:00.000+00:00
@@ -28714,13 +28690,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2018-08-26T13:36:01.808+01:00
+    updatedTimeString: 2018-08-26T20:32:52.290+01:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2018-08-26T15:01:27.727+01:00
+    updatedTimeString: 2018-08-26T21:09:48.537+01:00
     cacheType: 4
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2018-08-26T15:01:27.723+01:00
+    updatedTimeString: 2018-08-26T21:09:48.532+01:00
     cacheType: 5
   pullButtonContent:
     m_Text: Pull
@@ -28847,10 +28823,10 @@ MonoBehaviour:
     height: 345
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
-    scrollPos: {x: 0, y: 632}
+    scrollPos: {x: 0, y: 456}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: e4fbffff000000004a0e00006a0e0000260f0000800f0000900f0000
+    m_ExpandedIDs: e4fbffff000000004a0e00006a0e0000800f0000900f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

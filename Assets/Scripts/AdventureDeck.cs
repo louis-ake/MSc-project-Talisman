@@ -29,7 +29,8 @@ public class AdventureDeck : MonoBehaviour {
 		"O17", "O18", "O20", "O21", "O22", "O24", "M3", "M4", "M5", "M6", "M7", "M8", "M11", "M15"} ;
 
 	public static readonly string[] BonusTiles = {"M5", "M6", "M7", "M8", "M15"};
-	
+
+	public static readonly int bonus = 2;
 
 	// Tiles on which to draw from the deck
 	public static readonly string[] CardTiles =
@@ -38,14 +39,43 @@ public class AdventureDeck : MonoBehaviour {
 
 	public static int ProduceCard(string tileName)
 	{
-		if (CardTiles.Contains(tileName))
+		var decideCard = Random.Range(1, 9);
+		if (decideCard <= 3)
 		{
-			return FightBandit(0);
-		} 
-		else
-		{
-			return FightBandit(2);
+			if (CardTiles.Contains(tileName))
+			{
+				return FightBandit(0);
+			} 
+			else
+			{
+				return FightBandit(bonus);
+			}
 		}
+
+		if (decideCard >= 4 && decideCard <= 5)
+		{
+			if (CardTiles.Contains(tileName))
+			{
+				return FightOgre(0);
+			}
+			else
+			{
+				return FightOgre(bonus);
+			}
+		}
+
+		if (decideCard == 6)
+		{
+			if (CardTiles.Contains(tileName))
+			{
+				return FightDragon(0);
+			}
+			else
+			{
+				FightDragon(bonus);
+			}
+		}
+		
 	}
 
 
@@ -76,5 +106,79 @@ public class AdventureDeck : MonoBehaviour {
 			GameControl.AlternateTurnTracker();
 		}
 		return diff;
+	}
+
+
+	private static int FightOgre(int bonus)
+	{
+		var enemyStrength = 5;
+		var enemyyResult = enemyStrength + Random.Range(1, 7) + bonus;
+		var playerResult = GameControl.GetStrength() + Random.Range(1, 7);
+		var diff = playerResult - enemyyResult;
+		if (diff > 0)
+		{
+			_deckText = "You fought an ogre of strength 5 and won (" + playerResult + " vs " + enemyyResult + ")";
+			GameControl.ChangeStrengthTrophy(enemyStrength);
+			Player.done = true;
+			Player.won = true;
+			GameControl.AlternateTurnTracker();
+		} else if (diff < 0)
+		{
+			_deckText = "You fought an ogre of strength 5 and lost (" + playerResult + " vs " + enemyyResult + ")";
+			GameControl.ChangeLives(-1);
+			Player.won = false;
+		}
+		else
+		{
+			_deckText = "You fought an ogre of strength 5 and tied (" + playerResult + " vs " + enemyyResult + ")";
+			Player.done = true;
+			Player.won = true;
+			GameControl.AlternateTurnTracker();
+		}
+		return diff;
+	}
+
+
+	private static int FightDragon(int bonus)
+	{
+		var enemyStrength = 6;
+		var enemyResult = enemyStrength + Random.Range(1, 7) + bonus;
+		var playerResult = GameControl.GetStrength() + Random.Range(1, 7);
+		var diff = playerResult - enemyResult;
+		if (diff > 0)
+		{
+			_deckText = "You fought a bandit of strength 4 and won (" + playerResult + " vs " + enemyResult + ")";
+			GameControl.ChangeStrengthTrophy(enemyStrength);
+			Player.done = true;
+			Player.won = true;
+			GameControl.AlternateTurnTracker();
+		} else if (diff < 0)
+		{
+			_deckText = "You fought a bandit of strength 4 and lost (" + playerResult + " vs " + enemyResult + ")";
+			GameControl.ChangeLives(-1);
+			Player.won = false;
+		}
+		else
+		{
+			_deckText = "You fought a bandit of strength 4 and tied (" + playerResult + " vs " + enemyResult + ")";
+			Player.done = true;
+			Player.won = true;
+			GameControl.AlternateTurnTracker();
+		}
+		return diff;
+	}
+
+
+	private static void BagOfGold()
+	{
+		GameControl.ChangeGold(1);
+		_deckText = "You found a bag of gold!";
+	}
+
+
+	private static void Talisman()
+	{
+		GameControl.GiveTalisman();
+		_deckText = "You found a talisman!";
 	}
 }
