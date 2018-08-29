@@ -45,11 +45,11 @@ public class BluePlayer : Player {
 	public static bool actionNeeded; */
 	
 	// Each players starting stats - currently the same for all
-	public static int lives = 3;
-	public static int strength = 4;
+	public static int lives = StartingLives;
+	public static int strength = StartingStrength;
 	public static int strengthTrophy = 0;
-	public static int fateTokens = 2;
-	public static int gold = 4;
+	public static int fateTokens = StatingFateTokens;
+	public static int gold = StartingGold;
 	public static string alignment = "";
 	public static string talisman = "no";
 

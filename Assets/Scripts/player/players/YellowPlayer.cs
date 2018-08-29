@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using System.Linq;
+using Random = UnityEngine.Random;
 
 public class YellowPlayer : Player {
 	
@@ -38,11 +39,11 @@ public class YellowPlayer : Player {
 	
 	
 	// Each players starting stats - currently the same for all
-	public static int lives = 3;
-	public static int strength = 4;
+	public static int lives = StartingLives;
+	public static int strength = StartingStrength;
 	public static int strengthTrophy = 0;
-	public static int fateTokens = 2;
-	public static int gold = 4;
+	public static int fateTokens = StatingFateTokens;
+	public static int gold = StartingGold;
 	public static string alignment = "";
 	public static string talisman = "no";
 
@@ -252,14 +253,16 @@ public class YellowPlayer : Player {
 		moved = false; 
 		var currentTile = _startTileName;
 		var currentTileNo = Convert.ToInt32(currentTile.Substring(1));
+		var clockwise = currentTileNo + DiceRoll.DiceTotal;
+		var antiClockwise = currentTileNo - DiceRoll.DiceTotal;
 		var nextTileNo = 0;
 		// GameControl.DirectionDecision.text = "Press c to move clockwise or v to move anticlockwise";
-		if (Input.GetKey(KeyCode.C)) // For clockwise
+		if (AIChooseDirection(currentTileNo, clockwise, antiClockwise)) // For clockwise
 		{
 			nextTileNo = (currentTileNo + DiceRoll.DiceTotal);
 			GameControl.TurnCount += 1;
 		}
-		else if (Input.GetKey(KeyCode.V)) // For anticlockwise
+		else // For anticlockwise
 		{
 			nextTileNo = (currentTileNo - DiceRoll.DiceTotal);
 			GameControl.TurnCount += 1;
@@ -285,5 +288,42 @@ public class YellowPlayer : Player {
 		_active = true;
 		moved = true;
 		actionNeeded = true;
-	}	
+	}
+
+
+
+	private static bool AIChooseDirection(int currentTileNo, int clockwise, int antiClockwise)
+	{
+		if (Region == "O")
+		{
+			if (GameControl.GetStrength() > 7) // Move towards sentinal
+			{
+				const int target = 5;
+				return Math.Abs(clockwise - target) < Math.Abs(antiClockwise - target);
+			}
+
+			if (GameControl.GetGold() > 2) // Go to city
+			{
+				const int target = 13;
+				return Math.Abs(clockwise - target) < Math.Abs(antiClockwise - target);
+			}
+
+			if (fateTokens < StatingFateTokens) // Replish fate
+			{
+				if (alignment == "good")
+				{
+					const int target = 7;
+					return clockwise - target < antiClockwise - target;
+				} else if (alignment == "evil")
+				{
+					const int target = 3;
+					return clockwise - target < antiClockwise - target;
+				}
+			}
+		}
+		
+		// If there are no priorities, choose randomly
+		var result = Random.Range(1, 3);
+		return result == 1;
+	}
 }

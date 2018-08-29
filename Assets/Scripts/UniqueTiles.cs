@@ -44,7 +44,7 @@ public class UniqueTiles : MonoBehaviour {
 		} else if (playerResult > enemyResult)
 		{
 			GameControl.ChangeStrengthTrophy(GenericEnemy);
-			AdventureDeck._deckText = "fought strength " + GenericEnemy + " enemy and lost";
+			AdventureDeck._deckText = "fought strength " + GenericEnemy + " enemy and won";
 		}
 		else
 		{
@@ -104,7 +104,7 @@ public class UniqueTiles : MonoBehaviour {
 	 */
 	private static int FightSentinal()
 	{
-		var sentinalStrength = 4; // to be changed
+		var sentinalStrength = 8; // to be changed
 		var SentinalResult = sentinalStrength + Random.Range(1, 7);
 		var playerResult = GameControl.GetStrength() + Random.Range(1, 7);
 		var diff = playerResult - SentinalResult;

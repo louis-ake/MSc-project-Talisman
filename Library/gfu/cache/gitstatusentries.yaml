@@ -12,12 +12,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2018-08-27T20:36:54.064+01:00
-  initializedAtString: 2018-08-27T19:39:53.697+01:00
+  lastUpdatedAtString: 2018-08-29T19:26:55.137+01:00
+  initializedAtString: 2018-08-29T17:30:23.766+01:00
   entries:
   - path: .idea/.idea.Talisman/.idea/workspace.xml
     fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/.idea/.idea.Talisman/.idea/workspace.xml
     projectPath: .idea/.idea.Talisman/.idea/workspace.xml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/Scripts/player/Player.cs
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/player/Player.cs
+    projectPath: Assets/Scripts/player/Player.cs
     originalPath: 
     status: 3
     staged: 0
@@ -33,9 +39,27 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
+  - path: Assets/Scripts/UniqueTiles.cs
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/UniqueTiles.cs
+    projectPath: Assets/Scripts/UniqueTiles.cs
+    originalPath: 
+    status: 3
+    staged: 0
   - path: Library/assetDatabase3
     fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/assetDatabase3
     projectPath: Library/assetDatabase3
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/CurrentLayout.dwlt
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/CurrentLayout.dwlt
+    projectPath: Library/CurrentLayout.dwlt
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/EditorInstance.json
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/EditorInstance.json
+    projectPath: Library/EditorInstance.json
     originalPath: 
     status: 3
     staged: 0
@@ -66,6 +90,12 @@ MonoBehaviour:
   - path: Library/gfu/cache/gittrackingstatus.yaml
     fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/gfu/cache/gittrackingstatus.yaml
     projectPath: Library/gfu/cache/gittrackingstatus.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/gfu/cache/gituser.yaml
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/gfu/cache/gituser.yaml
+    projectPath: Library/gfu/cache/gituser.yaml
     originalPath: 
     status: 3
     staged: 0
