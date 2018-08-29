@@ -301,7 +301,7 @@ public class YellowPlayer : Player {
 				const int target = 5;
 				return Math.Abs(clockwise - target) < Math.Abs(antiClockwise - target);
 			}
-
+			
 			if (GameControl.GetGold() > 2) // Go to city
 			{
 				const int target = 13;
@@ -310,20 +310,43 @@ public class YellowPlayer : Player {
 
 			if (fateTokens < StatingFateTokens) // Replish fate
 			{
-				if (alignment == "good")
+				if (alignment == "good") // at temple
 				{
 					const int target = 7;
-					return clockwise - target < antiClockwise - target;
-				} else if (alignment == "evil")
+					return Math.Abs(clockwise - target) < Math.Abs(antiClockwise - target);
+				} else if (alignment == "evil") // at graveyard
 				{
 					const int target = 3;
-					return clockwise - target < antiClockwise - target;
+					return Math.Abs(clockwise - target) < Math.Abs(antiClockwise - target);
 				}
 			}
+		} else if (Region == "M")
+		{
+			if (!GameControl.CheckTalisman()) // Get talisman at warlocks's cave
+			{
+				const int target = 9;
+				return Math.Abs(clockwise - target) < Math.Abs(antiClockwise - target);
+			}
+
+			if (GameControl.GetLives() < 3 && GameControl.GetGold() < 1) // Heal at castle
+			{
+				const int target = 16;
+				return Math.Abs(clockwise - target) < Math.Abs(antiClockwise - target);
+			}
+
+			if (GameControl.GetStrength() > 10) // go to portal
+			{
+				const int target = 1;
+				return Math.Abs(clockwise - target) < Math.Abs(antiClockwise - target);
+			}
+		} else if (Region == "I") // got to valley
+		{
+			const int target = 5;
+			return Math.Abs(clockwise - target) < Math.Abs(antiClockwise - target);
 		}
-		
 		// If there are no priorities, choose randomly
 		var result = Random.Range(1, 3);
 		return result == 1;
+		
 	}
 }
