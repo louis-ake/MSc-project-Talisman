@@ -40,7 +40,6 @@ public class GameControl : MonoBehaviour {
 
 	private const int StartingFate = 2;
 	
-	
 	// 0 for blue player; 1 for yellow
 	public static int TurnTracker = 0;
 
@@ -149,6 +148,11 @@ public class GameControl : MonoBehaviour {
 	public static int GetGold()
 	{
 		return TurnTracker == 0 ? BluePlayer.gold : YellowPlayer.gold;
+	}
+
+	public static int GetFate()
+	{
+		return TurnTracker == 0 ? BluePlayer.fateTokens : YellowPlayer.fateTokens;
 	}
 
 	public static int GetLives()

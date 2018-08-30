@@ -91,6 +91,7 @@ public class YellowPlayer : Player {
 
 	public static void TakeTurn()
 	{
+		if (GameControl.TurnCount != DiceRoll.RollCount - 1) {return;}
 		if (won)
 		{
 			Move();
@@ -127,7 +128,7 @@ public class YellowPlayer : Player {
 			actionNeeded = false;
 			GameControl.AlternateTurnTracker();
 		}
-		else if (moved && actionNeeded)
+		else if (moved && actionNeeded && Turns == BluePlayer.Turns)
 		{
 			actionNeeded = false;
 			GameControl.AlternateTurnTracker();
@@ -146,7 +147,7 @@ public class YellowPlayer : Player {
 			FightDiff = UniqueTiles.ChooseFightTile(_startTileName);
 			actionNeeded = false;
 		}
-		if (!won && !done && moved)
+		if (!won && !done && moved && GameControl.GetFate() > 0)
 		{
 			UseFate(FightDiff);
 		} else if (won && moved && done)
@@ -174,7 +175,7 @@ public class YellowPlayer : Player {
 			FightDiff = AdventureDeck.ProduceCard(_startTileName);
 			actionNeeded = false;
 		}
-		if (!won && !done && moved)
+		if (!won && !done && moved && GameControl.GetFate() > 0)
 		{
 			UseFate(FightDiff);
 		} else if (won && moved && done)
@@ -188,14 +189,14 @@ public class YellowPlayer : Player {
 	private static void EncounterArmouryTile()
 	{
 		AdventureDeck._deckText = "Would you like to improve your armaments for 2 gold?";
-		if (Input.GetKey(KeyCode.Y))
+		if (AIDecideUpgradeArmoury())
 		{
 			GameControl.ChangeStrength(1);
-			GameControl.ChangeGold(-2);
+			GameControl.ChangeGold(-1);
 			GameControl.AlternateTurnTracker();
 			done = true;
 			won = true;
-		} else if (Input.GetKey(KeyCode.N))
+		} else
 		{
 			GameControl.AlternateTurnTracker();
 			done = true;
@@ -207,15 +208,15 @@ public class YellowPlayer : Player {
 	private static void EncounterHealTile()
 	{
 		AdventureDeck._deckText = "Would you like to heal 1 life for 1 gold?";		
-		if (Input.GetKey(KeyCode.Y))
+		if (AIDecideHeal())
 		{
 			GameControl.ChangeLives(1);
-			GameControl.ChangeGold(-1);
+			GameControl.ChangeGold(-2);
 			GameControl.AlternateTurnTracker();
 			done = true;
 			won = true;
 			
-		} else if (Input.GetKey(KeyCode.N))
+		} else
 		{
 			GameControl.AlternateTurnTracker();
 			done = true;
@@ -232,23 +233,23 @@ public class YellowPlayer : Player {
 	private static void UseFate(int diff)
 	{
 		Decision = "Would you like to use a fate token? (y/n)";
-		if (Input.GetKey(KeyCode.Y))
+		if (AIDecideFate(diff))
 		{
 			var challenge = Random.Range(1, 7);
 			var result = challenge + diff;
 			if (result >= 0)
 			{
 				GameControl.ChangeLives(1);
-				Decision = "Successful! (rolled = " + challenge + ")";
+				Decision = "Fate token used and Successful! (rolled = " + challenge + ")";
 			}
 			else
 			{
-				Decision = "Unsuccessful (rolled = " + challenge + ")";
+				Decision = "Fate token used and Unsuccessful (rolled = " + challenge + ")";
 			}
 			won = true;
 			GameControl.ChangeFate(-1);
 			GameControl.AlternateTurnTracker();
-		} else if (Input.GetKey(KeyCode.N))
+		} else
 		{
 			won = true;
 			GameControl.AlternateTurnTracker();
@@ -337,7 +338,7 @@ public class YellowPlayer : Player {
 				return Math.Abs(clockwise - target) < Math.Abs(antiClockwise - target);
 			}
 
-			if (GameControl.GetLives() < 3 && GameControl.GetGold() < 1) // Heal at castle
+			if (GameControl.GetLives() < StartingLives && GameControl.GetGold() < 1) // Heal at castle
 			{
 				const int target = 16;
 				return Math.Abs(clockwise - target) < Math.Abs(antiClockwise - target);
@@ -357,5 +358,45 @@ public class YellowPlayer : Player {
 		var result = Random.Range(1, 3);
 		return result == 1;
 		
+	}
+
+
+	private static bool AIDecideUpgradeArmoury()
+	{
+		if (GameControl.GetGold() > 2) // is there gold to spare
+		{
+			return true;
+		}
+		else
+		{
+			return false;
+		}
+	}
+
+
+	private static bool AIDecideHeal()
+	{
+		if (lives < StartingLives && GameControl.GetGold() > 1) // check need and ability to heal
+		{
+			return true;
+		}
+		else
+		{
+			return false;
+		}
+	}
+
+
+	/**
+	 * The more fate had, the lower the threshold for using fate
+	 */
+	private static bool AIDecideFate(int diff)
+	{
+		if (Math.Abs(diff) <= 4 && GameControl.GetFate() >= 2)
+		{
+			return true;
+		}
+
+		return diff <= 3;
 	}
 }

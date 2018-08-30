@@ -146,7 +146,7 @@ public class BluePlayer : Player {
 			FightDiff = UniqueTiles.ChooseFightTile(_startTileName);
 			actionNeeded = false;
 		}
-		if (!won && !done && moved)
+		if (!won && !done && moved && GameControl.GetFate() > 0)
 		{
 			UseFate(FightDiff);
 		} else if (won && moved && done)
@@ -174,7 +174,7 @@ public class BluePlayer : Player {
 			FightDiff = AdventureDeck.ProduceCard(_startTileName);
 			actionNeeded = false;
 		}
-		if (!won && !done && moved)
+		if (!won && !done && moved && GameControl.GetFate() > 0) 
 		{
 			UseFate(FightDiff);
 		} else if (won && moved && done)
@@ -238,11 +238,11 @@ public class BluePlayer : Player {
 			if (result >= 0)
 			{
 				GameControl.ChangeLives(1);
-				Decision = "Successful! (rolled = " + challenge + ")";
+				Decision = "Fate token used and Successful! (rolled = " + challenge + ")";
 			}
 			else
 			{
-				Decision = "Unsuccessful (rolled = " + challenge + ")";
+				Decision = "Fate token used and Unsuccessful (rolled = " + challenge + ")";
 			}
 			won = true;
 			GameControl.ChangeFate(-1);
