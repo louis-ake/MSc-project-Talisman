@@ -193,9 +193,13 @@ public class BluePlayer : Player {
 			GameControl.ChangeStrength(1);
 			GameControl.ChangeGold(-2);
 			GameControl.AlternateTurnTracker();
+			done = true;
+			won = true;
 		} else if (Input.GetKey(KeyCode.N))
 		{
 			GameControl.AlternateTurnTracker();
+			done = true;
+			won = true;
 		}
 	}
 
@@ -208,9 +212,13 @@ public class BluePlayer : Player {
 			GameControl.ChangeLives(1);
 			GameControl.ChangeGold(-1);
 			GameControl.AlternateTurnTracker();
+			done = true;
+			won = true;
 		} else if (Input.GetKey(KeyCode.N))
 		{
 			GameControl.AlternateTurnTracker();
+			done = true;
+			won = true;
 		}
 		
 	}
@@ -226,7 +234,7 @@ public class BluePlayer : Player {
 		if (Input.GetKey(KeyCode.Y))
 		{
 			var challenge = UnityEngine.Random.Range(1, 7);
-			var result = challenge - diff;
+			var result = challenge + diff;
 			if (result >= 0)
 			{
 				GameControl.ChangeLives(1);

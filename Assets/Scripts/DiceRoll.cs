@@ -31,6 +31,7 @@ public class DiceRoll : MonoBehaviour {
     public void Roll() {
         // Will need to be able to roll variable numbers of dice
 	    if (RollCount > GameControl.TurnCount /*|| Player.actionNeeded*/) { return; }
+	    Player.Decision = "";
         DiceTotal = 0;
         for (int i = 0; i < DiceValues.Length; i++) {
             int dieResult = Random.Range(1, 7);

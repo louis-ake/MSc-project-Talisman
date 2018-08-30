@@ -193,9 +193,13 @@ public class YellowPlayer : Player {
 			GameControl.ChangeStrength(1);
 			GameControl.ChangeGold(-2);
 			GameControl.AlternateTurnTracker();
+			done = true;
+			won = true;
 		} else if (Input.GetKey(KeyCode.N))
 		{
 			GameControl.AlternateTurnTracker();
+			done = true;
+			won = true;
 		}
 	}
 
@@ -208,9 +212,14 @@ public class YellowPlayer : Player {
 			GameControl.ChangeLives(1);
 			GameControl.ChangeGold(-1);
 			GameControl.AlternateTurnTracker();
+			done = true;
+			won = true;
+			
 		} else if (Input.GetKey(KeyCode.N))
 		{
 			GameControl.AlternateTurnTracker();
+			done = true;
+			won = true;
 		}
 		
 	}
@@ -225,7 +234,7 @@ public class YellowPlayer : Player {
 		Decision = "Would you like to use a fate token? (y/n)";
 		if (Input.GetKey(KeyCode.Y))
 		{
-			var challenge = UnityEngine.Random.Range(1, 7);
+			var challenge = Random.Range(1, 7);
 			var result = challenge - diff;
 			if (result >= 0)
 			{
