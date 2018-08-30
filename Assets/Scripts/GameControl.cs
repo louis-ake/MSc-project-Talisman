@@ -17,6 +17,7 @@ public class GameControl : MonoBehaviour {
 	void Start ()
 	{
 		SetAlignments();
+		Turn.text = turnString;
 	}
 	
 	// Update is called once per frame
@@ -25,8 +26,11 @@ public class GameControl : MonoBehaviour {
 		{
 			Main();	
 		}
+		Turn.text = turnString;
 	}
-	
+
+	public Text Turn;
+	private static string turnString;
 
 	static bool Finished = false;
 
@@ -39,6 +43,12 @@ public class GameControl : MonoBehaviour {
 	
 	// 0 for blue player; 1 for yellow
 	public static int TurnTracker = 0;
+
+
+	public static void SetTurnText()
+	{
+		turnString = TurnTracker == 0 ? "Blue Player's turn" : "Yellow Player's turn";
+	}
 
 	public static void AlternateTurnTracker()
 	{
