@@ -202,7 +202,7 @@ public class GameControl : MonoBehaviour {
 		BluePlayer.gold = 4;
 		BluePlayer.alignment = "";
 		BluePlayer.Turns = 0;
-		YellowPlayer.MoveRegion("O", 24, "13");
+		YellowPlayer.MoveRegion("O", 24, "O13");
 		YellowPlayer.lives = 3;
 		YellowPlayer.strength = 4;
 		YellowPlayer.strengthTrophy = 0;

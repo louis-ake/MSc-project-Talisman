@@ -235,7 +235,7 @@ public class YellowPlayer : Player {
 		if (Input.GetKey(KeyCode.Y))
 		{
 			var challenge = Random.Range(1, 7);
-			var result = challenge - diff;
+			var result = challenge + diff;
 			if (result >= 0)
 			{
 				GameControl.ChangeLives(1);
