@@ -97,10 +97,7 @@ public class BluePlayer : Player {
 
 	public static void TakeTurn()
 	{
-		if (won)
-		{
-			Move();
-		}
+		Move();
 		if (!_active) return;
 		if (AdventureDeck.AllCardTiles.Contains(_startTileName))
 		{
@@ -127,7 +124,7 @@ public class BluePlayer : Player {
 			UniqueTiles.ChooseTile(_startTileName);
 			actionNeeded = false;
 			GameControl.AlternateTurnTracker();
-		} else if (moved && actionNeeded)
+		} else if (moved && actionNeeded) 
 		{
 			actionNeeded = false;
 			GameControl.AlternateTurnTracker();
