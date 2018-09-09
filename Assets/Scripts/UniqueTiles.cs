@@ -54,7 +54,10 @@ public class UniqueTiles : MonoBehaviour {
 
 	
 	/**
-	 * If it's a fight tile, this method will choose the correct method and call it
+	 * This method will call the correct fight tile method using
+	 * the space's identifier, which was passed as a parameter.
+	 * Return value is the difference between the enemy's and player's
+	 * fight result.
 	 */
 	public static int ChooseFightTile(string tileName)
 	{

@@ -36,30 +36,32 @@ public class AdventureDeck : MonoBehaviour {
 	private static readonly string[] CardTiles =
 		{"O2", "O4", "O6", "O8", "O10", "O11", "O12", "O14", "O15", "O16", "O17", "O18", "O20", "O21", "O22", "O24", "M3", "M4", "M11"};
 
-
+	/**
+	 * Generates a random number between 1 and 8. Calls method (card)
+	 * according to result. Cards weighted.
+	 */
 	public static int ProduceCard(string tileName)
 	{
 		var decideCard = Random.Range(1, 9);
 		if (decideCard <= 3)
 		{
 			return FightBandit(CardTiles.Contains(tileName) ? 0 : Bonus);
-		} else if (decideCard >= 4 && decideCard <= 5)
+		} 
+		if (decideCard >= 4 && decideCard <= 5)
 		{
 			return FightOgre(CardTiles.Contains(tileName) ? 0 : Bonus);
-		} else if (decideCard == 6)
+		} 
+		if (decideCard == 6)
 		{
 			return FightDragon(CardTiles.Contains(tileName) ? 0 : Bonus);
-		} else if (decideCard == 7)
+		} 
+		if (decideCard == 7)
 		{
 			BagOfGold();
 			return 0;
-		}
-		else
-		{
-			Talisman();
-			return 0;
-		}
-		
+		}	
+		Talisman();
+		return 0;
 	}
 
 

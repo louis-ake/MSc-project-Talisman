@@ -89,14 +89,14 @@ public class GameControl : MonoBehaviour {
 			BluePlayer.strengthTrophy += change;
 			if (BluePlayer.strengthTrophy < StrengthUpgrade) return;
 			BluePlayer.strength += 1;
-			BluePlayer.strengthTrophy -= BluePlayer.strengthTrophy;
+			BluePlayer.strengthTrophy -= StrengthUpgrade;
 		}
 		else
 		{
 			YellowPlayer.strengthTrophy += change;
 			if (YellowPlayer.strengthTrophy < StrengthUpgrade) return;
 			YellowPlayer.strength += 1;
-			YellowPlayer.strengthTrophy -= BluePlayer.strengthTrophy;
+			YellowPlayer.strengthTrophy -= StrengthUpgrade;
 		}
 	}
 
@@ -188,7 +188,7 @@ public class GameControl : MonoBehaviour {
 	/**
 	 * Randomly allocate each player good or evil, exclusively 
 	 */
-	private void SetAlignments()
+	private static void SetAlignments()
 	{
 		var result = Random.Range(1, 3);
 		if (result == 1)
@@ -206,8 +206,8 @@ public class GameControl : MonoBehaviour {
 
 	public static void EndGame()
 	{
+		Player.Decision = TurnTracker == 0 ? "Blue Player wins!" : "Yellow Player wins!";
 		AdventureDeck._deckText = "Game ended and reset";
-		// if (!Input.GetKey(KeyCode.Y)) return;
 		BluePlayer.MoveRegion("O", 24, "O1");
 		BluePlayer.lives = 3;
 		BluePlayer.strength = 4;
@@ -224,13 +224,17 @@ public class GameControl : MonoBehaviour {
 		YellowPlayer.gold = 4;
 		YellowPlayer.alignment = "";
 		YellowPlayer.Turns = 0;
+		SetAlignments();
 		TurnCount = 0;
 		DiceRoll.RollCount = 0;
 		TurnTracker = 0;
 	}
-	
-	
-	void Main()
+
+	/**
+	 * Calls the respective player's TakeTurn method based on the
+	 * TurnTracker value. Called in this class's Update method.
+	 */
+	private static void Main()
 	{
 		switch (TurnTracker)
 		{

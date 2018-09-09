@@ -100,35 +100,29 @@ public class YellowPlayer : Player {
 		if (AdventureDeck.AllCardTiles.Contains(_startTileName))
 		{
 			DrawFromDeck();
-		}
-		else if (UniqueTiles.FightTiles.Contains(_startTileName))
+		} else if (UniqueTiles.FightTiles.Contains(_startTileName))
 		{
 			EncounterUniqueFightTile();
-		}
-		else if (UniqueTiles.ArmouryTiles.Contains(_startTileName) &&
+		} else if (UniqueTiles.ArmouryTiles.Contains(_startTileName) &&
 		         GameControl.GetGold() >= UniqueTiles.ArmouryPrice)
 		{
 			EncounterArmouryTile();
 			actionNeeded = false;
-		}
-		else if (UniqueTiles.HealTiles.Contains(_startTileName) &&
+		} else if (UniqueTiles.HealTiles.Contains(_startTileName) &&
 		         GameControl.GetGold() >= UniqueTiles.HealPrice)
 		{
 			EncounterHealTile();
 			actionNeeded = false;
-		}
-		else if (UniqueTiles.LifeLossDraw.Contains(_startTileName))
+		} else if (UniqueTiles.LifeLossDraw.Contains(_startTileName))
 		{
 			DrawFromDeck();
 			GameControl.ChangeLives(-1);
-		}
-		else if (UniqueTiles.Tiles.Contains(_startTileName) && moved && actionNeeded)
+		} else if (UniqueTiles.Tiles.Contains(_startTileName) && moved && actionNeeded)
 		{
 			UniqueTiles.ChooseTile(_startTileName);
 			actionNeeded = false;
 			GameControl.AlternateTurnTracker();
-		}
-		else if (moved && actionNeeded && Turns == BluePlayer.Turns)
+		} else if (moved && actionNeeded && Turns == BluePlayer.Turns)
 		{
 			actionNeeded = false;
 			GameControl.AlternateTurnTracker();
@@ -150,6 +144,11 @@ public class YellowPlayer : Player {
 		if (!won && !done && moved && GameControl.GetFate() > 0)
 		{
 			UseFate(FightDiff);
+		} else if (!won && !done && moved && GameControl.GetFate() < 1)
+		{
+			done = true;
+			won = true;
+			GameControl.AlternateTurnTracker();
 		} else if (won && moved && done)
 		{
 			//GameControl.AlternateTurnTracker();
@@ -178,6 +177,11 @@ public class YellowPlayer : Player {
 		if (!won && !done && moved && GameControl.GetFate() > 0)
 		{
 			UseFate(FightDiff);
+		} else if (!won && !done && moved && GameControl.GetFate() < 1)
+		{
+			done = true;
+			won = true;
+			GameControl.AlternateTurnTracker();
 		} else if (won && moved && done)
 		{
 			//GameControl.AlternateTurnTracker();
@@ -232,6 +236,13 @@ public class YellowPlayer : Player {
 	 */
 	private static void UseFate(int diff)
 	{
+		if (GameControl.GetFate() > 1)
+		{
+			won = true;
+			done = true;
+			GameControl.AlternateTurnTracker();
+			return;
+		}
 		Decision = "Would you like to use a fate token? (y/n)";
 		if (AIDecideFate(diff))
 		{
@@ -247,11 +258,13 @@ public class YellowPlayer : Player {
 				Decision = "Fate token used and Unsuccessful (rolled = " + challenge + ")";
 			}
 			won = true;
+			done = true;
 			GameControl.ChangeFate(-1);
 			GameControl.AlternateTurnTracker();
 		} else
 		{
 			won = true;
+			done = true;
 			GameControl.AlternateTurnTracker();
 		}
 	}
@@ -260,6 +273,11 @@ public class YellowPlayer : Player {
 	{
 		// check there has been the correct number of rolls to caluclate move
 		if (GameControl.TurnCount != DiceRoll.RollCount - 1) {return;}
+
+		if (Turns != BluePlayer.Turns - 1)
+		{
+			return;
+		}
 		moved = false; 
 		var currentTile = _startTileName;
 		var currentTileNo = Convert.ToInt32(currentTile.Substring(1));
@@ -388,15 +406,28 @@ public class YellowPlayer : Player {
 
 
 	/**
-	 * The more fate had, the lower the threshold for using fate
+	 * high fate stock or lower life stock lowers the threshold for using fate
 	 */
 	private static bool AIDecideFate(int diff)
 	{
+		// low chance of success but plentiful fate tokens
 		if (Math.Abs(diff) <= 4 && GameControl.GetFate() >= 2)
 		{
 			return true;
 		}
-
-		return diff <= 3;
+		// will die if don't use fate
+		if (GameControl.GetLives() < 2)
+		{
+			return true;
+		}
+		// high probably of success
+		if (diff <= 3)
+		{
+			return true;
+		}
+		else
+		{
+			return false;
+		}
 	}
 }

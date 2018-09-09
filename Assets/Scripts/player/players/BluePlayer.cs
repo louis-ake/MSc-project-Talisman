@@ -97,7 +97,11 @@ public class BluePlayer : Player {
 
 	public static void TakeTurn()
 	{
-		Move();
+		// if (GameControl.TurnCount != DiceRoll.RollCount - 1) {return;}
+		if (won)
+		{
+			Move();
+		}
 		if (!_active) return;
 		if (AdventureDeck.AllCardTiles.Contains(_startTileName))
 		{
@@ -124,7 +128,7 @@ public class BluePlayer : Player {
 			UniqueTiles.ChooseTile(_startTileName);
 			actionNeeded = false;
 			GameControl.AlternateTurnTracker();
-		} else if (moved && actionNeeded) 
+		} else if (moved && actionNeeded && Turns == YellowPlayer.Turns) 
 		{
 			actionNeeded = false;
 			GameControl.AlternateTurnTracker();
@@ -181,7 +185,10 @@ public class BluePlayer : Player {
 		}
 	}
 	
-	
+	/**
+	 * Asks player whether they'd like to purchase improved armaments.
+	 * If player answers yes, makes relevant changes to player stats.
+	 */
 	private static void EncounterArmouryTile()
 	{
 		AdventureDeck._deckText = "Would you like to improve your armaments for 2 gold?";
@@ -242,11 +249,13 @@ public class BluePlayer : Player {
 				Decision = "Fate token used and Unsuccessful (rolled = " + challenge + ")";
 			}
 			won = true;
+			done = true;
 			GameControl.ChangeFate(-1);
 			GameControl.AlternateTurnTracker();
 		} else if (Input.GetKey(KeyCode.N))
 		{
 			won = true;
+			done = true;
 			GameControl.AlternateTurnTracker();
 		}
 	}
@@ -255,6 +264,10 @@ public class BluePlayer : Player {
 	{
 		// check there has been the correct number of rolls to caluclate move
 		if (GameControl.TurnCount != DiceRoll.RollCount - 1) {return;}
+		if (Turns != YellowPlayer.Turns)
+		{
+			return;
+		}
 		moved = false; 
 		var currentTile = _startTileName;
 		var currentTileNo = Convert.ToInt32(currentTile.Substring(1));
