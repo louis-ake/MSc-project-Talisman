@@ -12,48 +12,198 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2018-09-09T16:26:44.884+01:00
-  initializedAtString: 2018-09-09T16:26:43.130+01:00
+  lastUpdatedAtString: 2018-09-12T20:37:20.777+01:00
+  initializedAtString: 2018-09-12T19:34:20.204+01:00
   entries:
+  - path: .idea/.idea.Talisman/.idea/contentModel.xml
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/.idea/.idea.Talisman/.idea/contentModel.xml
+    projectPath: .idea/.idea.Talisman/.idea/contentModel.xml
+    originalPath: 
+    status: 3
+    staged: 0
   - path: .idea/.idea.Talisman/.idea/workspace.xml
     fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/.idea/.idea.Talisman/.idea/workspace.xml
     projectPath: .idea/.idea.Talisman/.idea/workspace.xml
     originalPath: 
     status: 3
     staged: 0
-  - path: Assets/Scripts/AdventureDeck.cs
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/AdventureDeck.cs
-    projectPath: Assets/Scripts/AdventureDeck.cs
+  - path: Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll.meta
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll.meta
+    projectPath: Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll.meta
     originalPath: 
     status: 3
     staged: 0
-  - path: Assets/Scripts/GameControl.cs
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/GameControl.cs
-    projectPath: Assets/Scripts/GameControl.cs
+  - path: Assets/Plugins/GitHub/Editor/ExtensionLoader.cs
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Plugins/GitHub/Editor/ExtensionLoader.cs
+    projectPath: Assets/Plugins/GitHub/Editor/ExtensionLoader.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Plugins/GitHub/Editor/ExtensionLoader.cs.meta
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Plugins/GitHub/Editor/ExtensionLoader.cs.meta
+    projectPath: Assets/Plugins/GitHub/Editor/ExtensionLoader.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll
+    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.meta
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.meta
+    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.mdb
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.mdb
+    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.mdb
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.mdb.meta
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.mdb.meta
+    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.mdb.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Plugins/GitHub/Editor/GitHub.Api.dll
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Plugins/GitHub/Editor/GitHub.Api.dll
+    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.dll
     originalPath: 
     status: 3
     staged: 0
-  - path: Assets/Scripts/player/Player.cs
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/player/Player.cs
-    projectPath: Assets/Scripts/player/Player.cs
+  - path: Assets/Plugins/GitHub/Editor/GitHub.Api.dll.meta
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Plugins/GitHub/Editor/GitHub.Api.dll.meta
+    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.dll.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/Plugins/GitHub/Editor/GitHub.Api.dll.mdb
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Plugins/GitHub/Editor/GitHub.Api.dll.mdb
+    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.dll.mdb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/Plugins/GitHub/Editor/GitHub.Api.dll.mdb.meta
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Plugins/GitHub/Editor/GitHub.Api.dll.mdb.meta
+    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.dll.mdb.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll
+    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.meta
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.meta
+    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.mdb
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.mdb
+    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.mdb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.mdb.meta
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.mdb.meta
+    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.mdb.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll
+    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.meta
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.meta
+    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.mdb
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.mdb
+    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.mdb
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.mdb.meta
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.mdb.meta
+    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.mdb.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll
+    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.meta
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.meta
+    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.mdb
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.mdb
+    projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.mdb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/Plugins/GitHub/Editor/ICSharpCode.SharpZipLib.dll
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Plugins/GitHub/Editor/ICSharpCode.SharpZipLib.dll
+    projectPath: Assets/Plugins/GitHub/Editor/ICSharpCode.SharpZipLib.dll
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/Plugins/GitHub/Editor/ICSharpCode.SharpZipLib.dll.meta
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Plugins/GitHub/Editor/ICSharpCode.SharpZipLib.dll.meta
+    projectPath: Assets/Plugins/GitHub/Editor/ICSharpCode.SharpZipLib.dll.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/Plugins/GitHub/Editor/Mono.Posix.dll
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Plugins/GitHub/Editor/Mono.Posix.dll
+    projectPath: Assets/Plugins/GitHub/Editor/Mono.Posix.dll
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/Plugins/GitHub/Editor/Mono.Posix.dll.meta
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Plugins/GitHub/Editor/Mono.Posix.dll.meta
+    projectPath: Assets/Plugins/GitHub/Editor/Mono.Posix.dll.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll.meta
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll.meta
+    projectPath: Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/Plugins/GitHub/Editor/sfw.net.dll.meta
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Plugins/GitHub/Editor/sfw.net.dll.meta
+    projectPath: Assets/Plugins/GitHub/Editor/sfw.net.dll.meta
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/Plugins/GitHub/Editor/System.Threading.dll.meta
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Plugins/GitHub/Editor/System.Threading.dll.meta
+    projectPath: Assets/Plugins/GitHub/Editor/System.Threading.dll.meta
     originalPath: 
     status: 3
     staged: 0
   - path: Assets/Scripts/player/players/BluePlayer.cs
     fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/player/players/BluePlayer.cs
     projectPath: Assets/Scripts/player/players/BluePlayer.cs
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets/Scripts/player/players/YellowPlayer.cs
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/player/players/YellowPlayer.cs
-    projectPath: Assets/Scripts/player/players/YellowPlayer.cs
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets/Scripts/UniqueTiles.cs
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/UniqueTiles.cs
-    projectPath: Assets/Scripts/UniqueTiles.cs
     originalPath: 
     status: 3
     staged: 0
@@ -111,9 +261,87 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
+  - path: Library/metadata/15/15ca2bebf173f2d4484686a03a45b56d
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/metadata/15/15ca2bebf173f2d4484686a03a45b56d
+    projectPath: Library/metadata/15/15ca2bebf173f2d4484686a03a45b56d
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/23/23c8bee69b591054094d32918f98facd
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/metadata/23/23c8bee69b591054094d32918f98facd
+    projectPath: Library/metadata/23/23c8bee69b591054094d32918f98facd
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/25/2590b98e5cafc4e32b61170d7b917ee6
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/metadata/25/2590b98e5cafc4e32b61170d7b917ee6
+    projectPath: Library/metadata/25/2590b98e5cafc4e32b61170d7b917ee6
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/48/48c22d5d7479fcb49ab3be0cdd2ccec0
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/metadata/48/48c22d5d7479fcb49ab3be0cdd2ccec0
+    projectPath: Library/metadata/48/48c22d5d7479fcb49ab3be0cdd2ccec0
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/68/68c7e4565cde54155bb78d8e935f1dd4
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/metadata/68/68c7e4565cde54155bb78d8e935f1dd4
+    projectPath: Library/metadata/68/68c7e4565cde54155bb78d8e935f1dd4
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/79/790749ba7e4b18141953e39cb13f1b79
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/metadata/79/790749ba7e4b18141953e39cb13f1b79
+    projectPath: Library/metadata/79/790749ba7e4b18141953e39cb13f1b79
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/c5/c5c83d14802e712408f23409f3c59e26
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/metadata/c5/c5c83d14802e712408f23409f3c59e26
+    projectPath: Library/metadata/c5/c5c83d14802e712408f23409f3c59e26
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/c7/c743ae24ee231884887054d20ccdd0ae
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/metadata/c7/c743ae24ee231884887054d20ccdd0ae
+    projectPath: Library/metadata/c7/c743ae24ee231884887054d20ccdd0ae
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/d5/d516f2a1bec6a9645a084ef8c9237132
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/metadata/d5/d516f2a1bec6a9645a084ef8c9237132
+    projectPath: Library/metadata/d5/d516f2a1bec6a9645a084ef8c9237132
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/dd/ddb8611e748af425a82a497ac5a98c0c
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/metadata/dd/ddb8611e748af425a82a497ac5a98c0c
+    projectPath: Library/metadata/dd/ddb8611e748af425a82a497ac5a98c0c
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/ec/ecfb28d906a32914d956497c8d3b3395
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/metadata/ec/ecfb28d906a32914d956497c8d3b3395
+    projectPath: Library/metadata/ec/ecfb28d906a32914d956497c8d3b3395
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/f9/f9fc9b08ecd899944adf9860b4abd6b6
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/metadata/f9/f9fc9b08ecd899944adf9860b4abd6b6
+    projectPath: Library/metadata/f9/f9fc9b08ecd899944adf9860b4abd6b6
+    originalPath: 
+    status: 3
+    staged: 0
   - path: Library/shadercompiler-UnityShaderCompiler0.log
     fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/shadercompiler-UnityShaderCompiler0.log
     projectPath: Library/shadercompiler-UnityShaderCompiler0.log
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Talisman.sln
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Talisman.sln
+    projectPath: Talisman.sln
     originalPath: 
     status: 3
     staged: 0

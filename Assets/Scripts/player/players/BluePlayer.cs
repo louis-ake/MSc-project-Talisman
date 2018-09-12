@@ -97,12 +97,10 @@ public class BluePlayer : Player {
 
 	public static void TakeTurn()
 	{
-		// if (GameControl.TurnCount != DiceRoll.RollCount - 1) {return;}
-		if (won)
-		{
-			Move();
-		}
+		if (GameControl.TurnCount != DiceRoll.RollCount - 1) return;
+		Move();
 		if (!_active) return;
+		if (Turns != YellowPlayer.Turns + 1) return;
 		if (AdventureDeck.AllCardTiles.Contains(_startTileName))
 		{
 			DrawFromDeck();
@@ -128,11 +126,10 @@ public class BluePlayer : Player {
 			UniqueTiles.ChooseTile(_startTileName);
 			actionNeeded = false;
 			GameControl.AlternateTurnTracker();
-		} else if (moved && actionNeeded && Turns == YellowPlayer.Turns) 
+		} /*else if (moved && actionNeeded && Turns == YellowPlayer.Turns) 
 		{
-			actionNeeded = false;
 			GameControl.AlternateTurnTracker();
-		}
+		}*/
 		
 	}
 
@@ -152,7 +149,7 @@ public class BluePlayer : Player {
 			UseFate(FightDiff);
 		} else if (won && moved && done)
 		{
-			//GameControl.AlternateTurnTracker();
+			GameControl.AlternateTurnTracker();
 			done = false;
 		}
 	}
@@ -180,7 +177,7 @@ public class BluePlayer : Player {
 			UseFate(FightDiff);
 		} else if (won && moved && done)
 		{
-			//GameControl.AlternateTurnTracker();
+			GameControl.AlternateTurnTracker();
 			done = false;
 		}
 	}
@@ -197,13 +194,13 @@ public class BluePlayer : Player {
 			GameControl.ChangeStrength(1);
 			GameControl.ChangeGold(-2);
 			GameControl.AlternateTurnTracker();
-			done = true;
-			won = true;
+			/*done = true;
+			won = true;*/
 		} else if (Input.GetKey(KeyCode.N))
 		{
 			GameControl.AlternateTurnTracker();
-			done = true;
-			won = true;
+			/*done = true;
+			won = true;*/
 		}
 	}
 
@@ -216,13 +213,13 @@ public class BluePlayer : Player {
 			GameControl.ChangeLives(1);
 			GameControl.ChangeGold(-1);
 			GameControl.AlternateTurnTracker();
-			done = true;
-			won = true;
+			/*done = true;
+			won = true;*/
 		} else if (Input.GetKey(KeyCode.N))
 		{
 			GameControl.AlternateTurnTracker();
-			done = true;
-			won = true;
+			/*done = true;
+			won = true;*/
 		}
 		
 	}
@@ -263,11 +260,8 @@ public class BluePlayer : Player {
 	private static void Move()
 	{
 		// check there has been the correct number of rolls to caluclate move
-		if (GameControl.TurnCount != DiceRoll.RollCount - 1) {return;}
-		if (Turns != YellowPlayer.Turns)
-		{
-			return;
-		}
+		if (GameControl.TurnCount != DiceRoll.RollCount - 1) return;
+		if (Turns != YellowPlayer.Turns) return;
 		moved = false; 
 		var currentTile = _startTileName;
 		var currentTileNo = Convert.ToInt32(currentTile.Substring(1));
