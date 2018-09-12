@@ -25,7 +25,7 @@ public class UniqueTiles : MonoBehaviour {
 
 	public static readonly string[] HealTiles = {"M16"};
 	
-	private static readonly int GenericEnemy = 3;
+	public static readonly int GenericEnemy = 3;
 
 	public static readonly string[] LifeLossDraw = {"M10"};
 
