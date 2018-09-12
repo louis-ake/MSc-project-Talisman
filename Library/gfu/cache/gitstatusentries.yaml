@@ -12,104 +12,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2018-09-12T21:39:34.249+01:00
+  lastUpdatedAtString: 2018-09-12T21:40:10.762+01:00
   initializedAtString: 2018-09-12T19:34:20.204+01:00
   entries:
-  - path: .idea/.idea.Talisman/.idea/contentModel.xml
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/.idea/.idea.Talisman/.idea/contentModel.xml
-    projectPath: .idea/.idea.Talisman/.idea/contentModel.xml
+  - path: Assets/Scenes/SampleScene.unity
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scenes/SampleScene.unity
+    projectPath: Assets/Scenes/SampleScene.unity
     originalPath: 
     status: 3
-    staged: 0
-  - path: .idea/.idea.Talisman/.idea/workspace.xml
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/.idea/.idea.Talisman/.idea/workspace.xml
-    projectPath: .idea/.idea.Talisman/.idea/workspace.xml
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets/Scripts/TileClicks/outer region/TileO1.cs
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks/outer
-      region/TileO1.cs
-    projectPath: Assets/Scripts/TileClicks/outer region/TileO1.cs
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets/Scripts/TileClicks/outer region/TileO12.cs
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks/outer
-      region/TileO12.cs
-    projectPath: Assets/Scripts/TileClicks/outer region/TileO12.cs
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Scripts/TileClicks/outer region/TileO12.cs.meta
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks/outer
-      region/TileO12.cs.meta
-    projectPath: Assets/Scripts/TileClicks/outer region/TileO12.cs.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Scripts/TileClicks/outer region/TileO14.cs
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks/outer
-      region/TileO14.cs
-    projectPath: Assets/Scripts/TileClicks/outer region/TileO14.cs
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Scripts/TileClicks/outer region/TileO14.cs.meta
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks/outer
-      region/TileO14.cs.meta
-    projectPath: Assets/Scripts/TileClicks/outer region/TileO14.cs.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Scripts/TileClicks/outer region/TileO2.cs
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks/outer
-      region/TileO2.cs
-    projectPath: Assets/Scripts/TileClicks/outer region/TileO2.cs
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets/Scripts/TileClicks/outer region/TileO20.cs
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks/outer
-      region/TileO20.cs
-    projectPath: Assets/Scripts/TileClicks/outer region/TileO20.cs
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Scripts/TileClicks/outer region/TileO20.cs.meta
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks/outer
-      region/TileO20.cs.meta
-    projectPath: Assets/Scripts/TileClicks/outer region/TileO20.cs.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Scripts/TileClicks/outer region/TileO24.cs
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks/outer
-      region/TileO24.cs
-    projectPath: Assets/Scripts/TileClicks/outer region/TileO24.cs
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Scripts/TileClicks/outer region/TileO24.cs.meta
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks/outer
-      region/TileO24.cs.meta
-    projectPath: Assets/Scripts/TileClicks/outer region/TileO24.cs.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Scripts/TileClicks/outer region/TileO8.cs
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks/outer
-      region/TileO8.cs
-    projectPath: Assets/Scripts/TileClicks/outer region/TileO8.cs
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Scripts/TileClicks/outer region/TileO8.cs.meta
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks/outer
-      region/TileO8.cs.meta
-    projectPath: Assets/Scripts/TileClicks/outer region/TileO8.cs.meta
-    originalPath: 
-    status: 1
     staged: 0
   - path: Library/assetDatabase3
     fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/assetDatabase3
@@ -120,12 +30,6 @@ MonoBehaviour:
   - path: Library/gfu/cache/branches.yaml
     fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/gfu/cache/branches.yaml
     projectPath: Library/gfu/cache/branches.yaml
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/gfu/cache/gitlocks.yaml
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/gfu/cache/gitlocks.yaml
-    projectPath: Library/gfu/cache/gitlocks.yaml
     originalPath: 
     status: 3
     staged: 0
@@ -147,9 +51,9 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library/shadercompiler-UnityShaderCompiler0.log
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/shadercompiler-UnityShaderCompiler0.log
-    projectPath: Library/shadercompiler-UnityShaderCompiler0.log
+  - path: Library/gfu/cache/repoinfo.yaml
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/gfu/cache/repoinfo.yaml
+    projectPath: Library/gfu/cache/repoinfo.yaml
     originalPath: 
     status: 3
     staged: 0
