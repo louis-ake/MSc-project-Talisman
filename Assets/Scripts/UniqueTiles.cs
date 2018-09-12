@@ -115,8 +115,6 @@ public class UniqueTiles : MonoBehaviour {
 		{
 			AdventureDeck._deckText =
 				"You fought the sentinal and won (" + playerResult + " vs " + SentinalResult + ")";
-			Player.done = true;
-			Player.won = true;
 			if (GameControl.TurnTracker == 0)
 			{
 				BluePlayer.MoveRegion("M", 16, "M4");
@@ -125,7 +123,8 @@ public class UniqueTiles : MonoBehaviour {
 			{
 				YellowPlayer.MoveRegion("M", 16, "M4");
 			}
-
+			Player.done = true;
+			Player.won = true;
 			GameControl.AlternateTurnTracker();
 		}
 		else if (diff < 0)
@@ -223,10 +222,10 @@ public class UniqueTiles : MonoBehaviour {
 		} else if (result >= 4 && result <= 5)
 		{
 			GameControl.ChangeStrength(1);
-			AdventureDeck._deckText = "Rolled 4-5 and gained 1 life";
+			AdventureDeck._deckText = "Rolled 4-5 and gained 1 strength";
 		} else
 		{
-			GameControl.ChangeStrength(1);
+			GameControl.ChangeLives(1);
 			AdventureDeck._deckText = "Rolled 6 and gained a life";
 		}
 	}

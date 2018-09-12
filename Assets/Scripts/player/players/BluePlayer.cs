@@ -97,7 +97,7 @@ public class BluePlayer : Player {
 
 	public static void TakeTurn()
 	{
-		if (GameControl.TurnCount != DiceRoll.RollCount - 1) return;
+		// if (GameControl.TurnCount != DiceRoll.RollCount - 1) return;
 		Move();
 		if (!_active) return;
 		if (Turns != YellowPlayer.Turns + 1) return;
@@ -144,12 +144,12 @@ public class BluePlayer : Player {
 			FightDiff = UniqueTiles.ChooseFightTile(_startTileName);
 			actionNeeded = false;
 		}
-		if (!won && !done && moved && GameControl.GetFate() > 0)
+		if (!won && !done && moved)
 		{
 			UseFate(FightDiff);
 		} else if (won && moved && done)
 		{
-			GameControl.AlternateTurnTracker();
+			// GameControl.AlternateTurnTracker();
 			done = false;
 		}
 	}
@@ -172,12 +172,12 @@ public class BluePlayer : Player {
 			FightDiff = AdventureDeck.ProduceCard(_startTileName);
 			actionNeeded = false;
 		}
-		if (!won && !done && moved && GameControl.GetFate() > 0) 
+		if (!won && !done && moved) 
 		{
 			UseFate(FightDiff);
 		} else if (won && moved && done)
 		{
-			GameControl.AlternateTurnTracker();
+			// GameControl.AlternateTurnTracker();
 			done = false;
 		}
 	}
