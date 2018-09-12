@@ -13,4 +13,10 @@ public class TileO2 : TileClick {
 	void Update () {
 		
 	}
+	
+	private void OnMouseDown()
+	{
+		TileText = "Fields (Space O-2)" + "\n" + "\n" +
+		           "Draw a card from the adventure deck.";
+	}
 }

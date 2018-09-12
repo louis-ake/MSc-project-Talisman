@@ -28,7 +28,12 @@
           <e p="TileClicks" t="Include">
             <e p="outer region" t="Include">
               <e p="TileO1.cs" t="Include" />
+              <e p="TileO12.cs" t="Include" />
+              <e p="TileO14.cs" t="Include" />
               <e p="TileO2.cs" t="Include" />
+              <e p="TileO20.cs" t="Include" />
+              <e p="TileO24.cs" t="Include" />
+              <e p="TileO8.cs" t="Include" />
             </e>
             <e p="TileClick.cs" t="Include" />
           </e>
