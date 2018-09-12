@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MiddleTileClick : MonoBehaviour {
+public class TileO2 : TileClick {
 
 	// Use this for initialization
 	void Start () {
@@ -13,12 +13,4 @@ public class MiddleTileClick : MonoBehaviour {
 	void Update () {
 		
 	}
-
-    public int Clicks = 0;
-
-    void OnMouseDown()
-    {
-        Clicks += 1;
-        Debug.Log("Clicked on Tile " + this.name + " " + Clicks + " times");
-    }
 }

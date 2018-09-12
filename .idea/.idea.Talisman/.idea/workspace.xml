@@ -4,11 +4,22 @@
     <list default="true" id="3d45d845-1091-48a7-8db0-70ef0316e1fe" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Talisman/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Talisman/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Talisman/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Talisman/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tiles/outer region/Tile1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Tiles/outer region/Tile1.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UniqueTiles.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UniqueTiles.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/player/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/player/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/player/players/BluePlayer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/player/players/BluePlayer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TileClicks.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TileClicks/CentreTileClick.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TileClicks/CentreTileClick.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TileClicks/InnerTileClick.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TileClicks/InnerTileClick.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TileClicks/MiddleTileClick.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TileClicks/MiddleTileClick.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TileClicks/OuterTileClick.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TileClicks/OuterTileClick.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tiles/Tile.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tiles/Tile.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tiles/outer region/Tile1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tiles/outer region/Tile1.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tiles/outer region/Tile2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Tiles/outer region/Tile2.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TileClick.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TileClick.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/assetDatabase3" beforeDir="false" afterPath="$PROJECT_DIR$/Library/assetDatabase3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/gfu/cache/branches.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Library/gfu/cache/branches.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/gfu/cache/gitlocks.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Library/gfu/cache/gitlocks.yaml" afterDir="false" />
@@ -16,11 +27,7 @@
       <change beforePath="$PROJECT_DIR$/Library/gfu/cache/gitstatusentries.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Library/gfu/cache/gitstatusentries.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/gfu/cache/gittrackingstatus.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Library/gfu/cache/gittrackingstatus.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/gfu/cache/repoinfo.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Library/gfu/cache/repoinfo.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/00/00000000000000009000000000000000" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/00/00000000000000009000000000000000" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/00/0000000000000000a100000000000000" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/00/0000000000000000a100000000000000" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -190,8 +197,8 @@
           <file leaf-file-name="UniqueTiles.cs" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Assets/Scripts/UniqueTiles.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="569">
-                  <caret line="228" column="67" selection-start-line="228" selection-start-column="67" selection-end-line="228" selection-end-column="67" />
+                <state relative-caret-position="584">
+                  <caret line="229" column="9" selection-start-line="229" selection-start-column="9" selection-end-line="229" selection-end-column="9" />
                   <folding>
                     <marker date="1536783440840" expanded="false" signature="6:161" ph="..." />
                     <marker date="1536783440840" expanded="true" signature="204:12418" ph="{...}" />
@@ -362,41 +369,26 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="CentreTileClick.cs" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Assets/Scripts/TileClicks/CentreTileClick.cs">
+          <file leaf-file-name="Tile2.cs" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Assets/Scripts/Tiles/outer region/Tile2.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state>
+                <state relative-caret-position="195">
+                  <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
                   <folding>
-                    <marker date="1531664059580" expanded="false" signature="6:78" ph="..." />
-                    <marker date="1531664059580" expanded="true" signature="125:408" ph="{...}" />
-                    <marker date="1531664059580" expanded="true" signature="175:182" ph="{...}" />
-                    <marker date="1531664059580" expanded="true" signature="237:244" ph="{...}" />
-                    <marker date="1531664059580" expanded="true" signature="296:406" ph="{...}" />
+                    <marker date="1536784087054" expanded="false" signature="6:78" ph="..." />
+                    <marker date="1536784087054" expanded="true" signature="112:233" ph="{...}" />
+                    <marker date="1536784087054" expanded="true" signature="162:169" ph="{...}" />
+                    <marker date="1536784087054" expanded="true" signature="224:231" ph="{...}" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="TileClick.cs" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Assets/TileClick.cs">
+          <file leaf-file-name="TileO1.cs" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Assets/Scripts/Tiles/outer region/TileO1.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="240">
-                  <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-                  <folding>
-                    <marker date="1536782927505" expanded="true" signature="6:100" ph="..." />
-                    <marker date="1536782927505" expanded="true" signature="141:378" ph="{...}" />
-                    <marker date="1536782927505" expanded="true" signature="190:225" ph="{...}" />
-                    <marker date="1536782927505" expanded="true" signature="279:314" ph="{...}" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Tile1.cs" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Assets/Scripts/Tiles/outer region/Tile1.cs">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="19" column="104" selection-start-line="19" selection-start-column="104" selection-end-line="19" selection-end-column="104" />
+                <state relative-caret-position="300">
+                  <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
                   <folding>
                     <marker date="1536783440843" expanded="false" signature="6:78" ph="..." />
                     <marker date="1536783440843" expanded="true" signature="112:417" ph="{...}" />
@@ -453,16 +445,14 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DiceRoll.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/TileClick.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/player/Player.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/player/players/BluePlayer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AdventureDeck.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameControl.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tiles/outer region/Tile1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tiles/outer region/Tile2.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tiles/outer region/TileO1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/player/players/YellowPlayer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UniqueTiles.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TileClicks/CentreTileClick.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -471,7 +461,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/TileO1.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/player/player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Tiles/outer region/TileO2.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Tiles/outer region/Tile2.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DiceRoll.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AdventureDeck.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/player/players/YellowPlayer.cs" />
@@ -481,6 +470,7 @@
         <option value="$PROJECT_DIR$/Assets/TileClick.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UniqueTiles.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Tiles/outer region/Tile1.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Tiles/outer region/Tile2.cs" />
       </list>
     </option>
   </component>
@@ -592,12 +582,12 @@
       <workItem from="1536506593044" duration="119000" />
       <workItem from="1536506761949" duration="125000" />
       <workItem from="1536516654457" duration="672000" />
-      <workItem from="1536778012586" duration="4851000" />
+      <workItem from="1536778012586" duration="5342000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="167697000" />
+    <option name="totallyTimeSpent" value="168188000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1568,15 +1558,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Tile.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/TileO1.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Tiles/outer region/TileO1.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Tiles/outer region/TileO2.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Tiles/outer region/Tile2.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/DiceRoll.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -1718,17 +1700,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/TileClicks/CentreTileClick.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1531664059580" expanded="false" signature="6:78" ph="..." />
-            <marker date="1531664059580" expanded="true" signature="125:408" ph="{...}" />
-            <marker date="1531664059580" expanded="true" signature="175:182" ph="{...}" />
-            <marker date="1531664059580" expanded="true" signature="237:244" ph="{...}" />
-            <marker date="1531664059580" expanded="true" signature="296:406" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/AdventureDeck.cs">
       <provider selected="true" editor-type-id="text-editor">
@@ -1760,19 +1732,6 @@
             <marker date="1536411761165" expanded="true" signature="4288:4487" ph="{...}" />
             <marker date="1536411761165" expanded="true" signature="4540:4698" ph="{...}" />
             <marker date="1536411761165" expanded="true" signature="4732:4888" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/TileClick.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-          <folding>
-            <marker date="1536782927505" expanded="true" signature="6:100" ph="..." />
-            <marker date="1536782927505" expanded="true" signature="141:378" ph="{...}" />
-            <marker date="1536782927505" expanded="true" signature="190:225" ph="{...}" />
-            <marker date="1536782927505" expanded="true" signature="279:314" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1860,8 +1819,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/UniqueTiles.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="569">
-          <caret line="228" column="67" selection-start-line="228" selection-start-column="67" selection-end-line="228" selection-end-column="67" />
+        <state relative-caret-position="584">
+          <caret line="229" column="9" selection-start-line="229" selection-start-column="9" selection-end-line="229" selection-end-column="9" />
           <folding>
             <marker date="1536783440840" expanded="false" signature="6:161" ph="..." />
             <marker date="1536783440840" expanded="true" signature="204:12418" ph="{...}" />
@@ -1970,14 +1929,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Tiles/outer region/Tile1.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="104" selection-start-line="19" selection-start-column="104" selection-end-line="19" selection-end-column="104" />
+        <state relative-caret-position="300">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/TileClick.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Tiles/outer region/TileO1.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
           <folding>
             <marker date="1536783440843" expanded="false" signature="6:78" ph="..." />
             <marker date="1536783440843" expanded="true" signature="112:417" ph="{...}" />
             <marker date="1536783440843" expanded="true" signature="162:169" ph="{...}" />
             <marker date="1536783440843" expanded="true" signature="224:231" ph="{...}" />
             <marker date="1536783440843" expanded="true" signature="260:415" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Tiles/outer region/Tile2.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding>
+            <marker date="1536784087054" expanded="false" signature="6:78" ph="..." />
+            <marker date="1536784087054" expanded="true" signature="112:233" ph="{...}" />
+            <marker date="1536784087054" expanded="true" signature="162:169" ph="{...}" />
+            <marker date="1536784087054" expanded="true" signature="224:231" ph="{...}" />
           </folding>
         </state>
       </provider>
