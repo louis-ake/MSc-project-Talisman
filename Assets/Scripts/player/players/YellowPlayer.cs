@@ -4,13 +4,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using System.Linq;
+using UnityEditor;
+using UnityEngine.WSA;
 using Random = UnityEngine.Random;
 
 public class YellowPlayer : Player {
 	
 	/**
-	 * BluePlayer and YellowPlayer mirror each other appart from starting transform,
-	 * StartTileName string and turnTracker value.
+	 * The player controlled by a game AI
 	 */
 
 	// Use this for initialization
@@ -46,6 +47,7 @@ public class YellowPlayer : Player {
 	public static int gold = StartingGold;
 	public static string alignment = "";
 	public static string talisman = "no";
+	public static int Wins = 0;
 
 	private static string _startTileName = "O13";
 	
@@ -66,14 +68,15 @@ public class YellowPlayer : Player {
 
 	private void SetStats()
 	{
-		Stats.text = "Yellow Player's Stats" + "\n"+ "\n" + 
-		             "lives: " + lives + "\n" + 
-		             "strength: " + strength + " (" + strengthTrophy + ")" + "\n" + 
-		             "fate tokens: " + fateTokens + "\n" + 
-		             "gold: " + gold + "\n" +  
-		             "alignment: " + alignment + "\n" + 
+		Stats.text = "Yellow Player's Stats" + "\n" + "\n" +
+		             "lives: " + lives + "\n" +
+		             "strength: " + strength + " (" + strengthTrophy + ")" + "\n" +
+		             "fate tokens: " + fateTokens + "\n" +
+		             "gold: " + gold + "\n" +
+		             "alignment: " + alignment + "\n" +
 		             "talisman: " + talisman + "\n" + "\n" +
-		             "turns: " + Turns;
+		             "turns: " + Turns + "\n" +
+		             "wins: " + Wins;
 	}
 
 
@@ -288,7 +291,7 @@ public class YellowPlayer : Player {
 		var antiClockwise = currentTileNo - DiceRoll.DiceTotal;
 		var nextTileNo = 0;
 		// GameControl.DirectionDecision.text = "Press c to move clockwise or v to move anticlockwise";
-		if (AIChooseDirection(currentTileNo, clockwise, antiClockwise)) // For clockwise
+		if (AIChooseDirection(clockwise, antiClockwise)) // For clockwise
 		{
 			nextTileNo = (currentTileNo + DiceRoll.DiceTotal);
 			GameControl.TurnCount += 1;
@@ -323,10 +326,14 @@ public class YellowPlayer : Player {
 
 
 
-	private static bool AIChooseDirection(int currentTileNo, int clockwise, int antiClockwise)
+	private static bool AIChooseDirection(int clockwise, int antiClockwise)
 	{
 		if (Region == "O")
 		{
+			if (clockwise > 24)
+			{
+				clockwise -= 24; // modulo
+			}
 			if (GameControl.GetStrength() > 7) // Move towards sentinal
 			{
 				const int target = 5;
@@ -353,6 +360,10 @@ public class YellowPlayer : Player {
 			}
 		} else if (Region == "M")
 		{
+			if (clockwise > 16)
+			{
+				clockwise -= 16; // modulo
+			}
 			if (!GameControl.CheckTalisman()) // Get talisman at warlocks's cave
 			{
 				const int target = 9;
@@ -370,8 +381,12 @@ public class YellowPlayer : Player {
 				const int target = 1;
 				return Math.Abs(clockwise - target) < Math.Abs(antiClockwise - target);
 			}
-		} else if (Region == "I") // got to valley
+		} else if (Region == "I") // go to valley
 		{
+			if (clockwise > 8)
+			{
+				clockwise -= 8; // module
+			}
 			const int target = 5;
 			return Math.Abs(clockwise - target) < Math.Abs(antiClockwise - target);
 		}

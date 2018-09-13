@@ -206,7 +206,8 @@ public class GameControl : MonoBehaviour {
 
 	public static void EndGame()
 	{
-		Player.Decision = TurnTracker == 0 ? "Blue Player wins!" : "Yellow Player wins!";
+		if (BluePlayer.lives < 1) { YellowPlayer.Wins += 1; }
+		else { BluePlayer.Wins += 1; }
 		AdventureDeck._deckText = "Game ended and reset";
 		BluePlayer.MoveRegion("O", 24, "O1");
 		BluePlayer.lives = Player.StartingLives;

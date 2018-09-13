@@ -15,8 +15,7 @@ using Random = System.Random;
 public class BluePlayer : Player {
 	
 	/**
-	 * BluePlayer and YellowPlayer mirror each other appart from starting transform,
-	 * StartTileName string and turnTracker value.
+	 * The player controlled by a human
 	 */
 
 	// Use this for initialization
@@ -52,6 +51,7 @@ public class BluePlayer : Player {
 	public static int gold = StartingGold;
 	public static string alignment = "";
 	public static string talisman = "no";
+	public static int Wins = 0;
 
 	private static string _startTileName = "O1";
 	
@@ -79,7 +79,8 @@ public class BluePlayer : Player {
 		             "gold: " + gold + "\n" +  
 		             "alignment: " + alignment + "\n" + 
 		             "talisman: " + talisman + "\n" + "\n" +
-		             "turns: " + Turns;
+		             "turns: " + Turns + "\n" +
+		             "wins: " + Wins;
 	}
 
 
