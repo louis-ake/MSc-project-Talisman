@@ -26,6 +26,24 @@
             </e>
           </e>
           <e p="TileClicks" t="Include">
+            <e p="middle region" t="Include">
+              <e p="TileM1.cs" t="Include" />
+              <e p="TileM10.cs" t="Include" />
+              <e p="TileM11.cs" t="Include" />
+              <e p="TileM12.cs" t="Include" />
+              <e p="TileM13.cs" t="Include" />
+              <e p="TileM14.cs" t="Include" />
+              <e p="TileM15.cs" t="Include" />
+              <e p="TileM16.cs" t="Include" />
+              <e p="TileM2.cs" t="Include" />
+              <e p="TileM3.cs" t="Include" />
+              <e p="TileM4.cs" t="Include" />
+              <e p="TileM5.cs" t="Include" />
+              <e p="TileM6.cs" t="Include" />
+              <e p="TileM7.cs" t="Include" />
+              <e p="TileM8.cs" t="Include" />
+              <e p="TileM9.cs" t="Include" />
+            </e>
             <e p="outer region" t="Include">
               <e p="TileO1.cs" t="Include" />
               <e p="TileO10.cs" t="Include" />
@@ -56,6 +74,15 @@
           </e>
           <e p="UniqueTiles.cs" t="Include" />
         </e>
+        <e p="TileC1.cs" t="Include" />
+        <e p="TileI1.cs" t="Include" />
+        <e p="TileI2.cs" t="Include" />
+        <e p="TileI3.cs" t="Include" />
+        <e p="TileI4.cs" t="Include" />
+        <e p="TileI5.cs" t="Include" />
+        <e p="TileI6.cs" t="Include" />
+        <e p="TileI7.cs" t="Include" />
+        <e p="TileI8.cs" t="Include" />
       </e>
       <e p="Library" t="ExcludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />

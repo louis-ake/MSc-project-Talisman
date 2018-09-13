@@ -12,12 +12,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2018-09-13T18:33:31.514+01:00
+  lastUpdatedAtString: 2018-09-13T20:24:01.890+01:00
   initializedAtString: 2018-09-13T18:09:19.353+01:00
   entries:
+  - path: .idea/.idea.Talisman/.idea/contentModel.xml
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/.idea/.idea.Talisman/.idea/contentModel.xml
+    projectPath: .idea/.idea.Talisman/.idea/contentModel.xml
+    originalPath: 
+    status: 3
+    staged: 0
   - path: .idea/.idea.Talisman/.idea/workspace.xml
     fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/.idea/.idea.Talisman/.idea/workspace.xml
     projectPath: .idea/.idea.Talisman/.idea/workspace.xml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/GameScene.unity
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/GameScene.unity
+    projectPath: Assets/GameScene.unity
     originalPath: 
     status: 3
     staged: 0
@@ -27,21 +39,360 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Assets/Scripts/player/Player.cs
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/player/Player.cs
-    projectPath: Assets/Scripts/player/Player.cs
+  - path: Assets/Scripts/TileClicks/centre region/TileC1.cs
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks/centre
+      region/TileC1.cs
+    projectPath: Assets/Scripts/TileClicks/centre region/TileC1.cs
     originalPath: 
-    status: 3
+    status: 1
     staged: 0
-  - path: Assets/Scripts/player/players/BluePlayer.cs
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/player/players/BluePlayer.cs
-    projectPath: Assets/Scripts/player/players/BluePlayer.cs
+  - path: Assets/Scripts/TileClicks/centre region/TileC1.cs.meta
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks/centre
+      region/TileC1.cs.meta
+    projectPath: Assets/Scripts/TileClicks/centre region/TileC1.cs.meta
     originalPath: 
-    status: 3
+    status: 1
     staged: 0
-  - path: Assets/Scripts/player/players/YellowPlayer.cs
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/player/players/YellowPlayer.cs
-    projectPath: Assets/Scripts/player/players/YellowPlayer.cs
+  - path: Assets/Scripts/TileClicks/inner region/TileI1.cs
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks/inner
+      region/TileI1.cs
+    projectPath: Assets/Scripts/TileClicks/inner region/TileI1.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Scripts/TileClicks/inner region/TileI1.cs.meta
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks/inner
+      region/TileI1.cs.meta
+    projectPath: Assets/Scripts/TileClicks/inner region/TileI1.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Scripts/TileClicks/inner region/TileI2.cs
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks/inner
+      region/TileI2.cs
+    projectPath: Assets/Scripts/TileClicks/inner region/TileI2.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Scripts/TileClicks/inner region/TileI2.cs.meta
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks/inner
+      region/TileI2.cs.meta
+    projectPath: Assets/Scripts/TileClicks/inner region/TileI2.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Scripts/TileClicks/inner region/TileI3.cs
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks/inner
+      region/TileI3.cs
+    projectPath: Assets/Scripts/TileClicks/inner region/TileI3.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Scripts/TileClicks/inner region/TileI3.cs.meta
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks/inner
+      region/TileI3.cs.meta
+    projectPath: Assets/Scripts/TileClicks/inner region/TileI3.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Scripts/TileClicks/inner region/TileI4.cs
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks/inner
+      region/TileI4.cs
+    projectPath: Assets/Scripts/TileClicks/inner region/TileI4.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Scripts/TileClicks/inner region/TileI4.cs.meta
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks/inner
+      region/TileI4.cs.meta
+    projectPath: Assets/Scripts/TileClicks/inner region/TileI4.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Scripts/TileClicks/inner region/TileI5.cs
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks/inner
+      region/TileI5.cs
+    projectPath: Assets/Scripts/TileClicks/inner region/TileI5.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Scripts/TileClicks/inner region/TileI5.cs.meta
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks/inner
+      region/TileI5.cs.meta
+    projectPath: Assets/Scripts/TileClicks/inner region/TileI5.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Scripts/TileClicks/inner region/TileI6.cs
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks/inner
+      region/TileI6.cs
+    projectPath: Assets/Scripts/TileClicks/inner region/TileI6.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Scripts/TileClicks/inner region/TileI6.cs.meta
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks/inner
+      region/TileI6.cs.meta
+    projectPath: Assets/Scripts/TileClicks/inner region/TileI6.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Scripts/TileClicks/inner region/TileI7.cs
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks/inner
+      region/TileI7.cs
+    projectPath: Assets/Scripts/TileClicks/inner region/TileI7.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Scripts/TileClicks/inner region/TileI7.cs.meta
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks/inner
+      region/TileI7.cs.meta
+    projectPath: Assets/Scripts/TileClicks/inner region/TileI7.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Scripts/TileClicks/inner region/TileI8.cs
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks/inner
+      region/TileI8.cs
+    projectPath: Assets/Scripts/TileClicks/inner region/TileI8.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Scripts/TileClicks/inner region/TileI8.cs.meta
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks/inner
+      region/TileI8.cs.meta
+    projectPath: Assets/Scripts/TileClicks/inner region/TileI8.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Scripts/TileClicks/middle region/TileM1.cs
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks/middle
+      region/TileM1.cs
+    projectPath: Assets/Scripts/TileClicks/middle region/TileM1.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Scripts/TileClicks/middle region/TileM1.cs.meta
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks/middle
+      region/TileM1.cs.meta
+    projectPath: Assets/Scripts/TileClicks/middle region/TileM1.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Scripts/TileClicks/middle region/TileM10.cs
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks/middle
+      region/TileM10.cs
+    projectPath: Assets/Scripts/TileClicks/middle region/TileM10.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Scripts/TileClicks/middle region/TileM10.cs.meta
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks/middle
+      region/TileM10.cs.meta
+    projectPath: Assets/Scripts/TileClicks/middle region/TileM10.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Scripts/TileClicks/middle region/TileM11.cs
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks/middle
+      region/TileM11.cs
+    projectPath: Assets/Scripts/TileClicks/middle region/TileM11.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Scripts/TileClicks/middle region/TileM11.cs.meta
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks/middle
+      region/TileM11.cs.meta
+    projectPath: Assets/Scripts/TileClicks/middle region/TileM11.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Scripts/TileClicks/middle region/TileM12.cs
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks/middle
+      region/TileM12.cs
+    projectPath: Assets/Scripts/TileClicks/middle region/TileM12.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Scripts/TileClicks/middle region/TileM12.cs.meta
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks/middle
+      region/TileM12.cs.meta
+    projectPath: Assets/Scripts/TileClicks/middle region/TileM12.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Scripts/TileClicks/middle region/TileM13.cs
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks/middle
+      region/TileM13.cs
+    projectPath: Assets/Scripts/TileClicks/middle region/TileM13.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Scripts/TileClicks/middle region/TileM13.cs.meta
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks/middle
+      region/TileM13.cs.meta
+    projectPath: Assets/Scripts/TileClicks/middle region/TileM13.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Scripts/TileClicks/middle region/TileM14.cs
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks/middle
+      region/TileM14.cs
+    projectPath: Assets/Scripts/TileClicks/middle region/TileM14.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Scripts/TileClicks/middle region/TileM14.cs.meta
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks/middle
+      region/TileM14.cs.meta
+    projectPath: Assets/Scripts/TileClicks/middle region/TileM14.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Scripts/TileClicks/middle region/TileM15.cs
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks/middle
+      region/TileM15.cs
+    projectPath: Assets/Scripts/TileClicks/middle region/TileM15.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Scripts/TileClicks/middle region/TileM15.cs.meta
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks/middle
+      region/TileM15.cs.meta
+    projectPath: Assets/Scripts/TileClicks/middle region/TileM15.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Scripts/TileClicks/middle region/TileM16.cs
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks/middle
+      region/TileM16.cs
+    projectPath: Assets/Scripts/TileClicks/middle region/TileM16.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Scripts/TileClicks/middle region/TileM16.cs.meta
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks/middle
+      region/TileM16.cs.meta
+    projectPath: Assets/Scripts/TileClicks/middle region/TileM16.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Scripts/TileClicks/middle region/TileM2.cs
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks/middle
+      region/TileM2.cs
+    projectPath: Assets/Scripts/TileClicks/middle region/TileM2.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Scripts/TileClicks/middle region/TileM2.cs.meta
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks/middle
+      region/TileM2.cs.meta
+    projectPath: Assets/Scripts/TileClicks/middle region/TileM2.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Scripts/TileClicks/middle region/TileM3.cs
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks/middle
+      region/TileM3.cs
+    projectPath: Assets/Scripts/TileClicks/middle region/TileM3.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Scripts/TileClicks/middle region/TileM3.cs.meta
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks/middle
+      region/TileM3.cs.meta
+    projectPath: Assets/Scripts/TileClicks/middle region/TileM3.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Scripts/TileClicks/middle region/TileM4.cs
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks/middle
+      region/TileM4.cs
+    projectPath: Assets/Scripts/TileClicks/middle region/TileM4.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Scripts/TileClicks/middle region/TileM4.cs.meta
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks/middle
+      region/TileM4.cs.meta
+    projectPath: Assets/Scripts/TileClicks/middle region/TileM4.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Scripts/TileClicks/middle region/TileM5.cs
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks/middle
+      region/TileM5.cs
+    projectPath: Assets/Scripts/TileClicks/middle region/TileM5.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Scripts/TileClicks/middle region/TileM5.cs.meta
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks/middle
+      region/TileM5.cs.meta
+    projectPath: Assets/Scripts/TileClicks/middle region/TileM5.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Scripts/TileClicks/middle region/TileM6.cs
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks/middle
+      region/TileM6.cs
+    projectPath: Assets/Scripts/TileClicks/middle region/TileM6.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Scripts/TileClicks/middle region/TileM6.cs.meta
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks/middle
+      region/TileM6.cs.meta
+    projectPath: Assets/Scripts/TileClicks/middle region/TileM6.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Scripts/TileClicks/middle region/TileM7.cs
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks/middle
+      region/TileM7.cs
+    projectPath: Assets/Scripts/TileClicks/middle region/TileM7.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Scripts/TileClicks/middle region/TileM7.cs.meta
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks/middle
+      region/TileM7.cs.meta
+    projectPath: Assets/Scripts/TileClicks/middle region/TileM7.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Scripts/TileClicks/middle region/TileM8.cs
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks/middle
+      region/TileM8.cs
+    projectPath: Assets/Scripts/TileClicks/middle region/TileM8.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Scripts/TileClicks/middle region/TileM8.cs.meta
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks/middle
+      region/TileM8.cs.meta
+    projectPath: Assets/Scripts/TileClicks/middle region/TileM8.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Scripts/TileClicks/middle region/TileM9.cs
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks/middle
+      region/TileM9.cs
+    projectPath: Assets/Scripts/TileClicks/middle region/TileM9.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Scripts/TileClicks/middle region/TileM9.cs.meta
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks/middle
+      region/TileM9.cs.meta
+    projectPath: Assets/Scripts/TileClicks/middle region/TileM9.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Scripts/TileClicks/outer region/TileO1.cs
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/TileClicks/outer
+      region/TileO1.cs
+    projectPath: Assets/Scripts/TileClicks/outer region/TileO1.cs
     originalPath: 
     status: 3
     staged: 0
@@ -84,6 +435,12 @@ MonoBehaviour:
   - path: Library/gfu/cache/gittrackingstatus.yaml
     fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/gfu/cache/gittrackingstatus.yaml
     projectPath: Library/gfu/cache/gittrackingstatus.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/gfu/cache/repoinfo.yaml
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/gfu/cache/repoinfo.yaml
+    projectPath: Library/gfu/cache/repoinfo.yaml
     originalPath: 
     status: 3
     staged: 0

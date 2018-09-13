@@ -66,17 +66,17 @@ public class UniqueTiles : MonoBehaviour {
 			case "O5":
 				return FightSentinal();
 			case "I6":
-				return FightWarlock();
+				return FightWerewolf();
 			default:
 				return 0;
 		}
 	}
 
 
-	private static int FightWarlock()
+	private static int FightWerewolf()
 	{
 		// Two to determine its strength, one to determine its fight roll
-		var warlockResult = Random.Range(1, 7) + Random.Range(1, 7) +Random.Range(1, 7);
+		var warlockResult = Random.Range(1, 7) + Random.Range(1, 7) + Random.Range(1, 7);
 		var playerResult = GameControl.GetStrength() + Random.Range(1, 7);
 		var diff = playerResult - warlockResult;
 		if (diff > 0)
