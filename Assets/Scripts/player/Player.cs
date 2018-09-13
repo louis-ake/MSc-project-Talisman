@@ -22,15 +22,15 @@ public class Player : MonoBehaviour {
 	}
 	
 	// flags for turn control flow
-	public static bool won = true;
-	public static bool done = false;
+	public static bool done = true;
+	//public static bool done = false;
 	public static bool moved;
 	public static bool actionNeeded;
 
 	public static int StartingLives = 4;
-	public static int StartingStrength = 2;
+	public static int StartingStrength = 4;
 	public static int StatingFateTokens = 3;
-	public static int StartingGold = 4;
+	public static int StartingGold = 3;
 
 	// For displaying player decisions
 	public Text DecisionText;

@@ -83,18 +83,18 @@ public class UniqueTiles : MonoBehaviour {
 		{
 			AdventureDeck._deckText = "You fought the warlock and won (" + playerResult + " vs " + warlockResult + ")";
 			Player.done = true;
-			Player.won = true;
+			//Player.won = true;
 			GameControl.AlternateTurnTracker();
 		} else if (diff < 0)
 		{
 			AdventureDeck._deckText = "You fought the warlock and lost (" + playerResult + " vs " + warlockResult + ")";
-			Player.won = false;
+			Player.done = false;
 			GameControl.ChangeLives(-1);
 		}
 		else
 		{
 			AdventureDeck._deckText = "You fought the warlock and tied (" + playerResult + " vs " + warlockResult + ")";
-			Player.won = true;
+			//Player.won = true;
 			Player.done = true;
 			GameControl.AlternateTurnTracker();
 		}
@@ -124,14 +124,14 @@ public class UniqueTiles : MonoBehaviour {
 				YellowPlayer.MoveRegion("M", 16, "M4");
 			}
 			Player.done = true;
-			Player.won = true;
+			//Player.won = true;
 			GameControl.AlternateTurnTracker();
 		}
 		else if (diff < 0)
 		{
 			AdventureDeck._deckText =
 				"You fought the sentinal and lost (" + playerResult + " vs " + SentinalResult + ")";
-			Player.won = false;
+			Player.done = false;
 			GameControl.ChangeLives(-1);
 		}
 		else
@@ -139,7 +139,7 @@ public class UniqueTiles : MonoBehaviour {
 			AdventureDeck._deckText =
 				"You fought the sentinel and tied (" + playerResult + " vs " + SentinalResult + ")";
 			Player.done = true;
-			Player.won = true;
+			//Player.won = true;
 			GameControl.AlternateTurnTracker();
 		}
 

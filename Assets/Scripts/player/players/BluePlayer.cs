@@ -141,7 +141,7 @@ public class BluePlayer : Player {
 			FightDiff = UniqueTiles.ChooseFightTile(_startTileName);
 			actionNeeded = false;
 		}
-		if (!won && /*!done &&*/ moved)
+		if (!done && /*!done &&*/ moved)
 		{
 			UseFate(FightDiff);
 		} /*else if (won && moved && done)
@@ -157,7 +157,7 @@ public class BluePlayer : Player {
 			FightDiff = AdventureDeck.ProduceCard(_startTileName);
 			actionNeeded = false;
 		}
-		if (!won && /*!done &&*/ moved) 
+		if (!done && /*!done &&*/ moved) 
 		{
 			UseFate(FightDiff);
 		} /*else if (won && moved && done)
@@ -228,7 +228,7 @@ public class BluePlayer : Player {
 	{
 		if (fateTokens < 1) // insuffienient fate tokens
 		{
-			won = true;
+			done = true;
 			//done = true;
 			GameControl.AlternateTurnTracker();
 			return;
@@ -247,13 +247,13 @@ public class BluePlayer : Player {
 			{
 				Decision = "Fate token used and Unsuccessful (rolled = " + challenge + ")";
 			}
-			won = true;
+			done = true;
 			// done = true;
 			GameControl.ChangeFate(-1);
 			GameControl.AlternateTurnTracker();
 		} else if (Input.GetKey(KeyCode.N))
 		{
-			won = true;
+			done = true;
 			// done = true;
 			GameControl.AlternateTurnTracker();
 		}
