@@ -136,35 +136,35 @@ public class BluePlayer : Player {
 	 */
 	private static void EncounterUniqueFightTile()
 	{
-		if (moved && !done && actionNeeded)
+		if (moved && /*!done &&*/ actionNeeded)
 		{
 			FightDiff = UniqueTiles.ChooseFightTile(_startTileName);
 			actionNeeded = false;
 		}
-		if (!won && !done && moved)
+		if (!won && /*!done &&*/ moved)
 		{
 			UseFate(FightDiff);
-		} else if (won && moved && done)
+		} /*else if (won && moved && done)
 		{
 			// GameControl.AlternateTurnTracker();
 			done = false;
-		}
+		}*/
 	}
 
 	private static void DrawFromDeck() {	
-		if (moved && !done && actionNeeded)
+		if (moved && /*!done &&*/ actionNeeded)
 		{
 			FightDiff = AdventureDeck.ProduceCard(_startTileName);
 			actionNeeded = false;
 		}
-		if (!won && !done && moved) 
+		if (!won && /*!done &&*/ moved) 
 		{
 			UseFate(FightDiff);
-		} else if (won && moved && done)
+		} /*else if (won && moved && done)
 		{
 			// GameControl.AlternateTurnTracker();
 			done = false;
-		}
+		}*/
 	}
 	
 	/**
@@ -229,7 +229,7 @@ public class BluePlayer : Player {
 		if (fateTokens < 1) // insuffienient fate tokens
 		{
 			won = true;
-			done = true;
+			//done = true;
 			GameControl.AlternateTurnTracker();
 			return;
 		}
@@ -248,13 +248,13 @@ public class BluePlayer : Player {
 				Decision = "Fate token used and Unsuccessful (rolled = " + challenge + ")";
 			}
 			won = true;
-			done = true;
+			// done = true;
 			GameControl.ChangeFate(-1);
 			GameControl.AlternateTurnTracker();
 		} else if (Input.GetKey(KeyCode.N))
 		{
 			won = true;
-			done = true;
+			// done = true;
 			GameControl.AlternateTurnTracker();
 		}
 	}
