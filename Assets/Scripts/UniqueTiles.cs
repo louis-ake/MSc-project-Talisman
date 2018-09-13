@@ -522,6 +522,7 @@ public class UniqueTiles : MonoBehaviour {
 		{
 			YellowPlayer.MoveRegion("C", 1, "C1");
 		}
+		Crown();
 	}
 
 

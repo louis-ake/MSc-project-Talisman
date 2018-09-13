@@ -159,8 +159,8 @@ public class AdventureDeck : MonoBehaviour {
 	{
 		GameControl.ChangeGold(1);
 		_deckText = "You found a bag of gold!";
-		Player.done = true;
-		Player.won = true;
+		/*Player.done = true;
+		Player.won = true;*/
 		GameControl.AlternateTurnTracker();
 	}
 
@@ -169,8 +169,8 @@ public class AdventureDeck : MonoBehaviour {
 	{
 		GameControl.GiveTalisman();
 		_deckText = "You found a talisman!";
-		Player.done = true;
-		Player.won = true;
+		/*Player.done = true;
+		Player.won = true;*/
 		GameControl.AlternateTurnTracker();
 	}
 }

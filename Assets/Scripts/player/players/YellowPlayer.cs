@@ -228,7 +228,7 @@ public class YellowPlayer : Player {
 	 */
 	private static void UseFate(int diff)
 	{
-		if (GameControl.GetFate() > 1)
+		if (fateTokens < 1)
 		{
 			won = true;
 			done = true;
@@ -328,12 +328,12 @@ public class YellowPlayer : Player {
 
 	private static bool AIChooseDirection(int clockwise, int antiClockwise)
 	{
+		if (clockwise > RegionUpperBound)
+		{
+			clockwise -= RegionUpperBound; // modulo
+		}
 		if (Region == "O")
 		{
-			if (clockwise > 24)
-			{
-				clockwise -= 24; // modulo
-			}
 			if (GameControl.GetStrength() > 7) // Move towards sentinal
 			{
 				const int target = 5;
@@ -360,10 +360,6 @@ public class YellowPlayer : Player {
 			}
 		} else if (Region == "M")
 		{
-			if (clockwise > 16)
-			{
-				clockwise -= 16; // modulo
-			}
 			if (!GameControl.CheckTalisman()) // Get talisman at warlocks's cave
 			{
 				const int target = 9;
@@ -383,10 +379,6 @@ public class YellowPlayer : Player {
 			}
 		} else if (Region == "I") // go to valley
 		{
-			if (clockwise > 8)
-			{
-				clockwise -= 8; // module
-			}
 			const int target = 5;
 			return Math.Abs(clockwise - target) < Math.Abs(antiClockwise - target);
 		}
@@ -439,7 +431,7 @@ public class YellowPlayer : Player {
 			return true;
 		}
 		// high probably of success
-		if (diff <= 3)
+		if (Math.Abs(diff) <= 3)
 		{
 			return true;
 		}

@@ -177,6 +177,11 @@ public class BluePlayer : Player {
 	 */
 	private static void EncounterArmouryTile()
 	{
+		if (gold < 2) // insufficient gold
+		{
+			GameControl.AlternateTurnTracker();
+			return;
+		}
 		AdventureDeck._deckText = "Would you like to improve your armaments for 2 gold?";
 		if (Input.GetKey(KeyCode.Y))
 		{
@@ -196,6 +201,11 @@ public class BluePlayer : Player {
 
 	private static void EncounterHealTile()
 	{
+		if (gold < 1) // insufficient gold
+		{
+			GameControl.AlternateTurnTracker();
+			return;
+		}
 		AdventureDeck._deckText = "Would you like to heal 1 life for 1 gold?";		
 		if (Input.GetKey(KeyCode.Y))
 		{
@@ -220,6 +230,13 @@ public class BluePlayer : Player {
 	 */
 	private static void UseFate(int diff)
 	{
+		if (fateTokens < 1) // insuffienient fate tokens
+		{
+			won = true;
+			done = true;
+			GameControl.AlternateTurnTracker();
+			return;
+		}
 		Decision = "Would you like to use a fate token? (y/n)";
 		if (Input.GetKey(KeyCode.Y))
 		{
