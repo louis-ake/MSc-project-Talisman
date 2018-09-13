@@ -104,6 +104,10 @@ public class BluePlayer : Player {
 		if (AdventureDeck.AllCardTiles.Contains(_startTileName))
 		{
 			DrawFromDeck();
+		} else if (UniqueTiles.LifeLossDraw.Contains(_startTileName))
+		{
+			GameControl.ChangeLives(-1);
+			DrawFromDeck();
 		} else if (UniqueTiles.FightTiles.Contains(_startTileName))
 		{
 			EncounterUniqueFightTile();
@@ -117,10 +121,6 @@ public class BluePlayer : Player {
 		{
 			EncounterHealTile();
 			actionNeeded = false;
-		} else if (UniqueTiles.LifeLossDraw.Contains(_startTileName))
-		{
-			DrawFromDeck();
-			GameControl.ChangeLives(-1);
 		} else if (UniqueTiles.Tiles.Contains(_startTileName) && moved && actionNeeded)
 		{
 			UniqueTiles.ChooseTile(_startTileName);
@@ -152,18 +152,6 @@ public class BluePlayer : Player {
 			// GameControl.AlternateTurnTracker();
 			done = false;
 		}
-	}
-
-	public static void MoveRegion(string region, int regionTiles, string tileName)
-	{
-		Region = region;
-		RegionUpperBound = regionTiles;
-		var nextTile = GameObject.Find(tileName);
-		_target = nextTile.transform;
-		var tx = _target.position.x;
-		var ty = _target.position.y;
-		SetEndPos(new Vector2(tx, ty));
-		SetStartTileName(tileName);
 	}
 
 	private static void DrawFromDeck() {	
@@ -256,6 +244,20 @@ public class BluePlayer : Player {
 			GameControl.AlternateTurnTracker();
 		}
 	}
+	
+	
+	public static void MoveRegion(string region, int regionTiles, string tileName)
+	{
+		Region = region;
+		RegionUpperBound = regionTiles;
+		var nextTile = GameObject.Find(tileName);
+		_target = nextTile.transform;
+		var tx = _target.position.x;
+		var ty = _target.position.y;
+		SetEndPos(new Vector2(tx, ty));
+		SetStartTileName(tileName);
+	}
+	
 
 	private static void Move()
 	{

@@ -156,17 +156,6 @@ public class YellowPlayer : Player {
 		}
 	}
 
-	public static void MoveRegion(string region, int regionTiles, string tileName)
-	{
-		Region = region;
-		RegionUpperBound = regionTiles;
-		var nextTile = GameObject.Find(tileName);
-		_target = nextTile.transform;
-		var tx = _target.position.x;
-		var ty = _target.position.y;
-		SetEndPos(new Vector2(tx, ty));
-		SetStartTileName(tileName);
-	}
 
 	private static void DrawFromDeck() {	
 		if (moved && !done && actionNeeded)
@@ -268,6 +257,20 @@ public class YellowPlayer : Player {
 			GameControl.AlternateTurnTracker();
 		}
 	}
+	
+	
+	public static void MoveRegion(string region, int regionTiles, string tileName)
+	{
+		Region = region;
+		RegionUpperBound = regionTiles;
+		var nextTile = GameObject.Find(tileName);
+		_target = nextTile.transform;
+		var tx = _target.position.x;
+		var ty = _target.position.y;
+		SetEndPos(new Vector2(tx, ty));
+		SetStartTileName(tileName);
+	}
+	
 
 	private static void Move()
 	{

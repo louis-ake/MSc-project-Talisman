@@ -543,6 +543,7 @@ public class UniqueTiles : MonoBehaviour {
 
 	private static void Crown()
 	{
+		Player.Decision = GameControl.TurnTracker == 0 ? "Blue player reached the crown of command and won" : "Yellow player reached the crown of command and won";
 		GameControl.EndGame();
 	}
 	
