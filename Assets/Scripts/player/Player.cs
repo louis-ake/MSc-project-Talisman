@@ -27,9 +27,9 @@ public class Player : MonoBehaviour {
 	public static bool moved;
 	public static bool actionNeeded;
 
-	public static int StartingLives = 4;
+	public static int StartingLives = 3;
 	public static int StartingStrength = 4;
-	public static int StatingFateTokens = 2;
+	public static int StatingFateTokens = 3;
 	public static int StartingGold = 4;
 
 	// For displaying player decisions

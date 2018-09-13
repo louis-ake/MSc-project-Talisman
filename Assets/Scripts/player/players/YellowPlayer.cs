@@ -94,44 +94,38 @@ public class YellowPlayer : Player {
 
 	public static void TakeTurn()
 	{
-		if (GameControl.TurnCount != DiceRoll.RollCount - 1) {return;}
-		if (won)
-		{
-			Move();
-		}
+		// if (GameControl.TurnCount != DiceRoll.RollCount - 1) return;
+		Move();
 		if (!_active) return;
+		if (Turns != BluePlayer.Turns) return;
 		if (AdventureDeck.AllCardTiles.Contains(_startTileName))
 		{
+			DrawFromDeck();
+		} else if (UniqueTiles.LifeLossDraw.Contains(_startTileName))
+		{
+			GameControl.ChangeLives(-1);
 			DrawFromDeck();
 		} else if (UniqueTiles.FightTiles.Contains(_startTileName))
 		{
 			EncounterUniqueFightTile();
 		} else if (UniqueTiles.ArmouryTiles.Contains(_startTileName) &&
-		         GameControl.GetGold() >= UniqueTiles.ArmouryPrice)
+		           GameControl.GetGold() >= UniqueTiles.ArmouryPrice)
 		{
 			EncounterArmouryTile();
 			actionNeeded = false;
 		} else if (UniqueTiles.HealTiles.Contains(_startTileName) &&
-		         GameControl.GetGold() >= UniqueTiles.HealPrice)
+		           GameControl.GetGold() >= UniqueTiles.HealPrice)
 		{
 			EncounterHealTile();
 			actionNeeded = false;
-		} else if (UniqueTiles.LifeLossDraw.Contains(_startTileName))
-		{
-			DrawFromDeck();
-			GameControl.ChangeLives(-1);
 		} else if (UniqueTiles.Tiles.Contains(_startTileName) && moved && actionNeeded)
 		{
 			UniqueTiles.ChooseTile(_startTileName);
 			actionNeeded = false;
 			GameControl.AlternateTurnTracker();
-		} else if (moved && actionNeeded && Turns == BluePlayer.Turns)
-		{
-			actionNeeded = false;
-			GameControl.AlternateTurnTracker();
-		}
-
+		}		
 	}
+
 
 	/**
 	 * Must be handled separately as need return values and particular control
@@ -147,11 +141,6 @@ public class YellowPlayer : Player {
 		if (!won && !done && moved && GameControl.GetFate() > 0)
 		{
 			UseFate(FightDiff);
-		} else if (!won && !done && moved && GameControl.GetFate() < 1)
-		{
-			done = true;
-			won = true;
-			GameControl.AlternateTurnTracker();
 		} else if (won && moved && done)
 		{
 			//GameControl.AlternateTurnTracker();
@@ -169,11 +158,6 @@ public class YellowPlayer : Player {
 		if (!won && !done && moved && GameControl.GetFate() > 0)
 		{
 			UseFate(FightDiff);
-		} else if (!won && !done && moved && GameControl.GetFate() < 1)
-		{
-			done = true;
-			won = true;
-			GameControl.AlternateTurnTracker();
 		} else if (won && moved && done)
 		{
 			//GameControl.AlternateTurnTracker();
@@ -184,39 +168,49 @@ public class YellowPlayer : Player {
 	
 	private static void EncounterArmouryTile()
 	{
+		if (gold < 2) // insufficient gold
+		{
+			GameControl.AlternateTurnTracker();
+			return;
+		}
 		AdventureDeck._deckText = "Would you like to improve your armaments for 2 gold?";
 		if (AIDecideUpgradeArmoury())
 		{
 			GameControl.ChangeStrength(1);
 			GameControl.ChangeGold(-1);
 			GameControl.AlternateTurnTracker();
-			done = true;
-			won = true;
+			/*done = true;
+			won = true;*/
 		} else
 		{
 			GameControl.AlternateTurnTracker();
-			done = true;
-			won = true;
+			/*done = true;
+			won = true;*/
 		}
 	}
 
 
 	private static void EncounterHealTile()
 	{
+		if (gold < 1) // insufficient gold
+		{
+			GameControl.AlternateTurnTracker();
+			return;
+		}
 		AdventureDeck._deckText = "Would you like to heal 1 life for 1 gold?";		
 		if (AIDecideHeal())
 		{
 			GameControl.ChangeLives(1);
 			GameControl.ChangeGold(-2);
 			GameControl.AlternateTurnTracker();
-			done = true;
-			won = true;
+			/*done = true;
+			won = true;*/
 			
 		} else
 		{
 			GameControl.AlternateTurnTracker();
-			done = true;
-			won = true;
+			/*done = true;
+			won = true;*/
 		}
 		
 	}
@@ -278,12 +272,8 @@ public class YellowPlayer : Player {
 	private static void Move()
 	{
 		// check there has been the correct number of rolls to caluclate move
-		if (GameControl.TurnCount != DiceRoll.RollCount - 1) {return;}
-
-		if (Turns != BluePlayer.Turns - 1)
-		{
-			return;
-		}
+		if (GameControl.TurnCount != DiceRoll.RollCount - 1) return;
+		if (Turns != BluePlayer.Turns - 1) return;
 		moved = false; 
 		var currentTile = _startTileName;
 		var currentTileNo = Convert.ToInt32(currentTile.Substring(1));

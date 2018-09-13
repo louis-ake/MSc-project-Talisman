@@ -127,11 +127,7 @@ public class BluePlayer : Player {
 			UniqueTiles.ChooseTile(_startTileName);
 			actionNeeded = false;
 			GameControl.AlternateTurnTracker();
-		} /*else if (moved && actionNeeded && Turns == YellowPlayer.Turns) 
-		{
-			GameControl.AlternateTurnTracker();
-		}*/
-		
+		}		
 	}
 
 	/**
