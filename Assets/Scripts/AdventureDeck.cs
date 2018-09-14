@@ -75,19 +75,19 @@ public class AdventureDeck : MonoBehaviour {
 		{
 			_deckText = "You fought a bandit of strength 4 and won (" + playerResult + " vs " + banditResult + ")";
 			GameControl.ChangeStrengthTrophy(enemyStrength);
-			Player.done = true;
+			Player.Done = true;
 			//Player.won = true;
 			GameControl.AlternateTurnTracker();
 		} else if (diff < 0)
 		{
 			_deckText = "You fought a bandit of strength 4 and lost (" + playerResult + " vs " + banditResult + ")";
 			GameControl.ChangeLives(-1);
-			Player.done = false;
+			Player.Done = false;
 		}
 		else
 		{
 			_deckText = "You fought a bandit of strength 4 and tied (" + playerResult + " vs " + banditResult + ")";
-			Player.done = true;
+			Player.Done = true;
 			//Player.won = true;
 			GameControl.AlternateTurnTracker();
 		}
@@ -105,19 +105,19 @@ public class AdventureDeck : MonoBehaviour {
 		{
 			_deckText = "You fought an ogre of strength 5 and won (" + playerResult + " vs " + enemyyResult + ")";
 			GameControl.ChangeStrengthTrophy(enemyStrength);
-			Player.done = true;
+			Player.Done = true;
 			//Player.won = true;
 			GameControl.AlternateTurnTracker();
 		} else if (diff < 0)
 		{
 			_deckText = "You fought an ogre of strength 5 and lost (" + playerResult + " vs " + enemyyResult + ")";
 			GameControl.ChangeLives(-1);
-			Player.done = false;
+			Player.Done = false;
 		}
 		else
 		{
 			_deckText = "You fought an ogre of strength 5 and tied (" + playerResult + " vs " + enemyyResult + ")";
-			Player.done = true;
+			Player.Done = true;
 			//Player.won = true;
 			GameControl.AlternateTurnTracker();
 		}
@@ -135,19 +135,19 @@ public class AdventureDeck : MonoBehaviour {
 		{
 			_deckText = "You fought a bandit of strength 4 and won (" + playerResult + " vs " + enemyResult + ")";
 			GameControl.ChangeStrengthTrophy(enemyStrength);
-			Player.done = true;
+			Player.Done = true;
 			//Player.won = true;
 			GameControl.AlternateTurnTracker();
 		} else if (diff < 0)
 		{
 			_deckText = "You fought a bandit of strength 4 and lost (" + playerResult + " vs " + enemyResult + ")";
 			GameControl.ChangeLives(-1);
-			Player.done = false;
+			Player.Done = false;
 		}
 		else
 		{
 			_deckText = "You fought a bandit of strength 4 and tied (" + playerResult + " vs " + enemyResult + ")";
-			Player.done = true;
+			Player.Done = true;
 			//Player.won = true;
 			GameControl.AlternateTurnTracker();
 		}

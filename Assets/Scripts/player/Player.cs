@@ -22,15 +22,15 @@ public class Player : MonoBehaviour {
 	}
 	
 	// flags for turn control flow
-	public static bool done = true;
-	//public static bool done = false;
-	public static bool moved;
-	public static bool actionNeeded;
+	public static bool Done = true;
+	protected static bool Moved;
+	protected static bool ActionNeeded;
 
-	public static int StartingLives = 4;
-	public static int StartingStrength = 4;
-	public static int StatingFateTokens = 3;
-	public static int StartingGold = 3;
+	// used to initialise player statc
+	public const int StartingLives = 4;
+	public const int StartingStrength = 4;
+	public const int StatingFateTokens = 3;
+	public const int StartingGold = 3;
 
 	// For displaying player decisions
 	public Text DecisionText;
@@ -39,6 +39,7 @@ public class Player : MonoBehaviour {
 	// number of seconds to complete move
 	public float Speed = 1f;
 
-	public static int FightDiff;
+	// difference between player and enemy fight results - needed for fate token system
+	protected static int FightDiff;
 
 }

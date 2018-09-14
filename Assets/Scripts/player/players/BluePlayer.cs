@@ -21,9 +21,9 @@ public class BluePlayer : Player {
 	// Use this for initialization
 	void Start ()
 	{
-		// Initialise each player in the bottom-right Tile
-		this.transform.position = new Vector2(15, -15);
-		_currentPos = this.transform.position;
+		// Initialise this player in the bottom-right Tile
+		transform.position = new Vector2(15, -15);
+		_currentPos = transform.position;
 		SetStats();
 	}
 	
@@ -32,10 +32,10 @@ public class BluePlayer : Player {
 	{
 		// this must be updated every frame for algorithm to work
 		if (!_active) return;
-		_currentPos = this.transform.position;
+		_currentPos = transform.position;
 		if (Vector2.Distance(new Vector2(_currentPos.x, _currentPos.y), _endPos) > 0)
 		{
-			this.transform.position = Vector2.MoveTowards(_currentPos, _endPos, Speed);
+			transform.position = Vector2.MoveTowards(_currentPos, _endPos, Speed);
 		}
 		SetStats();
 	}
@@ -116,16 +116,16 @@ public class BluePlayer : Player {
 		           GameControl.GetGold() >= UniqueTiles.ArmouryPrice)
 		{
 			EncounterArmouryTile();
-			actionNeeded = false;
+			ActionNeeded = false;
 		} else if (UniqueTiles.HealTiles.Contains(_startTileName) &&
 		           GameControl.GetGold() >= UniqueTiles.HealPrice)
 		{
 			EncounterHealTile();
-			actionNeeded = false;
-		} else if (UniqueTiles.Tiles.Contains(_startTileName) && moved && actionNeeded)
+			ActionNeeded = false;
+		} else if (UniqueTiles.Tiles.Contains(_startTileName) && Moved && ActionNeeded)
 		{
 			UniqueTiles.ChooseTile(_startTileName);
-			actionNeeded = false;
+			ActionNeeded = false;
 			GameControl.AlternateTurnTracker();
 		}		
 	}
@@ -136,12 +136,12 @@ public class BluePlayer : Player {
 	 */
 	private static void EncounterUniqueFightTile()
 	{
-		if (moved && /*!done &&*/ actionNeeded)
+		if (Moved && /*!done &&*/ ActionNeeded)
 		{
 			FightDiff = UniqueTiles.ChooseFightTile(_startTileName);
-			actionNeeded = false;
+			ActionNeeded = false;
 		}
-		if (!done && /*!done &&*/ moved)
+		if (!Done && /*!done &&*/ Moved)
 		{
 			UseFate(FightDiff);
 		} /*else if (won && moved && done)
@@ -152,12 +152,12 @@ public class BluePlayer : Player {
 	}
 
 	private static void DrawFromDeck() {	
-		if (moved && /*!done &&*/ actionNeeded)
+		if (Moved && /*!done &&*/ ActionNeeded)
 		{
 			FightDiff = AdventureDeck.ProduceCard(_startTileName);
-			actionNeeded = false;
+			ActionNeeded = false;
 		}
-		if (!done && /*!done &&*/ moved) 
+		if (!Done && /*!done &&*/ Moved) 
 		{
 			UseFate(FightDiff);
 		} /*else if (won && moved && done)
@@ -228,7 +228,7 @@ public class BluePlayer : Player {
 	{
 		if (fateTokens < 1) // insuffienient fate tokens
 		{
-			done = true;
+			Done = true;
 			//done = true;
 			GameControl.AlternateTurnTracker();
 			return;
@@ -247,13 +247,13 @@ public class BluePlayer : Player {
 			{
 				Decision = "Fate token used and Unsuccessful (rolled = " + challenge + ")";
 			}
-			done = true;
+			Done = true;
 			// done = true;
 			GameControl.ChangeFate(-1);
 			GameControl.AlternateTurnTracker();
 		} else if (Input.GetKey(KeyCode.N))
 		{
-			done = true;
+			Done = true;
 			// done = true;
 			GameControl.AlternateTurnTracker();
 		}
@@ -278,7 +278,7 @@ public class BluePlayer : Player {
 		// check there has been the correct number of rolls to caluclate move
 		if (GameControl.TurnCount != DiceRoll.RollCount - 1) return;
 		if (Turns != YellowPlayer.Turns) return;
-		moved = false; 
+		Moved = false; 
 		var currentTile = _startTileName;
 		var currentTileNo = Convert.ToInt32(currentTile.Substring(1));
 		var nextTileNo = 0;
@@ -312,7 +312,7 @@ public class BluePlayer : Player {
 		Turns += 1;
 		// So that a move is not attempted before game is set up
 		_active = true;
-		moved = true;
-		actionNeeded = true;
+		Moved = true;
+		ActionNeeded = true;
 	}
 }

@@ -6792,7 +6792,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DiceValues: 
   ResultText: {fileID: 352743697}
-  dieFaces:
+  DieFaces:
   - {fileID: 21300000, guid: 9eb4ed0ff9fb4465c80f82d7aa5e1928, type: 3}
   - {fileID: 21300000, guid: 89758539d80be416880916231e23bfa8, type: 3}
   - {fileID: 21300000, guid: 03dec24daf2584fa58a15deb453d201e, type: 3}

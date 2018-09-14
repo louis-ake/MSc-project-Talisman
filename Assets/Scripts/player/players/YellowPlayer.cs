@@ -112,16 +112,16 @@ public class YellowPlayer : Player {
 		           GameControl.GetGold() >= UniqueTiles.ArmouryPrice)
 		{
 			EncounterArmouryTile();
-			actionNeeded = false;
+			ActionNeeded = false;
 		} else if (UniqueTiles.HealTiles.Contains(_startTileName) &&
 		           GameControl.GetGold() >= UniqueTiles.HealPrice)
 		{
 			EncounterHealTile();
-			actionNeeded = false;
-		} else if (UniqueTiles.Tiles.Contains(_startTileName) && moved && actionNeeded)
+			ActionNeeded = false;
+		} else if (UniqueTiles.Tiles.Contains(_startTileName) && Moved && ActionNeeded)
 		{
 			UniqueTiles.ChooseTile(_startTileName);
-			actionNeeded = false;
+			ActionNeeded = false;
 			GameControl.AlternateTurnTracker();
 		}		
 	}
@@ -133,12 +133,12 @@ public class YellowPlayer : Player {
 	 */
 	private static void EncounterUniqueFightTile()
 	{
-		if (moved && /*!done &&*/ actionNeeded)
+		if (Moved && /*!done &&*/ ActionNeeded)
 		{
 			FightDiff = UniqueTiles.ChooseFightTile(_startTileName);
-			actionNeeded = false;
+			ActionNeeded = false;
 		}
-		if (!done && /*!done &&*/ moved)
+		if (!Done && /*!done &&*/ Moved)
 		{
 			UseFate(FightDiff);
 		} /*else if (won && moved && done)
@@ -150,12 +150,12 @@ public class YellowPlayer : Player {
 
 
 	private static void DrawFromDeck() {	
-		if (moved && /*!done &&*/ actionNeeded)
+		if (Moved && /*!done &&*/ ActionNeeded)
 		{
 			FightDiff = AdventureDeck.ProduceCard(_startTileName);
-			actionNeeded = false;
+			ActionNeeded = false;
 		}
-		if (!done && /*!done &&*/ moved)
+		if (!Done && /*!done &&*/ Moved)
 		{
 			UseFate(FightDiff);
 		}/* else if (won && moved && done)
@@ -224,7 +224,7 @@ public class YellowPlayer : Player {
 	{
 		if (fateTokens < 1)
 		{
-			done = true;
+			Done = true;
 			// done = true;
 			GameControl.AlternateTurnTracker();
 			return;
@@ -243,13 +243,13 @@ public class YellowPlayer : Player {
 			{
 				Decision = "Fate token used and Unsuccessful (rolled = " + challenge + ")";
 			}
-			done = true;
+			Done = true;
 			// done = true;
 			GameControl.ChangeFate(-1);
 			GameControl.AlternateTurnTracker();
 		} else
 		{
-			done = true;
+			Done = true;
 			// done = true;
 			GameControl.AlternateTurnTracker();
 		}
@@ -274,7 +274,7 @@ public class YellowPlayer : Player {
 		// check there has been the correct number of rolls to caluclate move
 		if (GameControl.TurnCount != DiceRoll.RollCount - 1) return;
 		if (Turns != BluePlayer.Turns - 1) return;
-		moved = false; 
+		Moved = false; 
 		var currentTile = _startTileName;
 		var currentTileNo = Convert.ToInt32(currentTile.Substring(1));
 		var clockwise = currentTileNo + DiceRoll.DiceTotal;
@@ -310,8 +310,8 @@ public class YellowPlayer : Player {
 		Turns += 1;
 		// So that a move is not attempted before game is set up
 		_active = true;
-		moved = true;
-		actionNeeded = true;
+		Moved = true;
+		ActionNeeded = true;
 	}
 
 
