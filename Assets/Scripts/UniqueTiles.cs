@@ -25,30 +25,34 @@ public class UniqueTiles : MonoBehaviour {
 
 	public static readonly string[] HealTiles = {"M16"};
 	
-	public static readonly int GenericEnemy = 3;
+	public static readonly int GenericEnemyStrength = 3;
 
+	// Tile which involes losing a life before drawing from the deck
 	public static readonly string[] LifeLossDraw = {"M10"};
 
 	// Tiles which entail a fight
 	public static readonly string[] FightTiles = {"O5", "I6"};
 
 
+	/**
+	 * A generic enemy for use with certain space effects below. Can't use fate.
+	 */
 	private static void FightGenericEnemy()
 	{
-		var enemyResult = GenericEnemy + Random.Range(1, 7);
+		var enemyResult = GenericEnemyStrength + Random.Range(1, 7);
 		var playerResult = GameControl.GetStrength() + Random.Range(1, 7);
 		if (enemyResult > playerResult)
 		{
 			GameControl.ChangeLives(-1);
-			AdventureDeck._deckText = "fought strength " + GenericEnemy + " enemy and lost";
+			AdventureDeck._deckText = "fought strength " + GenericEnemyStrength + " enemy and lost";
 		} else if (playerResult > enemyResult)
 		{
-			GameControl.ChangeStrengthTrophy(GenericEnemy);
-			AdventureDeck._deckText = "fought strength " + GenericEnemy + " enemy and won";
+			GameControl.ChangeStrengthTrophy(GenericEnemyStrength);
+			AdventureDeck._deckText = "fought strength " + GenericEnemyStrength + " enemy and won";
 		}
 		else
 		{
-			AdventureDeck._deckText = "fought strength " + GenericEnemy + " enemy and tied";
+			AdventureDeck._deckText = "fought strength " + GenericEnemyStrength + " enemy and tied";
 		}
 	}
 
@@ -57,7 +61,7 @@ public class UniqueTiles : MonoBehaviour {
 	 * This method will call the correct fight tile method using
 	 * the space's identifier, which was passed as a parameter.
 	 * Return value is the difference between the enemy's and player's
-	 * fight result.
+	 * fight result. Both allow use of fate.
 	 */
 	public static int ChooseFightTile(string tileName)
 	{
@@ -83,7 +87,6 @@ public class UniqueTiles : MonoBehaviour {
 		{
 			AdventureDeck._deckText = "You fought the warlock and won (" + playerResult + " vs " + warlockResult + ")";
 			Player.Done = true;
-			//Player.won = true;
 			GameControl.AlternateTurnTracker();
 		} else if (diff < 0)
 		{
@@ -94,7 +97,6 @@ public class UniqueTiles : MonoBehaviour {
 		else
 		{
 			AdventureDeck._deckText = "You fought the warlock and tied (" + playerResult + " vs " + warlockResult + ")";
-			//Player.won = true;
 			Player.Done = true;
 			GameControl.AlternateTurnTracker();
 		}
@@ -107,7 +109,7 @@ public class UniqueTiles : MonoBehaviour {
 	 */
 	private static int FightSentinal()
 	{
-		var sentinalStrength = 8; // to be changed
+		var sentinalStrength = 8;
 		var SentinalResult = sentinalStrength + Random.Range(1, 7);
 		var playerResult = GameControl.GetStrength() + Random.Range(1, 7);
 		var diff = playerResult - SentinalResult;
@@ -124,7 +126,6 @@ public class UniqueTiles : MonoBehaviour {
 				YellowPlayer.MoveRegion("M", 16, "M4");
 			}
 			Player.Done = true;
-			//Player.won = true;
 			GameControl.AlternateTurnTracker();
 		}
 		else if (diff < 0)
@@ -139,7 +140,6 @@ public class UniqueTiles : MonoBehaviour {
 			AdventureDeck._deckText =
 				"You fought the sentinel and tied (" + playerResult + " vs " + SentinalResult + ")";
 			Player.Done = true;
-			//Player.won = true;
 			GameControl.AlternateTurnTracker();
 		}
 
@@ -147,10 +147,14 @@ public class UniqueTiles : MonoBehaviour {
 	}
 
 
+	// ALl the unique tiles which don't involve fights
 	public static readonly string[] Tiles = {"O1", "O3", "O7", "O9", "O19", "O23", "M1", "M2", "M9", "M13", 
 		"I2", "I3", "I4", "I5", "I7", "I8", "C1"};
 	
 
+	/**
+	 * Takes the space identifier as a paramemter as calls the relevant method accordinly
+	 */
 	public static void ChooseTile(string tileName)
 	{
 		switch (tileName)
@@ -230,7 +234,9 @@ public class UniqueTiles : MonoBehaviour {
 		}
 	}
 
-
+	/**
+	 * If evil replentish fate; if good lose a life
+	 */
 	private static void Graveyard()
 	{
 		if (GameControl.TurnTracker == 0)
@@ -258,6 +264,9 @@ public class UniqueTiles : MonoBehaviour {
 	}
 
 
+	/**
+	 * If good replentish fate; if evil lose a life
+	 */
 	private static void Chapel()
 	{
 		if (GameControl.TurnTracker == 0)
@@ -285,6 +294,9 @@ public class UniqueTiles : MonoBehaviour {
 	}
 
 
+	/**
+	 * roll a die an incur an effect accordinly
+	 */
 	private static void CragsForest()
 	{
 		var result = Random.Range(1, 7);
@@ -303,6 +315,9 @@ public class UniqueTiles : MonoBehaviour {
 	}
 
 
+	/**
+	 * roll a die an incur an effect accordinly
+	 */
 	private static void Tavern()
 	{
 		var result = Random.Range(1, 7);
@@ -333,6 +348,10 @@ public class UniqueTiles : MonoBehaviour {
 	}
 
 
+	/**
+	 * Roll 2 dice. If the result is less than the player's strength, transport them
+	 * to the Plain of Peril
+	 */
 	private static void PortalOfPower()
 	{
 		if (Random.Range(1, 7) + Random.Range(1, 7) <= GameControl.GetStrength())
@@ -354,6 +373,9 @@ public class UniqueTiles : MonoBehaviour {
 	}
 
 
+	/**
+	 * If have more lives than gold, pay one life, otherwise pay one gold
+	 */
 	private static void BlackKnight()
 	{
 		if (GameControl.GetGold() >= GameControl.GetLives())
@@ -368,6 +390,9 @@ public class UniqueTiles : MonoBehaviour {
 	}
 
 
+	/**
+	 * Roll 2 dice and incur an effect accordingly
+	 */
 	private static void Temple()
 	{
 		var result = Random.Range(1, 7) + Random.Range(1, 7);
@@ -400,6 +425,9 @@ public class UniqueTiles : MonoBehaviour {
 	}
 	
 
+	/**
+	 * Roll a die, which incurs an effect. Once effect resolved, player gains a Talisman
+	 */
 	private static void WarlockCave()
 	{
 		var result = Random.Range(1, 7);
@@ -428,7 +456,11 @@ public class UniqueTiles : MonoBehaviour {
 		}
 		GameControl.GiveTalisman();
 	}
-
+	
+	
+	/**
+	 * Roll 2 dice and compare to player strength. Will be teleported based on result
+	 */
 	private static void MinesCrypt()
 	{
 		var result = Random.Range(1, 7) + Random.Range(1, 7) + Random.Range(1, 7) - GameControl.GetStrength();
@@ -475,6 +507,9 @@ public class UniqueTiles : MonoBehaviour {
 	}
 
 
+	/**
+	 * Roll 1 die and incure result accordingly
+	 */
 	private static void VampiresTower()
 	{
 		var result = Random.Range(1, 7);
@@ -494,6 +529,9 @@ public class UniqueTiles : MonoBehaviour {
 	}
 	
 
+	/**
+	 * Roll a die and player fights that number of strength 4 fiends
+	 */
 	private static void PitFiends()
 	{
 		const int fiendStrength = 4;
@@ -511,6 +549,9 @@ public class UniqueTiles : MonoBehaviour {
 	}
 
 
+	/**
+	 * Checks if the player has a talisman. If so, transport them to Crown of Command
+	 */
 	private static void ValleyOfFire()
 	{
 		if (!GameControl.CheckTalisman()) return;
@@ -526,6 +567,9 @@ public class UniqueTiles : MonoBehaviour {
 	}
 
 
+	/**
+	 * Roll 2 dice for death and 2 for player to calculate fight results
+	 */
 	private static void Death()
 	{
 		var deathresult = Random.Range(1, 7) + Random.Range(1, 7);
@@ -542,6 +586,9 @@ public class UniqueTiles : MonoBehaviour {
 	}
 
 
+	/**
+	 * Display message based on who won and reset the game
+	 */
 	private static void Crown()
 	{
 		Player.Decision = GameControl.TurnTracker == 0 ? "Blue player reached the crown of command and won" : "Yellow player reached the crown of command and won";

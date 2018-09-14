@@ -18,7 +18,7 @@ public class GameControl : MonoBehaviour {
 	void Start ()
 	{
 		SetAlignments();
-		Turn.text = turnString;
+		Turn.text = _turnString;
 	}
 	
 	// Update is called once per frame
@@ -27,11 +27,11 @@ public class GameControl : MonoBehaviour {
 		{
 			Main();	
 		}
-		Turn.text = turnString;
+		Turn.text = _turnString;
 	}
 
 	public Text Turn;
-	private static string turnString;
+	private static string _turnString;
 
 	static bool Finished = false;
 
@@ -47,7 +47,7 @@ public class GameControl : MonoBehaviour {
 
 	public static void SetTurnText()
 	{
-		turnString = TurnTracker == 0 ? "Blue Player's turn" : "Yellow Player's turn";
+		_turnString = TurnTracker == 0 ? "Blue Player's turn" : "Yellow Player's turn";
 	}
 
 	public static void AlternateTurnTracker()
@@ -175,13 +175,14 @@ public class GameControl : MonoBehaviour {
 
 	public static bool CheckTalisman()
 	{
-		if (TurnTracker == 0)
+		switch (TurnTracker)
 		{
-			return BluePlayer.talisman == "yes";
-		}
-		else
-		{
-			return YellowPlayer.talisman == "yes";
+			case 0:
+				return BluePlayer.talisman == "yes";
+			case 1:
+				return YellowPlayer.talisman == "yes";
+			default:
+				return false;
 		}
 	}
 
@@ -204,6 +205,9 @@ public class GameControl : MonoBehaviour {
 	}
 
 
+	/**
+	 * Resets the game
+	 */
 	public static void EndGame()
 	{
 		if (BluePlayer.lives < 1) { YellowPlayer.Wins += 1; }
