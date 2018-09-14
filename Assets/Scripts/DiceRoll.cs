@@ -53,6 +53,6 @@ public class DiceRoll : MonoBehaviour {
 		{
 			s = s + DiceValues[i].ToString();
 		}
-		ResultText.text = "Rolled " + s;
+		ResultText.text = "Rolled " + s + "\n" + "\n" + "Move clockwise = 'C'	Anticlockwise = 'V'";
 	}
 }

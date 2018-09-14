@@ -356,7 +356,7 @@ public class YellowPlayer : Player {
 				return Math.Abs(clockwise - target) < Math.Abs(antiClockwise - target);
 			}
 
-			if (GameControl.GetLives() < StartingLives && GameControl.GetGold() < 1) // Heal at castle
+			if (GameControl.GetLives() < 3 && GameControl.GetGold() < 1) // Heal at castle
 			{
 				const int target = 16;
 				return Math.Abs(clockwise - target) < Math.Abs(antiClockwise - target);

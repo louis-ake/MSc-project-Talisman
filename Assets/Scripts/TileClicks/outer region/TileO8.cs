@@ -16,7 +16,7 @@ public class TileO8 : TileClick {
 	
 	private void OnMouseDown()
 	{
-		TileText = "Fields (Space O-12)" + "\n" + "\n" +
+		TileText = "Fields (Space O-8):" + "\n" + "\n" +
 		           "Draw a card from the adventure deck.";
 	}
 }

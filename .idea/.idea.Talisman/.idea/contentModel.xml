@@ -26,6 +26,19 @@
             </e>
           </e>
           <e p="TileClicks" t="Include">
+            <e p="centre region" t="Include">
+              <e p="TileC1.cs" t="Include" />
+            </e>
+            <e p="inner region" t="Include">
+              <e p="TileI1.cs" t="Include" />
+              <e p="TileI2.cs" t="Include" />
+              <e p="TileI3.cs" t="Include" />
+              <e p="TileI4.cs" t="Include" />
+              <e p="TileI5.cs" t="Include" />
+              <e p="TileI6.cs" t="Include" />
+              <e p="TileI7.cs" t="Include" />
+              <e p="TileI8.cs" t="Include" />
+            </e>
             <e p="middle region" t="Include">
               <e p="TileM1.cs" t="Include" />
               <e p="TileM10.cs" t="Include" />
@@ -74,21 +87,14 @@
           </e>
           <e p="UniqueTiles.cs" t="Include" />
         </e>
-        <e p="TileC1.cs" t="Include" />
-        <e p="TileI1.cs" t="Include" />
-        <e p="TileI2.cs" t="Include" />
-        <e p="TileI3.cs" t="Include" />
-        <e p="TileI4.cs" t="Include" />
-        <e p="TileI5.cs" t="Include" />
-        <e p="TileI6.cs" t="Include" />
-        <e p="TileI7.cs" t="Include" />
-        <e p="TileI8.cs" t="Include" />
       </e>
       <e p="Library" t="ExcludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="packages" t="ExcludeRecursive" />
       <e p="Talisman.sln" t="IncludeFlat" />
-      <e p="Temp/bin" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
     </e>
     <e p="$USER_HOME$/Library/Caches/Rider2018.1/resharper-host/local/Transient/ReSharperHost/v12/SolutionCaches/_Talisman.-911034102.00" t="ExcludeRecursive" />
   </component>

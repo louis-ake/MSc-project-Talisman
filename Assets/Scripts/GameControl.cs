@@ -37,9 +37,9 @@ public class GameControl : MonoBehaviour {
 
 	public static int TurnCount = 0;
 
-	private const int StrengthUpgrade = 4;
+	private const int StrengthUpgrade = 5;
 
-	private const int StartingFate = 2;
+	private const int StartingFate = 3;
 	
 	// 0 for blue player; 1 for yellow
 	public static int TurnTracker = 0;
