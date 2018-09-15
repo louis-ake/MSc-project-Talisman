@@ -7,6 +7,10 @@ using UnityEngine.SocialPlatforms;
 
 public class UniqueTiles : MonoBehaviour {
 
+	/**
+	 * this class holds variables and methods related to unique board space effects
+	 */
+	
 	// Use this for initialization
 	void Start () {
 		

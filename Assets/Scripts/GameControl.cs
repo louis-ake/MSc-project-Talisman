@@ -12,7 +12,11 @@ using Random = UnityEngine.Random;
 
 public class GameControl : MonoBehaviour {
 	
-	// Used to manage and control the game
+	/**
+	 * Used to manage and control the game. Methods to get and change all
+	 * player stats, Main method which calls the correct player's turn,
+	 * method to end and reset the game.
+	 */
 
 	// Use this for initialization
 	void Start ()
@@ -23,23 +27,18 @@ public class GameControl : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (!Finished)
-		{
-			Main();	
-		}
+		Main();
 		Turn.text = _turnString;
 	}
 
+	// To display which player's turn it is on-screen
 	public Text Turn;
 	private static string _turnString;
 
-	static bool Finished = false;
-
 	public static int TurnCount = 0;
 
+	// Strength trophy needed to gain 1 strength
 	private const int StrengthUpgrade = 5;
-
-	private const int StartingFate = 3;
 	
 	// 0 for blue player; 1 for yellow
 	public static int TurnTracker = 0;
@@ -131,11 +130,11 @@ public class GameControl : MonoBehaviour {
 	{
 		if (TurnTracker == 0)
 		{
-			BluePlayer.fateTokens = StartingFate;
+			BluePlayer.fateTokens = Player.StatingFateTokens;
 		}
 		else
 		{
-			YellowPlayer.fateTokens = StartingFate;
+			YellowPlayer.fateTokens = Player.StatingFateTokens;
 		}
 	}
 

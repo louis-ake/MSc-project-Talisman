@@ -66,6 +66,7 @@ public class BluePlayer : Player {
 	// is the player active yet - triggered after first movement
 	private static bool _active;
 
+	// On-screen text object to display player stats
 	public Text Stats;
 
 	private void SetStats()

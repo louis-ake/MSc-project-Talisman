@@ -7,7 +7,12 @@ using Random = UnityEngine.Random;
 
 public class DiceRoll : MonoBehaviour {
 
-
+	/**
+	 * For the on-screen die roll that determines movement.
+	 * Sprite respresenting die roll result will be fetched and displayed
+	 * on screen. Result also sent to on-screen text object.
+	 */
+	
 	// Use this for initialization
 	void Start () {
         DiceValues = new int[1];

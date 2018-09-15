@@ -9,7 +9,7 @@ using UnityEngine.UI;
 public class AdventureDeck : MonoBehaviour {
 	
 	/**
-	 * This clas represents the adventure deck
+	 * This class represents the adventure deck
 	 */
 
 	// Use this for initialization

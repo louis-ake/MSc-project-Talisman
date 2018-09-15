@@ -16,27 +16,23 @@ public class YellowPlayer : Player {
 
 	// Use this for initialization
 	void Start () {
-		// Initialise each player in the bottom-right Tile
-		this.transform.position = new Vector2(-15, 15);
+		// Initialise this player in the top-left Tile
+		transform.position = new Vector2(-15, 15);
 		_currentPos = this.transform.position;
 		SetStats();
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		// this must be updated every frame for algorithm to work
 		if (!_active) return;
-		_currentPos = this.transform.position;
+		_currentPos = transform.position;
 		if (Vector2.Distance(new Vector2(_currentPos.x, _currentPos.y), _endPos) > 0)
 		{
-			this.transform.position = Vector2.MoveTowards(_currentPos, _endPos, Speed);
+			transform.position = Vector2.MoveTowards(_currentPos, _endPos, Speed);
 		}
 		SetStats();
 		
 	}
-	
-	/*public static bool moved;
-	public static bool actionNeeded;*/ 
 	
 	
 	// Each players starting stats - currently the same for all
@@ -52,18 +48,21 @@ public class YellowPlayer : Player {
 	private static string _startTileName = "O13";
 	
 	// So that movement works correctly in different regions
-	public static string Region = "O"; // O/M/I/C
-	public static int RegionUpperBound = 24; // 24/16/8/1
+	private static string Region = "O"; // O/M/I/C
+	private static int RegionUpperBound = 24; // 24/16/8/1
 	
 	public static int Turns = 0;
 
 	private static Vector2 _endPos;
 	private static Vector2 _currentPos;
 
-	private static bool _active = false;
+	// is the player active yet - triggered after first movement
+	private static bool _active;
 
 	private static Transform _target;
-
+	
+	
+	// On-screen text object to display player stats
 	public Text Stats;
 
 	private void SetStats()
@@ -80,7 +79,7 @@ public class YellowPlayer : Player {
 	}
 
 
-	public static void SetEndPos(Vector2 pos)
+	private static void SetEndPos(Vector2 pos)
 	{
 		_endPos = pos;
 	}
@@ -92,11 +91,15 @@ public class YellowPlayer : Player {
 	}
 
 
+	/**
+	 * The player turn's central method. Calls movement and then using the
+	 * player's current space as an identifier checks which method below
+	 * should be called next to get the correct method for that space,
+	 * and calls that.
+	 */
 	public static void TakeTurn()
 	{
-		// if (GameControl.TurnCount != DiceRoll.RollCount - 1) return;
 		Move();
-		if (!_active) return;
 		if (Turns != BluePlayer.Turns) return;
 		if (AdventureDeck.AllCardTiles.Contains(_startTileName))
 		{
@@ -108,64 +111,65 @@ public class YellowPlayer : Player {
 		} else if (UniqueTiles.FightTiles.Contains(_startTileName))
 		{
 			EncounterUniqueFightTile();
-		} else if (UniqueTiles.ArmouryTiles.Contains(_startTileName) &&
-		           GameControl.GetGold() >= UniqueTiles.ArmouryPrice)
+		} else if (UniqueTiles.ArmouryTiles.Contains(_startTileName))
 		{
 			EncounterArmouryTile();
 			ActionNeeded = false;
-		} else if (UniqueTiles.HealTiles.Contains(_startTileName) &&
-		           GameControl.GetGold() >= UniqueTiles.HealPrice)
+		} else if (UniqueTiles.HealTiles.Contains(_startTileName))
 		{
 			EncounterHealTile();
 			ActionNeeded = false;
-		} else if (UniqueTiles.Tiles.Contains(_startTileName) && Moved && ActionNeeded)
+		} else if (UniqueTiles.Tiles.Contains(_startTileName))
 		{
 			UniqueTiles.ChooseTile(_startTileName);
 			ActionNeeded = false;
 			GameControl.AlternateTurnTracker();
 		}		
 	}
-
-
+	
+	
 	/**
-	 * Must be handled separately as need return values and particular control
-	 * flow to allow use of fate
+	 * Called by Taketurn when player lands on space that entails drawing from the
+	 * adventure deck. Fate can be used.
 	 */
-	private static void EncounterUniqueFightTile()
+	private static void DrawFromDeck()
 	{
-		if (Moved && /*!done &&*/ ActionNeeded)
-		{
-			FightDiff = UniqueTiles.ChooseFightTile(_startTileName);
-			ActionNeeded = false;
-		}
-		if (!Done && /*!done &&*/ Moved)
-		{
-			UseFate(FightDiff);
-		} /*else if (won && moved && done)
-		{
-			//GameControl.AlternateTurnTracker();
-			done = false;
-		}*/
-	}
-
-
-	private static void DrawFromDeck() {	
-		if (Moved && /*!done &&*/ ActionNeeded)
+		if (Moved && ActionNeeded)
 		{
 			FightDiff = AdventureDeck.ProduceCard(_startTileName);
 			ActionNeeded = false;
 		}
-		if (!Done && /*!done &&*/ Moved)
+
+		if (!Done && Moved)
 		{
 			UseFate(FightDiff);
-		}/* else if (won && moved && done)
-		{
-			//GameControl.AlternateTurnTracker();
-			done = false;
-		}*/
+		}
 	}
-	
-	
+
+
+	/**
+	 * Called by TakeTurn is the unique space involves fighting an enemy.
+	 * Fate can be used.
+	 */
+	private static void EncounterUniqueFightTile()
+	{
+		if (Moved && ActionNeeded)
+		{
+			FightDiff = UniqueTiles.ChooseFightTile(_startTileName);
+			ActionNeeded = false;
+		}
+		if (!Done && Moved)
+		{
+			UseFate(FightDiff);
+		}
+	}
+
+
+	/**
+	 * Called by TakeTurn when the player lands an armoury space.
+	 * Asks player whether they'd like to purchase improved armaments.
+	 * If player answers yes, makes relevant changes to player stats.
+	 */
 	private static void EncounterArmouryTile()
 	{
 		if (gold < 2) // insufficient gold
@@ -179,17 +183,18 @@ public class YellowPlayer : Player {
 			GameControl.ChangeStrength(1);
 			GameControl.ChangeGold(-1);
 			GameControl.AlternateTurnTracker();
-			/*done = true;
-			won = true;*/
 		} else
 		{
 			GameControl.AlternateTurnTracker();
-			/*done = true;
-			won = true;*/
 		}
 	}
 
 
+	/**
+	 * Called by Taketurn when the player lands on a heal space.
+	 * Asks the player if they'd like to pay to be healed.
+	 * If yes, makes the relevant changes to player stats.
+	 */
 	private static void EncounterHealTile()
 	{
 		if (gold < 1) // insufficient gold
@@ -203,14 +208,10 @@ public class YellowPlayer : Player {
 			GameControl.ChangeLives(1);
 			GameControl.ChangeGold(-2);
 			GameControl.AlternateTurnTracker();
-			/*done = true;
-			won = true;*/
 			
 		} else
 		{
 			GameControl.AlternateTurnTracker();
-			/*done = true;
-			won = true;*/
 		}
 		
 	}
@@ -222,10 +223,9 @@ public class YellowPlayer : Player {
 	 */
 	private static void UseFate(int diff)
 	{
-		if (fateTokens < 1)
+		if (fateTokens < 1) // insuffienient fate tokens
 		{
 			Done = true;
-			// done = true;
 			GameControl.AlternateTurnTracker();
 			return;
 		}
@@ -244,18 +244,21 @@ public class YellowPlayer : Player {
 				Decision = "Fate token used and Unsuccessful (rolled = " + challenge + ")";
 			}
 			Done = true;
-			// done = true;
 			GameControl.ChangeFate(-1);
 			GameControl.AlternateTurnTracker();
 		} else
 		{
 			Done = true;
-			// done = true;
 			GameControl.AlternateTurnTracker();
 		}
 	}
 	
-	
+
+	/**
+	 * For moving between regions only.
+	 * Sets the region movement variables to the relevant ones
+	 * and moves player to target space in other region.
+	 */
 	public static void MoveRegion(string region, int regionTiles, string tileName)
 	{
 		Region = region;
@@ -269,6 +272,10 @@ public class YellowPlayer : Player {
 	}
 	
 
+	/**
+	 * For movement at the start of a turn only.
+	 * Uses the last DiceRoll value to calculate how many spaces will be moved.
+	 */
 	private static void Move()
 	{
 		// check there has been the correct number of rolls to caluclate move
@@ -315,7 +322,13 @@ public class YellowPlayer : Player {
 	}
 
 
-
+	/**
+	 * Method to determine movement direction automatically through a system
+	 * based on decision trees. A hierarchical list of priorities is estabilshed
+	 * and this method will keep evaulating down the list until one returns true
+	 * and this becomes the decision. If none evaluate to true (there are no
+	 * prioirites given the set of circumstances, movement is decided randomly.
+	 */
 	private static bool AIChooseDirection(int clockwise, int antiClockwise)
 	{
 		if (clockwise > RegionUpperBound)
@@ -379,29 +392,21 @@ public class YellowPlayer : Player {
 	}
 
 
+	/**
+	 * Will return true whenever there is enough gold
+	 */
 	private static bool AIDecideUpgradeArmoury()
 	{
-		if (GameControl.GetGold() > 2) // is there gold to spare
-		{
-			return true;
-		}
-		else
-		{
-			return false;
-		}
+		return GameControl.GetGold() > 2;
 	}
 
 
+	/**
+	 * Returns true if lives are lower than starting and have enough gold
+	 */
 	private static bool AIDecideHeal()
 	{
-		if (lives < StartingLives && GameControl.GetGold() > 1) // check need and ability to heal
-		{
-			return true;
-		}
-		else
-		{
-			return false;
-		}
+		return lives < StartingLives && GameControl.GetGold() > 1;
 	}
 
 
