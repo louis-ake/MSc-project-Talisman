@@ -12,42 +12,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2018-09-15T13:29:09.698+01:00
-  initializedAtString: 2018-09-15T12:34:59.998+01:00
+  lastUpdatedAtString: 2018-09-16T21:23:28.033+01:00
+  initializedAtString: 2018-09-16T21:23:26.859+01:00
   entries:
+  - path: .DS_Store
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/.DS_Store
+    projectPath: .DS_Store
+    originalPath: 
+    status: 3
+    staged: 0
   - path: .idea/.idea.Talisman/.idea/workspace.xml
     fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/.idea/.idea.Talisman/.idea/workspace.xml
     projectPath: .idea/.idea.Talisman/.idea/workspace.xml
     originalPath: 
     status: 3
     staged: 0
-  - path: Assets/Scripts/AdventureDeck.cs
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/AdventureDeck.cs
-    projectPath: Assets/Scripts/AdventureDeck.cs
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets/Scripts/DiceRoll.cs
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/DiceRoll.cs
-    projectPath: Assets/Scripts/DiceRoll.cs
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets/Scripts/GameControl.cs
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/GameControl.cs
-    projectPath: Assets/Scripts/GameControl.cs
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets/Scripts/player/players/BluePlayer.cs
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/player/players/BluePlayer.cs
-    projectPath: Assets/Scripts/player/players/BluePlayer.cs
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets/Scripts/player/players/YellowPlayer.cs
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/Scripts/player/players/YellowPlayer.cs
-    projectPath: Assets/Scripts/player/players/YellowPlayer.cs
+  - path: Assets/.DS_Store
+    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Assets/.DS_Store
+    projectPath: Assets/.DS_Store
     originalPath: 
     status: 3
     staged: 0
@@ -72,12 +54,6 @@ MonoBehaviour:
   - path: Library/EditorInstance.json
     fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/EditorInstance.json
     projectPath: Library/EditorInstance.json
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/expandedItems
-    fullPath: /Users/louisakerman/Dropbox/CS Masters/Project/Talisman/Library/expandedItems
-    projectPath: Library/expandedItems
     originalPath: 
     status: 3
     staged: 0
